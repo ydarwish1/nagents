@@ -1,6 +1,13 @@
 import unittest
 
-from nagents.stats import bootstrap_ci, find_saturation, mean, paired_diff_ci, summarize
+from nagents.stats import (
+    bootstrap_ci,
+    find_saturation,
+    find_saturation_ci,
+    mean,
+    paired_diff_ci,
+    summarize,
+)
 
 
 class TestBasics(unittest.TestCase):
@@ -41,6 +48,28 @@ class TestSaturation(unittest.TestCase):
         self.assertEqual(find_saturation([1, 2, 3], [0.9, 0.9, 0.9], epsilon=0.01), 1)
 
 
+class TestSaturationCI(unittest.TestCase):
+    def test_plateau_found(self):
+        a1 = [0, 1] * 50
+        a3 = [1] * 70 + [0] * 30
+        correct = {1: a1, 3: a3, 5: list(a3), 7: list(a3)}
+        self.assertEqual(find_saturation_ci([1, 3, 5, 7], correct, epsilon=0.01), 3)
+
+    def test_still_climbing_returns_none(self):
+        correct = {1: [0, 1] * 50, 3: [1] * 80 + [0] * 20}
+        self.assertIsNone(find_saturation_ci([1, 3], correct, epsilon=0.01))
+
+    def test_noisy_plateau_not_called(self):
+        # Point estimates look flat, but the CI still allows a hidden gain:
+        # the CI rule must stay conservative and answer None.
+        a1 = [1] * 6 + [0] * 4
+        a3 = [1] * 6 + [0] * 3 + [1]  # +0.1 on 10 trials — CI is wide
+        self.assertIsNone(find_saturation_ci([1, 3], {1: a1, 3: a3}, epsilon=0.01))
+
+    def test_single_size(self):
+        self.assertEqual(find_saturation_ci([5], {5: [1, 0, 1]}, epsilon=0.01), 5)
+
+
 class TestSummarize(unittest.TestCase):
     def test_shape(self):
         sizes = [1, 3]
@@ -52,6 +81,17 @@ class TestSummarize(unittest.TestCase):
         self.assertEqual(out["per_size"][0]["accuracy"], 0.5)
         self.assertEqual(out["per_size"][1]["mean_output_tokens"], 300.0)
         self.assertEqual(out["gains"][0]["gain"], 0.25)
+        self.assertIn("saturation_size_ci", out)
+
+    def test_extras_merged_into_rows(self):
+        out = summarize(
+            [1],
+            {1: [1, 0]},
+            {1: [10, 10]},
+            extras_by_size={1: {"refusal_trials": 1, "input_tokens_total": 50}},
+        )
+        self.assertEqual(out["per_size"][0]["refusal_trials"], 1)
+        self.assertEqual(out["per_size"][0]["input_tokens_total"], 50)
 
 
 if __name__ == "__main__":

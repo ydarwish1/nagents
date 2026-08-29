@@ -30,10 +30,10 @@ def paired_diff_ci(a: List[float], b: List[float], iters: int = 2000, alpha: flo
 
 
 def find_saturation(sizes: List[int], accuracies: List[float], epsilon: float = 0.01) -> Optional[int]:
-    """Smallest size after which no larger measured size gains more than epsilon.
+    """Point-estimate rule: smallest size after which no larger measured size
+    gains more than epsilon.
 
     Returns None when the curve is still climbing at the largest measured size.
-    v0 heuristic — point estimates only; read the CIs before trusting it.
     """
     for i, s in enumerate(sizes):
         if all(accuracies[j] - accuracies[i] <= epsilon for j in range(i + 1, len(sizes))):
@@ -46,11 +46,36 @@ def find_saturation(sizes: List[int], accuracies: List[float], epsilon: float = 
     return None
 
 
+def find_saturation_ci(sizes: List[int], correct_by_size: Dict[int, List[int]], epsilon: float = 0.01) -> Optional[int]:
+    """Paired-CI rule: smallest size s where, for every larger measured size,
+    the upper bound of the paired 95% CI on the gain over s is <= epsilon.
+
+    Stricter than the point rule: it only calls saturation when the data rules
+    out a meaningful hidden gain. Returns None when no size below the largest
+    qualifies (the curve may still be climbing).
+    """
+    for i, s in enumerate(sizes):
+        if i == len(sizes) - 1 and len(sizes) > 1:
+            return None
+        ok = True
+        for j in range(i + 1, len(sizes)):
+            _, hi = paired_diff_ci(
+                correct_by_size[s], correct_by_size[sizes[j]], seed=f"sat:{s}:{sizes[j]}"
+            )
+            if hi > epsilon:
+                ok = False
+                break
+        if ok:
+            return s
+    return None
+
+
 def summarize(
     sizes: List[int],
     correct_by_size: Dict[int, List[int]],
     tokens_by_size: Optional[Dict[int, List[int]]] = None,
     epsilon: float = 0.01,
+    extras_by_size: Optional[Dict[int, dict]] = None,
 ) -> dict:
     per_size = []
     for s in sizes:
@@ -64,6 +89,8 @@ def summarize(
         }
         if tokens_by_size:
             row["mean_output_tokens"] = round(mean(tokens_by_size[s]), 1)
+        if extras_by_size:
+            row.update(extras_by_size[s])
         per_size.append(row)
 
     gains = []
@@ -85,5 +112,6 @@ def summarize(
         "per_size": per_size,
         "gains": gains,
         "saturation_size": find_saturation(sizes, accs, epsilon),
+        "saturation_size_ci": find_saturation_ci(sizes, correct_by_size, epsilon),
         "epsilon": epsilon,
     }

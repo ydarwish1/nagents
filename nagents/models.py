@@ -77,7 +77,9 @@ class AnthropicModel:
                 "The anthropic package is not installed. "
                 "Run: pip install anthropic  (or run with --mock)"
             ) from exc
-        self._client = anthropic.Anthropic()
+        # Long grids hit transient 429/5xx; lean on the SDK's backoff harder
+        # than the default 2 retries before a run aborts (resume covers aborts).
+        self._client = anthropic.Anthropic(max_retries=5)
         self.model = model
         self.max_tokens = max_tokens
         self.effort = effort

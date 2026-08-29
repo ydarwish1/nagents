@@ -57,16 +57,27 @@ judge in the core loop — judge bias is a threat to validity).
   silently answered by a different model.
 - **No mid-run code edits.** The manifest records the nagents version; a run is
   one code version end to end.
+- **Crash-safe and resumable.** Every trial cell is written the moment it
+  finishes. `--resume` reloads finished cells (never re-runs, never re-bills)
+  and refuses a run directory whose manifest config differs from the command.
+- **Results are disposable, transcripts are not.** `nagents recompute` rebuilds
+  `results.json` from the trial files alone and refuses incomplete runs — a
+  partial grid can never masquerade as a result.
 
 ### 2.4 Statistics
 
 - Accuracy per size, with percentile bootstrap 95% CIs (2000 resamples, seeded).
 - Marginal gain per size step, with paired bootstrap CIs over per-trial
   differences.
-- Saturation (v0 heuristic): smallest size s such that no larger measured size
-  beats s by more than `epsilon` (default 0.01). Returns "not reached" when the
-  curve still climbs at the largest measured size. CIs are printed next to it;
-  phase 4 upgrades this to a CI-based rule.
+- Saturation, two rules reported side by side (default `epsilon` 0.01):
+  - **Point rule**: smallest size s such that no larger measured size beats s
+    by more than `epsilon`. "Not reached" when the curve still climbs.
+  - **Paired-CI rule** (stricter): smallest s where, for every larger measured
+    size, the upper bound of the paired 95% CI on the gain over s is at most
+    `epsilon` — saturation is only called when the data rules out a meaningful
+    hidden gain.
+- Data quality per size: refusal trials and unparsed-vote trials are counted
+  and surfaced in the report; an unparsed answer never outvotes a real one.
 - Cost: mean output tokens per size, so RQ3 is dollars-per-point arithmetic.
 
 ### 2.5 Models
@@ -96,6 +107,15 @@ bootstrap stats, saturation heuristic, CLI, unit tests, CI.
 **Exit:** tests green; mock grid runs end to end and shows a rise-then-flatten
 curve. Cost: $0.
 
+### Phase 0.1 — Hardening (this commit) ✅
+Crash-safe resume (`--resume` + manifest config guard), `recompute` (results
+rebuilt from transcripts, incomplete runs refused), `--workers` parallel calls
+(results identical at any worker count), refusal/unparsed-vote tracking,
+empty votes excluded from majority, paired-CI saturation rule, dollar cost
+estimates in the report, SDK retries raised for long grids, CI matrix
+(Python 3.9 + 3.13) that also exercises run → recompute → report.
+**Exit:** tests green; a resumed run provably makes zero model calls. Cost: $0.
+
 ### Phase 1 — Real smoke run
 Wire check against the live API. `chain --depth 10`, sizes {1,3,5}, 10 trials,
 `--effort low`, topology independent.
@@ -118,9 +138,10 @@ phase 2 results per trial.
 N. Est. cost: ~2× phase 2.
 
 ### Phase 4 — Analysis & publication
-Upgrade saturation to a CI-based rule; charts (accuracy vs. N, cost vs. N,
-gain-per-dollar); write-up with links into the committed transcripts of every
-headline number. Publish as the portfolio "nagents" page (card 06).
+Pick the headline saturation rule (both rules ship since phase 0.1; prefer the
+paired-CI rule when trial counts support it); charts (accuracy vs. N, cost vs.
+N, gain-per-dollar); write-up with links into the committed transcripts of
+every headline number. Publish as the portfolio "nagents" page (card 06).
 **Exit:** a reader can click from any claim to the transcript behind it.
 
 ### Phase 5 — Stretch
@@ -137,7 +158,11 @@ tool-using agents, external benchmark suites via `jsonl`.
 - **API drift mid-experiment.** Model id pinned in the manifest; one run = one
   code version; phases re-run their own baselines rather than borrowing.
 - **Mock leakage.** Mock results are labeled `mock(...)` in every manifest and
-  report; they never mix with real results in one run directory.
+  report; they never mix with real results in one run directory (the manifest
+  config guard enforces this mechanically).
+- **Partial-run bias.** A crashed grid must not be read as a result: results
+  are only written when the grid completes, and `recompute` refuses a run with
+  missing cells instead of silently aggregating what survived.
 
 ## 6. Definition of done
 

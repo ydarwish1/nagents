@@ -36,6 +36,13 @@ Print the report again later:
 python3 -m nagents report runs/demo
 ```
 
+`results.json` is never the source of truth — the transcripts are. Rebuild the
+results from the trial files at any time (it refuses incomplete runs):
+
+```bash
+python3 -m nagents recompute runs/demo
+```
+
 ## Real runs (Claude API)
 
 ```bash
@@ -53,6 +60,12 @@ Notes for real runs:
   the transcript and scored as incorrect.
 - Agent diversity comes from natural sampling (current Claude models do not
   accept temperature overrides).
+- `--workers N` runs the independent calls inside a round in parallel.
+  Transcripts and results are identical at any worker count.
+- A killed run loses at most the trial in flight. Rerun the same command with
+  `--resume`: finished transcripts are reloaded, never re-billed. The run
+  directory's manifest is checked first — a config that differs is refused, so
+  two different experiments can never blend into one result.
 
 ## How a run works
 
@@ -80,7 +93,7 @@ nagents/          the package
   runner.py       the grid: tasks x sizes, transcripts to disk
   stats.py        bootstrap CIs, paired gains, saturation
   report.py       results.json -> readable table
-  cli.py          nagents run / nagents report
+  cli.py          nagents run / report / recompute
 tests/            offline unit tests (stdlib unittest, no API, no deps)
 SPEC.md           the full plan, phases 0-5
 runs/             output (gitignored)

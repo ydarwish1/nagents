@@ -8,12 +8,19 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
       - name: Unit tests (offline, no deps)
         run: python -m unittest discover -s tests -t . -v
       - name: End-to-end mock grid
-        run: python -m nagents run --mock --suite chain --depth 6 --trials 12 --sizes 1,3,5 --seed 7 --out /tmp/ci-demo
+        run: python -m nagents run --mock --suite chain --depth 6 --trials 12 --sizes 1,3,5 --seed 7 --workers 3 --out /tmp/ci-demo
+      - name: Recompute results from transcripts
+        run: python -m nagents recompute /tmp/ci-demo
+      - name: Report
+        run: python -m nagents report /tmp/ci-demo
