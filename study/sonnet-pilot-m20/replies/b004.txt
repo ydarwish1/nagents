@@ -1,0 +1,39 @@
+=== c6cb5f5346e78fc59e8f8fc6
+Split both 20-digit numbers into 5-digit chunks (base 10^5), formed the 7 convolution sums c0..c6 from 16 chunk products, then propagated carries base 10^5. Checked via mod 9 (product ≡ 4*7=28≡1, matches).
+Answer: 872172832087924345335997373204180980594
+
+=== 1350a424de5060bcec1c44d1
+Split both numbers into 5-digit chunks, computed 16 chunk products, summed into c0..c6, propagated carries base 10^5. Checked via mod 9 (2*4=8, matches).
+Answer: 583387380297327609234559334144031479090
+
+=== f3701ffce67831870af3fd13
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (3*7=21≡3, matches).
+Answer: 3323456299546490158334750310591847865367
+
+=== 73a5ae1397586c6bcd1a2f6b
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (2*5=10≡1, matches).
+Answer: 4695784505504537237047698132072299389201
+
+=== f76a08ef7ff845f5503c72f3
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (7*4=28≡1, matches).
+Answer: 1669112890165930965765890550105281792392
+
+=== dac6225ab74483661cc71806
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (5*6=30≡3, matches).
+Answer: 1044401577776323023690449868824869114218
+
+=== 73377c12acf27f77c9b68c47
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (2*8=16≡7, matches).
+Answer: 4891847073313715052461776058382940441237
+
+=== 57b3e47749fc82f3a06a79ee
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (5*3=15≡6, matches).
+Answer: 1584725813431790436702140877272929337133
+
+=== 90d66c55c05807201c9b7fc6
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (3*4=12≡3, matches).
+Answer: 6643080992993685269813655441581539857450
+
+=== e190d72550838510c23b34de
+Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (8*6=48≡3, matches).
+Answer: 5811037547795829992095423105023185848320

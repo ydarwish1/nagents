@@ -1,0 +1,39 @@
+=== e55f24b232df780277d1d834
+Split both numbers into 4-digit blocks (2850|2368|1983|8032) x (1202|9196|5577|8694), multiplied all 16 block pairs, summed by matching power-of-10 position with carries.
+Answer: 3428605894207324919505916490208
+
+=== 78d489146f5b87c5c79869bb
+Split into 4-digit blocks (4254|9758|0632|7673) x (8356|3377|7232|4202), multiplied block pairs, combined via position sums with carries.
+Answer: 35556015050741562165127600241946
+
+=== 6247598c54f2176007d77edb
+Split into 4-digit blocks (8546|9224|3763|0780) x (1973|3996|4454|4004), multiplied block pairs, combined via position sums with carries.
+Answer: 16866493700365753449203214843120
+
+=== 5c2470e94bf0a8784c98d8ac
+Split into 4-digit blocks (3116|2976|8214|2549) x (6242|6395|9000|9261), multiplied block pairs, combined via position sums with carries.
+Answer: 19453923284797172443749232146289
+
+=== c14bb3ef62fe8edeef476cf3
+Split into 4-digit blocks (6766|6382|4005|0361) x (7199|2944|1798|8168), multiplied block pairs, combined via position sums with carries.
+Answer: 48715020910139845122528622128648
+
+=== 00d159f488723d2cbe9a49ea
+Split into 4-digit blocks (8944|3614|7253|4256) x (4120|8618|9493|2406), multiplied block pairs, combined via position sums with carries.
+Answer: 36858478366667919463200639499936
+
+=== df9e1df053ca88b92f381924
+Split into 4-digit blocks (2064|1953|7099|1975) x (4170|2518|4857|4935), multiplied block pairs, combined via position sums with carries.
+Answer: 8608214561699107502541071146625
+
+=== e4590ccf40ffc0e19e1c9cbf
+Split into 4-digit blocks (2257|8268|1950|9150) x (6824|9552|6899|8214), multiplied block pairs, combined via position sums with carries.
+Answer: 15409567048294452807511706658100
+
+=== 66ce3dc8b7398af1b7563813
+Split into 4-digit blocks (8639|3714|4241|2250) x (1066|3258|9243|0398), multiplied block pairs, combined via position sums with carries.
+Answer: 9212385463367937303048347575500
+
+=== ccef518ca63a76ad8d989759
+Split into 4-digit blocks (5048|9209|6952|5724) x (2655|2053|1384|8016), multiplied block pairs, combined via position sums with carries.
+Answer: 13405921787483379219864938363584
