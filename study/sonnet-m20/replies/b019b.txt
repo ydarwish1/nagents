@@ -1,0 +1,19 @@
+=== 5ed59c8d035303d2e4225394
+Split both 20-digit numbers into four 5-digit limbs (base 10^5): A=[68554,34331,82540,51008], B=[24794,77694,31471,68793]. Computed all 16 cross products, summed by limb-position (convolution), then propagated carries in base 10^5 to assemble the final digits.
+Answer: 1699789651060040714910559372098207793344
+
+=== ea99eff7fa8c650f7d3ec81b
+Split into 5-digit limbs: A=[93483,80663,48593,53150], B=[72431,44320,22282,35800]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.
+Answer: 6771167030600902342337037218653672770000
+
+=== f53ec36acb43b066528b354d
+Split into 5-digit limbs: A=[12913,59014,97936,49472], B=[51603,55852,00451,67336]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.
+Answer: 666387204998755428917981121536368046592
+
+=== a73556fe83cfb3adaeb42843
+Split into 5-digit limbs: A=[10304,68262,37699,78340], B=[88511,88158,83328,39494]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.
+Answer: 912086848200479282329730995883076559960
+
+=== 29c81e7949c32eca7735251f
+Split into 5-digit limbs: A=[33592,51431,44275,02675], B=[10314,92723,20178,71698]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.
+Answer: 346504340693738413102988470970701792150
