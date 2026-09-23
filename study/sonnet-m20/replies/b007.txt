@@ -1,0 +1,39 @@
+=== 34b5c9de9d551c4677bfa407
+Split both 20-digit numbers into 10-digit hi/lo parts and used (A_hi*1e10+A_lo)(B_hi*1e10+B_lo) expansion, computing the four cross products and recombining with carries.
+Answer: 806976010077134500044898015616409027012
+
+=== 433c314acfd23cd084d63175
+Split both numbers into 10-digit hi/lo halves, computed the four partial products via 5-digit sub-splits, then recombined with base-1e10 carries.
+Answer: 7019584378469554290984057112569879176656
+
+=== 5696e47053ac1411bd2b3e64
+Split both numbers into 10-digit hi/lo halves (further into 5-digit pieces), computed the four partial products, then recombined with carries.
+Answer: 2290180480611925487354983120037472972531
+
+=== 8d36f338d638567cc71961d5
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 4621854981652281148297953373030364841158
+
+=== b185311fa1951ed407f5d9ec
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 230681317510941934330798159789763865536
+
+=== c81ef96e56dc3ee9469a3ec7
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 4233203018916269136977198821032117607472
+
+=== dec87d9b54eb8026257dd546
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 1238156825453690276278288499154067665810
+
+=== ef64a5ffab501056de98a285
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 1940940391467664193627282825463751258990
+
+=== d4c1e60b96e51b67f74d5c15
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 2278636113995783432305256568048230748000
+
+=== ab6e8ba7bfb6cd9aa8c505c4
+Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.
+Answer: 5979103420116444201685078331286595514460
