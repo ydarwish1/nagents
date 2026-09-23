@@ -1,0 +1,39 @@
+=== 6492e48b7948d0729192c280
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 1950353129035728077641711556670754467928
+
+=== 117477f090af39e4df63750a
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 1520271239891595444690459225251624179380
+
+=== f8053a275bb1c4cd85bac1ae
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 4784210514810521388401574787820714289186
+
+=== b6845355271bc0626d6564f2
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 6851637253813115116155124485188024185768
+
+=== 593c4f01ee90651eb00a5034
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 3076509081614119130019054387890353494756
+
+=== e8652fe2b6a48cdf2db3afdb
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 1082043616855201415736409522421184481657
+
+=== c8511d0ca1aea6192b247aba
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 939461338731979904477958509518406728572
+
+=== 0211360fe2e238ab798a5341
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 1965041275108065944825282203948523547392
+
+=== 39629b3b3bf134fc9437f5e8
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 845474426940627883357721871000003350113
+
+=== 186196658d4f76657109c542
+Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.
+Answer: 342555677606519242631227780194435725695

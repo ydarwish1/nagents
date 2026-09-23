@@ -1,0 +1,39 @@
+=== b133b58197e71d5668bda74c
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 806976010077134500044898015616409027012
+
+=== 6a5aa09563accea0d9513a12
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 4621854981652281148297953373030364841158
+
+=== 970b4788d4b894a35483848a
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 7019584378469554290984057112569879176656
+
+=== b0d5e6680fa920acb8d29af2
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 230681417510941934330798159789763865536
+
+=== 7415a1b2372461d213b4013e
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 5308797537689255450186156678900940207875
+
+=== 15105b2e44cadb05e2d69be3
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 5979103420116444201685078331286595514460
+
+=== 77a5c0f39bb6e326a6897cd2
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 3755987281143123692282455632699027367284
+
+=== e9599e0dedf14a44c344dadb
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 1238156825453690276278288499154067665810
+
+=== 954e4e397906e1f4a08f5810
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 1328368192309360384868664940597321167289
+
+=== 9c980d19d80bfdc55a424540
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.
+Answer: 1589276288607984287324587987695765259568
