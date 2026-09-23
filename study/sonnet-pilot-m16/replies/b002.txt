@@ -1,0 +1,39 @@
+=== bef0571e6d8482519dba62e3
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 19453923284797172443749232146289
+
+=== 8fb45aaeda6a413e41f45fa5
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 48715020910139845122528622128648
+
+=== 014c37b2e45285d8d238cb16
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 8608214561699107502541071146625
+
+=== 416cbc93e720a3036abf622e
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 36858478366667919463200639499936
+
+=== 236628de181fc2a8b7ff56ba
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 35556015050741562165127600241946
+
+=== 8af8b9abc4d0694e5a7b86ed
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 15409567048294452807511706658100
+
+=== 296534bbacc3834f8e29ef40
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 9212385463367937303048347575500
+
+=== efc7a05af5d0deba278b4d99
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 16866493700365753449203214843120
+
+=== 7d975a44d6235657b41160cd
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 3428605894207324919505916490208
+
+=== c4f5d5dad11bf07538768573
+Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.
+Answer: 13405921787483379219864938363584

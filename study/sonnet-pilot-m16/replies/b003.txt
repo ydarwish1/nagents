@@ -1,0 +1,39 @@
+=== bc38ce9c42ecbe0065207a3b
+Split both numbers into 4-digit chunks (5048|9209|6952|5724) x (2655|2053|1384|8016), computed all 16 partial products, combined with base-10^4 place values and carries.
+Answer: 13405921787483379219864938363584
+
+=== 7e214ed729f8c58e4568915e
+Split into chunks (6766|6382|4005|0361) x (7199|2944|1798|8168), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 48715020910139845122528622128648
+
+=== eb84cdb317241167ada72c38
+Split into chunks (2257|8268|1950|9150) x (6824|9552|6899|8214), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 15409567048294452807511706658100
+
+=== 5990507257c788d633d98bb5
+Split into chunks (2064|1953|7099|1975) x (4170|2518|4857|4935), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 8608214561699107502541071146625
+
+=== 72a87270df427d78f81b1a8f
+Split into chunks (8944|3614|7253|4256) x (4120|8618|9493|2406), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 36858478366667919463200639499936
+
+=== 527431f16244618837c7130f
+Split into chunks (8639|3714|4241|2250) x (1066|3258|9243|0398), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 9212385463367937303048347575500
+
+=== c06220ac8ad17495e157ff81
+Split into chunks (8546|9224|3763|0780) x (1973|3996|4454|4004), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 16866493700365753449203214843120
+
+=== 8b63a68c78d80294e98ea882
+Split into chunks (3116|2976|8214|2549) x (6242|6395|9000|9261), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 19453923284797172443749232146289
+
+=== c57e448c0160925275d0da62
+Split into chunks (4254|9758|0632|7673) x (8356|3377|7232|4202), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 35556015050741562165127600241946
+
+=== dabaa081856a9c43de5c8856
+Split into chunks (2850|2368|1983|8032) x (1202|9196|5577|8694), computed 16 partial products, summed by power of 10^4 with carry propagation.
+Answer: 3428605894207324919505916490208

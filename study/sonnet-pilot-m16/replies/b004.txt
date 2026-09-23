@@ -1,0 +1,39 @@
+=== e2f7ec42f59367adf5f19098
+Split both numbers into 4-digit limbs (2257|8268|1950|9150) and (6824|9552|6899|8214), computed all 16 partial products, summed by place value with carries.
+Answer: 15409567048294452807511706658100
+
+=== 2e1a4e04469e97e1947294bb
+Split into limbs (4254|9758|0632|7673) and (8356|3377|7232|4202), computed all 16 partial products, summed by place value with carries.
+Answer: 35556015050741562165127600241946
+
+=== 924a5735bf59dda533c56be5
+Split into limbs (2850|2368|1983|8032) and (1202|9196|5577|8694), computed all 16 partial products, summed by place value with carries.
+Answer: 3428605894207324919505916490208
+
+=== 2cb87c473ffd2f442b1258c9
+Split into limbs (5048|9209|6952|5724) and (2655|2053|1384|8016), computed all 16 partial products, summed by place value with carries.
+Answer: 13405921787483379219864938363584
+
+=== 9075b8f92879fa76d115487d
+Split into limbs (8546|9224|3763|0780) and (1973|3996|4454|4004), computed all 16 partial products, summed by place value with carries.
+Answer: 16866493700365753449203214843120
+
+=== ec40868e5574a2ef9f1d9c55
+Split into limbs (6766|6382|4005|0361) and (7199|2944|1798|8168), computed all 16 partial products, summed by place value with carries.
+Answer: 48715020910139845122528622128648
+
+=== f4bdf6e120c7f9c04da73ad7
+Split into limbs (3116|2976|8214|2549) and (6242|6395|9000|9261), computed all 16 partial products, summed by place value with carries.
+Answer: 19453923284797172443749232146289
+
+=== b23bf775f1401cc8b18d19fe
+Split into limbs (8639|3714|4241|2250) and (1066|3258|9243|0398), computed all 16 partial products, summed by place value with carries.
+Answer: 9212385463367937303048347575500
+
+=== 974aa2f8702924d081221035
+Split into limbs (8944|3614|7253|4256) and (4120|8618|9493|2406), computed all 16 partial products, summed by place value with carries.
+Answer: 36858478366667919463200639499936
+
+=== 8c031e12fb824e567998ff5f
+Split into limbs (2064|1953|7099|1975) and (4170|2518|4857|4935), computed all 16 partial products, summed by place value with carries.
+Answer: 8608214561699107502541071146625
