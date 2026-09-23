@@ -1,0 +1,39 @@
+=== 493bf94a7a4cbec1ae8ab61e
+Split both 20-digit numbers into 5-digit chunks (base 10^5), computed the 16 partial products, summed by weight with carries.
+Answer: 1965041275108065944825282203948523547392
+
+=== f006f5eb27b1f549e1ecc404
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 939461338731979904477647509518406728572
+
+=== 34a95eda91a0ea56576d3b2b
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 1950353129035728077641712258662422267928
+
+=== 420f3d9c5f813d545ab59b4e
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 845474426940627863357721871000003350113
+
+=== c854bd44e4a10ed2adb11d71
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 342555677606519242631227780194435725695
+
+=== 16e7420642984c1201716f16
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 1520271239891595444690459225251624179380
+
+=== f62c072ea711d2ee16346749
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 3076509081614119130019054387890353494756
+
+=== fb1ea0173a294b30e43524c1
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 3755987281143123692282455632699027367284
+
+=== 3f48e357c74e82805114f7e5
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 5308797537689255450186156678900940207875
+
+=== 9d164e063188bfbd658ad141
+Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.
+Answer: 1082043616855201427736409522421184481657
