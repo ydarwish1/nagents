@@ -210,6 +210,7 @@ def compare_svg(
     title: str = "Accuracy by group size",
     subtitle: Optional[str] = None,
     references: bool = False,
+    x_label: str = "agents in the group",
 ) -> str:
     """Several runs' accuracy curves on one chart (e.g. debate vs. independent).
 
@@ -239,7 +240,7 @@ def compare_svg(
         )
     parts.append(
         f'<text x="{(PAD_L + W - PAD_R) / 2:.0f}" y="{H - PAD_B + 34}" font-size="11.5" '
-        f'fill="{MUTED}" text-anchor="middle">agents in the group</text>'
+        f'fill="{MUTED}" text-anchor="middle">{x_label}</text>'
     )
     legend = []
     for i, (label, res) in enumerate(runs):

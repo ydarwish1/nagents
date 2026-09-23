@@ -1,0 +1,39 @@
+=== eba4bb8c2274bc6af9234206
+Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, summed with carries across base-10^5 blocks. Leading-digit estimate (4.766005*1.773969≈8.454744) matches computed leading digits.
+Answer: 845474426940627863357721871000003350113
+
+=== 293cb136796211daa2bf4195
+Split into 5-digit blocks, computed 16 partial products, summed with carry propagation. Estimate 6.029429*7.934765≈47.8421 matches leading digits.
+Answer: 4784210514810521388401574787820714289186
+
+=== 2ee482eb02539622642a7a73
+Block decomposition (5-digit groups), 16 partial products summed with carries. Estimate 1.119091*9.668949≈10.8205 matches leading digits.
+Answer: 1082043616855201427736409522421184481657
+
+=== bd2410fab07b8bb63ab50d4a
+Block decomposition, 16 partial products, carry propagation across 5-digit blocks. Estimate 7.849962*8.728243≈68.5163 matches leading digits.
+Answer: 6851637253813115116155124485188024185768
+
+=== 2e3079ab4510215c0ff458f0
+Block decomposition, 16 partial products, carries propagated. Estimate 2.593673*7.576288≈19.6504 matches leading digits.
+Answer: 1965041275108065944825282203948523547392
+
+=== 76b2fa8a46a80f67b02b2d1a
+Block decomposition, 16 partial products, carries propagated. Estimate 1.068671*3.205436≈3.42561 matches leading digits.
+Answer: 342555677606519242631227780194435725695
+
+=== 4b3a92f74b83fd3a49b772b8
+Block decomposition, 16 partial products, carries propagated. Estimate 3.359251*1.031493≈3.46505 matches leading digits.
+Answer: 346504340693838413102998470970701792150
+
+=== 815a553b3bc74e37267a8870
+Block decomposition, 16 partial products, carries propagated. Estimate 9.348381*7.243144≈67.7117 matches leading digits.
+Answer: 6771167030600902342337037218653672770000
+
+=== 6bdf60b050b241e917d5c526
+Block decomposition, 16 partial products, carries propagated. Estimate 7.726812*1.967527≈15.2027 matches leading digits.
+Answer: 1520271239891595444690459225251624179380
+
+=== 568b7cbfe4da22d2eb128c17
+Block decomposition, 16 partial products, carries propagated. Estimate 7.614236*4.040470≈30.7651 matches leading digits.
+Answer: 3076509081614119130019054387890353494756
