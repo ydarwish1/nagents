@@ -1,0 +1,39 @@
+=== c16ebfb4b561d754243484b4
+Split each 20-digit number into four 5-digit chunks and multiplied via a1*b1*10^20+(cross terms)*10^10+a0*b0 style expansion (16 sub-products), then summed with base-100000 carrying.
+Answer: 5811037547795829992095423105023185848320
+
+=== ce7b8c2ace682a34eee9823d
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 872172832087924345335997373204180980594
+
+=== 99164e188e273a66d324c0fa
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 3323456299546490158334750310591847865367
+
+=== 82aa876313056b5c4c0ebb7a
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 6643080992993685269813655441581539857450
+
+=== 0078b5ae55e051ffe4c55df9
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 583387380297327609234559334144031479090
+
+=== 6ce3d21164e886c79bcb39ec
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 1044401577776323023690450468824869114218
+
+=== 2c19548e6611f1bfa54bf1bb
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 4695784505504537237047698132072299389201
+
+=== fce1e2fab4ec997cfb8b1ec5
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 4891847073313715052461776058382940441237
+
+=== e2ac4154dff85c93df38ce3a
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 1669112890165930965765890550105281792392
+
+=== c53b1d980ca8545e81f0f2be
+Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.
+Answer: 1584725813431790436702140877272929337133
