@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 55152035484536146413 multiplied by 98722047446798642121? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.\nAnswer: 5444721863891899784083025921870444861973",
+          "answer": "5444721863891899784083025921870444861973",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5444721863891899784083025921870444861973"
+  ],
+  "final_answer": "5444721863891899784083025921870444861973",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 42,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "5444721863891899784083025921870444861973",
+  "correct": true
+}

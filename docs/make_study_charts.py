@@ -64,7 +64,7 @@ sonnet = solo(sonnet_runs)
 (img / "study-models.svg").write_text(compare_svg(
     [("Claude Haiku", haiku), ("Claude Sonnet", sonnet)],
     "One agent alone: how big a multiplication before it slips?",
-    "Share of problems one agent got right · shaded = 95% CI",
+    "Share of problems one agent got right (10 to 40 problems per point) · shaded = 95% CI",
     x_label="digits in each number being multiplied",
 ), encoding="utf-8")
 

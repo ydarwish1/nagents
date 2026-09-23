@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-13",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 230681417510941934330798159789763865536",
+          "answer": "230681417510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "230681417510941934330798159789763865536"
+  ],
+  "final_answer": "230681417510941934330798159789763865536",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 38,
+    "calls": 1
+  },
+  "trial": 13,
+  "expected": "230681417510941934330798159789763865536",
+  "correct": true
+}

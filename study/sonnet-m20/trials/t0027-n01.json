@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-27",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 90587754174039740086 multiplied by 71512572981724075141? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).\nAnswer: 6478163381621496629370787379708373802126",
+          "answer": "6478163381621496629370787379708373802126",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6478163381621496629370787379708373802126"
+  ],
+  "final_answer": "6478163381621496629370787379708373802126",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 46,
+    "calls": 1
+  },
+  "trial": 27,
+  "expected": "6478163381621496629370787379708373802126",
+  "correct": true
+}

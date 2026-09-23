@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-26",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:26",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12913590149793649472 multiplied by 51603558520045167336? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit limbs: A=[12913,59014,97936,49472], B=[51603,55852,00451,67336]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.\nAnswer: 666387204998755428917981121536368046592",
+          "answer": "666387204998755428917981121536368046592",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12913590149793649472 multiplied by 51603558520045167336? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).\nAnswer: 666387204998755428917981121536368046592",
+          "answer": "666387204998755428917981121536368046592",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12913590149793649472 multiplied by 51603558520045167336? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.\nAnswer: 666387204998755428917981121536368046592",
+          "answer": "666387204998755428917981121536368046592",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "666387204998755428917981121536368046592",
+    "666387204998755428917981121536368046592",
+    "666387204998755428917981121536368046592"
+  ],
+  "final_answer": "666387204998755428917981121536368046592",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 145,
+    "calls": 3
+  },
+  "trial": 26,
+  "expected": "666387204998755428917981121536368046592",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-20",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10686710541181818995 multiplied by 32054361001588126661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 342555677606519242631227780194435725695",
+          "answer": "342555677606519242631227780194435725695",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "342555677606519242631227780194435725695"
+  ],
+  "final_answer": "342555677606519242631227780194435725695",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 37,
+    "calls": 1
+  },
+  "trial": 20,
+  "expected": "342555677606519242631227780194435725695",
+  "correct": true
+}

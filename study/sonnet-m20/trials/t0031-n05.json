@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-31",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (76701|31293|74468|20447)\u00d7(60257|83398|80778|86714), summed partial products. Check: 7.67013e19*6.02578e19\u22484.62186e39, matches.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks (base 100000), computed 16 partial products, summed with carries; verified via mod-9 checksum.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4621854981652281148297953373030364841158",
+    "4621854981652281148297953373030364841158",
+    "4621854981652281148297953373030364841158",
+    "4621854981652281148297953373030364841158",
+    "4621854981652281148297953373030364841158"
+  ],
+  "final_answer": "4621854981652281148297953373030364841158",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 215,
+    "calls": 5
+  },
+  "trial": 31,
+  "expected": "4621854981652281148297953373030364841158",
+  "correct": true
+}

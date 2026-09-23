@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-28",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45134323291122260746 multiplied by 62876801465765593040? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.\nAnswer: 2837901884867574309744997889506202807840",
+          "answer": "2837901884867574309744997889506202807840",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2837901884867574309744997889506202807840"
+  ],
+  "final_answer": "2837901884867574309744997889506202807840",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 42,
+    "calls": 1
+  },
+  "trial": 28,
+  "expected": "2837901884867574309744997889506202807840",
+  "correct": true
+}

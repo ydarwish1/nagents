@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-25",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:25",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10304682623769978340 multiplied by 88511881588332839494? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.\nAnswer: 912086848200479282329730995883076559960",
+          "answer": "912086848200479282329730995883076559960",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "912086848200479282329730995883076559960"
+  ],
+  "final_answer": "912086848200479282329730995883076559960",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 49,
+    "calls": 1
+  },
+  "trial": 25,
+  "expected": "912086848200479282329730995883076559960",
+  "correct": true
+}

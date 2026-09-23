@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-13",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 230681417510941934330798159789763865536",
+          "answer": "230681417510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (19259|00186|90128|59244)\u00d7(11977|84906|40317|77744), summed 16 partial products. Check: 1.92590e19*1.19778e19\u22482.3068e38, matches.\nAnswer: 230681417510941934330798159789763865536",
+          "answer": "230681417510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.\nAnswer: 230681317510941934330798159789763865536",
+          "answer": "230681317510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks (base 100000), computed 16 partial products, summed with carries; verified via mod-9 checksum.\nAnswer: 230681417510941934330798159789763865536",
+          "answer": "230681417510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 19259001869012859244 multiplied by 11977849064031777744? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 230681417510941934330798159789763865536",
+          "answer": "230681417510941934330798159789763865536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "230681417510941934330798159789763865536",
+    "230681417510941934330798159789763865536",
+    "230681317510941934330798159789763865536",
+    "230681417510941934330798159789763865536",
+    "230681417510941934330798159789763865536"
+  ],
+  "final_answer": "230681417510941934330798159789763865536",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 215,
+    "calls": 5
+  },
+  "trial": 13,
+  "expected": "230681417510941934330798159789763865536",
+  "correct": true
+}

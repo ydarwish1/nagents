@@ -1,0 +1,39 @@
+=== 8e775b70a0f41da1eb46dba1
+Split both 20-digit numbers into 5-digit groups (a3a2a1a0, b3b2b1b0), formed the four 10-digit halves A1,A0,B1,B0, computed A1*B1, A0*B0, A1*B0+A0*B1 via 16 five-digit sub-products, then combined with base-10^10 shifts and carries.
+Answer: 6478163381621496629370787379708373802126
+
+=== 94602a24228320bc2a2ebec3
+Same 5-digit-group decomposition method: computed A1*B1, A0*B0, and cross terms A1*B0+A0*B1 from 16 sub-products, recombined with carry propagation across 10-digit blocks.
+Answer: 4474034048390368343074476825525906020904
+
+=== 7d53a91fa45ffa974a2aba70
+Same method: split into 5-digit groups, computed the 16 pairwise products, formed A1*B1, A0*B0, cross term M=A1*B0+A0*B1, recombined via 10-digit block addition with carries.
+Answer: 2290180480611925487354983120037472972531
+
+=== 64f2598e20cd4725a6d7ac4f
+Same method: 5-digit group split, 16 sub-products, combined A1*B1*10^20 + (A1*B0+A0*B1)*10^10 + A0*B0 with carry handling.
+Answer: 5444721863891899784083025921870444861973
+
+=== 73786864ab0feffdbfc91c49
+Same method: 5-digit group decomposition, 16 sub-products, block recombination; result has 39 digits (smaller leading digits than others).
+Answer: 354769918398337267057816185007892830149
+
+=== a3bd6ed1b9232e41f2bc14f6
+Same method: 5-digit group split, 16 sub-products (some groups had small values e.g. b0=206), recombined via 10-digit blocks with carries.
+Answer: 1940940391467664193627282825463751258990
+
+=== 6efe1121285b9e073e931ebb
+Same method: 5-digit group split, 16 sub-products, cross term M computed, final recombination required an extra carry into a 41st digit position that folded back into the top block.
+Answer: 5510062764632832486636478058064399404060
+
+=== 34e67fee8ada430690a78551
+Same method: 5-digit group split, 16 sub-products, A1*B1, A0*B0, cross term M formed and combined via 10-digit blocks with carry propagation.
+Answer: 2837901884867574309744997889506202807840
+
+=== 71caa83a43c77564d1b1b44b
+Same method: 5-digit group split (B had small groups b1=00451), 16 sub-products, recombination gave a 39-digit result.
+Answer: 666387204998755428917981121536368046592
+
+=== 65c78f6c89bc7f2744240eb5
+Same method: 5-digit group split (B had small group b1=02425), 16 sub-products, final combination required an extra carry folded into the top 10-digit block.
+Answer: 5143334582701466172600343329053157549746

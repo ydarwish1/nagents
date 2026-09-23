@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-31",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76701312937446820447 multiplied by 60257833988077886714? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 4621854981652281148297953373030364841158",
+          "answer": "4621854981652281148297953373030364841158",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4621854981652281148297953373030364841158"
+  ],
+  "final_answer": "4621854981652281148297953373030364841158",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 39,
+    "calls": 1
+  },
+  "trial": 31,
+  "expected": "4621854981652281148297953373030364841158",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-18",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 60787775631423398561 multiplied by 32084627357667617048? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.\nAnswer: 1950353129035728077641712258662422267928",
+          "answer": "1950353129035728077641712258662422267928",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 60787775631423398561 multiplied by 32084627357667617048? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.\nAnswer: 1950353129035728077641712258662422267928",
+          "answer": "1950353129035728077641712258662422267928",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 60787775631423398561 multiplied by 32084627357667617048? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.\nAnswer: 1950353129035728077641712258662422267928",
+          "answer": "1950353129035728077641712258662422267928",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1950353129035728077641712258662422267928",
+    "1950353129035728077641712258662422267928",
+    "1950353129035728077641712258662422267928"
+  ],
+  "final_answer": "1950353129035728077641712258662422267928",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 129,
+    "calls": 3
+  },
+  "trial": 18,
+  "expected": "1950353129035728077641712258662422267928",
+  "correct": true
+}

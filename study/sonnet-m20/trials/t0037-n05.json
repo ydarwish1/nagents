@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-37",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:37",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 77268122860440524929 multiplied by 19675270779354455220? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.\nAnswer: 1520271239891595444690459225251624179380",
+          "answer": "1520271239891595444690459225251624179380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 77268122860440524929 multiplied by 19675270779354455220? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.\nAnswer: 1520271239891595444690459225251624179380",
+          "answer": "1520271239891595444690459225251624179380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 77268122860440524929 multiplied by 19675270779354455220? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 1520271239891595444690459225251624179380",
+          "answer": "1520271239891595444690459225251624179380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 77268122860440524929 multiplied by 19675270779354455220? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.\nAnswer: 1520271239891595444690459225251624179380",
+          "answer": "1520271239891595444690459225251624179380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 77268122860440524929 multiplied by 19675270779354455220? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Block decomposition, 16 partial products, carries propagated. Estimate 7.726812*1.967527\u224815.2027 matches leading digits.\nAnswer: 1520271239891595444690459225251624179380",
+          "answer": "1520271239891595444690459225251624179380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1520271239891595444690459225251624179380",
+    "1520271239891595444690459225251624179380",
+    "1520271239891595444690459225251624179380",
+    "1520271239891595444690459225251624179380",
+    "1520271239891595444690459225251624179380"
+  ],
+  "final_answer": "1520271239891595444690459225251624179380",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 214,
+    "calls": 5
+  },
+  "trial": 37,
+  "expected": "1520271239891595444690459225251624179380",
+  "correct": true
+}

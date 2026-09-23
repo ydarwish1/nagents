@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-10",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Same method: 5-digit group decomposition, 16 sub-products, block recombination; result has 39 digits (smaller leading digits than others).\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (22299|20078|62739|09601)\u00d7(15909|53513|53001|39749), summed partial products. Check: 2.22992e19*1.59095e19\u22483.5477e38, matches.\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "354769918398337267057816185007892830149",
+    "354769918398337267057816185007892830149",
+    "354769918398337267057816185007892830149",
+    "354769918398337267057816185007892830149",
+    "354769918398337267057816185007892830149"
+  ],
+  "final_answer": "354769918398337267057816185007892830149",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 219,
+    "calls": 5
+  },
+  "trial": 10,
+  "expected": "354769918398337267057816185007892830149",
+  "correct": true
+}

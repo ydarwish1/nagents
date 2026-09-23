@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-32",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (36334|70216|56175|10301)\u00d7(34076|42698|73477|22810), summed partial products. Check: 3.63347e19*3.40764e19\u22481.23816e39, matches.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks (base 100000), computed 16 partial products, summed with carries; verified via mod-9 checksum.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1238156825453690276278288499154067665810",
+    "1238156825453690276278288499154067665810",
+    "1238156825453690276278288499154067665810",
+    "1238156825453690276278288499154067665810",
+    "1238156825453690276278288499154067665810"
+  ],
+  "final_answer": "1238156825453690276278288499154067665810",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 214,
+    "calls": 5
+  },
+  "trial": 32,
+  "expected": "1238156825453690276278288499154067665810",
+  "correct": true
+}

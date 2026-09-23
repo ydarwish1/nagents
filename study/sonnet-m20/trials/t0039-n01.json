@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-39",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:39",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3076509081614119130019054387890353494756"
+  ],
+  "final_answer": "3076509081614119130019054387890353494756",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 37,
+    "calls": 1
+  },
+  "trial": 39,
+  "expected": "3076509081614119130019054387890353494756",
+  "correct": true
+}

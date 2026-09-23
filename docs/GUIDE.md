@@ -3,6 +3,17 @@
 Everything the README leaves out: how to run it, what each command does, how
 the numbers are computed, and where the study data lives.
 
+## A trap we caught: the first problem in a batch gets more care
+
+Subagents answer problems in batches of 10, and the first problem in a batch
+was right 72% of the time against 22 to 44% for the rest. Our early batching
+always put the solo agent's question first, which flattered the one-agent
+score and hid most of the gain from voting. nagents now shuffles every batch,
+prints a **seat check** (how good each seat was alone), and adds a second curve
+that counts every seat equally. The README's voting chart uses that curve.
+
+![A real report.html from the 8-digit run: headline, the seat-order curve against the every-seat-equal curve, and the cost chart](img/study-report.png)
+
 ## Running it for real
 
 ### 1. Claude subagents (no API key)
@@ -92,9 +103,10 @@ Transcripts are the source of truth; `results.json` can be deleted and rebuilt a
 
 ## The study data
 
-Every run behind the charts above is committed in `study/`, with each
-subagent's prompt and reply: `pilot-*` (choosing the difficulty), `main-m7`
-and `main-m8` (the voting curves), `debate-m7` (debate). Open any
+Every run behind the README charts is committed in `study/`, with each
+subagent's prompt and reply. Haiku: `pilot-*` (choosing the difficulty),
+`main-m7` and `main-m8` (the voting curves), `debate-m7` (debate). Sonnet:
+`sonnet-pilot-m*` (8 to 20 digits) and `sonnet-m20` (the voting curve). Open any
 `study/*/report.html`, or rebuild the README charts with
 `python3 docs/make_study_charts.py`.
 

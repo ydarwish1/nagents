@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-35",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:35",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63195710491766528364 multiplied by 59434212415927717031? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 3755987281143123692282455632699027367284",
+          "answer": "3755987281143123692282455632699027367284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3755987281143123692282455632699027367284"
+  ],
+  "final_answer": "3755987281143123692282455632699027367284",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 41,
+    "calls": 1
+  },
+  "trial": 35,
+  "expected": "3755987281143123692282455632699027367284",
+  "correct": true
+}

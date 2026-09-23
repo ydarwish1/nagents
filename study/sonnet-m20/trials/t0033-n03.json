@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-33",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:33",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 85835939734173664516 multiplied by 81779082284280780916? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 10-digit hi/lo halves, computed the four partial products via 5-digit sub-splits, then recombined with base-1e10 carries.\nAnswer: 7019584378469554290984057112569879176656",
+          "answer": "7019584378469554290984057112569879176656",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 85835939734173664516 multiplied by 81779082284280780916? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks (base 100000), computed 16 partial products, summed with carries; verified via mod-9 checksum.\nAnswer: 7019584378469554290984057112569879176656",
+          "answer": "7019584378469554290984057112569879176656",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 85835939734173664516 multiplied by 81779082284280780916? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 7019584378469554290984057112569879176656",
+          "answer": "7019584378469554290984057112569879176656",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7019584378469554290984057112569879176656",
+    "7019584378469554290984057112569879176656",
+    "7019584378469554290984057112569879176656"
+  ],
+  "final_answer": "7019584378469554290984057112569879176656",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 134,
+    "calls": 3
+  },
+  "trial": 33,
+  "expected": "7019584378469554290984057112569879176656",
+  "correct": true
+}

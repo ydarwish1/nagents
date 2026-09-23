@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-29",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86572986082735082639 multiplied by 59410386720242535214? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.\nAnswer: 5143334582701466172600343329053157549746",
+          "answer": "5143334582701466172600343329053157549746",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86572986082735082639 multiplied by 59410386720242535214? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Same method: 5-digit group split (B had small group b1=02425), 16 sub-products, final combination required an extra carry folded into the top 10-digit block.\nAnswer: 5143334582701466172600343329053157549746",
+          "answer": "5143334582701466172600343329053157549746",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86572986082735082639 multiplied by 59410386720242535214? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).\nAnswer: 5143334582701466172600343329053157549746",
+          "answer": "5143334582701466172600343329053157549746",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86572986082735082639 multiplied by 59410386720242535214? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 5143334582701466172600343329053157549746",
+          "answer": "5143334582701466172600343329053157549746",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86572986082735082639 multiplied by 59410386720242535214? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (86572|98608|27350|82639)\u00d7(59410|38672|02425|35214), summed partial products. Check: 8.65730e19*5.94104e19\u22485.14333e39, matches.\nAnswer: 5143334582701466172600343329053157549746",
+          "answer": "5143334582701466172600343329053157549746",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5143334582701466172600343329053157549746",
+    "5143334582701466172600343329053157549746",
+    "5143334582701466172600343329053157549746",
+    "5143334582701466172600343329053157549746",
+    "5143334582701466172600343329053157549746"
+  ],
+  "final_answer": "5143334582701466172600343329053157549746",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 225,
+    "calls": 5
+  },
+  "trial": 29,
+  "expected": "5143334582701466172600343329053157549746",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-25",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:25",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10304682623769978340 multiplied by 88511881588332839494? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.\nAnswer: 912086848200479282329730995883076559960",
+          "answer": "912086848200479282329730995883076559960",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10304682623769978340 multiplied by 88511881588332839494? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit limbs: A=[10304,68262,37699,78340], B=[88511,88158,83328,39494]. Computed the 16 pairwise products, summed by limb-position, propagated carries in base 10^5.\nAnswer: 912086848200479282329730995883076559960",
+          "answer": "912086848200479282329730995883076559960",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10304682623769978340 multiplied by 88511881588332839494? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).\nAnswer: 912086848200479282329730995883076559960",
+          "answer": "912086848200479282329730995883076559960",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "912086848200479282329730995883076559960",
+    "912086848200479282329730995883076559960",
+    "912086848200479282329730995883076559960"
+  ],
+  "final_answer": "912086848200479282329730995883076559960",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 150,
+    "calls": 3
+  },
+  "trial": 25,
+  "expected": "912086848200479282329730995883076559960",
+  "correct": true
+}

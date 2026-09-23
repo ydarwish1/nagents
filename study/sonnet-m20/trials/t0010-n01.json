@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-10",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22299200786273909601 multiplied by 15909535135300139749? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.\nAnswer: 354769918398337267057816185007892830149",
+          "answer": "354769918398337267057816185007892830149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "354769918398337267057816185007892830149"
+  ],
+  "final_answer": "354769918398337267057816185007892830149",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 46,
+    "calls": 1
+  },
+  "trial": 10,
+  "expected": "354769918398337267057816185007892830149",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-32",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 36334702165617510301 multiplied by 34076426987347722810? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (36334|70216|56175|10301)\u00d7(34076|42698|73477|22810), summed partial products. Check: 3.63347e19*3.40764e19\u22481.23816e39, matches.\nAnswer: 1238156825453690276278288499154067665810",
+          "answer": "1238156825453690276278288499154067665810",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1238156825453690276278288499154067665810"
+  ],
+  "final_answer": "1238156825453690276278288499154067665810",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 45,
+    "calls": 1
+  },
+  "trial": 32,
+  "expected": "1238156825453690276278288499154067665810",
+  "correct": true
+}

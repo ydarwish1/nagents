@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-39",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:39",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Block decomposition, 16 partial products, carries propagated. Estimate 7.614236*4.040470\u224830.7651 matches leading digits.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76142359131630448812 multiplied by 40404698734059848363? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit chunks and multiplied via distributive expansion, combined with carries; verified with mod-9 checksum.\nAnswer: 3076509081614119130019054387890353494756",
+          "answer": "3076509081614119130019054387890353494756",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3076509081614119130019054387890353494756",
+    "3076509081614119130019054387890353494756",
+    "3076509081614119130019054387890353494756",
+    "3076509081614119130019054387890353494756",
+    "3076509081614119130019054387890353494756"
+  ],
+  "final_answer": "3076509081614119130019054387890353494756",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 210,
+    "calls": 5
+  },
+  "trial": 39,
+  "expected": "3076509081614119130019054387890353494756",
+  "correct": true
+}

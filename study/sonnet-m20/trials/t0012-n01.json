@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-12",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98841965290603318736 multiplied by 42827993215941348127? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).\nAnswer: 4233203018916269136977198821032117607472",
+          "answer": "4233203018916269136977198821032117607472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4233203018916269136977198821032117607472"
+  ],
+  "final_answer": "4233203018916269136977198821032117607472",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 44,
+    "calls": 1
+  },
+  "trial": 12,
+  "expected": "4233203018916269136977198821032117607472",
+  "correct": true
+}

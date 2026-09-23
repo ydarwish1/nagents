@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80742266399906238504 multiplied by 55411301266068545601? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).\nAnswer: 4474034048390368343074476825525906020904",
+          "answer": "4474034048390368343074476825525906020904",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4474034048390368343074476825525906020904"
+  ],
+  "final_answer": "4474034048390368343074476825525906020904",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 46,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "4474034048390368343074476825525906020904",
+  "correct": true
+}

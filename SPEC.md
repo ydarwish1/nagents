@@ -189,6 +189,17 @@ All runs are committed in `study/`.
 - **Phase 3 (debate vs. voting, 7 digits, paired).** Debate reached 40/40 at
   sizes 3 and 5 against 77.5% / 82.5% for voting on the same seats
   (+22.5 [+10, +37.5] and +17.5 [+7.5, +30] points), at ~2.6× the tokens.
+- **Sonnet (same setup, `study/sonnet-*`).** One Sonnet agent was right
+  49/50 at 8 digits, 50/50 at 10 and 12, 49/50 at 16, and 44/50 at 20 in the
+  pilots (10 problems, 5 seats each). The 20-digit main run (40 trials, sizes
+  1, 3, 5, seat-balanced): 95.0% [92.0, 97.5] → 99.5% → 100%. Error correlation
+  0.00, same wrong answer 0%. One 20-digit batch twice hit the subagent's
+  64k output-token limit and was re-run as two batches of 5 (`b019a`, `b019b`);
+  two other batches needed one retry each.
+- **Haiku vs. Sonnet.** On the same kind of task, one Sonnet at 20 digits beats
+  nine Haikus at 8 digits (95% vs. 91%). Token counts for subagent runs cover
+  visible reply text only, not hidden reasoning, so they do not compare cost
+  across models.
 - **Position-in-batch bias (threat found and fixed).** Within a 10-problem
   batch, the first problem was right ~72% of the time against 22–44% later.
   Batches used to put seat 0 first, inflating size 1. Fixes: batches are

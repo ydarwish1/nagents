@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-12",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98841965290603318736 multiplied by 42827993215941348127? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).\nAnswer: 4233203018916269136977198821032117607472",
+          "answer": "4233203018916269136977198821032117607472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98841965290603318736 multiplied by 42827993215941348127? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 4233203018916269136977198821032117607472",
+          "answer": "4233203018916269136977198821032117607472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98841965290603318736 multiplied by 42827993215941348127? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit chunks (98841|96529|06033|18736)\u00d7(42827|99321|59413|48127), 16 partial products summed with carries. Check: 9.88420e19*4.28280e19\u22484.2332e39, matches.\nAnswer: 4233203018916269136977198821032117607472",
+          "answer": "4233203018916269136977198821032117607472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4233203018916269136977198821032117607472",
+    "4233203018916269136977198821032117607472",
+    "4233203018916269136977198821032117607472"
+  ],
+  "final_answer": "4233203018916269136977198821032117607472",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 137,
+    "calls": 3
+  },
+  "trial": 12,
+  "expected": "4233203018916269136977198821032117607472",
+  "correct": true
+}

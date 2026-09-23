@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25936729873929959552 multiplied by 75762876995654229046? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits (schoolbook decomposition), then combined with base-10^10/10^20 shifts.\nAnswer: 1965041275108065944825282203948523547392",
+          "answer": "1965041275108065944825282203948523547392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1965041275108065944825282203948523547392"
+  ],
+  "final_answer": "1965041275108065944825282203948523547392",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 52,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "1965041275108065944825282203948523547392",
+  "correct": true
+}

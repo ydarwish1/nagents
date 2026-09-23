@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-36",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:36",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12475264693307229418 multiplied by 75305924309244130054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.\nAnswer: 939461338731979904477647509518406728572",
+          "answer": "939461338731979904477647509518406728572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12475264693307229418 multiplied by 75305924309244130054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.\nAnswer: 939461338731979904477647509518406728572",
+          "answer": "939461338731979904477647509518406728572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12475264693307229418 multiplied by 75305924309244130054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.\nAnswer: 939461338731979904477647509518406728572",
+          "answer": "939461338731979904477647509518406728572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12475264693307229418 multiplied by 75305924309244130054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 939461338731979904477647509518406728572",
+          "answer": "939461338731979904477647509518406728572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 12475264693307229418 multiplied by 75305924309244130054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.\nAnswer: 939461338731979904477958509518406728572",
+          "answer": "939461338731979904477958509518406728572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "939461338731979904477647509518406728572",
+    "939461338731979904477647509518406728572",
+    "939461338731979904477647509518406728572",
+    "939461338731979904477647509518406728572",
+    "939461338731979904477958509518406728572"
+  ],
+  "final_answer": "939461338731979904477647509518406728572",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 208,
+    "calls": 5
+  },
+  "trial": 36,
+  "expected": "939461338731979904477647509518406728572",
+  "correct": true
+}

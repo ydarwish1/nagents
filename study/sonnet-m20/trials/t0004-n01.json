@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 78499615506588798721 multiplied by 87282430743091076008? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.\nAnswer: 6851637253813115116155124485188024185768",
+          "answer": "6851637253813115116155124485188024185768",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6851637253813115116155124485188024185768"
+  ],
+  "final_answer": "6851637253813115116155124485188024185768",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 44,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "6851637253813115116155124485188024185768",
+  "correct": true
+}

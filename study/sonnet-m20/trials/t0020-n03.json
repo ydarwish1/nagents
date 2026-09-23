@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-20",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10686710541181818995 multiplied by 32054361001588126661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 partial products, combined by weight with carries.\nAnswer: 342555677606519242631227780194435725695",
+          "answer": "342555677606519242631227780194435725695",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10686710541181818995 multiplied by 32054361001588126661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 10-digit halves, then 5-digit sub-halves; computed partial products and combined with carries.\nAnswer: 342555677606519242631227780194435725695",
+          "answer": "342555677606519242631227780194435725695",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 10686710541181818995 multiplied by 32054361001588126661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Block decomposition, 16 partial products, carries propagated. Estimate 1.068671*3.205436\u22483.42561 matches leading digits.\nAnswer: 342555677606519242631227780194435725695",
+          "answer": "342555677606519242631227780194435725695",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "342555677606519242631227780194435725695",
+    "342555677606519242631227780194435725695",
+    "342555677606519242631227780194435725695"
+  ],
+  "final_answer": "342555677606519242631227780194435725695",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 122,
+    "calls": 3
+  },
+  "trial": 20,
+  "expected": "342555677606519242631227780194435725695",
+  "correct": true
+}

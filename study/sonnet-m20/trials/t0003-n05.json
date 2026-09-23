@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-21-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22396605973329537665 multiplied by 86662255601540100206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Same method: 5-digit group split, 16 sub-products (some groups had small values e.g. b0=206), recombined via 10-digit blocks with carries.\nAnswer: 1940940391467664193627282825463751258990",
+          "answer": "1940940391467664193627282825463751258990",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22396605973329537665 multiplied by 86662255601540100206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).\nAnswer: 1940940391467664193627282825463751258990",
+          "answer": "1940940391467664193627282825463751258990",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22396605973329537665 multiplied by 86662255601540100206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.\nAnswer: 1940940391467664193627282825463751258990",
+          "answer": "1940940391467664193627282825463751258990",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22396605973329537665 multiplied by 86662255601540100206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Chunks (22396|60597|33295|37665)\u00d7(86662|25560|15401|00206), summed partial products. Check: 2.23966e19*8.66623e19\u22481.94094e39, matches.\nAnswer: 1940940391467664193627282825463751258990",
+          "answer": "1940940391467664193627282825463751258990",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 22396605973329537665 multiplied by 86662255601540100206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 10-digit hi/lo halves (5-digit sub-splits), computed the four partial products, then recombined with carries.\nAnswer: 1940940391467664193627282825463751258990",
+          "answer": "1940940391467664193627282825463751258990",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1940940391467664193627282825463751258990",
+    "1940940391467664193627282825463751258990",
+    "1940940391467664193627282825463751258990",
+    "1940940391467664193627282825463751258990",
+    "1940940391467664193627282825463751258990"
+  ],
+  "final_answer": "1940940391467664193627282825463751258990",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 219,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "1940940391467664193627282825463751258990",
+  "correct": true
+}

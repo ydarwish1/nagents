@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-21-17",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 92499033293592808975 multiplied by 57393005620275854285? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit blocks, formed 16 partial products, combined by power of 10^5 with carries.\nAnswer: 5308797537689255450186156678900940207875",
+          "answer": "5308797537689255450186156678900940207875",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 92499033293592808975 multiplied by 57393005620275854285? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.\nAnswer: 5308797537689255450186156678900940207875",
+          "answer": "5308797537689255450186156678900940207875",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 92499033293592808975 multiplied by 57393005620275854285? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.\nAnswer: 5308797537689255450186156678900940207875",
+          "answer": "5308797537689255450186156678900940207875",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5308797537689255450186156678900940207875",
+    "5308797537689255450186156678900940207875",
+    "5308797537689255450186156678900940207875"
+  ],
+  "final_answer": "5308797537689255450186156678900940207875",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 125,
+    "calls": 3
+  },
+  "trial": 17,
+  "expected": "5308797537689255450186156678900940207875",
+  "correct": true
+}

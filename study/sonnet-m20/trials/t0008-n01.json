@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 60225005725810199445 multiplied by 71153782245592240571? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.\nAnswer: 4285236943153844799289081955981930683095",
+          "answer": "4285236943153844799289081955981930683095",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4285236943153844799289081955981930683095"
+  ],
+  "final_answer": "4285236943153844799289081955981930683095",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 49,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "4285236943153844799289081955981930683095",
+  "correct": true
+}

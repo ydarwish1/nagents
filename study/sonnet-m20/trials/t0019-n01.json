@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-21-19",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 11190912727504953749 multiplied by 96689487551427467093? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.\nAnswer: 1082043616855201427736409522421184481657",
+          "answer": "1082043616855201427736409522421184481657",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1082043616855201427736409522421184481657"
+  ],
+  "final_answer": "1082043616855201427736409522421184481657",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 46,
+    "calls": 1
+  },
+  "trial": 19,
+  "expected": "1082043616855201427736409522421184481657",
+  "correct": true
+}
