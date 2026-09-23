@@ -1,10 +1,16 @@
-"""Model clients. MockModel is deterministic and free; AnthropicModel does real runs.
+"""Model clients. MockModel is deterministic and free; AnthropicModel and
+OpenAIModel do real runs.
 
 The `meta` dict passed to complete() is mock plumbing only (it carries the true
 answer and seeds so the fake model can be reproducible). AnthropicModel ignores
 it entirely — the real model never sees the answer.
 """
 import hashlib
+import json
+import os
+import time
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from typing import Optional
 
@@ -116,4 +122,75 @@ class AnthropicModel:
             input_tokens=response.usage.input_tokens,
             output_tokens=response.usage.output_tokens,
             stop_reason=response.stop_reason or "end_turn",
+        )
+
+
+class OpenAIModel:
+    """Real OpenAI calls through the Responses API, with no SDK dependency.
+
+    Needs OPENAI_API_KEY and network access to api.openai.com. The same
+    integrity rules as AnthropicModel apply: no fallback model, and a refusal
+    or cut-off reply is recorded as such and scored as wrong.
+    """
+
+    URL = "https://api.openai.com/v1/responses"
+
+    def __init__(self, model: str, max_tokens: int = 16000, effort: Optional[str] = None, post=None):
+        self.api_key = os.environ.get("OPENAI_API_KEY")
+        if not self.api_key and post is None:
+            raise RuntimeError("OPENAI_API_KEY is not set (or run with --mock)")
+        self.model = model
+        self.max_tokens = max_tokens
+        self.effort = effort
+        self._post = post or self._http_post
+
+    def _http_post(self, body: dict) -> dict:
+        request = urllib.request.Request(
+            self.URL,
+            data=json.dumps(body).encode("utf-8"),
+            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+        )
+        for attempt in range(6):
+            try:
+                with urllib.request.urlopen(request, timeout=600) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except urllib.error.HTTPError as exc:
+                # Same policy as the Anthropic client: back off on rate limits
+                # and server errors, fail fast on anything else.
+                if exc.code not in (429, 500, 502, 503, 504) or attempt == 5:
+                    raise
+            time.sleep(2 ** attempt)
+        raise RuntimeError("unreachable")
+
+    def complete(self, system: str, prompt: str, meta: dict) -> ModelReply:
+        body = {
+            "model": self.model,
+            "instructions": system,
+            "input": prompt,
+            "max_output_tokens": self.max_tokens,
+        }
+        if self.effort:
+            body["reasoning"] = {"effort": self.effort}
+        data = self._post(body)
+        texts, refused = [], False
+        for item in data.get("output", []):
+            if item.get("type") != "message":
+                continue
+            for part in item.get("content", []):
+                if part.get("type") == "output_text":
+                    texts.append(part.get("text", ""))
+                elif part.get("type") == "refusal":
+                    refused = True
+        if refused:
+            stop = "refusal"
+        elif data.get("status") == "incomplete":
+            stop = (data.get("incomplete_details") or {}).get("reason") or "incomplete"
+        else:
+            stop = "end_turn"
+        usage = data.get("usage") or {}
+        return ModelReply(
+            text="".join(texts),
+            input_tokens=usage.get("input_tokens", 0),
+            output_tokens=usage.get("output_tokens", 0),
+            stop_reason=stop,
         )

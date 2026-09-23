@@ -41,7 +41,9 @@ def main(argv=None) -> int:
         help="no API: answers come from subagents via batches/ingest; LABEL names them "
         "in the manifest, e.g. nagents-solver(sonnet,effort=low)",
     )
-    run_p.add_argument("--model", default=None, help="Claude model id (default claude-opus-5)")
+    run_p.add_argument("--model", default=None, help="model id (default claude-opus-5)")
+    run_p.add_argument("--provider", default="anthropic", choices=["anthropic", "openai"],
+                       help="who serves --model: the Claude API or the OpenAI API")
     run_p.add_argument("--effort", default=None, choices=["low", "medium", "high", "xhigh", "max"])
     run_p.add_argument("--max-tokens", type=int, default=16000)
 
@@ -139,9 +141,17 @@ def main(argv=None) -> int:
         model = ExternalModel(args.out)
         model_label = f"subagents:{args.subagents}"
     else:
-        model_id = args.model or DEFAULT_MODEL
-        model = AnthropicModel(model=model_id, max_tokens=args.max_tokens, effort=args.effort)
-        model_label = model_id
+        if args.provider == "openai":
+            from .models import OpenAIModel
+
+            if not args.model:
+                parser.error("--provider openai needs --model (for example gpt-5)")
+            model = OpenAIModel(model=args.model, max_tokens=args.max_tokens, effort=args.effort)
+            model_label = f"openai:{args.model}"
+        else:
+            model_id = args.model or DEFAULT_MODEL
+            model = AnthropicModel(model=model_id, max_tokens=args.max_tokens, effort=args.effort)
+            model_label = model_id
 
     # Everything that can change results belongs here — it is what --resume
     # checks against the run directory's manifest.
@@ -158,6 +168,8 @@ def main(argv=None) -> int:
     # New keys only when used, so runs from older versions still --resume.
     if args.mock and args.mock_correlation:
         extra_config["mock_correlation"] = args.mock_correlation
+    if args.provider != "anthropic" and not (args.mock or args.subagents):
+        extra_config["provider"] = args.provider
     if args.subagents:
         extra_config["subagents"] = args.subagents
     if args.suite == "mult":

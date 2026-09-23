@@ -1,0 +1,322 @@
+[
+  {
+    "batch": "b000",
+    "round": 0,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "c5a2895156ee8b0913a385c3",
+        "seat": 2,
+        "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "158de23ee33aeb17325a488c",
+        "seat": 1,
+        "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e88eee157f5f8b08d5b1e46f",
+        "seat": 4,
+        "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "add9f4087adb781e041c3617",
+        "seat": 1,
+        "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d75519cbaa4f972b92511c72",
+        "seat": 4,
+        "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f32b17bb22d6e662e5b5a495",
+        "seat": 0,
+        "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "86dcf1e08d76d1ec898be2bb",
+        "seat": 3,
+        "prompt": "What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4c57704ee7608b6085943d66",
+        "seat": 2,
+        "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "09efbadf4908d37cf893e0c6",
+        "seat": 3,
+        "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "430698e7339768b55ac284eb",
+        "seat": 0,
+        "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b001",
+    "round": 0,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "1bd751475b6578491196b0ac",
+        "seat": 3,
+        "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3e58d19318f9c148eac5f7ab",
+        "seat": 4,
+        "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ed3a4fdafb8f77524b3e67ad",
+        "seat": 2,
+        "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "58de8761febe6d81ccab3e32",
+        "seat": 1,
+        "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a51e4b356e152e7441af57ec",
+        "seat": 4,
+        "prompt": "What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8a3bf0d043edb30e05ccaa80",
+        "seat": 1,
+        "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7517a94a1ee77f092943c5b4",
+        "seat": 3,
+        "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "dc2610872227a77ba4b7dbe2",
+        "seat": 0,
+        "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "325c110eeb8b6d436072e533",
+        "seat": 0,
+        "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b68b119d1bd18eb3c81bef37",
+        "seat": 2,
+        "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b002",
+    "round": 0,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "6fcf0eca19d46bf723b1f6eb",
+        "seat": 1,
+        "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1f0eecaa9e4d034dcc7be00b",
+        "seat": 3,
+        "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "11fe5fce56f1cd4bd637668e",
+        "seat": 4,
+        "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c7d703e11bf712f316de755e",
+        "seat": 0,
+        "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "491bd6639cfacd1676e0ca4b",
+        "seat": 1,
+        "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b8c455e47530e68975d8450f",
+        "seat": 4,
+        "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "442829f4aac1a8db752bba92",
+        "seat": 0,
+        "prompt": "What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fe46dc8dde38e88cf90dc1c4",
+        "seat": 2,
+        "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "caf2afb4379944c06698aef5",
+        "seat": 2,
+        "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e9b8aa169508469ad3b9f79d",
+        "seat": 3,
+        "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b003",
+    "round": 0,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "c16ebfb4b561d754243484b4",
+        "seat": 4,
+        "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ce7b8c2ace682a34eee9823d",
+        "seat": 1,
+        "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "99164e188e273a66d324c0fa",
+        "seat": 0,
+        "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "82aa876313056b5c4c0ebb7a",
+        "seat": 1,
+        "prompt": "What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0078b5ae55e051ffe4c55df9",
+        "seat": 4,
+        "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6ce3d21164e886c79bcb39ec",
+        "seat": 0,
+        "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2c19548e6611f1bfa54bf1bb",
+        "seat": 3,
+        "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fce1e2fab4ec997cfb8b1ec5",
+        "seat": 2,
+        "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e2ac4154dff85c93df38ce3a",
+        "seat": 2,
+        "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c53b1d980ca8545e81f0f2be",
+        "seat": 3,
+        "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b004",
+    "round": 0,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "c6cb5f5346e78fc59e8f8fc6",
+        "seat": 2,
+        "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1350a424de5060bcec1c44d1",
+        "seat": 0,
+        "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f3701ffce67831870af3fd13",
+        "seat": 1,
+        "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "73a5ae1397586c6bcd1a2f6b",
+        "seat": 4,
+        "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f76a08ef7ff845f5503c72f3",
+        "seat": 3,
+        "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "dac6225ab74483661cc71806",
+        "seat": 1,
+        "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "73377c12acf27f77c9b68c47",
+        "seat": 3,
+        "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "57b3e47749fc82f3a06a79ee",
+        "seat": 4,
+        "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "90d66c55c05807201c9b7fc6",
+        "seat": 2,
+        "prompt": "What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e190d72550838510c23b34de",
+        "seat": 0,
+        "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  }
+]

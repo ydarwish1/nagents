@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: c6cb5f5346e78fc59e8f8fc6
+What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 1350a424de5060bcec1c44d1
+What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: f3701ffce67831870af3fd13
+What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 73a5ae1397586c6bcd1a2f6b
+What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: f76a08ef7ff845f5503c72f3
+What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: dac6225ab74483661cc71806
+What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 73377c12acf27f77c9b68c47
+What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 57b3e47749fc82f3a06a79ee
+What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 90d66c55c05807201c9b7fc6
+What is 86623463772535030275 multiplied by 76689163694005397518? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: e190d72550838510c23b34de
+What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>

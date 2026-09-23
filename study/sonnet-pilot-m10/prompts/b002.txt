@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 8892e2745cf9d06b57405043
+What is 7004993709 multiplied by 6431297589? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: e0508baeb1602d35014f03a2
+What is 2026854929 multiplied by 2895383598? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ca589d3ca7c02fcba6fb1aa2
+What is 5221829068 multiplied by 6394364551? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: a187d516d1f5c3736ae3d205
+What is 1826651159 multiplied by 5526447940? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 02d097bc3b38f1785be0ec3a
+What is 8688805463 multiplied by 9113311758? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 2dc7a03538978d59fd3536bb
+What is 9080225616 multiplied by 5269055474? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 73e8f787cb93708386a4c666
+What is 9483087969 multiplied by 9604621580? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 36470ca96467d1ef6cdee311
+What is 5148715964 multiplied by 7416321871? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 76c26706181ff4522e9d9454
+What is 4244779043 multiplied by 2023902501? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 1aabc9808386542ca5abc95f
+What is 2094668373 multiplied by 3455725127? Work it out step by step. End with one final line in exactly this form: Answer: <number>
