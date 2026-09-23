@@ -1,0 +1,39 @@
+=== 4793ccde58e394405d4407d9
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 5444721863891899784083025921870444861973
+
+=== c1f6e6609e94a44b7314dc39
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 4621854981652281148297953373030364841158
+
+=== 63350dbab566bcbe47a0fb4e
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 1940940391467664193627282825463751258990
+
+=== a6fd3d6af8f7ad4c4bda4193
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 5143334582701466172600343329053157549746
+
+=== e6650d362cefc1f1372b8f46
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 2278636113995783432305256568048230748000
+
+=== 6c95320836b870c281825748
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 230681417510941934330798159789763865536
+
+=== 91196d82b1295a7bb36418a4
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 2290180480611925487354983120037472972531
+
+=== 46fcc8b6389d6f6381e5ac17
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 354769918398337267057816185007892830149
+
+=== 9cf2752f1ff47be03c98e50a
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 4233203018916269136977198821032117607472
+
+=== 8892a8366939c5bc3d76f027
+Split both 20-digit numbers into 5-digit limbs, formed 16 partial products, summed with positional carries.
+Answer: 2837901884867574309744997889506202807840
