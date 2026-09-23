@@ -1,0 +1,19 @@
+=== 9f6aaeb515f7dd1bdbddb664
+Split both 20-digit numbers into 5-digit blocks (base 10^5) and multiplied block-by-block (16 partial products), then summed with carries across blocks.
+Answer: 4285236943153844799289081955981930683095
+
+=== 042c1a079ebe516b430adf8d
+Split both 20-digit numbers into 5-digit blocks (base 10^5) and multiplied block-by-block (16 partial products), then summed with carries across blocks.
+Answer: 6221386512093310806180718750829227994568
+
+=== 776e8b92e70ac3f93cbd3235
+Split both 20-digit numbers into 5-digit blocks (base 10^5) and multiplied block-by-block (16 partial products), then summed with carries across blocks.
+Answer: 5510062764632832486636478058064399404060
+
+=== ad9a215376c4211cf52f783a
+Split both 20-digit numbers into 5-digit blocks (base 10^5) and multiplied block-by-block (16 partial products), then summed with carries across blocks.
+Answer: 964106433244503765753113909028608254184
+
+=== 7f16b6c8155efb118af7fd73
+Split both 20-digit numbers into 5-digit blocks (base 10^5) and multiplied block-by-block (16 partial products), then summed with carries across blocks.
+Answer: 1176866075395592071246995589752393887895
