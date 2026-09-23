@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-15",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:15",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3000000 + 1513710100000 + 43248860000 + 19461987000 + 1020673096\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3729472 = 8,001,039,100,000 + 63,731,520,096\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3729472: Break into 3.7M + 29472 components, multiply and sum.\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3729000 + 2162443 \u00d7 472 = 8064770620096\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3729472: break by place value and sum partial products\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2162443 \u00d7 3729472: 3M + 729K decomposition\nAnswer: 8064770620096",
+          "answer": "8064770620096",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8064770620096",
+    "8064770620096",
+    "8064770620096"
+  ],
+  "final_answer": "8064770620096",
+  "usage": {
+    "input_tokens": 555,
+    "output_tokens": 120,
+    "calls": 6
+  },
+  "trial": 15,
+  "expected": "8064770620096",
+  "correct": true
+}

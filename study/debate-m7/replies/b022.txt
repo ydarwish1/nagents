@@ -1,0 +1,39 @@
+=== 00a0994eea65056bb100b0c7
+9927498 × 7000000 = 69,492,486,000,000; minus 9927498 × 30612 = 303,900,647,376
+Answer: 69188585431224
+
+=== ee601c3dfc477fc3f0a08fc3
+Sum by place values: 8M + 100k + 60k + 9k + 900 + 10 + 4
+Answer: 35778651438652
+
+=== dca06afe7b799b3dd1c0a882
+Sum by place values: 1M + 800k + 20k + 8k + 300 + 10 + 6
+Answer: 15556106017144
+
+=== 203b0f5d7b61502c0cf65ab0
+Systematic decomposition into place value components
+Answer: 4615260023225
+
+=== f7302985e753388942e88d67
+Sum: 3M + 600k + 40k + 500 + 4
+Answer: 25246385569440
+
+=== da8e78074cc37fc8e7680d22
+Sum: 8M + 800k + 90k + 300 + 40 + 2
+Answer: 9297599676678
+
+=== 90fd41c9c1410e9383450fe4
+Sum: 8M + 500k + 40k + 9k + 600 + 40
+Answer: 61007384009880
+
+=== 9af6172ceec212084a6aa16a
+Sum: 7M + 800k + 2k + 400 + 30 + 6
+Answer: 77171241647760
+
+=== 0616e15f6a440e350034ed3f
+Sum: 4M + 200k + 50k + 8k + 900 + 70 + 6
+Answer: 12506163600800
+
+=== ab3a36f567232933e6f4bbae
+Sum: 1M + 900k + 6k + 600 + 60 + 3
+Answer: 2804968205820

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-30",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: Break into (37M + 478830) \u00d7 (60M - 1179548) and expand\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: (37\u00d758\u00d710\u00b9\u00b2) + (37\u00d7820452\u00d710\u2076) + (478830\u00d758\u00d710\u2076) + (478830\u00d7820452)\n= 2146T + 30357724B + 27772140B + 392857031160\nAnswer: 2204522721031160",
+          "answer": "2204522721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37M \u00d7 58820452 = 2.176T, 478K \u00d7 58820452 \u2248 28.2B, sum \u2248 2.205Q\nAnswer: 2204521722078760",
+          "answer": "2204521722078760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2204521721031160",
+    "2204522721031160",
+    "2204521722078760"
+  ],
+  "final_answer": "2204521721031160",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 85,
+    "calls": 3
+  },
+  "trial": 30,
+  "expected": "2204521721031160",
+  "correct": true
+}

@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-28",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2461596 \u00d7 4942424: Break into (2461000+596)(4942000+424), compute each product and sum.\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2461596 \u00d7 4000000 = 9,846,384,000,000; 2461596 \u00d7 942424 = 2,319,867,148,704; sum = 12,166,251,148,704. Matches both consensus answers.\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5M\u00d72461596 - 57576\u00d72461596 = 12307980000000 - 141728851296\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Both solvers agree. Magnitude ~2.46M \u00d7 4.94M \u2248 12.2T matches.\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2461596 \u00d7 5000000 = 12,307,980,000,000; 2461596 \u00d7 4942424 (via 5000000 - 57576)\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decompose: 2461596\u00d74000000 = 9,846,384,000,000; 2461596\u00d7942424 = 2,319,867,148,704. Total: 12,166,251,148,704.\nAnswer: 12166251148704",
+          "answer": "12166251148704",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12166251148704",
+    "12166251148704",
+    "12166251148704"
+  ],
+  "final_answer": "12166251148704",
+  "usage": {
+    "input_tokens": 558,
+    "output_tokens": 165,
+    "calls": 6
+  },
+  "trial": 28,
+  "expected": "12166251148704",
+  "correct": true
+}

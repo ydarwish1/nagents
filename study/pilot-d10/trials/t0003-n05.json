@@ -1,0 +1,84 @@
+{
+  "task_id": "chain10-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 10. Subtract 95. Multiply by 7. Subtract 23. Add 70. Subtract 40. Multiply by 7. Subtract 32. Subtract 91. Add 31. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 10 - 95 = -97, \u00d7 7 = -679, - 23 = -702, + 70 = -632, - 40 = -672, \u00d7 7 = -4704, - 32 - 91 = -4827, + 31 = -4796\nAnswer: -4796",
+          "answer": "-4796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 10. Subtract 95. Multiply by 7. Subtract 23. Add 70. Subtract 40. Multiply by 7. Subtract 32. Subtract 91. Add 31. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 10 = -2 \u2192 - 95 = -97 \u2192 \u00d7 7 = -679 \u2192 - 23 = -702 \u2192 + 70 = -632 \u2192 - 40 = -672 \u2192 \u00d7 7 = -4704 \u2192 - 32 = -4736 \u2192 - 91 = -4827 \u2192 + 31 = -4796\nAnswer: -4796",
+          "answer": "-4796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 10. Subtract 95. Multiply by 7. Subtract 23. Add 70. Subtract 40. Multiply by 7. Subtract 32. Subtract 91. Add 31. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 10 = -2, - 95 = -97, \u00d7 7 = -679, - 23 = -702, + 70 = -632, - 40 = -672, \u00d7 7 = -4704, - 32 = -4736, - 91 = -4827, + 31 = -4796\nAnswer: -4796",
+          "answer": "-4796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 10. Subtract 95. Multiply by 7. Subtract 23. Add 70. Subtract 40. Multiply by 7. Subtract 32. Subtract 91. Add 31. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 10 = -2, - 95 = -97, \u00d7 7 = -679, - 23 = -702, + 70 = -632, - 40 = -672, \u00d7 7 = -4704, - 32 = -4736, - 91 = -4827, + 31 = -4796\nAnswer: -4796",
+          "answer": "-4796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 10. Subtract 95. Multiply by 7. Subtract 23. Add 70. Subtract 40. Multiply by 7. Subtract 32. Subtract 91. Add 31. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 10 = -2; -2 - 95 = -97; -97 \u00d7 7 = -679; -679 - 23 = -702; -702 + 70 = -632; -632 - 40 = -672; -672 \u00d7 7 = -4704; -4704 - 32 = -4736; -4736 - 91 = -4827; -4827 + 31 = -4796\nAnswer: -4796",
+          "answer": "-4796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-4796",
+    "-4796",
+    "-4796",
+    "-4796",
+    "-4796"
+  ],
+  "final_answer": "-4796",
+  "usage": {
+    "input_tokens": 480,
+    "output_tokens": 187,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "-4796",
+  "correct": true
+}

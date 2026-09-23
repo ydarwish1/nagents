@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-7",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67M \u00d7 24.926M + 516K \u00d7 24.926M\nAnswer: 1682944165734342",
+          "answer": "1682944165734342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 24926358\nComputing products of 67516649 by each digit of 24926358 with appropriate shifts.\nAnswer: 1682944164034342",
+          "answer": "1682944164034342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1687916225000000 - 4975159929158\nAnswer: 1682941065070842",
+          "answer": "1682941065070842",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 24000000 = 1620399576000000; \u00d7 926358 = 62544647702242. Sum: 1682944223702242\nAnswer: 1682944223702242",
+          "answer": "1682944223702242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 20000000 = 1350332980000000; 67516649 \u00d7 4926358 = 332611182934342\nAnswer: 1682944162934342",
+          "answer": "1682944162934342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 24000000 = 1620399576000000; 67516649 \u00d7 926358 = 62544587734342\nAnswer: 1682944163734342",
+          "answer": "1682944163734342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 24926358: (67M + 516649) \u00d7 (24M + 926358). Sum: 1608T + 62.06B + 12.39B + 478.5B.\nAnswer: 1682466240537309942",
+          "answer": "1682466240537309942",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67516649 \u00d7 24000000 = 1,620,399,576,000,000; 67516649 \u00d7 926358 = 62,544,588,034,802\nAnswer: 1682944164034802",
+          "answer": "1682944164034802",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into 25M - 0.07M components; multiply and subtract\nAnswer: 1682944163934342",
+          "answer": "1682944163934342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1682944165734342",
+    "1682944164034342",
+    "1682941065070842",
+    "1682944223702242",
+    "1682944162934342",
+    "1682944163734342",
+    "1682466240537309942",
+    "1682944164034802",
+    "1682944163934342"
+  ],
+  "final_answer": "1682944165734342",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 212,
+    "calls": 9
+  },
+  "trial": 7,
+  "expected": "1682944163934342",
+  "correct": false
+}

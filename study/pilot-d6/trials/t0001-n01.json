@@ -1,0 +1,32 @@
+{
+  "task_id": "chain6-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 29 = -27, -27 - 30 = -57, -57 \u00d7 8 = -456, -456 \u00d7 9 = -4104, -4104 \u00d7 9 = -36936, -36936 \u00d7 5 = -184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-184680"
+  ],
+  "final_answer": "-184680",
+  "usage": {
+    "input_tokens": 86,
+    "output_tokens": 30,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "-184680",
+  "correct": true
+}

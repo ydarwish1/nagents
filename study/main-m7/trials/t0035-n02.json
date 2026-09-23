@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-35",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:35",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2913198 \u00d7 3000000 = 8,739,594,000,000; 2913198 \u00d7 513989 = 1,497,351,726,822\nAnswer: 10236945726822",
+          "answer": "10236945726822",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2913198 \u00d7 3000000 = 8,739,594,000,000; 2913198 \u00d7 513989 = 1,497,351,726,822\nAnswer: 10236945726822",
+          "answer": "10236945726822",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "10236945726822",
+    "10236945726822"
+  ],
+  "final_answer": "10236945726822",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 48,
+    "calls": 2
+  },
+  "trial": 35,
+  "expected": "10236945726822",
+  "correct": true
+}

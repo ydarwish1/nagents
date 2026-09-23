@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 523a4e21ab56b5cee593401e
+Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: c737269d9d50b37bb5e30c17
+Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: e96203bde8a130516f830f3c
+Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 1b2626b26e3ae8fed017556e
+Start with 4. Add 22. Subtract 28. Add 42. Add 22. Subtract 66. Subtract 93. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: a13150be9886fe5c8c399fd6
+Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 9cc6436cdfc7f2572735f6af
+Start with 8. Add 54. Subtract 84. Multiply by 4. Multiply by 3. Multiply by 9. Add 60. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 0ba2726076e7ca16dd787192
+Start with 6. Multiply by 7. Subtract 70. Multiply by 6. Multiply by 7. Multiply by 4. Multiply by 3. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: b02eb3dc6f1e4a2798c12781
+Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 7cbcd0131e87bdbc3768f8f7
+Start with 8. Add 61. Add 56. Add 77. Multiply by 4. Add 14. Add 24. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ba837f0988c3d777335404e4
+Start with 7. Subtract 25. Add 47. Add 19. Subtract 36. Multiply by 3. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>

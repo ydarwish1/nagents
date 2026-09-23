@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-31",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(1000000+471140)(1000000+906663) = 1M\u00b2 + 906663M + 471140M + 427165205820\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1471140 \u00d7 1906663 = (1900000 + 6663) = 2,795,166,000,000 + 9,802,205,820\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1471140 \u00d7 1000000 = 1,471,140,000,000; 1471140 \u00d7 906663 = 1,333,828,205,820\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1471140 \u00d7 1906663 = 1471140 \u00d7 1900000 + 1471140 \u00d7 6663 = 2795166000000 + 9802205820\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1471140 \u00d7 2000000 = 2,942,280,000,000; 1471140 \u00d7 93337 = 137,311,794,180\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1471140 \u00d7 1906663: 1,500,000 \u00d7 1,906,663 - 28,860 \u00d7 1,906,663 = 2,859,994,500,000 - 55,026,294,180\nAnswer: 2804968205820",
+          "answer": "2804968205820",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2804968205820",
+    "2804968205820",
+    "2804968205820"
+  ],
+  "final_answer": "2804968205820",
+  "usage": {
+    "input_tokens": 555,
+    "output_tokens": 149,
+    "calls": 6
+  },
+  "trial": 31,
+  "expected": "2804968205820",
+  "correct": true
+}

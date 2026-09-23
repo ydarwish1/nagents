@@ -1,0 +1,71 @@
+{
+  "task_id": "mult7-21-0",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4035457 \u00d7 6000000 = 24,212,742,000,000; 4035457 \u00d7 162848 = 657,158,142,336\nAnswer: 24869900142336",
+          "answer": "24869900142336",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4035457 \u00d7 6162848 = 4035457 \u00d7 6000000 + 4035457 \u00d7 162848\n= 24212742000000 + 657166021536\nAnswer: 24869908021536",
+          "answer": "24869908021536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4035457 \u00d7 (6000000 + 162848) = 24869908101536\nAnswer: 24869908101536",
+          "answer": "24869908101536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4035457 \u00d7 6162848: 4035457 \u00d7 (6,000,000 + 162,848) = 24,212,742,000,000 + 657,162,061,536\nAnswer: 24869904061536",
+          "answer": "24869904061536",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "24869900142336",
+    "24869908021536",
+    "24869908101536",
+    "24869904061536"
+  ],
+  "final_answer": "24869900142336",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 96,
+    "calls": 4
+  },
+  "trial": 0,
+  "expected": "24869908101536",
+  "correct": false
+}

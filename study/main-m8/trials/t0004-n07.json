@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-4",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 (95000000 + 869836) = 9390949785000000 + 85985117913108\nAnswer: 9476934902913108",
+          "answer": "9476934902913108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 95000000 = 9390949785000000\n98852103 \u00d7 869836 = 85985117865108\nAnswer: 9476934902865108",
+          "answer": "9476934902865108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 95000000 + 98852103 \u00d7 869836\nAnswer: 9476934902865108",
+          "answer": "9476934902865108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 90M = 8896689270000000; \u00d7 5869836 = 580245632665108\nAnswer: 9476934902665108",
+          "answer": "9476934902665108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 96000000 - 98852103 \u00d7 130164\nAnswer: 9476934902865108",
+          "answer": "9476934902865108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 95869836: Breaking (98M + 852103) \u00d7 (95M + 869836), sum of parts\nAnswer: 9476934741484108",
+          "answer": "9476934741484108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 90000000 = 8896689270000000; \u00d7 5000000 = 494260515000000; \u00d7 869836 = 85985117665108\nAnswer: 9476934902665108",
+          "answer": "9476934902665108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9476934902913108",
+    "9476934902865108",
+    "9476934902865108",
+    "9476934902665108",
+    "9476934902865108",
+    "9476934741484108",
+    "9476934902665108"
+  ],
+  "final_answer": "9476934902865108",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 153,
+    "calls": 7
+  },
+  "trial": 4,
+  "expected": "9476934902865108",
+  "correct": true
+}

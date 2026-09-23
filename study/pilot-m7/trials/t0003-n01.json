@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8813144: Break into 1864744 \u00d7 (8000000 + 813144) = 14917952000000 + 1864744 \u00d7 813144. Continue: 1864744 \u00d7 813144 = 1516285395136. Total: 14917952000000 + 1516285395136 = 16434237395136\nAnswer: 16434237395136",
+          "answer": "16434237395136",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16434237395136"
+  ],
+  "final_answer": "16434237395136",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 54,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "16434257395136",
+  "correct": false
+}

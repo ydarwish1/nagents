@@ -1,0 +1,58 @@
+{
+  "task_id": "chain6-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 54. Subtract 84. Multiply by 4. Multiply by 3. Multiply by 9. Add 60. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 54 = 62, 62 - 84 = -22, -22 \u00d7 4 = -88, -88 \u00d7 3 = -264, -264 \u00d7 9 = -2376, -2376 + 60 = -2316\nAnswer: -2316",
+          "answer": "-2316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 54. Subtract 84. Multiply by 4. Multiply by 3. Multiply by 9. Add 60. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 54 = 62, 62 - 84 = -22, -22 \u00d7 4 = -88, -88 \u00d7 3 = -264, -264 \u00d7 9 = -2376, -2376 + 60 = -2316\nAnswer: -2316",
+          "answer": "-2316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 54. Subtract 84. Multiply by 4. Multiply by 3. Multiply by 9. Add 60. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2192 +54: 62 \u2192 -84: -22 \u2192 \u00d74: -88 \u2192 \u00d73: -264 \u2192 \u00d79: -2376 \u2192 +60: -2316\nAnswer: -2316",
+          "answer": "-2316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-2316",
+    "-2316",
+    "-2316"
+  ],
+  "final_answer": "-2316",
+  "usage": {
+    "input_tokens": 249,
+    "output_tokens": 74,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "-2316",
+  "correct": true
+}

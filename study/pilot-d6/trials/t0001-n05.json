@@ -1,0 +1,84 @@
+{
+  "task_id": "chain6-11-1",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 29 = -27, -27 - 30 = -57, -57 \u00d7 8 = -456, -456 \u00d7 9 = -4104, -4104 \u00d7 9 = -36936, -36936 \u00d7 5 = -184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 29 = -27, -27 - 30 = -57, -57 \u00d7 8 = -456, -456 \u00d7 9 = -4104, -4104 \u00d7 9 = -36936, -36936 \u00d7 5 = -184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u2192 -29: -27 \u2192 -30: -57 \u2192 \u00d78: -456 \u2192 \u00d79: -4104 \u2192 \u00d79: -36936 \u2192 \u00d75: -184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 29 = -27, - 30 = -57, \u00d7 8 = -456, \u00d7 9 = -4104, \u00d7 9 = -36936, \u00d7 5 = -184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 29. Subtract 30. Multiply by 8. Multiply by 9. Multiply by 9. Multiply by 5. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u2212 29 = \u221227, \u2212 30 = \u221257, \u00d7 8 = \u2212456, \u00d7 9 = \u22124104, \u00d7 9 = \u221236936, \u00d7 5 = \u2212184680\nAnswer: -184680",
+          "answer": "-184680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-184680",
+    "-184680",
+    "-184680",
+    "-184680",
+    "-184680"
+  ],
+  "final_answer": "-184680",
+  "usage": {
+    "input_tokens": 430,
+    "output_tokens": 128,
+    "calls": 5
+  },
+  "trial": 1,
+  "expected": "-184680",
+  "correct": true
+}

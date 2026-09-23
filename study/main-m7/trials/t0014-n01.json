@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-14",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:14",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7 million + 800K + 2K + 400 + 30 + 6 = 69,234,620M + 7,912,528M + 19,781K + 3,956K + 296K + 59K = 77,171,241,647,760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "77171241647760"
+  ],
+  "final_answer": "77171241647760",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 37,
+    "calls": 1
+  },
+  "trial": 14,
+  "expected": "77171241647760",
+  "correct": true
+}

@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-17",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784 broken as (2\u00d710^6 + 2\u00d710^5 + 700 + 84):\n4,796,826,000,000 + 479,682,600,000 + 1,678,889,100 + 201,466,092\nAnswer: 5278388955192",
+          "answer": "5278388955192",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955792, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2,200,784 = 4,796,826,000,000 + 480,562,955,792\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2 \u00d7 10^6 + 200000 + 784 terms = 4,796,826,000,000 + 479,682,600,000 + 1,880,355,792\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784 = 4796826000000 + 481562955792\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2,000,000 = 4,796,826,000,000; \u00d7 200,000 = 479,682,600,000; \u00d7 700 = 1,678,889,100; \u00d7 80 = 191,873,040; \u00d7 4 = 9,593,652\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784: multiplication by place values\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784: Base 2398413\u00d72000000 = 4796826000000, plus 481562955792.\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784: 2398413 \u00d7 2200000 + 2398413 \u00d7 784 \u2248 5278388000000, consensus of three solvers\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2.2M\u00d72398413 + 784\u00d72398413 = 5276508600000 + 1880355792\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2398413 \u00d7 2200784 = 2398413 \u00d7 (2000000 + 200784) = 4796826000000 + 481562955792\nAnswer: 5278388955792",
+          "answer": "5278388955792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5278388955792",
+    "5278388955792",
+    "5278388955792",
+    "5278388955792",
+    "5278388955792"
+  ],
+  "final_answer": "5278388955792",
+  "usage": {
+    "input_tokens": 965,
+    "output_tokens": 251,
+    "calls": 10
+  },
+  "trial": 17,
+  "expected": "5278388955792",
+  "correct": true
+}

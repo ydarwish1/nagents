@@ -1,0 +1,180 @@
+{
+  "per_size": [
+    {
+      "size": 1,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 58.1,
+      "input_tokens_total": 2015,
+      "output_tokens_total": 581,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 1.0
+    },
+    {
+      "size": 3,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 160.2,
+      "input_tokens_total": 6045,
+      "output_tokens_total": 1602,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 1.0
+    },
+    {
+      "size": 5,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 413.2,
+      "input_tokens_total": 10075,
+      "output_tokens_total": 4132,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 1.0
+    }
+  ],
+  "gains": [
+    {
+      "from_size": 1,
+      "to_size": 3,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from_size": 3,
+      "to_size": 5,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "saturation_size": 1,
+  "saturation_size_ci": 1,
+  "epsilon": 0.01,
+  "overlap": {
+    "answers": 50,
+    "pairs": 100,
+    "solo_accuracy": 1.0,
+    "error_correlation": null,
+    "same_wrong_answer_rate": null
+  },
+  "seat_balanced": {
+    "per_size": [
+      {
+        "size": 1,
+        "trials": 10,
+        "accuracy": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "size": 3,
+        "trials": 10,
+        "accuracy": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "size": 5,
+        "trials": 10,
+        "accuracy": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "gains": [
+      {
+        "from_size": 1,
+        "to_size": 3,
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "from_size": 3,
+        "to_size": 5,
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "saturation_size": 1,
+    "saturation_size_ci": 1,
+    "epsilon": 0.01,
+    "seat_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "manifest": {
+    "nagents_version": "0.3.0",
+    "model": "subagents:haiku,no-tools,10-per-batch",
+    "topology": "independent",
+    "sizes": [
+      1,
+      3,
+      5
+    ],
+    "trials": 10,
+    "master_seed": 11,
+    "task_ids": [
+      "chain50-11-0",
+      "chain50-11-1",
+      "chain50-11-2",
+      "chain50-11-3",
+      "chain50-11-4",
+      "chain50-11-5",
+      "chain50-11-6",
+      "chain50-11-7",
+      "chain50-11-8",
+      "chain50-11-9"
+    ],
+    "config": {
+      "suite": "chain",
+      "suite_path": null,
+      "depth": 50,
+      "mock": false,
+      "mock_accuracy": null,
+      "model": null,
+      "effort": null,
+      "max_tokens": 16000,
+      "subagents": "haiku,no-tools,10-per-batch",
+      "workers": 1
+    },
+    "started_at": "2026-09-23T06:22:31+0000"
+  }
+}

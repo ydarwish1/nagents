@@ -1,0 +1,181 @@
+{
+  "per_size": [
+    {
+      "size": 1,
+      "trials": 10,
+      "accuracy": 0.6,
+      "ci95": [
+        0.3,
+        0.9
+      ],
+      "mean_output_tokens": 57.1,
+      "input_tokens_total": 640,
+      "output_tokens_total": 571,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.6,
+      "independent_reference": 0.6
+    },
+    {
+      "size": 3,
+      "trials": 10,
+      "accuracy": 0.8,
+      "ci95": [
+        0.5,
+        1.0
+      ],
+      "mean_output_tokens": 113.1,
+      "input_tokens_total": 1920,
+      "output_tokens_total": 1131,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.9,
+      "independent_reference": 0.744
+    },
+    {
+      "size": 5,
+      "trials": 10,
+      "accuracy": 0.8,
+      "ci95": [
+        0.5,
+        1.0
+      ],
+      "mean_output_tokens": 155.7,
+      "input_tokens_total": 3200,
+      "output_tokens_total": 1557,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9283
+    }
+  ],
+  "gains": [
+    {
+      "from_size": 1,
+      "to_size": 3,
+      "gain": 0.2,
+      "ci95": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "from_size": 3,
+      "to_size": 5,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "saturation_size": 3,
+  "saturation_size_ci": 3,
+  "epsilon": 0.01,
+  "overlap": {
+    "answers": 50,
+    "pairs": 100,
+    "solo_accuracy": 0.6,
+    "error_correlation": -0.0833,
+    "same_wrong_answer_rate": 0.0714
+  },
+  "seat_balanced": {
+    "per_size": [
+      {
+        "size": 1,
+        "trials": 10,
+        "accuracy": 0.6,
+        "ci95": [
+          0.48,
+          0.7
+        ]
+      },
+      {
+        "size": 3,
+        "trials": 10,
+        "accuracy": 0.7633,
+        "ci95": [
+          0.6033,
+          0.9
+        ]
+      },
+      {
+        "size": 5,
+        "trials": 10,
+        "accuracy": 0.87,
+        "ci95": [
+          0.68,
+          1.0
+        ]
+      }
+    ],
+    "gains": [
+      {
+        "from_size": 1,
+        "to_size": 3,
+        "gain": 0.1633,
+        "ci95": [
+          0.1133,
+          0.2
+        ]
+      },
+      {
+        "from_size": 3,
+        "to_size": 5,
+        "gain": 0.1067,
+        "ci95": [
+          0.0467,
+          0.16
+        ]
+      }
+    ],
+    "saturation_size": null,
+    "saturation_size_ci": null,
+    "epsilon": 0.01,
+    "seat_accuracy": [
+      0.6,
+      0.9,
+      0.5,
+      0.2,
+      0.8
+    ]
+  },
+  "manifest": {
+    "nagents_version": "0.3.0",
+    "model": "subagents:haiku,no-tools,10-per-batch",
+    "topology": "independent",
+    "sizes": [
+      1,
+      3,
+      5
+    ],
+    "trials": 10,
+    "master_seed": 11,
+    "task_ids": [
+      "mult7-11-0",
+      "mult7-11-1",
+      "mult7-11-2",
+      "mult7-11-3",
+      "mult7-11-4",
+      "mult7-11-5",
+      "mult7-11-6",
+      "mult7-11-7",
+      "mult7-11-8",
+      "mult7-11-9"
+    ],
+    "config": {
+      "suite": "mult",
+      "suite_path": null,
+      "depth": 8,
+      "mock": false,
+      "mock_accuracy": null,
+      "model": null,
+      "effort": null,
+      "max_tokens": 16000,
+      "subagents": "haiku,no-tools,10-per-batch",
+      "digits": 7,
+      "workers": 1
+    },
+    "started_at": "2026-09-23T06:25:30+0000"
+  }
+}

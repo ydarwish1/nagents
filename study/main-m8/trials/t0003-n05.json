@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 75259525 multiplied by 70363685? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(75000000 + 259525)(70000000 + 363685) = 5250000000000000 + 27276375000000 + 18166750000000 + 94385349625\nAnswer: 5295537510349625",
+          "answer": "5295537510349625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 75259525 multiplied by 70363685? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "75000000 \u00d7 70363685 = 5277276375000000; 259525 \u00d7 70363685 = 18261135349625\nAnswer: 5295537510349625",
+          "answer": "5295537510349625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 75259525 multiplied by 70363685? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "75259525 \u00d7 70000000 + 75259525 \u00d7 363685 = 5268166750000000 + 27400708049625\nAnswer: 5295567458049625",
+          "answer": "5295567458049625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 75259525 multiplied by 70363685? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "75259525 \u00d7 70363685: (75M + 259525)(70M + 363685) = 5.25T + 27.2B + 18.1B + 94.3B\nAnswer: 5295537509820625",
+          "answer": "5295537509820625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 75259525 multiplied by 70363685? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "75259525 \u00d7 70000000 + 75259525 \u00d7 363685\nAnswer: 5295537510349625",
+          "answer": "5295537510349625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5295537510349625",
+    "5295537510349625",
+    "5295567458049625",
+    "5295537509820625",
+    "5295537510349625"
+  ],
+  "final_answer": "5295537510349625",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 123,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "5295537510349625",
+  "correct": true
+}

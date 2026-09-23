@@ -1,0 +1,71 @@
+{
+  "task_id": "mult8-21-2",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15531969 \u00d7 (90000000 + 2338218) = 1397877210000000 + 36317129491242\nAnswer: 1434194339491242",
+          "answer": "1434194339491242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15531969 \u00d7 92000000 + 15531969 \u00d7 338218\nAnswer: 1434194319352142",
+          "answer": "1434194319352142",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15531969 \u00d7 92338218: \u00d7 92000000 = 1,428,921,108,000,000; \u00d7 338218 = 5,273,231,383,242\nAnswer: 1434194339491242",
+          "answer": "1434194339491242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15531969 \u00d7 92338218: Multiply by 92M then add 338218 component\nAnswer: 1434194846769442",
+          "answer": "1434194846769442",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1434194339491242",
+    "1434194319352142",
+    "1434194339491242",
+    "1434194846769442"
+  ],
+  "final_answer": "1434194339491242",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 87,
+    "calls": 4
+  },
+  "trial": 2,
+  "expected": "1434194339491242",
+  "correct": true
+}

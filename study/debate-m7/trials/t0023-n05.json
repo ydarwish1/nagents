@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-23",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Break into place values and sum:\n6,927,242,000,000 + 1,385,448,400,000 + 69,272,420,000 + 2,077,772,600 + 277,089,680 + 20,781,726\nAnswer: 8384338464006",
+          "answer": "8384338464006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338864006, 8384338824006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686 = 3463621 \u00d7 (2000000 + 420686) = 6927242000000 + 1457096864006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Break into 3463621 \u00d7 (2000000 + 420686)\n= 6,927,242,000,000 + 1,457,096,864,006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338824006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "420686 = 400000 + 20686; inner parts similarly broken down\nAnswer: 8384338464006",
+          "answer": "8384338464006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2000000 = 6,927,242,000,000; plus 3463621 \u00d7 420686 = 1,457,096,824,006\nAnswer: 8384338824006",
+          "answer": "8384338824006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686 = 6927242000000 + 1385448400000 + 71648364006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Break (2M + 400K + 20K + 600 + 80 + 6). Sum: 6,927,242,000,000 + 1,385,448,400,000 + 69,272,420,000 + 2,078,172,600 + 277,089,680 + 20,781,726\nAnswer: 8384338863406",
+          "answer": "8384338863406",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338824006, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6927242000000 + 1457096864006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Breaking into place values and summing partial products\nAnswer: 10758006826",
+          "answer": "10758006826",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338824006, 8384338863406. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: 2M + 420686 components = 8384338864006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8384338864006",
+    "8384338464006",
+    "8384338864006",
+    "8384338864006",
+    "8384338864006"
+  ],
+  "final_answer": "8384338864006",
+  "usage": {
+    "input_tokens": 961,
+    "output_tokens": 262,
+    "calls": 10
+  },
+  "trial": 23,
+  "expected": "8384338864006",
+  "correct": true
+}

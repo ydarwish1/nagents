@@ -1,0 +1,71 @@
+{
+  "task_id": "mult7-21-37",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:37",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9950611 \u00d7 3000000 + 9950611 \u00d7 55538 = 29851833000000 + 552637033718\nAnswer: 30404470033718",
+          "answer": "30404470033718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9950611 \u00d7 3M + 55538\nAnswer: 30404470033718",
+          "answer": "30404470033718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9950611 \u00d7 3055538 = 9950611 \u00d7 (3000000 + 55538) = 29851833000000 + 552636983718\nAnswer: 30404469983718",
+          "answer": "30404469983718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9950611 \u00d7 3000000 + 552537033718\nAnswer: 30404370033718",
+          "answer": "30404370033718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "30404470033718",
+    "30404470033718",
+    "30404469983718",
+    "30404370033718"
+  ],
+  "final_answer": "30404470033718",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 70,
+    "calls": 4
+  },
+  "trial": 37,
+  "expected": "30404470033718",
+  "correct": true
+}

@@ -1,0 +1,39 @@
+=== 0c7c26614185408799c4ff6e
+842905454 × 875823559: Breaking into place value components and summing.
+Answer: 738236458622790786
+
+=== b4da992918f00829742af16e
+703226126 × 768547101: Breaking into place value components and summing.
+Answer: 540462400484760726
+
+=== d19bcdc989d41dc34c111189
+960974134 × 392404081: Breaking into place value components and summing.
+Answer: 377090094156934854
+
+=== 60ef51d76efdb80740dad756
+430669697 × 650150486: Breaking into place value components and summing.
+Answer: 280000212809322242
+
+=== 5a466fcac62c7c018f83353d
+258103769 × 736556295: Breaking into place value components and summing.
+Answer: 190107955816275855
+
+=== 00ef91ad31aa1cf1d930fa89
+666298344 × 228867112: Breaking into place value components and summing.
+Answer: 152493775721262528
+
+=== 38ab552c0e536a026a8579fb
+224619248 × 761237143: Breaking into place value components and summing.
+Answer: 170988515010328464
+
+=== a0d0cc197ff00a3146c2fe2d
+861914019 × 194127323: Breaking into place value components and summing.
+Answer: 167321081164641137
+
+=== 228a5b464d257f44fa6ea737
+312784074 × 233817637: Breaking into place value components and summing.
+Answer: 73134433073913138
+
+=== 335a175181b937e3211bf9e9
+703642370 × 914183987: Breaking into place value components and summing.
+Answer: 643258626228729290

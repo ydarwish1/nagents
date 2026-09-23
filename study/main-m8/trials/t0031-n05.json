@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-31",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80200109 \u00d7 16834656: break into (80M + 200K + 100 + 9) \u00d7 (16M + 800K + 30K + 4656). Sum partial products: 1,280B + 64B + 3.2B + 160M + 2.4B + 372M and smaller terms.\nAnswer: 1350140246177504",
+          "answer": "1350140246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80200109 \u00d7 16000000 = 1,283,201,744,000,000; 80200109 \u00d7 834656 = 66,939,502,177,504\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into 16M + 0.8M components; multiply each part and sum\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80M \u00d7 16.834M + 200K \u00d7 16.834M\nAnswer: 1350141243314304",
+          "answer": "1350141243314304",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80200109 \u00d7 16834656\nBreaking down multiplication digit by digit with positional accumulation.\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1350140246177504",
+    "1350141246177504",
+    "1350141246177504",
+    "1350141243314304",
+    "1350141246177504"
+  ],
+  "final_answer": "1350141246177504",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 137,
+    "calls": 5
+  },
+  "trial": 31,
+  "expected": "1350141246177504",
+  "correct": true
+}

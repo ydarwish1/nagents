@@ -1,0 +1,84 @@
+{
+  "task_id": "mult9-11-6",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224619248 \u00d7 761237143\nAnswer: 170987473600264000",
+          "answer": "170987473600264000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224619248 \u00d7 761237143: Breaking into place value components and summing.\nAnswer: 170988515010328464",
+          "answer": "170988515010328464",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224M\u00d7761M + 224M\u00d7237,143 + 619,248\u00d7761M + 619,248\u00d7237,143\nAnswer: 170988514609328464",
+          "answer": "170988514609328464",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224.619 \u00d7 761.237 \u2248 171.034\nAnswer: 171034495747664",
+          "answer": "171034495747664",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224619248 \u00d7 761237143: Break into chunks (224M + 619k) \u00d7 (761M + 237k), sum terms.\nAnswer: 171026926704755264",
+          "answer": "171026926704755264",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "170987473600264000",
+    "170988515010328464",
+    "170988514609328464",
+    "171034495747664",
+    "171026926704755264"
+  ],
+  "final_answer": "170987473600264000",
+  "usage": {
+    "input_tokens": 325,
+    "output_tokens": 96,
+    "calls": 5
+  },
+  "trial": 6,
+  "expected": "170988514610328464",
+  "correct": false
+}

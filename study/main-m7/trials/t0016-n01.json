@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-16",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:16",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 (1000000 + 300000 + 2000 + 52) = 9656080130496\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9656080130496"
+  ],
+  "final_answer": "9656080130496",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 19,
+    "calls": 1
+  },
+  "trial": 16,
+  "expected": "9656080130496",
+  "correct": true
+}

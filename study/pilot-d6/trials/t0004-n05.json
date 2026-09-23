@@ -1,0 +1,84 @@
+{
+  "task_id": "chain6-11-4",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 83 = -75, -75 \u00d7 7 = -525, -525 - 20 = -545, -545 + 92 = -453, -453 + 34 = -419, -419 \u00d7 7 = -2933\nAnswer: -2933",
+          "answer": "-2933",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 83 = -75, -75 \u00d7 7 = -525, -525 - 20 = -545, -545 + 92 = -453, -453 + 34 = -419, -419 \u00d7 7 = -2933\nAnswer: -2933",
+          "answer": "-2933",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2192 -83: -75 \u2192 \u00d77: -525 \u2192 -20: -545 \u2192 +92: -453 \u2192 +34: -419 \u2192 \u00d77: -2933\nAnswer: -2933",
+          "answer": "-2933",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 83 = -75, \u00d7 7 = -525, - 20 = -545, + 92 = -453, + 34 = -419, \u00d7 7 = -2933\nAnswer: -2933",
+          "answer": "-2933",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 83. Multiply by 7. Subtract 20. Add 92. Add 34. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2212 83 = \u221275, \u00d7 7 = \u2212525, \u2212 20 = \u2212545, + 92 = \u2212453, + 34 = \u2212419, \u00d7 7 = \u22122933\nAnswer: -2933",
+          "answer": "-2933",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-2933",
+    "-2933",
+    "-2933",
+    "-2933",
+    "-2933"
+  ],
+  "final_answer": "-2933",
+  "usage": {
+    "input_tokens": 415,
+    "output_tokens": 121,
+    "calls": 5
+  },
+  "trial": 4,
+  "expected": "-2933",
+  "correct": true
+}

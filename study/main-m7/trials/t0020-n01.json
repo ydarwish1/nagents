@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-20",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7 \u00d7 10^6 = 53,108,055,000,000; remaining 7586865 \u00d7 546572 = 4,146,767,976,780\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "57254822976780"
+  ],
+  "final_answer": "57254822976780",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 20,
+  "expected": "57254822976780",
+  "correct": true
+}

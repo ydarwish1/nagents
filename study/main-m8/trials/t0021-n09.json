@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-21",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40000000 \u00d7 26000000 + 40000000 \u00d7 88610 + 118775 \u00d7 26000000 + 118775 \u00d7 88610\nAnswer: 1046643074652750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26088610: Breaking (40M + 118775) \u00d7 (26M + 88610), sum of parts\nAnswer: 1046643075957750",
+          "answer": "1046643075957750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 20000000 = 802375500000000; \u00d7 6000000 = 240712650000000; \u00d7 88610 = 3555924652750\nAnswer: 1046643074652750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26M = 1,043,087,950,000,000; \u00d7 88,610 = 3,554,924,682,250; total = 1,043,087,950,000,000 + 3,554,924,682,250\nAnswer: 1046642874682250",
+          "answer": "1046642874682250",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26088610: 40118775 \u00d7 (20,000,000 + 6,088,610) = 802,375,500,000,000 + 244,267,574,652,750\nAnswer: 1046643074652750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 (26000000 + 88610) = 1043088550000000 + 3554924712250\nAnswer: 1046643474712250",
+          "answer": "1046643474712250",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26000000 = 1043088550000000\n40118775 \u00d7 88610 = 3554925432750\nAnswer: 1046643475432750",
+          "answer": "1046643475432750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26000000 + 40118775 \u00d7 88610\nAnswer: 1046643074652750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26M = 1043089350000000; \u00d7 88610 = 3554924652750\nAnswer: 1046644274652750",
+          "answer": "1046644274652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1046643074652750",
+    "1046643075957750",
+    "1046643074652750",
+    "1046642874682250",
+    "1046643074652750",
+    "1046643474712250",
+    "1046643475432750",
+    "1046643074652750",
+    "1046644274652750"
+  ],
+  "final_answer": "1046643074652750",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 226,
+    "calls": 9
+  },
+  "trial": 21,
+  "expected": "1046643074652750",
+  "correct": true
+}

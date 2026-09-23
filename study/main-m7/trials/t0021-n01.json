@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-21",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5339899 = 5264806 \u00d7 (5000000 + 339899) = 26324030000000 + 1789502294594\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "28113532294594"
+  ],
+  "final_answer": "28113532294594",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 21,
+  "expected": "28113532294594",
+  "correct": true
+}

@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-32",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640 = (7000000 \u00d7 8549640) + (135667 \u00d7 8549640) = 59847480000000 + 1159904009880\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007383709880, 61007384009880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640: break into place values and sum products\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640 = 57.1B + 3.6B + 285.4B + 64.2B + 4.3B + 285.4M\nAnswer: 61007383709880",
+          "answer": "61007383709880",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007384009880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640 = 57085336000000 + 3567833500000 + 285426680000 + 64221003000 + 4281400200 + 285426680\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 57,085,336,000,000 + 3,567,833,500,000 + 285,426,680,000 + 68,502,403,200 + 285,426,680\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8500000 + 7135667 \u00d7 49640 = 60653169500000 + 354214509880\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8 = 57,085,336,000. Plus 7135667 \u00d7 549640 = 357,782,343,380. Sum = 414,867,679,380.\nAnswer: 414867679380",
+          "answer": "414867679380",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 61007384009880, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8000000 = 57,085,336,000,000; 7135667 \u00d7 549640 = 3,922,048,009,880; sum = 61,007,384,009,880. Matches consensus (appears 3 times).\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8M + 500K + 40K + 9K + 600 + 40 = 57,085,336M + 3,567,833M + 285,426M + 64,221M + 4,281K + 285K = 61,007,384,009,880\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 61007384009880, 414867679380. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640 = 61,007,384,009,880\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "61007384009880",
+    "61007384009880",
+    "61007384009880",
+    "61007384009880",
+    "61007384009880"
+  ],
+  "final_answer": "61007384009880",
+  "usage": {
+    "input_tokens": 966,
+    "output_tokens": 278,
+    "calls": 10
+  },
+  "trial": 32,
+  "expected": "61007384009880",
+  "correct": true
+}

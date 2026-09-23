@@ -1,0 +1,242 @@
+[
+  {
+    "batch": "b000",
+    "round": 0,
+    "seat": 0,
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "971d04c384b5c677171a292a",
+        "prompt": "Start with 6. Multiply by 4. Subtract 18. Add 78. Subtract 73. Multiply by 6. Add 21. Subtract 21. Subtract 79. Multiply by 3. Multiply by 8. Add 15. Add 46. Add 45. Multiply by 6. Multiply by 8. Multiply by 7. Add 99. Subtract 47. Multiply by 8. Add 19. Subtract 42. Subtract 86. Subtract 12. Subtract 66. Add 47. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8310c10c5a55f1a3a6c9b596",
+        "prompt": "Start with 9. Multiply by 7. Subtract 35. Add 66. Multiply by 8. Subtract 73. Multiply by 9. Multiply by 8. Multiply by 8. Subtract 32. Subtract 74. Subtract 88. Subtract 8. Subtract 77. Subtract 85. Add 64. Subtract 87. Add 12. Add 74. Subtract 44. Add 18. Add 59. Add 13. Subtract 20. Add 78. Subtract 21. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7682a7e1def22d5287b38e0c",
+        "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9d2cff61e99b242972647681",
+        "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d95556429f6ac08797dc7e68",
+        "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4f140a5cf00d4d9d63e9d64d",
+        "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a8f1f040c5b337c3467915b5",
+        "prompt": "Start with 9. Multiply by 7. Subtract 99. Multiply by 6. Subtract 88. Multiply by 2. Add 68. Multiply by 6. Add 24. Subtract 32. Subtract 40. Multiply by 8. Subtract 2. Multiply by 3. Add 57. Subtract 38. Multiply by 4. Subtract 95. Subtract 44. Add 95. Subtract 60. Add 70. Add 49. Add 12. Add 24. Subtract 34. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f4212a99909f97b5afae52a6",
+        "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d6d3c01b8ba82d94466d2141",
+        "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5168e82b2844d1a03f6dd917",
+        "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b001",
+    "round": 0,
+    "seat": 1,
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "623f5fa9ceddb5b5445067e1",
+        "prompt": "Start with 6. Multiply by 4. Subtract 18. Add 78. Subtract 73. Multiply by 6. Add 21. Subtract 21. Subtract 79. Multiply by 3. Multiply by 8. Add 15. Add 46. Add 45. Multiply by 6. Multiply by 8. Multiply by 7. Add 99. Subtract 47. Multiply by 8. Add 19. Subtract 42. Subtract 86. Subtract 12. Subtract 66. Add 47. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1c9dd3ef1b610514fe558e13",
+        "prompt": "Start with 9. Multiply by 7. Subtract 35. Add 66. Multiply by 8. Subtract 73. Multiply by 9. Multiply by 8. Multiply by 8. Subtract 32. Subtract 74. Subtract 88. Subtract 8. Subtract 77. Subtract 85. Add 64. Subtract 87. Add 12. Add 74. Subtract 44. Add 18. Add 59. Add 13. Subtract 20. Add 78. Subtract 21. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9514e8ffd8cab422f292af3e",
+        "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d7ee95bd045b111ec715a7ef",
+        "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6af04806fad9a756064b70e4",
+        "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fc5920e23cf79981535002e4",
+        "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1c77a6ef1a5857ef6ecdfad9",
+        "prompt": "Start with 9. Multiply by 7. Subtract 99. Multiply by 6. Subtract 88. Multiply by 2. Add 68. Multiply by 6. Add 24. Subtract 32. Subtract 40. Multiply by 8. Subtract 2. Multiply by 3. Add 57. Subtract 38. Multiply by 4. Subtract 95. Subtract 44. Add 95. Subtract 60. Add 70. Add 49. Add 12. Add 24. Subtract 34. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4c2cfb597a97ee85312450ca",
+        "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c27e5ee7437ee6e79caed4ca",
+        "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "eb24c217369ddefba7080610",
+        "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b002",
+    "round": 0,
+    "seat": 2,
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "2c7e92e67a02a3729d26c0c2",
+        "prompt": "Start with 6. Multiply by 4. Subtract 18. Add 78. Subtract 73. Multiply by 6. Add 21. Subtract 21. Subtract 79. Multiply by 3. Multiply by 8. Add 15. Add 46. Add 45. Multiply by 6. Multiply by 8. Multiply by 7. Add 99. Subtract 47. Multiply by 8. Add 19. Subtract 42. Subtract 86. Subtract 12. Subtract 66. Add 47. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8228b54e72b6786630d67de7",
+        "prompt": "Start with 9. Multiply by 7. Subtract 35. Add 66. Multiply by 8. Subtract 73. Multiply by 9. Multiply by 8. Multiply by 8. Subtract 32. Subtract 74. Subtract 88. Subtract 8. Subtract 77. Subtract 85. Add 64. Subtract 87. Add 12. Add 74. Subtract 44. Add 18. Add 59. Add 13. Subtract 20. Add 78. Subtract 21. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f785a1586997e30aa4821b2c",
+        "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "efc7b04255642f261df3b5d4",
+        "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f57b0cc01c9ccc489fd178ac",
+        "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "69bc1c9a401d249980c1e3bf",
+        "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d67b5fd0255b4741626b8f83",
+        "prompt": "Start with 9. Multiply by 7. Subtract 99. Multiply by 6. Subtract 88. Multiply by 2. Add 68. Multiply by 6. Add 24. Subtract 32. Subtract 40. Multiply by 8. Subtract 2. Multiply by 3. Add 57. Subtract 38. Multiply by 4. Subtract 95. Subtract 44. Add 95. Subtract 60. Add 70. Add 49. Add 12. Add 24. Subtract 34. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0461ebceceb4976aa8c9b84b",
+        "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fa85bf2d301bde682f5db64a",
+        "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1eaac394fef5cf8e789b2b07",
+        "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b003",
+    "round": 0,
+    "seat": 3,
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "28e0d1f9e82f9df678fb1af0",
+        "prompt": "Start with 6. Multiply by 4. Subtract 18. Add 78. Subtract 73. Multiply by 6. Add 21. Subtract 21. Subtract 79. Multiply by 3. Multiply by 8. Add 15. Add 46. Add 45. Multiply by 6. Multiply by 8. Multiply by 7. Add 99. Subtract 47. Multiply by 8. Add 19. Subtract 42. Subtract 86. Subtract 12. Subtract 66. Add 47. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cff98a8e936c467e61669b06",
+        "prompt": "Start with 9. Multiply by 7. Subtract 35. Add 66. Multiply by 8. Subtract 73. Multiply by 9. Multiply by 8. Multiply by 8. Subtract 32. Subtract 74. Subtract 88. Subtract 8. Subtract 77. Subtract 85. Add 64. Subtract 87. Add 12. Add 74. Subtract 44. Add 18. Add 59. Add 13. Subtract 20. Add 78. Subtract 21. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "429172a8cfa981c7868a9fcc",
+        "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3c8070eeb79be939776d9f3b",
+        "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e15d4f19d94374e4650baa98",
+        "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "eb7a513788b772987360a1e3",
+        "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9e286deaff992dfedc8abafc",
+        "prompt": "Start with 9. Multiply by 7. Subtract 99. Multiply by 6. Subtract 88. Multiply by 2. Add 68. Multiply by 6. Add 24. Subtract 32. Subtract 40. Multiply by 8. Subtract 2. Multiply by 3. Add 57. Subtract 38. Multiply by 4. Subtract 95. Subtract 44. Add 95. Subtract 60. Add 70. Add 49. Add 12. Add 24. Subtract 34. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ea02cee1e01fd95dd96f7d0a",
+        "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fcc2d148dd3a852a271d2a85",
+        "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "13510b17365b0a47c498fc77",
+        "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b004",
+    "round": 0,
+    "seat": 4,
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "0a3716732763dc4f9bad4ea9",
+        "prompt": "Start with 6. Multiply by 4. Subtract 18. Add 78. Subtract 73. Multiply by 6. Add 21. Subtract 21. Subtract 79. Multiply by 3. Multiply by 8. Add 15. Add 46. Add 45. Multiply by 6. Multiply by 8. Multiply by 7. Add 99. Subtract 47. Multiply by 8. Add 19. Subtract 42. Subtract 86. Subtract 12. Subtract 66. Add 47. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ca071f91ee07497916c86f51",
+        "prompt": "Start with 9. Multiply by 7. Subtract 35. Add 66. Multiply by 8. Subtract 73. Multiply by 9. Multiply by 8. Multiply by 8. Subtract 32. Subtract 74. Subtract 88. Subtract 8. Subtract 77. Subtract 85. Add 64. Subtract 87. Add 12. Add 74. Subtract 44. Add 18. Add 59. Add 13. Subtract 20. Add 78. Subtract 21. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9680ba972dbc0c3a2cf11c3a",
+        "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "152642c0a8fc50bd3ee06cd4",
+        "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b84f62c811ecc9e9c2046e7f",
+        "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b4256e6d6e8ac84a42e893fb",
+        "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bfc35538f4d9737d5f466048",
+        "prompt": "Start with 9. Multiply by 7. Subtract 99. Multiply by 6. Subtract 88. Multiply by 2. Add 68. Multiply by 6. Add 24. Subtract 32. Subtract 40. Multiply by 8. Subtract 2. Multiply by 3. Add 57. Subtract 38. Multiply by 4. Subtract 95. Subtract 44. Add 95. Subtract 60. Add 70. Add 49. Add 12. Add 24. Subtract 34. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c334eba3fb30a637beaedcb8",
+        "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "111e7ecd5e02302156c76447",
+        "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b9c9a3ce7dcbe60b2c7ed53f",
+        "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  }
+]

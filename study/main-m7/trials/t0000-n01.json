@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4035457 \u00d7 6000000 = 24,212,742,000,000; 4035457 \u00d7 162848 = 657,158,142,336\nAnswer: 24869900142336",
+          "answer": "24869900142336",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "24869900142336"
+  ],
+  "final_answer": "24869900142336",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 24,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "24869908101536",
+  "correct": false
+}

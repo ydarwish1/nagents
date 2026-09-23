@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-1",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "90M \u00d7 47M + 1.4M \u00d7 47M + 1.785K \u00d7 47M\nAnswer: 4340915086621305",
+          "answer": "4340915086621305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "91401785 \u00d7 47492673\nBuilding partial products from each digit, shifting by position, then summing.\nAnswer: 4342560318751305",
+          "answer": "4342560318751305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4295883895000000 + 45031232210305\nAnswer: 4340915127210305",
+          "answer": "4340915127210305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4340915086621305",
+    "4342560318751305",
+    "4340915127210305"
+  ],
+  "final_answer": "4340915086621305",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 59,
+    "calls": 3
+  },
+  "trial": 1,
+  "expected": "4340915086621305",
+  "correct": true
+}

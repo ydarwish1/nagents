@@ -1,0 +1,58 @@
+{
+  "task_id": "chain6-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Subtract 25. Add 47. Add 19. Subtract 36. Multiply by 3. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 - 25 = -18, -18 + 47 = 29, 29 + 19 = 48, 48 - 36 = 12, 12 \u00d7 3 = 36, 36 \u00d7 2 = 72\nAnswer: 72",
+          "answer": "72",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Subtract 25. Add 47. Add 19. Subtract 36. Multiply by 3. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 - 25 = -18, -18 + 47 = 29, 29 + 19 = 48, 48 - 36 = 12, 12 \u00d7 3 = 36, 36 \u00d7 2 = 72\nAnswer: 72",
+          "answer": "72",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Subtract 25. Add 47. Add 19. Subtract 36. Multiply by 3. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u2192 -25: -18 \u2192 +47: 29 \u2192 +19: 48 \u2192 -36: 12 \u2192 \u00d73: 36 \u2192 \u00d72: 72\nAnswer: 72",
+          "answer": "72",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "72",
+    "72",
+    "72"
+  ],
+  "final_answer": "72",
+  "usage": {
+    "input_tokens": 249,
+    "output_tokens": 63,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "72",
+  "correct": true
+}

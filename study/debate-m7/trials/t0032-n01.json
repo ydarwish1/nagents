@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-32",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7135667 \u00d7 8549640 = (7000000 \u00d7 8549640) + (135667 \u00d7 8549640) = 59847480000000 + 1159904009880\nAnswer: 61007384009880",
+          "answer": "61007384009880",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "61007384009880"
+  ],
+  "final_answer": "61007384009880",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 29,
+    "calls": 1
+  },
+  "trial": 32,
+  "expected": "61007384009880",
+  "correct": true
+}

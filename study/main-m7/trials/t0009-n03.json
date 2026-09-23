@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-21-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6478592 \u00d7 9025826 = 6478592 \u00d7 (9000000 + 25826) = 58307328000000 + 167316156992\nAnswer: 58474644156992",
+          "answer": "58474644156992",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6478592 \u00d7 9000000 + 167316116992\nAnswer: 58474644116992",
+          "answer": "58474644116992",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6478592 \u00d7 9025826: Break into 9M + 25826 components, multiply and sum.\nAnswer: 58474644116992",
+          "answer": "58474644116992",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "58474644156992",
+    "58474644116992",
+    "58474644116992"
+  ],
+  "final_answer": "58474644116992",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 61,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "58474644116992",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult9-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703642370 multiplied by 914183987? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703642370 \u00d7 914183987\nAnswer: 643515872456090000",
+          "answer": "643515872456090000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703642370 multiplied by 914183987? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703642370 \u00d7 914183987: Breaking into place value components and summing.\nAnswer: 643258626228729290",
+          "answer": "643258626228729290",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703642370 multiplied by 914183987? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703M\u00d7914M + 703M\u00d7183,987 + 642,370\u00d7914M + 642,370\u00d7183,987\nAnswer: 643876554179739690",
+          "answer": "643876554179739690",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "643515872456090000",
+    "643258626228729290",
+    "643876554179739690"
+  ],
+  "final_answer": "643515872456090000",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 57,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "643258587228729190",
+  "correct": false
+}

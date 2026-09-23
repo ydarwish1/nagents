@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-24",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2,000,000 = 17,261,440,000,000; \u00d7 400,000 = 3,452,288,000,000; \u00d7 80,000 = 690,457,600,000; \u00d7 7,000 = 60,415,040,000; \u00d7 600 = 5,178,432,000; \u00d7 60 = 517,843,200; \u00d7 1 = 8,630,720\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2487661 = 17261440000000 + 4208865545920\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2487661: Break into components, 8630\u00d72487 = 21462810 as base unit.\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2,487,661 = 17,261,440,000,000 + 4,208,865,545,920\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2.5M\u00d78630720 - 12339\u00d78630720 = 21576800000000 - 106494454080\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2487661 = 17261440000000 + 3452288000000 + 690457600000 + 60415040000 + 5178432000 + 517843200 + 8630720\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2500000 = 21,576,800,000,000; 8630720 \u00d7 2487661 (via 2500000 - 12339)\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2487661 = 8630720 \u00d7 (2000000 + 487661) = 17261440000000 + 4208865545920\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8630720 \u00d7 2500000 = 21,576,800,000,000; 8630720 \u00d7 12339 = 106,494,454,080\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break down: 8630720\u00d72000000 = 17,261,440,000,000; 8630720\u00d7487661 = 4,208,865,545,920. Sum: 21,470,305,545,920.\nAnswer: 21470305545920",
+          "answer": "21470305545920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "21470305545920",
+    "21470305545920",
+    "21470305545920",
+    "21470305545920",
+    "21470305545920"
+  ],
+  "final_answer": "21470305545920",
+  "usage": {
+    "input_tokens": 970,
+    "output_tokens": 276,
+    "calls": 10
+  },
+  "trial": 24,
+  "expected": "21470305545920",
+  "correct": true
+}

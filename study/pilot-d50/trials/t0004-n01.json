@@ -1,0 +1,32 @@
+{
+  "task_id": "chain50-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 16. Add 72. Multiply by 3. Subtract 83. Subtract 99. Add 25. Subtract 14. Add 33. Multiply by 6. Add 74. Subtract 41. Add 88. Add 96. Multiply by 2. Subtract 43. Add 67. Multiply by 7. Subtract 84. Multiply by 5. Multiply by 8. Add 26. Subtract 52. Add 83. Subtract 56. Subtract 34. Add 68. Subtract 86. Add 97. Subtract 8. Add 78. Subtract 92. Add 59. Add 10. Add 87. Add 54. Subtract 30. Subtract 71. Subtract 51. Subtract 35. Subtract 47. Add 2. Add 22. Add 91. Subtract 65. Subtract 20. Add 47. Add 36. Add 33. Add 97. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7\u00d78=56; 56-16=40; 40+72=112; 112\u00d73=336; continuing through operations: \u00d77=19838; \u00d75=98770; \u00d78=790160; then additions and subtractions yield\nAnswer: 790403",
+          "answer": "790403",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "790403"
+  ],
+  "final_answer": "790403",
+  "usage": {
+    "input_tokens": 202,
+    "output_tokens": 38,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "790403",
+  "correct": true
+}

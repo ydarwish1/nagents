@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-4",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 77. Multiply by 3. Add 93. Add 34. Multiply by 6. Add 91. Subtract 52. Add 87. Multiply by 3. Add 23. Subtract 47. Add 32. Add 24. Subtract 16. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 77 = 85; 85 \u00d7 3 = 255; 255 + 93 = 348; 348 + 34 = 382; 382 \u00d7 6 = 2292; 2292 + 91 = 2383; 2383 - 52 = 2331; 2331 + 87 = 2418; 2418 \u00d7 3 = 7254; 7254 + 23 = 7277; 7277 - 47 = 7230; 7230 + 32 = 7262; 7262 + 24 = 7286; 7286 - 16 = 7270\nAnswer: 7270",
+          "answer": "7270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 77. Multiply by 3. Add 93. Add 34. Multiply by 6. Add 91. Subtract 52. Add 87. Multiply by 3. Add 23. Subtract 47. Add 32. Add 24. Subtract 16. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 77 = 85, \u00d7 3 = 255, + 93 = 348, + 34 = 382, \u00d7 6 = 2292, + 91 = 2383, - 52 = 2331, + 87 = 2418, \u00d7 3 = 7254, + 23 = 7277, - 47 = 7230, + 32 = 7262, + 24 = 7286, - 16 = 7270\nAnswer: 7270",
+          "answer": "7270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 77. Multiply by 3. Add 93. Add 34. Multiply by 6. Add 91. Subtract 52. Add 87. Multiply by 3. Add 23. Subtract 47. Add 32. Add 24. Subtract 16. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 77 = 85; \u00d73 = 255; +93 = 348; +34 = 382; \u00d76 = 2292; +91 = 2383; -52 = 2331; +87 = 2418; \u00d73 = 7254; +23 = 7277; -47 = 7230; +32 = 7262; +24 = 7286; -16 = 7270\nAnswer: 7270",
+          "answer": "7270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 77. Multiply by 3. Add 93. Add 34. Multiply by 6. Add 91. Subtract 52. Add 87. Multiply by 3. Add 23. Subtract 47. Add 32. Add 24. Subtract 16. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 77 = 85; 85 * 3 = 255; 255 + 93 = 348; 348 + 34 = 382; 382 * 6 = 2292; 2292 + 91 = 2383; 2383 - 52 = 2331; 2331 + 87 = 2418; 2418 * 3 = 7254; 7254 + 23 = 7277; 7277 - 47 = 7230; 7230 + 32 = 7262; 7262 + 24 = 7286; 7286 - 16 = 7270\nAnswer: 7270",
+          "answer": "7270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 77. Multiply by 3. Add 93. Add 34. Multiply by 6. Add 91. Subtract 52. Add 87. Multiply by 3. Add 23. Subtract 47. Add 32. Add 24. Subtract 16. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 77 = 85; 85 \u00d7 3 = 255; 255 + 93 = 348; 348 + 34 = 382; 382 \u00d7 6 = 2292; 2292 + 91 = 2383; 2383 - 52 = 2331; 2331 + 87 = 2418; 2418 \u00d7 3 = 7254; 7254 + 23 = 7277; 7277 - 47 = 7230; 7230 + 32 = 7262; 7262 + 24 = 7286; 7286 - 16 = 7270\nAnswer: 7270",
+          "answer": "7270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7270",
+    "7270",
+    "7270",
+    "7270",
+    "7270"
+  ],
+  "final_answer": "7270",
+  "usage": {
+    "input_tokens": 510,
+    "output_tokens": 272,
+    "calls": 5
+  },
+  "trial": 4,
+  "expected": "7270",
+  "correct": true
+}

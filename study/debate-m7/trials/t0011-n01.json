@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-11",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316 = 8508434 \u00d7 (1800000 + 28316) = 15315181200000 + 240924817144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "15556106017144"
+  ],
+  "final_answer": "15556106017144",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 25,
+    "calls": 1
+  },
+  "trial": 11,
+  "expected": "15556106017144",
+  "correct": true
+}

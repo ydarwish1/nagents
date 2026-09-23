@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-22",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:22",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 47773437 into digit place values, multiply by 98527508, and sum all products\nAnswer: 4706997695204996",
+          "answer": "4706997695204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98527508 \u00d7 47773437\nBreaking down: 90M + 8.5M + 27508\n90M \u00d7 47773437 = 4,299,609,330,000,000\n8.5M \u00d7 47773437 = 382,426,363,185,000\n27508 \u00d7 47773437 = 1,314,155,666,796\nAnswer: 4683349848851796",
+          "answer": "4683349848851796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(98000000 + 527508)(47000000 + 773437) = 4606000000000000 + 75796826000000 + 24792876000000 + 407794204996\nAnswer: 4706997496204996",
+          "answer": "4706997496204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4706997695204996",
+    "4683349848851796",
+    "4706997496204996"
+  ],
+  "final_answer": "4706997695204996",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 106,
+    "calls": 3
+  },
+  "trial": 22,
+  "expected": "4706997696204996",
+  "correct": false
+}

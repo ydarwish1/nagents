@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-29",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 70000000 = 3286530100000000; \u00d7 2000000 = 93900860000000; \u00d7 600000 = 28170258000000; \u00d7 14944 = 701627425920\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 70M = 3,286,530,100,000,000; \u00d7 2,614,944 = 122,772,745,225,920; total = 3,286,530,100,000,000 + 122,772,745,225,920\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72614944: 46950430 \u00d7 (70,000,000 + 2,614,944) = 3,286,530,100,000,000 + 122,772,759,226,320\nAnswer: 3409302859226320",
+          "answer": "3409302859226320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 (72000000 + 614944) = 3380430960000000 + 28872036048320\nAnswer: 3409302996048320",
+          "answer": "3409302996048320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72000000 = 3380430960000000\n46950430 \u00d7 614944 = 28871884935920\nAnswer: 3409302844935920",
+          "answer": "3409302844935920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72000000 + 46950430 \u00d7 614944\nAnswer: 3409303228636320",
+          "answer": "3409303228636320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 70M = 3286530100000000; \u00d7 2614944 = 122772745225920\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72000000 + 46950430 \u00d7 614944\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72614944: Breaking (46M + 950430) \u00d7 (72M + 614944), sum of parts\nAnswer: 3409302550447520",
+          "answer": "3409302550447520",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3409302845225920",
+    "3409302845225920",
+    "3409302859226320",
+    "3409302996048320",
+    "3409302844935920",
+    "3409303228636320",
+    "3409302845225920",
+    "3409302845225920",
+    "3409302550447520"
+  ],
+  "final_answer": "3409302845225920",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 227,
+    "calls": 9
+  },
+  "trial": 29,
+  "expected": "3409302845225920",
+  "correct": true
+}

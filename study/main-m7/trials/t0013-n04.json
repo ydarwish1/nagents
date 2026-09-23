@@ -1,0 +1,71 @@
+{
+  "task_id": "mult7-21-13",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1705523 \u00d7 7000000 + 400000 + 13000 + 58 = 11938661000000 + 682209200000 + 22171799000 + 98920334\nAnswer: 12643140919334",
+          "answer": "12643140919334",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1705523 \u00d7 7413058 broken as (7\u00d710^6 + 4\u00d710^5 + 13\u00d710^3 + 58):\n11,938,661,000,000 + 682,209,200,000 + 22,171,799,000 + 98,920,334\nAnswer: 12643140919334",
+          "answer": "12643140919334",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1705523 \u00d7 7 \u00d7 10^6 = 11,938,661,000,000; remaining 1705523 \u00d7 413058 = 704,479,919,334\nAnswer: 12643140919334",
+          "answer": "12643140919334",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1705523 \u00d7 7,000,000 = 11,938,661,000,000; \u00d7 400,000 = 682,209,200,000; \u00d7 13,000 = 22,171,799,000; \u00d7 58 = 98,920,334\nAnswer: 12643140919334",
+          "answer": "12643140919334",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12643140919334",
+    "12643140919334",
+    "12643140919334",
+    "12643140919334"
+  ],
+  "final_answer": "12643140919334",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 127,
+    "calls": 4
+  },
+  "trial": 13,
+  "expected": "12643140919334",
+  "correct": true
+}

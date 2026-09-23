@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-4",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 8,723,827,000,000 + 747,756,600,000 + 31,156,525,000 + 623,130,500 + 71,036,877\nAnswer: 9503291292377",
+          "answer": "9503291292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7 = 8,723,827,000. Plus 1246261 \u00d7 625557 = 1,473,080,502. Sum = 10,196,907,502.\nAnswer: 10196907502",
+          "answer": "10196907502",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9503291292377",
+    "10196907502"
+  ],
+  "final_answer": "9503291292377",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 59,
+    "calls": 2
+  },
+  "trial": 4,
+  "expected": "9503434292377",
+  "correct": false
+}

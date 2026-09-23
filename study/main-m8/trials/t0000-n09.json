@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-0",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 9 \u00d7 10^7 = 7,812,391,410,000,000\n86804349 \u00d7 51101 = 4,435,789,038,249\nAnswer: 7816826199038249",
+          "answer": "7816826199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90051101 = (86804349 \u00d7 90M) + (86804349 \u00d7 51101)\nAnswer: 7816827199038249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90000000 + 86804349 \u00d7 51101 = 7812391410000000 + 4435788838249\nAnswer: 7816827198838249",
+          "answer": "7816827198838249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 (90000000 + 51101) = 7812391410000000 + 4435789038249\nAnswer: 7816827199038249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90000000 + 86804349 \u00d7 51101\nAnswer: 7816827146239449",
+          "answer": "7816827146239449",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90051101: \u00d7 90000000 = 7,812,391,410,000,000; \u00d7 51101 = 4,787,788,038,249\nAnswer: 7817179198038249",
+          "answer": "7817179198038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90051101: Multiply by 90M then add 51101 component\nAnswer: 7816829148270849",
+          "answer": "7816829148270849",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 90051101: (86\u00d790\u00d710\u00b9\u00b2) + (86\u00d751101\u00d710\u2076) + (804349\u00d790\u00d710\u2076) + (804349\u00d751101)\n= 7740T + 4394686B + 72391410B + 41103038249\nAnswer: 7816889134038249",
+          "answer": "7816889134038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86M \u00d7 90051101 = 7.744T, 804K \u00d7 90051101 \u2248 72.4B, sum \u2248 7.817Q\nAnswer: 7816827199038149",
+          "answer": "7816827199038149",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7816826199038249",
+    "7816827199038249",
+    "7816827198838249",
+    "7816827199038249",
+    "7816827146239449",
+    "7817179198038249",
+    "7816829148270849",
+    "7816889134038249",
+    "7816827199038149"
+  ],
+  "final_answer": "7816827199038249",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 215,
+    "calls": 9
+  },
+  "trial": 0,
+  "expected": "7816827199038249",
+  "correct": true
+}

@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-27",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71420437 \u00d7 84657156: 71420437 \u00d7 84000000 = 5,999,316,708,000,000; \u00d7 657156 = 46,934,368,297,172\nAnswer: 6046251076297172",
+          "answer": "6046251076297172",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71420437 \u00d7 84657156: Break into (71M + 420437) \u00d7 (85M - 342844) and expand\nAnswer: 6046251077697172",
+          "answer": "6046251077697172",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71420437 \u00d7 84657156: (71\u00d784\u00d710\u00b9\u00b2) + (71\u00d7657156\u00d710\u2076) + (420437\u00d784\u00d710\u2076) + (420437\u00d7657156)\n= 5964T + 46658076B + 35316708B + 276292697172\nAnswer: 6046266805697172",
+          "answer": "6046266805697172",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71M \u00d7 84657156 = 6.011T, 420K \u00d7 84657156 \u2248 35.6B, sum \u2248 6.046Q\nAnswer: 6046251272369572",
+          "answer": "6046251272369572",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71420437 \u00d7 84 \u00d7 10^6 = 5,999,316,708,000,000\n71420437 \u00d7 657156 = 46,934,368,697,172\nAnswer: 6046251076697172",
+          "answer": "6046251076697172",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6046251076297172",
+    "6046251077697172",
+    "6046266805697172",
+    "6046251272369572",
+    "6046251076697172"
+  ],
+  "final_answer": "6046251076297172",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 141,
+    "calls": 5
+  },
+  "trial": 27,
+  "expected": "6046251076697172",
+  "correct": false
+}

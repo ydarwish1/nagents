@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 430669697 multiplied by 650150486? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "430669697 \u00d7 650150486\nAnswer: 280036357895742000",
+          "answer": "280036357895742000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "280036357895742000"
+  ],
+  "final_answer": "280036357895742000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "280000112810022742",
+  "correct": false
+}

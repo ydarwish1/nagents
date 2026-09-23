@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-30",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: Break into (37M + 478830) \u00d7 (60M - 1179548) and expand\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: (37\u00d758\u00d710\u00b9\u00b2) + (37\u00d7820452\u00d710\u2076) + (478830\u00d758\u00d710\u2076) + (478830\u00d7820452)\n= 2146T + 30357724B + 27772140B + 392857031160\nAnswer: 2204522721031160",
+          "answer": "2204522721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37M \u00d7 58820452 = 2.176T, 478K \u00d7 58820452 \u2248 28.2B, sum \u2248 2.205Q\nAnswer: 2204521722078760",
+          "answer": "2204521722078760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58 \u00d7 10^6 = 2,173,772,140,000,000\n37478830 \u00d7 820452 = 30,749,744,898,560\nAnswer: 2204521884898560",
+          "answer": "2204521884898560",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452 = (37478830 \u00d7 58M) + (37478830 \u00d7 820452)\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 60000000 - 37478830 \u00d7 1179548 = 2248729800000000 - 44208078857240\nAnswer: 2204521721142760",
+          "answer": "2204521721142760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 (58000000 + 820452) = 2173772140000000 + 30749981031160\nAnswer: 2204522121031160",
+          "answer": "2204522121031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58000000 + 37478830 \u00d7 820452\nAnswer: 2204520900799960",
+          "answer": "2204520900799960",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: \u00d7 58000000 = 2,173,771,940,000,000; \u00d7 820452 = 30,749,781,091,160\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2204521721031160",
+    "2204522721031160",
+    "2204521722078760",
+    "2204521884898560",
+    "2204521721031160",
+    "2204521721142760",
+    "2204522121031160",
+    "2204520900799960",
+    "2204521721031160"
+  ],
+  "final_answer": "2204521721031160",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 223,
+    "calls": 9
+  },
+  "trial": 30,
+  "expected": "2204521721031160",
+  "correct": true
+}

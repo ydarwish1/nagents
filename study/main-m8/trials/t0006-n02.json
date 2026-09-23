@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-6",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88 \u00d7 10^6 = 5,087,066,424,000,000\n57807573 \u00d7 619973 = 35,839,134,455,529\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88619973 = (57807573 \u00d7 88M) + (57807573 \u00d7 619973)\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5122905558455529",
+    "5122905558455529"
+  ],
+  "final_answer": "5122905558455529",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 48,
+    "calls": 2
+  },
+  "trial": 6,
+  "expected": "5122905558455529",
+  "correct": true
+}

@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-12",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333 = 1529479 \u00d7 1800000 + 1529479 \u00d7 333\n= 2753062200000 + 509316507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 (1800000 + 333) = 2753571516507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: 1529479 \u00d7 (1,800,000 + 333) = 2,753,062,200,000 + 509,336,507\nAnswer: 2753571536507",
+          "answer": "2753571536507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: Break into place values:\n1,529,479,000,000 + 1,223,583,200,000 + 458,843,700 + 45,884,370 + 4,588,437\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: Break into 1529479 \u00d7 (1000000 + 800333)\n= 1,529,479,000,000 + 1,224,092,516,507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1000000 = 1,529,479,000,000; plus 1529479 \u00d7 800333 = 1,224,092,516,507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: Break (1M + 800K + 300 + 33). Sum: 1,529,479,000,000 + 1,223,583,200,000 + 458,843,700 + 50,472,807\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: Breaking into place values and summing partial products\nAnswer: 3262378707",
+          "answer": "3262378707",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1000000 = 1,529,479,000,000; 1529479 \u00d7 800333 = 1,224,092,472,507\nAnswer: 2753571472507",
+          "answer": "2753571472507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2753571516507",
+    "2753571516507",
+    "2753571536507",
+    "2753571516507",
+    "2753571516507",
+    "2753571516507",
+    "2753571516507",
+    "3262378707",
+    "2753571472507"
+  ],
+  "final_answer": "2753571516507",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 237,
+    "calls": 9
+  },
+  "trial": 12,
+  "expected": "2753571516507",
+  "correct": true
+}

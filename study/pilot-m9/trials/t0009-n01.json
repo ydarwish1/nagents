@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703642370 multiplied by 914183987? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703642370 \u00d7 914183987\nAnswer: 643515872456090000",
+          "answer": "643515872456090000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "643515872456090000"
+  ],
+  "final_answer": "643515872456090000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "643258587228729190",
+  "correct": false
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-37",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:37",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 27851857 multiplied by 27332368? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "27851857 \u00d7 27 = 752000139; 752000139000000 + 9257065007376\nAnswer: 761257204007376",
+          "answer": "761257204007376",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "761257204007376"
+  ],
+  "final_answer": "761257204007376",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 20,
+    "calls": 1
+  },
+  "trial": 37,
+  "expected": "761257205007376",
+  "correct": false
+}

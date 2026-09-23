@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-14",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:14",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7 million + 800K + 2K + 400 + 30 + 6 = 69,234,620M + 7,912,528M + 19,781K + 3,956K + 296K + 59K = 77,171,241,647,760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171247627760, 77171241647760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7M + 800K + 2K + 400 + 36 = 69234620M + 7912528M + 19781K + 3956K + 356 = 77171241647760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7000000 + 800000 + 2436 breakdown\nAnswer: 77171247627760",
+          "answer": "77171247627760",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171241647760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436 = 69234620000000 + 7936621647760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436 = 9890660 \u00d7 (8000000 - 197564) = 79125280000000 - 1954038352240\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436: sum of parts = 77,171,241,647,760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436: 69234620000000 + 7912528000000 + 19781320000 + 3956264000 + 296719800 + 59343960\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Sum: 7M + 800k + 2k + 400 + 30 + 6\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 (7800000 + 2436) = 77147148000000 + 24093627760\nAnswer: 77171241627760",
+          "answer": "77171241627760",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241647760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7000000 + 9890660 \u00d7 802436 = 77171241647760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "77171241647760",
+    "77171241647760",
+    "77171241647760",
+    "77171241647760",
+    "77171241647760"
+  ],
+  "final_answer": "77171241647760",
+  "usage": {
+    "input_tokens": 970,
+    "output_tokens": 228,
+    "calls": 10
+  },
+  "trial": 14,
+  "expected": "77171241647760",
+  "correct": true
+}

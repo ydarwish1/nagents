@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-29",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 (2500000 - 14570) = 20642277500000 - 120303193270\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into place values and sum: 8256911\u00d7(2000000 + 400000 + 80000 + 5000 + 400 + 30). Total: 20,521,974,306,730.\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = (8000000 \u00d7 2485430) + (256911 \u00d7 2485430) = 19883440000000 + 638534306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 16513822000000 + 4008152306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 16.5B + 3.3B + 660.6B + 41.3B + 3.3B + 247.7M\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 20,642,277,500,000 - 120,303,193,270\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "20521974306730",
+    "20521974306730",
+    "20521974306730"
+  ],
+  "final_answer": "20521974306730",
+  "usage": {
+    "input_tokens": 558,
+    "output_tokens": 141,
+    "calls": 6
+  },
+  "trial": 29,
+  "expected": "20521974306730",
+  "correct": true
+}

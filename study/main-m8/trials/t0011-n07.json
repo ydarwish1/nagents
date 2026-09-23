@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-11",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97628805 \u00d7 90000000 + 97628805 \u00d7 1643945\nAnswer: 8947088835835725",
+          "answer": "8947088835835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into (97M + 628k) \u00d7 (91M + 643k): 97M\u00d791M=8.827T, 97M\u00d7643k=62.462T, 628k\u00d791M=57.221T, 628k\u00d7643k=404B. Sum.\nAnswer: 8947108349835725",
+          "answer": "8947108349835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97628805 \u00d7 (91000000 + 643945) = 8884182255000000 + 62863372835725\nAnswer: 8947045627835725",
+          "answer": "8947045627835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 91643945 into digit place values, multiply by 97628805, and sum all products\nAnswer: 8947088835235725",
+          "answer": "8947088835235725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97628805 \u00d7 91643945\nBreaking down: 97M + 628805\n97M \u00d7 91643945 = 8,889,462,665,000,000\n628805 \u00d7 91643945 = 57,626,172,035,725\nAnswer: 8947088837035725",
+          "answer": "8947088837035725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(97000000 + 628805)(91000000 + 643945) = 8827000000000000 + 62502865000000 + 57221255000000 + 404463035725\nAnswer: 8947128583035725",
+          "answer": "8947128583035725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97000000 \u00d7 91643945 = 8889462565000000; 628805 \u00d7 91643945 = 57626170835725\nAnswer: 8947088735835725",
+          "answer": "8947088735835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8947088835835725",
+    "8947108349835725",
+    "8947045627835725",
+    "8947088835235725",
+    "8947088837035725",
+    "8947128583035725",
+    "8947088735835725"
+  ],
+  "final_answer": "8947088835835725",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 191,
+    "calls": 7
+  },
+  "trial": 11,
+  "expected": "8947088835835725",
+  "correct": true
+}

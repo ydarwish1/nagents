@@ -1,0 +1,84 @@
+{
+  "task_id": "chain10-11-9",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 22. Subtract 75. Subtract 2. Add 69. Add 69. Subtract 19. Add 35. Multiply by 7. Add 38. Multiply by 8. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 22 - 75 - 2 = -97, + 69 + 69 = 41, - 19 = 22, + 35 = 57, \u00d7 7 = 399, + 38 = 437, \u00d7 8 = 3496\nAnswer: 3496",
+          "answer": "3496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 22. Subtract 75. Subtract 2. Add 69. Add 69. Subtract 19. Add 35. Multiply by 7. Add 38. Multiply by 8. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 22 = -20 \u2192 - 75 = -95 \u2192 - 2 = -97 \u2192 + 69 = -28 \u2192 + 69 = 41 \u2192 - 19 = 22 \u2192 + 35 = 57 \u2192 \u00d7 7 = 399 \u2192 + 38 = 437 \u2192 \u00d7 8 = 3496\nAnswer: 3496",
+          "answer": "3496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 22. Subtract 75. Subtract 2. Add 69. Add 69. Subtract 19. Add 35. Multiply by 7. Add 38. Multiply by 8. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 22 = -20, - 75 = -95, - 2 = -97, + 69 = -28, + 69 = 41, - 19 = 22, + 35 = 57, \u00d7 7 = 399, + 38 = 437, \u00d7 8 = 3496\nAnswer: 3496",
+          "answer": "3496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 22. Subtract 75. Subtract 2. Add 69. Add 69. Subtract 19. Add 35. Multiply by 7. Add 38. Multiply by 8. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 22 = -20, - 75 = -95, - 2 = -97, + 69 = -28, + 69 = 41, - 19 = 22, + 35 = 57, \u00d7 7 = 399, + 38 = 437, \u00d7 8 = 3496\nAnswer: 3496",
+          "answer": "3496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 22. Subtract 75. Subtract 2. Add 69. Add 69. Subtract 19. Add 35. Multiply by 7. Add 38. Multiply by 8. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 22 = -20; -20 - 75 = -95; -95 - 2 = -97; -97 + 69 = -28; -28 + 69 = 41; 41 - 19 = 22; 22 + 35 = 57; 57 \u00d7 7 = 399; 399 + 38 = 437; 437 \u00d7 8 = 3496\nAnswer: 3496",
+          "answer": "3496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3496",
+    "3496",
+    "3496",
+    "3496",
+    "3496"
+  ],
+  "final_answer": "3496",
+  "usage": {
+    "input_tokens": 465,
+    "output_tokens": 164,
+    "calls": 5
+  },
+  "trial": 9,
+  "expected": "3496",
+  "correct": true
+}

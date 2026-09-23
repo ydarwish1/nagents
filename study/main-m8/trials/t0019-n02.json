@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-19",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 (46000000 + 434994) = 1293379378000000 + 12230701503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 46434994 into digit place values, multiply by 28116943, and sum all products\nAnswer: 1305610074303342",
+          "answer": "1305610074303342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1305610079503342",
+    "1305610074303342"
+  ],
+  "final_answer": "1305610079503342",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 48,
+    "calls": 2
+  },
+  "trial": 19,
+  "expected": "1305610079503342",
+  "correct": true
+}

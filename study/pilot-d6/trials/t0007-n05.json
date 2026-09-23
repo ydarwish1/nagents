@@ -1,0 +1,84 @@
+{
+  "task_id": "chain6-11-7",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u00d7 8 = 56, 56 - 42 = 14, 14 \u00d7 8 = 112, 112 + 72 = 184, 184 - 10 = 174, 174 - 84 = 90\nAnswer: 90",
+          "answer": "90",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u00d7 8 = 56, 56 - 42 = 14, 14 \u00d7 8 = 112, 112 + 72 = 184, 184 - 10 = 174, 174 - 84 = 90\nAnswer: 90",
+          "answer": "90",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u2192 \u00d78: 56 \u2192 -42: 14 \u2192 \u00d78: 112 \u2192 +72: 184 \u2192 -10: 174 \u2192 -84: 90\nAnswer: 90",
+          "answer": "90",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u00d7 8 = 56, - 42 = 14, \u00d7 8 = 112, + 72 = 184, - 10 = 174, - 84 = 90\nAnswer: 90",
+          "answer": "90",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 8. Subtract 42. Multiply by 8. Add 72. Subtract 10. Subtract 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u00d7 8 = 56, \u2212 42 = 14, \u00d7 8 = 112, + 72 = 184, \u2212 10 = 174, \u2212 84 = 90\nAnswer: 90",
+          "answer": "90",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "90",
+    "90",
+    "90",
+    "90",
+    "90"
+  ],
+  "final_answer": "90",
+  "usage": {
+    "input_tokens": 420,
+    "output_tokens": 104,
+    "calls": 5
+  },
+  "trial": 7,
+  "expected": "90",
+  "correct": true
+}

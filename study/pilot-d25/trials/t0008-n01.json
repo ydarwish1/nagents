@@ -1,0 +1,32 @@
+{
+  "task_id": "chain25-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Multiply by 5. Add 51. Subtract 42. Multiply by 5. Subtract 62. Add 27. Add 72. Subtract 81. Add 48. Add 81. Multiply by 2. Subtract 19. Multiply by 8. Multiply by 5. Subtract 36. Subtract 59. Subtract 24. Add 28. Multiply by 5. Subtract 27. Subtract 29. Subtract 71. Add 26. Add 76. Subtract 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 \u00d7 5 = 30, + 51 = 81, - 42 = 39, \u00d7 5 = 195, - 62 = 133, + 27 = 160, + 72 = 232, - 81 = 151, + 48 = 199, + 81 = 280, \u00d7 2 = 560, - 19 = 541, \u00d7 8 = 4328, \u00d7 5 = 21640, - 36 = 21604, - 59 = 21545, - 24 = 21521, + 28 = 21549, \u00d7 5 = 107745, - 27 = 107718, - 29 = 107689, - 71 = 107618, + 26 = 107644, + 76 = 107720, - 88 = 107632\nAnswer: 107632",
+          "answer": "107632",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "107632"
+  ],
+  "final_answer": "107632",
+  "usage": {
+    "input_tokens": 139,
+    "output_tokens": 84,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "107632",
+  "correct": true
+}

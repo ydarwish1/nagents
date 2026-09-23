@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-18",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1045809 \u00d7 8000000 + 890000 + 342 breakdown\nAnswer: 9297599656878",
+          "answer": "9297599656878",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1045809 \u00d7 8890342 = 1045809 \u00d7 (9000000 - 109658) = 9412281000000 - 114681323322\nAnswer: 9297599676678",
+          "answer": "9297599676678",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9297599656878",
+    "9297599676678"
+  ],
+  "final_answer": "9297599656878",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 41,
+    "calls": 2
+  },
+  "trial": 18,
+  "expected": "9297599676678",
+  "correct": false
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-12",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20773831 = (89932155 \u00d7 20M) + (89932155 \u00d7 773831)\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1868235389435805"
+  ],
+  "final_answer": "1868235389435805",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 21,
+    "calls": 1
+  },
+  "trial": 12,
+  "expected": "1868235389435805",
+  "correct": true
+}

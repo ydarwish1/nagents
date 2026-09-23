@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-21",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5339899 = 5264806 \u00d7 (5000000 + 339899) = 26324030000000 + 1789502294594\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5339899: 26324030000000 + 1579441800000 + 157944180000 + 47383254000 + 4211844800 + 473832540 + 47383254\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 (5000000 + 339899) = 26324030000000 + 1789502294594\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5339899 = (5264806 \u00d7 5000000) + (5264806 \u00d7 339899) = 26324030000000 + 1789502294594\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5339899 = 26.3B + 1.6B + 205.3B + 4.2B + 473.8M + 47.4M\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 26,324,030,000,000 + 1,579,441,800,000 + 157,944,180,000 + 47,383,254,000 + 4,211,844,800 + 473,832,540 + 47,383,254\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5 = 26,324,030,000. Plus 5264806 \u00d7 339899 = 211,639,936,394. Sum = 237,963,966,394.\nAnswer: 237963966394",
+          "answer": "237963966394",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5M + 300K + 30K + 9K + 800 + 90 + 9 = 26,324,030M + 1,579,441M + 157,944M + 47,383M + 4,211K + 473K + 47K = 28,113,532,294,594\nAnswer: 28113532294594",
+          "answer": "28113532294594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5264806 \u00d7 5000000 + 339899 breakdown\nAnswer: 28113532092894",
+          "answer": "28113532092894",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "28113532294594",
+    "28113532294594",
+    "28113532294594",
+    "28113532294594",
+    "28113532294594",
+    "28113532294594",
+    "237963966394",
+    "28113532294594",
+    "28113532092894"
+  ],
+  "final_answer": "28113532294594",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 254,
+    "calls": 9
+  },
+  "trial": 21,
+  "expected": "28113532294594",
+  "correct": true
+}

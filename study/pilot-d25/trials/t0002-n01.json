@@ -1,0 +1,32 @@
+{
+  "task_id": "chain25-11-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 72 = 80, - 4 = 76, - 92 = -16, - 45 = -61, \u00d7 8 = -488, \u00d7 2 = -976, \u00d7 4 = -3904, \u00d7 9 = -35136, + 9 = -35127, - 7 = -35134, \u00d7 5 = -175670, - 22 = -175692, - 44 = -175736, + 4 = -175732, + 70 = -175662, + 15 = -175647, + 43 = -175604, + 50 = -175554, + 45 = -175509, + 66 = -175443, - 5 = -175448, - 85 = -175533, + 6 = -175527, + 63 = -175464, + 12 = -175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-175452"
+  ],
+  "final_answer": "-175452",
+  "usage": {
+    "input_tokens": 132,
+    "output_tokens": 94,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "-175452",
+  "correct": true
+}

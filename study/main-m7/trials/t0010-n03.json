@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-21-10",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8 = 16,594,888; \u00d7 1M = 16,594,888,000. Then 2074361 \u00d7 131464 = 1,234,244,795. Sum = 17,829,132,795.\nAnswer: 17829132795",
+          "answer": "17829132795",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8M + 100K + 30K + 1K + 400 + 60 + 4 = 16,594,888M + 207,436M + 62,230M + 2,074M + 829K + 124K + 8K = 16,867,591,794,504\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8000000 + 131464 breakdown\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17829132795",
+    "16867591794504",
+    "16867591794504"
+  ],
+  "final_answer": "16867591794504",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 84,
+    "calls": 3
+  },
+  "trial": 10,
+  "expected": "16867591794504",
+  "correct": true
+}

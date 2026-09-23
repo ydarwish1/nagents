@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-33",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:33",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 (8000000 + 169914) = 35034544000000 + 744107438652\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "35778651438652"
+  ],
+  "final_answer": "35778651438652",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 20,
+    "calls": 1
+  },
+  "trial": 33,
+  "expected": "35778651438652",
+  "correct": true
+}

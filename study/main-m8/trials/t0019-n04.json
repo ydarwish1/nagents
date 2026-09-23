@@ -1,0 +1,71 @@
+{
+  "task_id": "mult8-21-19",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 (46000000 + 434994) = 1293379378000000 + 12230701503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 46434994 into digit place values, multiply by 28116943, and sum all products\nAnswer: 1305610074303342",
+          "answer": "1305610074303342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 46434994\nBreaking down: 28M + 116943\n28M \u00d7 46434994 = 1,300,179,832,000,000\n116943 \u00d7 46434994 = 5,430,239,503,342\nAnswer: 1305610071503342",
+          "answer": "1305610071503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(28000000 + 116943)(46000000 + 434994) = 1288000000000000 + 12179832000000 + 5379378000000 + 50869503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1305610079503342",
+    "1305610074303342",
+    "1305610071503342",
+    "1305610079503342"
+  ],
+  "final_answer": "1305610079503342",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 117,
+    "calls": 4
+  },
+  "trial": 19,
+  "expected": "1305610079503342",
+  "correct": true
+}

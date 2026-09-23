@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-11-0",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1668385 multiplied by 5942366? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1668385 \u00d7 5942366: Break into 1668385 \u00d7 (5000000 + 942366) = 8341925000000 + remainder. Continue: 1668385 \u00d7 942366 = 1668385 \u00d7 (900000 + 42366) = 1501546500000 + 70682798910 = 1572229298910. Total: 8341925000000 + 1572229298910 = 9914154298910\nAnswer: 9914154298910",
+          "answer": "9914154298910",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1668385 multiplied by 5942366? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1668385 \u00d7 5942366: break into parts (5M + 900K + 40K + 2K + 300 + 60 + 6), sum partial products\nAnswer: 9914154298910",
+          "answer": "9914154298910",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1668385 multiplied by 5942366? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1668385 \u00d7 6000000 = 10010310000000\n1668385 \u00d7 57634 = 96155701290\nDifference: 10010310000000 - 96155701290 = 9914154298710\nAnswer: 9914154298710",
+          "answer": "9914154298710",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9914154298910",
+    "9914154298910",
+    "9914154298710"
+  ],
+  "final_answer": "9914154298910",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 130,
+    "calls": 3
+  },
+  "trial": 0,
+  "expected": "9914154298910",
+  "correct": true
+}

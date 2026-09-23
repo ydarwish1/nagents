@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-21-39",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:39",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2896337 \u00d7 2000000 = 5,792,674,000,000; 2896337 \u00d7 299176 = 866,514,518,312\nAnswer: 6659188518312",
+          "answer": "6659188518312",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2896337 \u00d7 2299176: Breaking into parts (2M + 200k + 90k + 9k + 100 + 76), sum all contributions\nAnswer: 6659188515312",
+          "answer": "6659188515312",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2896337 \u00d7 2000000 + 299176 = 5792674000000 + 866514518312\nAnswer: 6659188518312",
+          "answer": "6659188518312",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6659188518312",
+    "6659188515312",
+    "6659188518312"
+  ],
+  "final_answer": "6659188518312",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 71,
+    "calls": 3
+  },
+  "trial": 39,
+  "expected": "6659188518312",
+  "correct": true
+}

@@ -1,0 +1,39 @@
+=== 30675e6e585ab16ee0af56e9
+1668385 × 5942366: Break into parts (5M + 900K + 40K + 2K + 300 + 60 + 6), calculate each, sum.
+Answer: 9914154298910
+
+=== 752f90103a207b980d746497
+2876831 × 1305164: Break into parts (1M + 305164), calculate each, sum.
+Answer: 3754736255284
+
+=== bbcbe391dc00bd770339a21b
+9549794 × 9145142: Break into parts (9M + 145142), calculate each, sum.
+Answer: 87336222419708
+
+=== 88f797e6a42a80269f8215d9
+1864744 × 8813144: Break into parts (8M + 813144), calculate each, sum.
+Answer: 16434504315264
+
+=== 3fe5075c7e6a0161317b5bcc
+3099064 × 5248244: Break into parts (5M + 248244), calculate each, sum.
+Answer: 16264682643216
+
+=== dc8b48e050e0e9d0732497fd
+3586397 × 4853762: Break into parts (4M + 853762), calculate each, sum.
+Answer: 17408833267314
+
+=== cd12234bae867205dd52f07c
+2490583 × 1065783: Break into parts (1M + 65783), calculate each, sum.
+Answer: 2654421441489
+
+=== 61ef4e824c46a154015b690a
+7226120 × 7580877: Break into parts (7M + 580877), calculate each, sum.
+Answer: 54780331087240
+
+=== f9e2d11a89a5dd492abf8807
+2405715 × 4441258: Break into parts (4M + 441258), calculate each, sum.
+Answer: 10685371289970
+
+=== a73d57505bb2dc8c00ec9384
+7780523 × 2324039: Break into parts (2M + 324039), calculate each, sum.
+Answer: 18082798692397

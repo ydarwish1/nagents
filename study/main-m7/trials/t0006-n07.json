@@ -1,0 +1,110 @@
+{
+  "task_id": "mult7-21-6",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1000000 = 7,956,485,000,000; 7956485 \u00d7 237181 = 1,887,134,639,985\nAnswer: 9843619639985",
+          "answer": "9843619639985",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1237181 = 7956485 \u00d7 1000000 + 7956485 \u00d7 237181\n= 7956485000000 + 1887127969085\nAnswer: 9843612969085",
+          "answer": "9843612969085",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 (1000000 + 237181) = 9843612068685\nAnswer: 9843612068685",
+          "answer": "9843612068685",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1237181: 7956485 \u00d7 (1,000,000 + 237,181) = 7,956,485,000,000 + 1,887,127,069,385\nAnswer: 9843612069385",
+          "answer": "9843612069385",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1237181: Break into place values:\n7,956,485,000,000 + 1,591,297,000,000 + 238,694,550,000 + 55,695,395,000 + 795,648,500 + 636,518,800 + 7,956,485\nAnswer: 9843612068785",
+          "answer": "9843612068785",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1237181: Break into 7956485 \u00d7 (1000000 + 237181)\n= 7,956,485,000,000 + 1,887,127,069,285\nAnswer: 9843612069285",
+          "answer": "9843612069285",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7956485 \u00d7 1000000 = 7,956,485,000,000; plus 7956485 \u00d7 237181 = 1,887,127,069,085\nAnswer: 9843612069085",
+          "answer": "9843612069085",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9843619639985",
+    "9843612969085",
+    "9843612068685",
+    "9843612069385",
+    "9843612068785",
+    "9843612069285",
+    "9843612069085"
+  ],
+  "final_answer": "9843619639985",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 194,
+    "calls": 7
+  },
+  "trial": 6,
+  "expected": "9843612068785",
+  "correct": false
+}

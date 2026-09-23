@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-21",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40000000 \u00d7 26000000 + 40000000 \u00d7 88610 + 118775 \u00d7 26000000 + 118775 \u00d7 88610\nAnswer: 1046643074652750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40118775 \u00d7 26088610: Breaking (40M + 118775) \u00d7 (26M + 88610), sum of parts\nAnswer: 1046643075957750",
+          "answer": "1046643075957750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1046643074652750",
+    "1046643075957750"
+  ],
+  "final_answer": "1046643074652750",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 49,
+    "calls": 2
+  },
+  "trial": 21,
+  "expected": "1046643074652750",
+  "correct": true
+}

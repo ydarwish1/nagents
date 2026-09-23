@@ -1,0 +1,32 @@
+{
+  "task_id": "chain10-11-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Add 46. Multiply by 4. Multiply by 2. Subtract 40. Multiply by 2. Subtract 89. Subtract 32. Subtract 88. Subtract 78. Subtract 76. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 + 46 = 55, \u00d7 4 \u00d7 2 = 440, - 40 = 400, \u00d7 2 = 800, - 89 - 32 - 88 - 78 - 76 = 437\nAnswer: 437",
+          "answer": "437",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "437"
+  ],
+  "final_answer": "437",
+  "usage": {
+    "input_tokens": 98,
+    "output_tokens": 23,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "437",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "chain6-11-3",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Add 22. Subtract 28. Add 42. Add 22. Subtract 66. Subtract 93. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 + 22 = 26, 26 - 28 = -2, -2 + 42 = 40, 40 + 22 = 62, 62 - 66 = -4, -4 - 93 = -97\nAnswer: -97",
+          "answer": "-97",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Add 22. Subtract 28. Add 42. Add 22. Subtract 66. Subtract 93. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 + 22 = 26, 26 - 28 = -2, -2 + 42 = 40, 40 + 22 = 62, 62 - 66 = -4, -4 - 93 = -97\nAnswer: -97",
+          "answer": "-97",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Add 22. Subtract 28. Add 42. Add 22. Subtract 66. Subtract 93. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u2192 +22: 26 \u2192 -28: -2 \u2192 +42: 40 \u2192 +22: 62 \u2192 -66: -4 \u2192 -93: -97\nAnswer: -97",
+          "answer": "-97",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-97",
+    "-97",
+    "-97"
+  ],
+  "final_answer": "-97",
+  "usage": {
+    "input_tokens": 243,
+    "output_tokens": 64,
+    "calls": 3
+  },
+  "trial": 3,
+  "expected": "-97",
+  "correct": true
+}

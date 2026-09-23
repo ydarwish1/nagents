@@ -1,0 +1,58 @@
+{
+  "task_id": "chain6-11-8",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 61. Add 56. Add 77. Multiply by 4. Add 14. Add 24. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 61 = 69, 69 + 56 = 125, 125 + 77 = 202, 202 \u00d7 4 = 808, 808 + 14 = 822, 822 + 24 = 846\nAnswer: 846",
+          "answer": "846",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 61. Add 56. Add 77. Multiply by 4. Add 14. Add 24. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 61 = 69, 69 + 56 = 125, 125 + 77 = 202, 202 \u00d7 4 = 808, 808 + 14 = 822, 822 + 24 = 846\nAnswer: 846",
+          "answer": "846",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 61. Add 56. Add 77. Multiply by 4. Add 14. Add 24. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2192 +61: 69 \u2192 +56: 125 \u2192 +77: 202 \u2192 \u00d74: 808 \u2192 +14: 822 \u2192 +24: 846\nAnswer: 846",
+          "answer": "846",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "846",
+    "846",
+    "846"
+  ],
+  "final_answer": "846",
+  "usage": {
+    "input_tokens": 237,
+    "output_tokens": 69,
+    "calls": 3
+  },
+  "trial": 8,
+  "expected": "846",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult5-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25588 multiplied by 55636? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25588 \u00d7 (55000 + 636) = 1407340000 + 16273968\nAnswer: 1423613968",
+          "answer": "1423613968",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1423613968"
+  ],
+  "final_answer": "1423613968",
+  "usage": {
+    "input_tokens": 63,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "1423613968",
+  "correct": true
+}

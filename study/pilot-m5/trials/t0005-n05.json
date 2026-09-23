@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-5",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "68729 \u00d7 (87000 + 924) = 5978823000 + 63441396\nAnswer: 6042264396",
+          "answer": "6042264396",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "68729 \u00d7 87000 = 5,979,423,000; 68729 \u00d7 924 = 63,505,596\nAnswer: 6042928596",
+          "answer": "6042928596",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "68729 \u00d7 87924 = 68729 \u00d7 (88000 - 76)\n68729 \u00d7 88 = 6048152, so 68729 \u00d7 88000 = 6048152000\n68729 \u00d7 76 = 68729 \u00d7 80 - 68729 \u00d7 4 = 5498320 - 274916 = 5223404\nTotal: 6048152000 - 5223404 = 6042928596\nAnswer: 6042928596",
+          "answer": "6042928596",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "68729 \u00d7 87924 = 68729 \u00d7 (80000 + 7924) = 5498320000 + 544608596\nAnswer: 6042928596",
+          "answer": "6042928596",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "68729 \u00d7 87924 = 68729 \u00d7 (87000 + 924) = 5,979,423,000 + 63,505,596\nAnswer: 6042928596",
+          "answer": "6042928596",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6042264396",
+    "6042928596",
+    "6042928596",
+    "6042928596",
+    "6042928596"
+  ],
+  "final_answer": "6042928596",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 128,
+    "calls": 5
+  },
+  "trial": 5,
+  "expected": "6042928596",
+  "correct": true
+}

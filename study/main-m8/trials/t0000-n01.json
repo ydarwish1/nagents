@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86804349 \u00d7 9 \u00d7 10^7 = 7,812,391,410,000,000\n86804349 \u00d7 51101 = 4,435,789,038,249\nAnswer: 7816826199038249",
+          "answer": "7816826199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7816826199038249"
+  ],
+  "final_answer": "7816826199038249",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "7816827199038249",
+  "correct": false
+}

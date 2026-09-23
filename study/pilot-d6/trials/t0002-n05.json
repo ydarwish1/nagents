@@ -1,0 +1,84 @@
+{
+  "task_id": "chain6-11-2",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 98 = 104, 104 - 72 = 32, 32 - 41 = -9, -9 \u00d7 7 = -63, -63 + 65 = 2, 2 + 69 = 71\nAnswer: 71",
+          "answer": "71",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 98 = 104, 104 - 72 = 32, 32 - 41 = -9, -9 \u00d7 7 = -63, -63 + 65 = 2, 2 + 69 = 71\nAnswer: 71",
+          "answer": "71",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 \u2192 +98: 104 \u2192 -72: 32 \u2192 -41: -9 \u2192 \u00d77: -63 \u2192 +65: 2 \u2192 +69: 71\nAnswer: 71",
+          "answer": "71",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 98 = 104, - 72 = 32, - 41 = -9, \u00d7 7 = -63, + 65 = 2, + 69 = 71\nAnswer: 71",
+          "answer": "71",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 98. Subtract 72. Subtract 41. Multiply by 7. Add 65. Add 69. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 98 = 104, \u2212 72 = 32, \u2212 41 = \u22129, \u00d7 7 = \u221263, + 65 = 2, + 69 = 71\nAnswer: 71",
+          "answer": "71",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "71",
+    "71",
+    "71",
+    "71",
+    "71"
+  ],
+  "final_answer": "71",
+  "usage": {
+    "input_tokens": 405,
+    "output_tokens": 102,
+    "calls": 5
+  },
+  "trial": 2,
+  "expected": "71",
+  "correct": true
+}

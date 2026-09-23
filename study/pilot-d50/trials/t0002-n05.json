@@ -1,0 +1,84 @@
+{
+  "task_id": "chain50-11-2",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 56. Multiply by 3. Multiply by 6. Multiply by 8. Add 3. Multiply by 4. Multiply by 2. Subtract 40. Add 59. Add 65. Subtract 24. Multiply by 3. Add 16. Add 19. Add 59. Add 99. Subtract 66. Subtract 64. Subtract 49. Subtract 87. Subtract 92. Subtract 43. Add 2. Add 51. Subtract 29. Add 97. Subtract 83. Add 32. Add 63. Add 80. Add 46. Add 6. Add 30. Add 29. Add 21. Add 20. Subtract 79. Add 18. Add 78. Add 85. Subtract 66. Subtract 35. Subtract 60. Subtract 83. Add 52. Subtract 69. Subtract 94. Subtract 20. Subtract 17. Subtract 85. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9-56=-47; -47\u00d73=-141; -141\u00d76=-846; -846\u00d78=-6768; -6768+3=-6765; -6765\u00d74=-27060; -27060\u00d72=-54120; -54120-40=-54160; continuing through remaining operations\nAnswer: -162398",
+          "answer": "-162398",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 56. Multiply by 3. Multiply by 6. Multiply by 8. Add 3. Multiply by 4. Multiply by 2. Subtract 40. Add 59. Add 65. Subtract 24. Multiply by 3. Add 16. Add 19. Add 59. Add 99. Subtract 66. Subtract 64. Subtract 49. Subtract 87. Subtract 92. Subtract 43. Add 2. Add 51. Subtract 29. Add 97. Subtract 83. Add 32. Add 63. Add 80. Add 46. Add 6. Add 30. Add 29. Add 21. Add 20. Subtract 79. Add 18. Add 78. Add 85. Subtract 66. Subtract 35. Subtract 60. Subtract 83. Add 52. Subtract 69. Subtract 94. Subtract 20. Subtract 17. Subtract 85. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Working: 9-56=-47, -47*3=-141, -141*6=-846, -846*8=-6768, -6768+3=-6765, -6765*4=-27060, -27060*2=-54120, -54120-40=-54160, then subsequent additions, -54060*3=-162180, continuing with additions and subtractions.\nAnswer: -162398",
+          "answer": "-162398",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 56. Multiply by 3. Multiply by 6. Multiply by 8. Add 3. Multiply by 4. Multiply by 2. Subtract 40. Add 59. Add 65. Subtract 24. Multiply by 3. Add 16. Add 19. Add 59. Add 99. Subtract 66. Subtract 64. Subtract 49. Subtract 87. Subtract 92. Subtract 43. Add 2. Add 51. Subtract 29. Add 97. Subtract 83. Add 32. Add 63. Add 80. Add 46. Add 6. Add 30. Add 29. Add 21. Add 20. Subtract 79. Add 18. Add 78. Add 85. Subtract 66. Subtract 35. Subtract 60. Subtract 83. Add 52. Subtract 69. Subtract 94. Subtract 20. Subtract 17. Subtract 85. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9-56=-47, \u00d73=-141, \u00d76=-846, \u00d78=-6768, +3=-6765, \u00d74=-27060, \u00d72=-54120, -40=-54160, continuing through remaining operations\nAnswer: -162398",
+          "answer": "-162398",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 56. Multiply by 3. Multiply by 6. Multiply by 8. Add 3. Multiply by 4. Multiply by 2. Subtract 40. Add 59. Add 65. Subtract 24. Multiply by 3. Add 16. Add 19. Add 59. Add 99. Subtract 66. Subtract 64. Subtract 49. Subtract 87. Subtract 92. Subtract 43. Add 2. Add 51. Subtract 29. Add 97. Subtract 83. Add 32. Add 63. Add 80. Add 46. Add 6. Add 30. Add 29. Add 21. Add 20. Subtract 79. Add 18. Add 78. Add 85. Subtract 66. Subtract 35. Subtract 60. Subtract 83. Add 52. Subtract 69. Subtract 94. Subtract 20. Subtract 17. Subtract 85. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 56 = -47, \u00d7 3 = -141, \u00d7 6 = -846, \u00d7 8 = -6768, + 3 = -6765, \u00d7 4 = -27060, \u00d7 2 = -54120, - 40 = -54160, + 59 = -54101, + 65 = -54036, - 24 = -54060, \u00d7 3 = -162180, + 16 = -162164, + 19 = -162145, + 59 = -162086, + 99 = -161987, - 66 = -162053, - 64 = -162117, - 49 = -162166, - 87 = -162253, - 92 = -162345, - 43 = -162388, + 2 = -162386, + 51 = -162335, - 29 = -162364, + 97 = -162267, - 83 = -162350, + 32 = -162318, + 63 = -162255, + 80 = -162175, + 46 = -162129, + 6 = -162123, + 30 = -162093, + 29 = -162064, + 21 = -162043, + 20 = -162023, - 79 = -162102, + 18 = -162084, + 78 = -162006, + 85 = -161921, - 66 = -161987, - 35 = -162022, - 60 = -162082, - 83 = -162165, + 52 = -162113, - 69 = -162182, - 94 = -162276, - 20 = -162296, - 17 = -162313, - 85 = -162398\nAnswer: -162398",
+          "answer": "-162398",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 56. Multiply by 3. Multiply by 6. Multiply by 8. Add 3. Multiply by 4. Multiply by 2. Subtract 40. Add 59. Add 65. Subtract 24. Multiply by 3. Add 16. Add 19. Add 59. Add 99. Subtract 66. Subtract 64. Subtract 49. Subtract 87. Subtract 92. Subtract 43. Add 2. Add 51. Subtract 29. Add 97. Subtract 83. Add 32. Add 63. Add 80. Add 46. Add 6. Add 30. Add 29. Add 21. Add 20. Subtract 79. Add 18. Add 78. Add 85. Subtract 66. Subtract 35. Subtract 60. Subtract 83. Add 52. Subtract 69. Subtract 94. Subtract 20. Subtract 17. Subtract 85. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 56 \u00d7 3 \u00d7 6 \u00d7 8 + 3 \u00d7 4 \u00d7 2 - 40 + 59 + 65 - 24 \u00d7 3 + 16 + 19 + 59 + 99 - 66 - 64 - 49 - 87 - 92 - 43 + 2 + 51 - 29 + 97 - 83 + 32 + 63 + 80 + 46 + 6 + 30 + 29 + 21 + 20 - 79 + 18 + 78 + 85 - 66 - 35 - 60 - 83 + 52 - 69 - 94 - 20 - 17 - 85 = -162398\nAnswer: -162398",
+          "answer": "-162398",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-162398",
+    "-162398",
+    "-162398",
+    "-162398",
+    "-162398"
+  ],
+  "final_answer": "-162398",
+  "usage": {
+    "input_tokens": 1005,
+    "output_tokens": 396,
+    "calls": 5
+  },
+  "trial": 2,
+  "expected": "-162398",
+  "correct": true
+}

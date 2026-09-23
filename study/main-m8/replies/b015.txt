@@ -1,0 +1,39 @@
+=== 6b1b073638b3236506551c35
+Break 47773437 into digit place values, multiply by 98527508, and sum all products
+Answer: 4706997695204996
+
+=== e881ed4a6d877b9ea2a75e8b
+Break 46434994 into digit place values, multiply by 28116943, and sum all products
+Answer: 1305610074303342
+
+=== 2f925bdde7d847cd4242a69c
+Break 77234984 into digit place values, multiply by 31380889, and sum all products
+Answer: 2423702459820776
+
+=== e7f2f742f4d8cd8c64240ac6
+Break 91643945 into digit place values, multiply by 97628805, and sum all products
+Answer: 8947088835235725
+
+=== f2f6c132cde1ac10e439b52a
+Break 33287156 into digit place values, multiply by 74256131, and sum all products
+Answer: 2471775416053436
+
+=== f4accf2497558654eb80b5ff
+Break 90539936 into digit place values, multiply by 50276758, and sum all products
+Answer: 4552054451607488
+
+=== d446ab2e90b4fcd8595e015e
+Break 27332368 into digit place values, multiply by 27851857, and sum all products
+Answer: 761257204907376
+
+=== 07163015f9b952666a53dab4
+Break 41538849 into digit place values, multiply by 62696396, and sum all products
+Answer: 2604336126288204
+
+=== 816b18618d5ed8cb148c8df5
+Break 70363685 into digit place values, multiply by 75259525, and sum all products
+Answer: 5295537509349625
+
+=== b1ceade85e46715cfac0841e
+Break 62533863 into digit place values, multiply by 97700391, and sum all products
+Answer: 6109582865840433

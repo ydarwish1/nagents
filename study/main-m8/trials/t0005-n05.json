@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-5",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50276758 \u00d7 90539936: (50M + 276758)(90M + 539936) = 4.5T + 27B + 24.9B + 149B\nAnswer: 4552054451607488",
+          "answer": "4552054451607488",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50276758 \u00d7 90000000 + 50276758 \u00d7 539936\nAnswer: 4552054451607488",
+          "answer": "4552054451607488",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into (50M + 276k) \u00d7 (90M + 539k): 50M\u00d790M=4.5T, 50M\u00d7539k=26.996T, 276k\u00d790M=24.908T, 276k\u00d7539k=149.4B. Sum.\nAnswer: 4551804462066288",
+          "answer": "4551804462066288",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50276758 \u00d7 (90000000 + 539936) = 4524908220000000 + 27146151607488\nAnswer: 4552054371607488",
+          "answer": "4552054371607488",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 90539936 into digit place values, multiply by 50276758, and sum all products\nAnswer: 4552054451607488",
+          "answer": "4552054451607488",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4552054451607488",
+    "4552054451607488",
+    "4551804462066288",
+    "4552054371607488",
+    "4552054451607488"
+  ],
+  "final_answer": "4552054451607488",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 123,
+    "calls": 5
+  },
+  "trial": 5,
+  "expected": "4552054451607488",
+  "correct": true
+}

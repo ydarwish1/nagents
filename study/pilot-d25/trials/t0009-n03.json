@@ -1,0 +1,58 @@
+{
+  "task_id": "chain25-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 + 83 = 86, - 6 = 80, \u00d7 7 = 560, + 42 = 602, - 66 = 536, \u00d7 8 = 4288, \u00d7 8 = 34304, + 27 = 34331, \u00d7 8 = 274648, + 37 = 274685, - 57 = 274628, + 6 = 274634, - 8 = 274626, + 70 = 274696, + 11 = 274707, - 4 = 274703, - 89 = 274614, + 4 = 274618, - 47 = 274571, + 19 = 274590, - 24 = 274566, + 78 = 274644, + 42 = 274686, - 25 = 274661, - 64 = 274597\nAnswer: 274597",
+          "answer": "274597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 + 83 = 86; 86 - 6 = 80; 80 \u00d7 7 = 560; 560 + 42 = 602; 602 - 66 = 536; 536 \u00d7 8 = 4288; 4288 \u00d7 8 = 34304; 34304 + 27 = 34331; 34331 \u00d7 8 = 274648; 274648 + 37 = 274685; 274685 - 57 = 274628; 274628 + 6 = 274634; 274634 - 8 = 274626; 274626 + 70 = 274696; 274696 + 11 = 274707; 274707 - 4 = 274703; 274703 - 89 = 274614; 274614 + 4 = 274618; 274618 - 47 = 274571; 274571 + 19 = 274590; 274590 - 24 = 274566; 274566 + 78 = 274644; 274644 + 42 = 274686; 274686 - 25 = 274661; 274661 - 64 = 274597\nAnswer: 274597",
+          "answer": "274597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Add 83. Subtract 6. Multiply by 7. Add 42. Subtract 66. Multiply by 8. Multiply by 8. Add 27. Multiply by 8. Add 37. Subtract 57. Add 6. Subtract 8. Add 70. Add 11. Subtract 4. Subtract 89. Add 4. Subtract 47. Add 19. Subtract 24. Add 78. Add 42. Subtract 25. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 \u2192 +83=86 \u2192 -6=80 \u2192 \u00d77=560 \u2192 +42=602 \u2192 -66=536 \u2192 \u00d78=4288 \u2192 \u00d78=34304 \u2192 +27=34331 \u2192 \u00d78=274648 \u2192 +37=274685 \u2192 -57=274628 \u2192 +6=274634 \u2192 -8=274626 \u2192 +70=274696 \u2192 +11=274707 \u2192 -4=274703 \u2192 -89=274614 \u2192 +4=274618 \u2192 -47=274571 \u2192 +19=274590 \u2192 -24=274566 \u2192 +78=274644 \u2192 +42=274686 \u2192 -25=274661 \u2192 -64=274597\nAnswer: 274597",
+          "answer": "274597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "274597",
+    "274597",
+    "274597"
+  ],
+  "final_answer": "274597",
+  "usage": {
+    "input_tokens": 399,
+    "output_tokens": 293,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "274597",
+  "correct": true
+}

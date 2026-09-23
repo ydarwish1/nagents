@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-21-26",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:26",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3006925 \u00d7 1534877: Sum of products at each digit position\nAnswer: 4615259023225",
+          "answer": "4615259023225",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3006925 \u00d7 (1500000 + 34877) = 4510387500000 + 104872523825\nAnswer: 4615259923825",
+          "answer": "4615259923825",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3006925 \u00d7 (1000000 + 534877) = 3006925000000 + 1608335023825\nAnswer: 4615260023825",
+          "answer": "4615260023825",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3006925 \u00d7 1000000 + 3006925 \u00d7 534877 = 3006925000000 + 1608335023225\nAnswer: 4615260023225",
+          "answer": "4615260023225",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3006925 \u00d7 1M + 534877\nAnswer: 4615262024925",
+          "answer": "4615262024925",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4615259023225",
+    "4615259923825",
+    "4615260023825",
+    "4615260023225",
+    "4615262024925"
+  ],
+  "final_answer": "4615259023225",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 91,
+    "calls": 5
+  },
+  "trial": 26,
+  "expected": "4615260023225",
+  "correct": false
+}

@@ -1,0 +1,39 @@
+=== ad42f75e63fd9f3fd6b263a1
+2431398 × 4684741: Breaking into place values and summing partial products
+Answer: 13190334150
+
+=== df158b52a7a849f4391b25b0
+3305382 × 7407539: Breaking into place values and summing partial products
+Answer: 24613527063
+
+=== 19b4740e69170ea236caec3f
+7453719 × 3378755: Breaking into place values and summing partial products
+Answer: 30806220627
+
+=== b26229ef8ad8cc25fbf2474f
+2805962 × 4631030: Breaking into place values and summing partial products
+Answer: 13078588882
+
+=== c4df319b1fc514296231a9ab
+3463621 × 2420686: Breaking into place values and summing partial products
+Answer: 10758006826
+
+=== 018a7ada7098e8b8bed0892b
+9552272 × 5173549: Breaking into place values and summing partial products
+Answer: 49886740120
+
+=== 9ab83c5bc58db1c5a0b306ed
+7416048 × 1302052: Breaking into place values and summing partial products
+Answer: 10041328992
+
+=== f4f8d041614d2c01f0274dfd
+1529479 × 1800333: Breaking into place values and summing partial products
+Answer: 3262378707
+
+=== 8136113124e5bddc4c699fbf
+4035457 × 6162848: Breaking into place values and summing partial products
+Answer: 28288553570
+
+=== 42aa21773265aac5a26a257a
+7956485 × 1237181: Breaking into place values and summing partial products
+Answer: 11282295730

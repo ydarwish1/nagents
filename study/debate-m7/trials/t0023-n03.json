@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-23",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Break into place values and sum:\n6,927,242,000,000 + 1,385,448,400,000 + 69,272,420,000 + 2,077,772,600 + 277,089,680 + 20,781,726\nAnswer: 8384338464006",
+          "answer": "8384338464006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338864006, 8384338824006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2000000 + 3463621 \u00d7 420686\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: Break into 3463621 \u00d7 (2000000 + 420686)\n= 6,927,242,000,000 + 1,457,096,864,006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338824006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686: 2M + 420K decomposition\nAnswer: 8384338824006",
+          "answer": "8384338824006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2000000 = 6,927,242,000,000; plus 3463621 \u00d7 420686 = 1,457,096,824,006\nAnswer: 8384338824006",
+          "answer": "8384338824006",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3463621 \u00d7 2420686 = 3463621 \u00d7 2400000 + 3463621 \u00d7 20686 = 8312690400000 + 71648464006\nAnswer: 8384338864006",
+          "answer": "8384338864006",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8384338864006",
+    "8384338824006",
+    "8384338864006"
+  ],
+  "final_answer": "8384338864006",
+  "usage": {
+    "input_tokens": 555,
+    "output_tokens": 153,
+    "calls": 6
+  },
+  "trial": 23,
+  "expected": "8384338864006",
+  "correct": true
+}

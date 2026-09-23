@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-8",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4 = 11,745,700,000. Plus 2936425 \u00d7 258976 = 27,091,457,050. Sum = 38,837,157,050.\nAnswer: 38837157050",
+          "answer": "38837157050",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12506163600800, 12505963600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4M + 200K + 50K + 8K + 900 + 76 = 11745700M + 587285M + 146821K + 23491K + 2642K + 222K = 12506163600800\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4M + 200K + 50K + 8K + 900 + 70 + 6 = 11,745,700M + 587,285M + 146,821M + 23,491M + 2,642K + 205K + 17K = 12,506,163,600,800\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12505963600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976 = 11745700000000 + 760463600800\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4000000 + 258976 breakdown\nAnswer: 12505963600800",
+          "answer": "12505963600800",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976: sum of parts = 12,506,163,600,800\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976 = 2936425 \u00d7 (4000000 + 258976) = 11745700000000 + 760463560800\nAnswer: 12506163560800",
+          "answer": "12506163560800",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12505963600800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Sum: 4M + 200k + 50k + 8k + 900 + 70 + 6\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976: 11745700000000 + 587285000000 + 146821250000 + 23491400000 + 2642782500 + 205549750 + 17618550\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12505963600800, 12506163560800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4000000 + 2936425 \u00d7 258976\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12506163600800",
+    "12506163600800",
+    "12506163600800",
+    "12506163600800",
+    "12506163600800"
+  ],
+  "final_answer": "12506163600800",
+  "usage": {
+    "input_tokens": 966,
+    "output_tokens": 238,
+    "calls": 10
+  },
+  "trial": 8,
+  "expected": "12506163600800",
+  "correct": true
+}

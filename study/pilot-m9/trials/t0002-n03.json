@@ -1,0 +1,58 @@
+{
+  "task_id": "mult9-11-2",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 960974134 multiplied by 392404081? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "960974134 \u00d7 392404081\nAnswer: 376912068930754000",
+          "answer": "376912068930754000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 960974134 multiplied by 392404081? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "960974134 \u00d7 392404081: Breaking into place value components and summing.\nAnswer: 377090094156934854",
+          "answer": "377090094156934854",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 960974134 multiplied by 392404081? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "960M\u00d7392M + 960M\u00d7404,081 + 974,134\u00d7392M + 974,134\u00d7404,081\nAnswer: 377090171917124854",
+          "answer": "377090171917124854",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "376912068930754000",
+    "377090094156934854",
+    "377090171917124854"
+  ],
+  "final_answer": "376912068930754000",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 57,
+    "calls": 3
+  },
+  "trial": 2,
+  "expected": "377090171917040854",
+  "correct": false
+}

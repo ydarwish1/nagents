@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-5",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6934860 \u00d7 3M + 600K + 40K + 500 + 4\nAnswer: 25246385569440",
+          "answer": "25246385569440",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6934860 \u00d7 3640504 = 6934860 \u00d7 (3600000 + 40504) = 24965376000000 + 280890217440\nAnswer: 25246266217440",
+          "answer": "25246266217440",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "25246385569440",
+    "25246266217440"
+  ],
+  "final_answer": "25246385569440",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 39,
+    "calls": 2
+  },
+  "trial": 5,
+  "expected": "25246385569440",
+  "correct": true
+}

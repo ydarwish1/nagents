@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-23",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74976196 \u00d7 61000000 + 74976196 \u00d7 767980\nAnswer: 4631128175004080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4631128175004080"
+  ],
+  "final_answer": "4631128175004080",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 23,
+  "expected": "4631128175004080",
+  "correct": true
+}

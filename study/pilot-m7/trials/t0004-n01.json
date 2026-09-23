@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3099064 multiplied by 5248244? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3099064 \u00d7 5248244: Break into 3099064 \u00d7 (5000000 + 248244) = 15495320000000 + 3099064 \u00d7 248244. Continue: 3099064 \u00d7 248244 = 769323643616. Total: 15495320000000 + 769323643616 = 16264643643616\nAnswer: 16264643643616",
+          "answer": "16264643643616",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16264643643616"
+  ],
+  "final_answer": "16264643643616",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 53,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "16264644043616",
+  "correct": false
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-16",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:16",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 62835671 multiplied by 44797478? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "62835671 \u00d7 (50000000 - 5202522) = 3141783550000000 - 327234959762262\nAnswer: 2814879589237738",
+          "answer": "2814879589237738",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 62835671 multiplied by 44797478? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "62835671 \u00d7 (40000000 + 4797478) = 2513426840000000 + 301452749237738\nAnswer: 2814879589237738",
+          "answer": "2814879589237738",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2814879589237738",
+    "2814879589237738"
+  ],
+  "final_answer": "2814879589237738",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 46,
+    "calls": 2
+  },
+  "trial": 16,
+  "expected": "2814879589237738",
+  "correct": true
+}

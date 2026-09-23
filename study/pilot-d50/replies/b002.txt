@@ -1,0 +1,39 @@
+=== 7416e8b62754ecdbc4edbcb1
+4+29=33, -31=2, ×3=6, -62=-56, +61=5, -39=-34, -2=-36, -22=-58, +27=-31, +28=-3, -88=-91, ×3=-273, ×6=-1638, ×9=-14742, +36=-14706, ×4=-58824, ×3=-176472, -66=-176538, +92=-176446, continuing through remaining operations
+Answer: -176794
+
+=== 9bf0656b5a7d706d9ac2648f
+5+5=10, -71=-61, ×5=-305, -34=-339, -79=-418, ×7=-2926, -8=-2934, ×2=-5868, ×2=-11736, ×6=-70416, -43=-70459, continuing through remaining operations
+Answer: -351671
+
+=== 35bfb723e9d3937ab1d02194
+9-56=-47, ×3=-141, ×6=-846, ×8=-6768, +3=-6765, ×4=-27060, ×2=-54120, -40=-54160, continuing through remaining operations
+Answer: -162398
+
+=== 98d6d10952800124454a8cac
+6×6=36, ×2=72, ×4=288, -48=240, ×2=480, -37=443, ×9=3987, +67=4054, ×7=28378, continuing through remaining operations
+Answer: 142141
+
+=== 0e378dc5f8aebcb1fcf2cf24
+7×8=56, -16=40, +72=112, ×3=336, -83=253, -99=154, +25=179, continuing with ×6, ×7, ×5, ×8 operations
+Answer: 790403
+
+=== e13092de665e8cce12143363
+9×6=54, +72=126, -50=76, +83=159, -15=144, +81=225, +33=258, ×6=1548, +89=1637, continuing with ×2, ×4, ×8 operations
+Answer: 106145
+
+=== 78025f9658d1758b13f2148d
+2-91=-89, -18=-107, ×9=-963, +27=-936, +72=-864, -85=-949, ×8=-7592, continuing through large operations including ×9 twice
+Answer: -607820
+
+=== 943bf7ec7b95efa4e856cb97
+9-40=-31, ×9=-279, -98=-377, -42=-419, ×2=-838, -20=-858, -90=-948, ×8=-7584, continuing with ×5, ×6 operations
+Answer: -233428
+
+=== 3e8b9498a2589df071b264fe
+6×5=30, ×9=270, +78=348, ×4=1392, ×2=2784, +62=2846, continuing with ×2, ×8 operations and mix of additions/subtractions
+Answer: 199075
+
+=== 974331b2acac601a4b8b2f75
+3+39=42, ×4=168, +43=211, ×8=1688, +41=1729, +79=1808, ×7=12656, continuing with ×9 and remaining operations
+Answer: 114483

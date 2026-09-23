@@ -1,0 +1,39 @@
+=== 4477633c3f2122577ab25e9e
+3006925 × 1534877: Sum of products at each digit position
+Answer: 4615259023225
+
+=== 2c03c4ab01e4a6a478af9a64
+2506263 × 7917653: Sum of products at each digit position
+Answer: 19843720760739
+
+=== 709aef9d8985ccd2e8cf122a
+9927498 × 6969388: Sum of products at each digit position
+Answer: 69188585431224
+
+=== b0712e7e80a1851d38dcb511
+2162443 × 3729472: Sum of products at each digit position
+Answer: 8064770620096
+
+=== f96d15d85f6eb0b71ef87aea
+8508434 × 1828316: Sum of products at each digit position
+Answer: 15556106017144
+
+=== 757917615899059deb4abfb2
+6478592 × 9025826: Sum of products at each digit position
+Answer: 58474644116992
+
+=== 184f9b0b222eaa44f314d832
+6934860 × 3640504: Sum of products at each digit position
+Answer: 25246385569440
+
+=== 898bc4afe18fea61628ab6ee
+9950611 × 3055538: Sum of products at each digit position
+Answer: 30404470033718
+
+=== e69998170ecd91c12c12b023
+4379318 × 8169914: Sum of products at each digit position
+Answer: 35778651438652
+
+=== 07015e58e58f7f763411a4c1
+6320736 × 1615528: Sum of products at each digit position
+Answer: 10211325988608

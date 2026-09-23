@@ -1,0 +1,84 @@
+{
+  "task_id": "chain25-11-2",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 72 = 80, - 4 = 76, - 92 = -16, - 45 = -61, \u00d7 8 = -488, \u00d7 2 = -976, \u00d7 4 = -3904, \u00d7 9 = -35136, + 9 = -35127, - 7 = -35134, \u00d7 5 = -175670, - 22 = -175692, - 44 = -175736, + 4 = -175732, + 70 = -175662, + 15 = -175647, + 43 = -175604, + 50 = -175554, + 45 = -175509, + 66 = -175443, - 5 = -175448, - 85 = -175533, + 6 = -175527, + 63 = -175464, + 12 = -175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 72 = 80; 80 - 4 = 76; 76 - 92 = -16; -16 - 45 = -61; -61 \u00d7 8 = -488; -488 \u00d7 2 = -976; -976 \u00d7 4 = -3904; -3904 \u00d7 9 = -35136; -35136 + 9 = -35127; -35127 - 7 = -35134; -35134 \u00d7 5 = -175670; -175670 - 22 = -175692; -175692 - 44 = -175736; -175736 + 4 = -175732; -175732 + 70 = -175662; -175662 + 15 = -175647; -175647 + 43 = -175604; -175604 + 50 = -175554; -175554 + 45 = -175509; -175509 + 66 = -175443; -175443 - 5 = -175448; -175448 - 85 = -175533; -175533 + 6 = -175527; -175527 + 63 = -175464; -175464 + 12 = -175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2192 +72=80 \u2192 -4=76 \u2192 -92=-16 \u2192 -45=-61 \u2192 \u00d78=-488 \u2192 \u00d72=-976 \u2192 \u00d74=-3904 \u2192 \u00d79=-35136 \u2192 +9=-35127 \u2192 -7=-35134 \u2192 \u00d75=-175670 \u2192 -22=-175692 \u2192 -44=-175736 \u2192 +4=-175732 \u2192 +70=-175662 \u2192 +15=-175647 \u2192 +43=-175604 \u2192 +50=-175554 \u2192 +45=-175509 \u2192 +66=-175443 \u2192 -5=-175448 \u2192 -85=-175533 \u2192 +6=-175527 \u2192 +63=-175464 \u2192 +12=-175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 \u2192 80 \u2192 76 \u2192 -16 \u2192 -61 \u2192 -488 \u2192 -976 \u2192 -3904 \u2192 -35136 \u2192 -35127 \u2192 -35134 \u2192 -175670 \u2192 -175692 \u2192 -175736 \u2192 -175732 \u2192 -175662 \u2192 -175647 \u2192 -175604 \u2192 -175554 \u2192 -175509 \u2192 -175443 \u2192 -175448 \u2192 -175533 \u2192 -175527 \u2192 -175464 \u2192 -175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 72. Subtract 4. Subtract 92. Subtract 45. Multiply by 8. Multiply by 2. Multiply by 4. Multiply by 9. Add 9. Subtract 7. Multiply by 5. Subtract 22. Subtract 44. Add 4. Add 70. Add 15. Add 43. Add 50. Add 45. Add 66. Subtract 5. Subtract 85. Add 6. Add 63. Add 12. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 72 = 80; - 4 = 76; - 92 = -16; - 45 = -61; \u00d7 8 = -488; \u00d7 2 = -976; \u00d7 4 = -3904; \u00d7 9 = -35136; + 9 = -35127; - 7 = -35134; \u00d7 5 = -175670; - 22 = -175692; - 44 = -175736; + 4 = -175732; + 70 = -175662; + 15 = -175647; + 43 = -175604; + 50 = -175554; + 45 = -175509; + 66 = -175443; - 5 = -175448; - 85 = -175533; + 6 = -175527; + 63 = -175464; + 12 = -175452\nAnswer: -175452",
+          "answer": "-175452",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-175452",
+    "-175452",
+    "-175452",
+    "-175452",
+    "-175452"
+  ],
+  "final_answer": "-175452",
+  "usage": {
+    "input_tokens": 660,
+    "output_tokens": 462,
+    "calls": 5
+  },
+  "trial": 2,
+  "expected": "-175452",
+  "correct": true
+}

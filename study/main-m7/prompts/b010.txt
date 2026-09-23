@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 753ef53352f113eead5ca4d1
+What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 9bf8fa8e8d65026e7796811a
+What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 2e96f70b1b80ea77d653b0cc
+What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 1b1f35de4e12fd3acded6fa6
+What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: f3705f081960250c4d1406ab
+What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 89fe69d4d5a49072e6ed68d4
+What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: d9756a9506fac032b418f384
+What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ff255d6b6fac3a84561112cd
+What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 5c20564ef5ae24504e3b489a
+What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ff1cb26b5c79bb3f3fe36fa0
+What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>

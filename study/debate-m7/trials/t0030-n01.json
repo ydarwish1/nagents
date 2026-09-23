@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-30",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7453719 \u00d7 3000000 = 22,361,157,000,000; plus 7453719 \u00d7 378755 = 2,823,133,539,845\nAnswer: 25184290539845",
+          "answer": "25184290539845",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "25184290539845"
+  ],
+  "final_answer": "25184290539845",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 30,
+  "expected": "25184290339845",
+  "correct": false
+}

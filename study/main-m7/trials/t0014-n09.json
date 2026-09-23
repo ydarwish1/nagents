@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-14",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:14",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7 million + 800K + 2K + 400 + 30 + 6 = 69,234,620M + 7,912,528M + 19,781K + 3,956K + 296K + 59K = 77,171,241,647,760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7000000 + 800000 + 2436 breakdown\nAnswer: 77171247627760",
+          "answer": "77171247627760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436 = 9890660 \u00d7 (8000000 - 197564) = 79125280000000 - 1954038352240\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436: 69234620000000 + 7912528000000 + 19781320000 + 3956264000 + 296719800 + 59343960\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 (7800000 + 2436) = 77147148000000 + 24093627760\nAnswer: 77171241627760",
+          "answer": "77171241627760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436 = (9890660 \u00d7 7000000) + (9890660 \u00d7 802436) = 69234620000000 + 7936621647760\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7802436 = 69.2B + 7.9B + 19.8B + 3.96B + 296.7M + 59.3M\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 69,234,620,000,000 + 7,912,528,000,000 + 19,781,320,000 + 3,956,264,000 + 296,719,800 + 59,343,960\nAnswer: 77171241647760",
+          "answer": "77171241647760",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9890660 \u00d7 7 = 69,234,620,000. Plus 9890660 \u00d7 802436 = 12,244,437,080. Sum = 81,479,057,080.\nAnswer: 81479057080",
+          "answer": "81479057080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "77171241647760",
+    "77171247627760",
+    "77171241647760",
+    "77171241647760",
+    "77171241627760",
+    "77171241647760",
+    "77171241647760",
+    "77171241647760",
+    "81479057080"
+  ],
+  "final_answer": "77171241647760",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 244,
+    "calls": 9
+  },
+  "trial": 14,
+  "expected": "77171241647760",
+  "correct": true
+}

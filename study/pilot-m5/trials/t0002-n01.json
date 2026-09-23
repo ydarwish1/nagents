@@ -1,0 +1,32 @@
+{
+  "task_id": "mult5-11-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 (33000 + 97) = 2103354000 + 6182386\nAnswer: 2109536386",
+          "answer": "2109536386",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2109536386"
+  ],
+  "final_answer": "2109536386",
+  "usage": {
+    "input_tokens": 63,
+    "output_tokens": 15,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "2109536586",
+  "correct": false
+}

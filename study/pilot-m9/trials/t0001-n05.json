@@ -1,0 +1,84 @@
+{
+  "task_id": "mult9-11-1",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Breakdown: (703226126 \u00d7 7 \u00d7 100000000) + (703226126 \u00d7 68547101)\n\u2248 492258288200000000 + 48204110016040000\nAnswer: 540462398216040000",
+          "answer": "540462398216040000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703226126 \u00d7 768547101: Breaking into place value components and summing.\nAnswer: 540462400484760726",
+          "answer": "540462400484760726",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "700M\u00d7768M + 700M\u00d7547,101 + 3,226,126\u00d7768M + 3,226,126\u00d7547,101\nAnswer: 540462400484780726",
+          "answer": "540462400484780726",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703.226 \u00d7 768.547 \u2248 540.307\nAnswer: 540306848537426",
+          "answer": "540306848537426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "703226126 \u00d7 768547101: Break into chunks (703M + 226k) \u00d7 (768M + 547k), sum terms.\nAnswer: 540462394480760726",
+          "answer": "540462394480760726",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "540462398216040000",
+    "540462400484760726",
+    "540462400484780726",
+    "540306848537426",
+    "540462394480760726"
+  ],
+  "final_answer": "540462398216040000",
+  "usage": {
+    "input_tokens": 325,
+    "output_tokens": 117,
+    "calls": 5
+  },
+  "trial": 1,
+  "expected": "540462400484760726",
+  "correct": false
+}

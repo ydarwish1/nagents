@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-33",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:33",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 (8000000 + 169914) = 35034544000000 + 744107438652\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8000000 + 4379318 \u00d7 169914 = 35034544000000 + 744106438652\nAnswer: 35778650438652",
+          "answer": "35778650438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8000000 + 4379318 \u00d7 169914 = 35034544000000 + 744107438652\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8169914 = 4379318\u00d7(8000000+100000+60000+9000+900+10+4)\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8M + 169914\nAnswer: 35778650438552",
+          "answer": "35778650438552",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8169914: two solvers agreement\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8169914 = 4379318 \u00d7 (8000000 + 169914) = 35034544000000 + 744107799452\nAnswer: 35778651799452",
+          "answer": "35778651799452",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778650438552, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8169914: 8M + 169914 components = 35778651438652\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4379318 \u00d7 8000000 + 743206838652\nAnswer: 35777750838652",
+          "answer": "35777750838652",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778650438552, 35778651799452. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Magnitude ~4.38M \u00d7 8.17M \u2248 35.8T matches. Consensus answer (2 votes).\nAnswer: 35778651438652",
+          "answer": "35778651438652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "35778650438652",
+    "35778651438652",
+    "35778651438652",
+    "35778651438652",
+    "35778651438652"
+  ],
+  "final_answer": "35778651438652",
+  "usage": {
+    "input_tokens": 970,
+    "output_tokens": 192,
+    "calls": 10
+  },
+  "trial": 33,
+  "expected": "35778651438652",
+  "correct": true
+}

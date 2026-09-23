@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-27",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2805962 \u00d7 4631030: Break into (2800000 + 5962) \u00d7 4631030\n= 12,966,884,000,000 + 27,610,200,860\nAnswer: 12994494200860",
+          "answer": "12994494200860",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12994494200860"
+  ],
+  "final_answer": "12994494200860",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 29,
+    "calls": 1
+  },
+  "trial": 27,
+  "expected": "12994494200860",
+  "correct": true
+}

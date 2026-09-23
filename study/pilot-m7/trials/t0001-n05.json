@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-11-1",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2876831 multiplied by 1305164? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2876831 \u00d7 1305164: Break into 2876831 \u00d7 (1000000 + 305164) = 2876831000000 + 2876831 \u00d7 305164. Continue: 2876831 \u00d7 305164 = 2876831 \u00d7 (300000 + 5164) = 863049300000 + 14855955284 = 877905255284. Total: 2876831000000 + 877905255284 = 3754736255284\nAnswer: 3754736255284",
+          "answer": "3754736255284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2876831 multiplied by 1305164? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2876831 \u00d7 1305164: break into parts (1M + 300K + 5K + 100 + 60 + 4), sum partial products\nAnswer: 3754736255284",
+          "answer": "3754736255284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2876831 multiplied by 1305164? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2876831 \u00d7 1000000 = 2876831000000\n2876831 \u00d7 305164 = 877904854284\nSum: 3754735854284\nAnswer: 3754735854284",
+          "answer": "3754735854284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2876831 multiplied by 1305164? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2876831 \u00d7 1305164: Break into parts (1M + 305164), calculate each, sum.\nAnswer: 3754736255284",
+          "answer": "3754736255284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2876831 multiplied by 1305164? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2876831 \u00d7 1305164: breaking by place value and summing\nAnswer: 3754736255284",
+          "answer": "3754736255284",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3754736255284",
+    "3754736255284",
+    "3754735854284",
+    "3754736255284",
+    "3754736255284"
+  ],
+  "final_answer": "3754736255284",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 162,
+    "calls": 5
+  },
+  "trial": 1,
+  "expected": "3754736255284",
+  "correct": true
+}

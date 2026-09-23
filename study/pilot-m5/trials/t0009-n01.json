@@ -1,0 +1,32 @@
+{
+  "task_id": "mult5-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 (76000 + 717) = 3341112000 + 31541754\nAnswer: 3372653754",
+          "answer": "3372653754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3372653754"
+  ],
+  "final_answer": "3372653754",
+  "usage": {
+    "input_tokens": 63,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "3372632754",
+  "correct": false
+}

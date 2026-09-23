@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 39. Add 54. Multiply by 5. Multiply by 5. Subtract 73. Add 68. Add 26. Subtract 63. Add 39. Add 7. Multiply by 3. Subtract 40. Add 88. Add 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 39 = -31; -31 + 54 = 23; 23 \u00d7 5 = 115; 115 \u00d7 5 = 575; 575 - 73 = 502; 502 + 68 = 570; 570 + 26 = 596; 596 - 63 = 533; 533 + 39 = 572; 572 + 7 = 579; 579 \u00d7 3 = 1737; 1737 - 40 = 1697; 1697 + 88 = 1785; 1785 + 88 = 1873\nAnswer: 1873",
+          "answer": "1873",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 39. Add 54. Multiply by 5. Multiply by 5. Subtract 73. Add 68. Add 26. Subtract 63. Add 39. Add 7. Multiply by 3. Subtract 40. Add 88. Add 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 39 = -31, + 54 = 23, \u00d7 5 = 115, \u00d7 5 = 575, - 73 = 502, + 68 = 570, + 26 = 596, - 63 = 533, + 39 = 572, + 7 = 579, \u00d7 3 = 1737, - 40 = 1697, + 88 = 1785, + 88 = 1873\nAnswer: 1873",
+          "answer": "1873",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 39. Add 54. Multiply by 5. Multiply by 5. Subtract 73. Add 68. Add 26. Subtract 63. Add 39. Add 7. Multiply by 3. Subtract 40. Add 88. Add 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 39 = -31; +54 = 23; \u00d75 = 115; \u00d75 = 575; -73 = 502; +68 = 570; +26 = 596; -63 = 533; +39 = 572; +7 = 579; \u00d73 = 1737; -40 = 1697; +88 = 1785; +88 = 1873\nAnswer: 1873",
+          "answer": "1873",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 39. Add 54. Multiply by 5. Multiply by 5. Subtract 73. Add 68. Add 26. Subtract 63. Add 39. Add 7. Multiply by 3. Subtract 40. Add 88. Add 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 39 = -31; -31 + 54 = 23; 23 * 5 = 115; 115 * 5 = 575; 575 - 73 = 502; 502 + 68 = 570; 570 + 26 = 596; 596 - 63 = 533; 533 + 39 = 572; 572 + 7 = 579; 579 * 3 = 1737; 1737 - 40 = 1697; 1697 + 88 = 1785; 1785 + 88 = 1873\nAnswer: 1873",
+          "answer": "1873",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 39. Add 54. Multiply by 5. Multiply by 5. Subtract 73. Add 68. Add 26. Subtract 63. Add 39. Add 7. Multiply by 3. Subtract 40. Add 88. Add 88. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 39 = -31; -31 + 54 = 23; 23 \u00d7 5 = 115; 115 \u00d7 5 = 575; 575 - 73 = 502; 502 + 68 = 570; 570 + 26 = 596; 596 - 63 = 533; 533 + 39 = 572; 572 + 7 = 579; 579 \u00d7 3 = 1737; 1737 - 40 = 1697; 1697 + 88 = 1785; 1785 + 88 = 1873\nAnswer: 1873",
+          "answer": "1873",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1873",
+    "1873",
+    "1873",
+    "1873",
+    "1873"
+  ],
+  "final_answer": "1873",
+  "usage": {
+    "input_tokens": 515,
+    "output_tokens": 260,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "1873",
+  "correct": true
+}

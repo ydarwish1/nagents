@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-32",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 70M = 6,978,831,090,000,000; \u00d7 2,357,025 = 234,989,704,998,675; total = 6,978,831,090,000,000 + 234,989,704,998,675\nAnswer: 7213820794998675",
+          "answer": "7213820794998675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 72357025: 99697587 \u00d7 (70,000,000 + 2,357,025) = 6,978,821,090,000,000 + 234,989,705,098,675\nAnswer: 7213810795098675",
+          "answer": "7213810795098675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 (72000000 + 357025) = 7177826264000000 + 35594468348675\nAnswer: 7213420732348675",
+          "answer": "7213420732348675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 72000000 = 7177826264000000\n99697587 \u00d7 357025 = 35594530998675\nAnswer: 7213420794998675",
+          "answer": "7213420794998675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 72000000 + 99697587 \u00d7 357025\nAnswer: 7213421796781425",
+          "answer": "7213421796781425",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 70M = 6978830090000000; \u00d7 2357025 = 234989704998675\nAnswer: 7213819794998675",
+          "answer": "7213819794998675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99697587 \u00d7 72000000 + 99697587 \u00d7 357025\nAnswer: 7213800754998675",
+          "answer": "7213800754998675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7213820794998675",
+    "7213810795098675",
+    "7213420732348675",
+    "7213420794998675",
+    "7213421796781425",
+    "7213819794998675",
+    "7213800754998675"
+  ],
+  "final_answer": "7213820794998675",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 167,
+    "calls": 7
+  },
+  "trial": 32,
+  "expected": "7213820794998675",
+  "correct": true
+}

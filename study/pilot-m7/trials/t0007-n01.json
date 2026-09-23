@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-11-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7226120 multiplied by 7580877? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7226120 \u00d7 7580877: Break into 7226120 \u00d7 (7000000 + 580877) = 50582840000000 + 7226120 \u00d7 580877. Continue: 7226120 \u00d7 580877 = 4197486267240. Total: 50582840000000 + 4197486267240 = 54780326267240\nAnswer: 54780326267240",
+          "answer": "54780326267240",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "54780326267240"
+  ],
+  "final_answer": "54780326267240",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 54,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "54780326907240",
+  "correct": false
+}

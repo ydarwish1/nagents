@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-7",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1805217: Breaking into parts (1M + 800k + 5k + 200 + 17), sum all contributions\nAnswer: 15851964299532",
+          "answer": "15851964299532",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964259532, 15851964319532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1800000 = 15,806,152,800,000; 8781196 \u00d7 5217 = 45,811,499,532; sum = 15,851,964,299,532.\nAnswer: 15851964299532",
+          "answer": "15851964299532",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1000000 + 800000 + 5217 = 8781196000000 + 7024956800000 + 45811459532\nAnswer: 15851964259532",
+          "answer": "15851964259532",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964319532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1,800,000 = 15,806,152,800,000; 8781196 \u00d7 5,217 = 45,811,499,532. Sum = 15,851,964,299,532\nAnswer: 15851964299532",
+          "answer": "15851964299532",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1805217 broken as (10^6 + 8\u00d710^5 + 5\u00d710^3 + 217):\n8,781,196,000,000 + 7,024,956,800,000 + 43,905,980,000 + 1,905,539,532\nAnswer: 15851964319532",
+          "answer": "15851964319532",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964259532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into parts: 8781196\u00d71000000 = 8,781,196,000,000; 8781196\u00d7805217 = 7,070,768,299,532. Sum: 15,851,964,299,532.\nAnswer: 15851964299532",
+          "answer": "15851964299532",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "15851964299532",
+    "15851964299532",
+    "15851964299532"
+  ],
+  "final_answer": "15851964299532",
+  "usage": {
+    "input_tokens": 558,
+    "output_tokens": 185,
+    "calls": 6
+  },
+  "trial": 7,
+  "expected": "15851964299532",
+  "correct": true
+}

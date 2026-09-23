@@ -1,0 +1,32 @@
+{
+  "task_id": "chain25-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 7. Multiply by 9. Multiply by 9. Add 52. Multiply by 7. Subtract 63. Multiply by 4. Multiply by 5. Add 44. Multiply by 4. Subtract 30. Subtract 18. Add 27. Subtract 36. Subtract 4. Add 40. Subtract 65. Add 83. Subtract 77. Add 28. Subtract 64. Add 19. Add 85. Subtract 61. Subtract 69. Add 84. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7 \u00d7 9 = 63, \u00d7 9 = 567, + 52 = 619, \u00d7 7 = 4333, - 63 = 4270, \u00d7 4 = 17080, \u00d7 5 = 85400, + 44 = 85444, \u00d7 4 = 341776, - 30 = 341746, - 18 = 341728, + 27 = 341755, - 36 = 341719, - 4 = 341715, + 40 = 341755, - 65 = 341690, + 83 = 341773, - 77 = 341696, + 28 = 341724, - 64 = 341660, + 19 = 341679, + 85 = 341764, - 61 = 341703, - 69 = 341634, + 84 = 341718\nAnswer: 341718",
+          "answer": "341718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "341718"
+  ],
+  "final_answer": "341718",
+  "usage": {
+    "input_tokens": 138,
+    "output_tokens": 91,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "341718",
+  "correct": true
+}

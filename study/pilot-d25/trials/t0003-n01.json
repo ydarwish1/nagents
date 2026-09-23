@@ -1,0 +1,32 @@
+{
+  "task_id": "chain25-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 99. Multiply by 7. Subtract 85. Multiply by 9. Add 36. Add 71. Add 31. Add 18. Add 75. Subtract 41. Multiply by 2. Subtract 39. Multiply by 9. Subtract 51. Subtract 56. Add 63. Add 99. Add 99. Add 78. Subtract 22. Add 33. Subtract 3. Add 90. Subtract 14. Add 82. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 99 = 107, \u00d7 7 = 749, - 85 = 664, \u00d7 9 = 5976, + 36 = 6012, + 71 = 6083, + 31 = 6114, + 18 = 6132, + 75 = 6207, - 41 = 6166, \u00d7 2 = 12332, - 39 = 12293, \u00d7 9 = 110637, - 51 = 110586, - 56 = 110530, + 63 = 110593, + 99 = 110692, + 99 = 110791, + 78 = 110869, - 22 = 110847, + 33 = 110880, - 3 = 110877, + 90 = 110967, - 14 = 110953, + 82 = 111035\nAnswer: 111035",
+          "answer": "111035",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "111035"
+  ],
+  "final_answer": "111035",
+  "usage": {
+    "input_tokens": 132,
+    "output_tokens": 90,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "111035",
+  "correct": true
+}

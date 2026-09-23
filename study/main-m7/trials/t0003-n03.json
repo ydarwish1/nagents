@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-21-3",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 (1600000 + 15528) = 10113177600000 + 98148388608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 (1000000 + 615528) = 6320736000000 + 3890590088608\nAnswer: 10211326088608",
+          "answer": "10211326088608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1000000 + 6320736 \u00d7 615528 = 6320736000000 + 3890589988608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "10211325988608",
+    "10211326088608",
+    "10211325988608"
+  ],
+  "final_answer": "10211325988608",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 62,
+    "calls": 3
+  },
+  "trial": 3,
+  "expected": "10211325988608",
+  "correct": true
+}

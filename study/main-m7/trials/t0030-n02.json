@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-30",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7453719 \u00d7 3000000 = 22,361,157,000,000; plus 7453719 \u00d7 378755 = 2,823,133,539,845\nAnswer: 25184290539845",
+          "answer": "25184290539845",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7453719 \u00d7 3378755: Break (3M + 300K + 70K + 8K + 700 + 50 + 5). Sum: 22,361,157,000,000 + 2,236,115,700,000 + 521,760,330,000 + 59,629,752,000 + 5,217,603,300 + 372,685,950 + 37,268,595\nAnswer: 25184290339845",
+          "answer": "25184290339845",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "25184290539845",
+    "25184290339845"
+  ],
+  "final_answer": "25184290539845",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 78,
+    "calls": 2
+  },
+  "trial": 30,
+  "expected": "25184290339845",
+  "correct": false
+}

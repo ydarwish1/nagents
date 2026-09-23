@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-8",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61000000 = 5093672447000000\n83502827 \u00d7 492279 = 41106688172733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61000000 + 83502827 \u00d7 492279\nAnswer: 5134779142880133",
+          "answer": "5134779142880133",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 60M = 5010169620000000; \u00d7 1492279 = 124609515172733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61000000 + 83502827 \u00d7 492279\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61492279: Breaking (83M + 502827) \u00d7 (61M + 492279), sum of parts\nAnswer: 5134779074835533",
+          "answer": "5134779074835533",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 60000000 = 5010169620000000; \u00d7 1000000 = 83502827000000; \u00d7 492279 = 41106688172733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61M = 5,093,672,447,000,000; \u00d7 492,279 = 41,104,214,493,333; total = 5,093,672,447,000,000 + 41,104,214,493,333\nAnswer: 5134776661493333",
+          "answer": "5134776661493333",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5134779135172733",
+    "5134779142880133",
+    "5134779135172733",
+    "5134779135172733",
+    "5134779074835533",
+    "5134779135172733",
+    "5134776661493333"
+  ],
+  "final_answer": "5134779135172733",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 167,
+    "calls": 7
+  },
+  "trial": 8,
+  "expected": "5134779135172733",
+  "correct": true
+}

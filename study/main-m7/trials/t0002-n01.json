@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549: 9552272 \u00d7 (5,000,000 + 173,549) = 47,761,360,000,000 + 1,657,787,253,328\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "49419147253328"
+  ],
+  "final_answer": "49419147253328",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "49419147253328",
+  "correct": true
+}

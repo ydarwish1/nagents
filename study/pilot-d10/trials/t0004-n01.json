@@ -1,0 +1,32 @@
+{
+  "task_id": "chain10-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Multiply by 9. Add 24. Subtract 16. Subtract 4. Subtract 82. Subtract 28. Add 96. Add 87. Subtract 53. Add 58. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u00d7 9 = 18, + 24 - 16 - 4 = 22, - 82 - 28 = -88, + 96 = 8, + 87 = 95, - 53 = 42, + 58 = 100\nAnswer: 100",
+          "answer": "100",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "100"
+  ],
+  "final_answer": "100",
+  "usage": {
+    "input_tokens": 93,
+    "output_tokens": 25,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "100",
+  "correct": true
+}

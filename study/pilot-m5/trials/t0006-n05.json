@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-6",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50542 \u00d7 (42000 + 194) = 2122764000 + 9805148\nAnswer: 2132569148",
+          "answer": "2132569148",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50542 \u00d7 42000 = 2,122,764,000; 50542 \u00d7 194 = 9,805,148\nAnswer: 2132569148",
+          "answer": "2132569148",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50542 \u00d7 42194 = 50542 \u00d7 (42000 + 194)\n50542 \u00d7 42 = 2122764, so 50542 \u00d7 42000 = 2122764000\n50542 \u00d7 194 = 50542 \u00d7 200 - 50542 \u00d7 6 = 10108400 - 303252 = 9805148\nTotal: 2122764000 + 9805148 = 2132569148\nAnswer: 2132569148",
+          "answer": "2132569148",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50542 \u00d7 42194 = 50542 \u00d7 (40000 + 2194) = 2021680000 + 110889148\nAnswer: 2132569148",
+          "answer": "2132569148",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50542 \u00d7 42194 = 50542 \u00d7 (42000 + 194) = 2,122,764,000 + 9,805,148\nAnswer: 2132569148",
+          "answer": "2132569148",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2132569148",
+    "2132569148",
+    "2132569148",
+    "2132569148",
+    "2132569148"
+  ],
+  "final_answer": "2132569148",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 128,
+    "calls": 5
+  },
+  "trial": 6,
+  "expected": "2132569148",
+  "correct": true
+}

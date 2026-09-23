@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-34",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:34",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72356228 \u00d7 62381747: (72\u00d762\u00d710\u00b9\u00b2) + (72\u00d7381747\u00d710\u2076) + (356228\u00d762\u00d710\u2076) + (356228\u00d7381747)\n= 4464T + 27485784B + 22086136B + 135988970316\nAnswer: 4513707908970316",
+          "answer": "4513707908970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4513707908970316"
+  ],
+  "final_answer": "4513707908970316",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 39,
+    "calls": 1
+  },
+  "trial": 34,
+  "expected": "4513707908970316",
+  "correct": true
+}

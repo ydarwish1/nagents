@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "224619248 \u00d7 761237143\nAnswer: 170987473600264000",
+          "answer": "170987473600264000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "170987473600264000"
+  ],
+  "final_answer": "170987473600264000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "170988514610328464",
+  "correct": false
+}

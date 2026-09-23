@@ -1,0 +1,110 @@
+{
+  "task_id": "mult7-21-20",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7 \u00d7 10^6 = 53,108,055,000,000; remaining 7586865 \u00d7 546572 = 4,146,767,976,780\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7,000,000 = 53,108,055,000,000; \u00d7 500,000 = 3,793,432,500,000; \u00d7 40,000 = 303,474,600,000; \u00d7 6,000 = 45,521,190,000; \u00d7 500 = 3,793,432,500; \u00d7 70 = 530,880,550; \u00d7 2 = 15,173,730\nAnswer: 57254822776780",
+          "answer": "57254822776780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7546572: Calculate 7586\u00d77546 = 57243956, scale and add remaining terms.\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7.5M\u00d77586865 + 46572\u00d77586865 = 56901487500000 + 353335476780\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7500000 = 56,901,487,500,000; 7586865 \u00d7 7546572 (via 7500000 + 46572)\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7000000 = 53,108,055,000,000; 7586865 \u00d7 546572 = 4,146,767,976,780\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7586865 \u00d7 7546572: Breaking into parts (7M + 500k + 40k + 6k + 500 + 70 + 2), sum all contributions\nAnswer: 57254822976780",
+          "answer": "57254822976780",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "57254822976780",
+    "57254822776780",
+    "57254822976780",
+    "57254822976780",
+    "57254822976780",
+    "57254822976780",
+    "57254822976780"
+  ],
+  "final_answer": "57254822976780",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 204,
+    "calls": 7
+  },
+  "trial": 20,
+  "expected": "57254822976780",
+  "correct": true
+}

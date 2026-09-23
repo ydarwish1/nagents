@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-30",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37478830 \u00d7 58820452: Break into (37M + 478830) \u00d7 (60M - 1179548) and expand\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2204521721031160"
+  ],
+  "final_answer": "2204521721031160",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 25,
+    "calls": 1
+  },
+  "trial": 30,
+  "expected": "2204521721031160",
+  "correct": true
+}

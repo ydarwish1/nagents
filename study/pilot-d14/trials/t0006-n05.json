@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-6",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Multiply by 2. Add 40. Multiply by 3. Multiply by 9. Subtract 61. Subtract 62. Subtract 87. Multiply by 4. Add 71. Subtract 33. Multiply by 6. Add 5. Subtract 83. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 \u00d7 2 = 6; 6 + 40 = 46; 46 \u00d7 3 = 138; 138 \u00d7 9 = 1242; 1242 - 61 = 1181; 1181 - 62 = 1119; 1119 - 87 = 1032; 1032 \u00d7 4 = 4128; 4128 + 71 = 4199; 4199 - 33 = 4166; 4166 \u00d7 6 = 24996; 24996 + 5 = 25001; 25001 - 83 = 24918; 24918 \u00d7 7 = 174426\nAnswer: 174426",
+          "answer": "174426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Multiply by 2. Add 40. Multiply by 3. Multiply by 9. Subtract 61. Subtract 62. Subtract 87. Multiply by 4. Add 71. Subtract 33. Multiply by 6. Add 5. Subtract 83. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 \u00d7 2 = 6, + 40 = 46, \u00d7 3 = 138, \u00d7 9 = 1242, - 61 = 1181, - 62 = 1119, - 87 = 1032, \u00d7 4 = 4128, + 71 = 4199, - 33 = 4166, \u00d7 6 = 24996, + 5 = 25001, - 83 = 24918, \u00d7 7 = 174426\nAnswer: 174426",
+          "answer": "174426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Multiply by 2. Add 40. Multiply by 3. Multiply by 9. Subtract 61. Subtract 62. Subtract 87. Multiply by 4. Add 71. Subtract 33. Multiply by 6. Add 5. Subtract 83. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 \u00d7 2 = 6; +40 = 46; \u00d73 = 138; \u00d79 = 1242; -61 = 1181; -62 = 1119; -87 = 1032; \u00d74 = 4128; +71 = 4199; -33 = 4166; \u00d76 = 24996; +5 = 25001; -83 = 24918; \u00d77 = 174426\nAnswer: 174426",
+          "answer": "174426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Multiply by 2. Add 40. Multiply by 3. Multiply by 9. Subtract 61. Subtract 62. Subtract 87. Multiply by 4. Add 71. Subtract 33. Multiply by 6. Add 5. Subtract 83. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 * 2 = 6; 6 + 40 = 46; 46 * 3 = 138; 138 * 9 = 1242; 1242 - 61 = 1181; 1181 - 62 = 1119; 1119 - 87 = 1032; 1032 * 4 = 4128; 4128 + 71 = 4199; 4199 - 33 = 4166; 4166 * 6 = 24996; 24996 + 5 = 25001; 25001 - 83 = 24918; 24918 * 7 = 174426\nAnswer: 174426",
+          "answer": "174426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 3. Multiply by 2. Add 40. Multiply by 3. Multiply by 9. Subtract 61. Subtract 62. Subtract 87. Multiply by 4. Add 71. Subtract 33. Multiply by 6. Add 5. Subtract 83. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3 \u00d7 2 = 6; 6 + 40 = 46; 46 \u00d7 3 = 138; 138 \u00d7 9 = 1242; 1242 - 61 = 1181; 1181 - 62 = 1119; 1119 - 87 = 1032; 1032 \u00d7 4 = 4128; 4128 + 71 = 4199; 4199 - 33 = 4166; 4166 \u00d7 6 = 24996; 24996 + 5 = 25001; 25001 - 83 = 24918; 24918 \u00d7 7 = 174426\nAnswer: 174426",
+          "answer": "174426",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "174426",
+    "174426",
+    "174426",
+    "174426",
+    "174426"
+  ],
+  "final_answer": "174426",
+  "usage": {
+    "input_tokens": 545,
+    "output_tokens": 277,
+    "calls": 5
+  },
+  "trial": 6,
+  "expected": "174426",
+  "correct": true
+}

@@ -1,0 +1,84 @@
+{
+  "task_id": "mult9-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312784074 \u00d7 233817637\nAnswer: 73141567389838000",
+          "answer": "73141567389838000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312784074 \u00d7 233817637: Breaking into place value components and summing.\nAnswer: 73134433073913138",
+          "answer": "73134433073913138",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312M\u00d7233M + 312M\u00d7817,637 + 784,074\u00d7233M + 784,074\u00d7817,637\nAnswer: 73174761152706538",
+          "answer": "73174761152706538",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312.784 \u00d7 233.818 \u2248 73.098\nAnswer: 73098081547938",
+          "answer": "73098081547938",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312784074 \u00d7 233817637: Break into chunks (312M + 784k) \u00d7 (233M + 817k), sum terms.\nAnswer: 73134512626607138",
+          "answer": "73134512626607138",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "73141567389838000",
+    "73134433073913138",
+    "73174761152706538",
+    "73098081547938",
+    "73134512626607138"
+  ],
+  "final_answer": "73141567389838000",
+  "usage": {
+    "input_tokens": 325,
+    "output_tokens": 94,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "73134433073913138",
+  "correct": false
+}

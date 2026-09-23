@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-25",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:25",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 52665020 multiplied by 86302206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "52665020 \u00d7 86302206: Breaking (52M + 665020) \u00d7 (86M + 302206), sum of parts\nAnswer: 4545107405034120",
+          "answer": "4545107405034120",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 52665020 multiplied by 86302206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "52665020 \u00d7 80000000 = 4213201600000000; \u00d7 6000000 = 315990120000000; \u00d7 300000 = 15799506000000; \u00d7 2206 = 116211734120\nAnswer: 4545107405034120",
+          "answer": "4545107405034120",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 52665020 multiplied by 86302206? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "52665020 \u00d7 80M = 4,213,201,600,000,000; \u00d7 6,302,206 = 331,897,018,964,120; total = 4,213,201,600,000,000 + 331,897,018,964,120\nAnswer: 4545098618964120",
+          "answer": "4545098618964120",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4545107405034120",
+    "4545107405034120",
+    "4545098618964120"
+  ],
+  "final_answer": "4545107405034120",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 97,
+    "calls": 3
+  },
+  "trial": 25,
+  "expected": "4545107405034120",
+  "correct": true
+}

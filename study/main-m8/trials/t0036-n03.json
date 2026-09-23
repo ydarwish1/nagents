@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-36",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:36",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57641680 multiplied by 78345721? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57641680 \u00d7 78345721: 57641680 \u00d7 (78,000,000 + 345,721) = 4,496,051,040,000,000 + 19,927,939,251,280\nAnswer: 4515978979251280",
+          "answer": "4515978979251280",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57641680 multiplied by 78345721? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57641680 \u00d7 (78000000 + 345721) = 4496051040000000 + 19927981581680\nAnswer: 4515978921581680",
+          "answer": "4515978921581680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57641680 multiplied by 78345721? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57641680 \u00d7 78000000 = 4496051040000000\n57641680 \u00d7 345721 = 19928019251280\nAnswer: 4515979059251280",
+          "answer": "4515979059251280",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4515978979251280",
+    "4515978921581680",
+    "4515979059251280"
+  ],
+  "final_answer": "4515978979251280",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 77,
+    "calls": 3
+  },
+  "trial": 36,
+  "expected": "4515978979251280",
+  "correct": true
+}

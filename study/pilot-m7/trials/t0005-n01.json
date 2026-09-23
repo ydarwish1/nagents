@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3586397 multiplied by 4853762? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3586397 \u00d7 4853762: Break into 3586397 \u00d7 (4000000 + 853762) = 14345588000000 + 3586397 \u00d7 853762. Continue: 3586397 \u00d7 853762 = 3061929475514. Total: 14345588000000 + 3061929475514 = 17407517475514\nAnswer: 17407517475514",
+          "answer": "17407517475514",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17407517475514"
+  ],
+  "final_answer": "17407517475514",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 54,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "17407517475514",
+  "correct": true
+}

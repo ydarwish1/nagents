@@ -1,0 +1,79 @@
+{
+  "task_id": "mult7-21-2",
+  "size": 3,
+  "topology": "debate",
+  "seed": "21:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549: 9552272 \u00d7 (5,000,000 + 173,549) = 47,761,360,000,000 + 1,657,787,253,328\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549 = 49,419,147,253,328\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549: Break into place values:\n47,761,360,000,000 + 955,227,200,000 + 668,659,040,000 + 28,656,816,000 + 4,776,136,000 + 382,090,880 + 85,970,448\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549 = 47761360000000 + 1657787253328\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9552272 \u00d7 5173549: Break into 9552272 \u00d7 (5000000 + 173549)\n= 47,761,360,000,000 + 1,657,788,253,328\nAnswer: 49419148253328",
+          "answer": "49419148253328",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Both solvers agree. Magnitude ~9.55M \u00d7 5.17M \u2248 49.4T matches.\nAnswer: 49419147253328",
+          "answer": "49419147253328",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "49419147253328",
+    "49419147253328",
+    "49419147253328"
+  ],
+  "final_answer": "49419147253328",
+  "usage": {
+    "input_tokens": 558,
+    "output_tokens": 157,
+    "calls": 6
+  },
+  "trial": 2,
+  "expected": "49419147253328",
+  "correct": true
+}

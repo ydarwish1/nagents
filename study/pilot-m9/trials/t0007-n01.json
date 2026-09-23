@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 861914019 multiplied by 194127323? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "861914019 \u00d7 194127323\nAnswer: 167228389127637000",
+          "answer": "167228389127637000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "167228389127637000"
+  ],
+  "final_answer": "167228389127637000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "167321061164641137",
+  "correct": false
+}

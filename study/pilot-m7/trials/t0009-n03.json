@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7780523 multiplied by 2324039? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7780523 \u00d7 2324039: Break into 7780523 \u00d7 (2000000 + 324039) = 15561046000000 + 7780523 \u00d7 324039. Continue: 7780523 \u00d7 324039 = 2521192892397. Total: 15561046000000 + 2521192892397 = 18082238892397\nAnswer: 18082238892397",
+          "answer": "18082238892397",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7780523 multiplied by 2324039? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7780523 \u00d7 2324039: break into parts (2M + 300K + 20K + 4K + 30 + 9), sum partial products\nAnswer: 18082238892397",
+          "answer": "18082238892397",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7780523 multiplied by 2324039? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7780523 \u00d7 2000000 = 15561046000000\n7780523 \u00d7 324039 = 2521192892397\nSum: 18082238892397\nAnswer: 18082238892397",
+          "answer": "18082238892397",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "18082238892397",
+    "18082238892397",
+    "18082238892397"
+  ],
+  "final_answer": "18082238892397",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 109,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "18082238892397",
+  "correct": true
+}

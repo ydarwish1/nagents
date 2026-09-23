@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-21-38",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:38",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2431398 \u00d7 4684741: Breaking into place values and summing partial products\nAnswer: 13190334150",
+          "answer": "13190334150",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2431398 \u00d7 4000000 = 9,725,592,000,000; 2431398 \u00d7 684741 = 1,664,879,759,618\nAnswer: 11390471759618",
+          "answer": "11390471759618",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2431398 \u00d7 4684741 = 2431398 \u00d7 4000000 + 2431398 \u00d7 684741\n= 9725592000000 + 1665677903718\nAnswer: 11391269903718",
+          "answer": "11391269903718",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2431398 \u00d7 (4000000 + 684741) = 11390469738318\nAnswer: 11390469738318",
+          "answer": "11390469738318",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2431398 \u00d7 4684741: 2431398 \u00d7 (4,000,000 + 684,741) = 9,725,592,000,000 + 1,664,877,921,918\nAnswer: 11390469921918",
+          "answer": "11390469921918",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "13190334150",
+    "11390471759618",
+    "11391269903718",
+    "11390469738318",
+    "11390469921918"
+  ],
+  "final_answer": "13190334150",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 119,
+    "calls": 5
+  },
+  "trial": 38,
+  "expected": "11390469897918",
+  "correct": false
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-18",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1045809 \u00d7 8000000 + 890000 + 342 breakdown\nAnswer: 9297599656878",
+          "answer": "9297599656878",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9297599656878"
+  ],
+  "final_answer": "9297599656878",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 18,
+  "expected": "9297599676678",
+  "correct": false
+}

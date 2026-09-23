@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74256131 multiplied by 33287156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74256131 \u00d7 30000000 + 74256131 \u00d7 3287156\nAnswer: 2471775416553436",
+          "answer": "2471775416553436",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74256131 multiplied by 33287156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into (74M + 256k) \u00d7 (33M + 287k): 74M\u00d733M=2.442T, 74M\u00d7287k=21.249T, 256k\u00d733M=8.452T, 256k\u00d7287k=73.5B. Sum.\nAnswer: 2471775440660636",
+          "answer": "2471775440660636",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74256131 multiplied by 33287156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74256131 \u00d7 (33000000 + 287156) = 2450452323000000 + 21326889053036\nAnswer: 2471779212053036",
+          "answer": "2471779212053036",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2471775416553436",
+    "2471775440660636",
+    "2471779212053036"
+  ],
+  "final_answer": "2471775416553436",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 72,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "2471775416553436",
+  "correct": true
+}

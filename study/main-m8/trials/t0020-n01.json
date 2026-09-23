@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-20",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43398016 \u00d7 4 = 173592064; \u00d7 50 = 2169900800; \u00d7 4000 = 173592064000; \u00d7 90000 = 3905821440000; \u00d7 300000 = 13019404800000; \u00d7 3000000 = 130194048000000; \u00d7 80000000 = 3471841280000000. Sum: 3619136489796864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3619136489796864"
+  ],
+  "final_answer": "3619136489796864",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 56,
+    "calls": 1
+  },
+  "trial": 20,
+  "expected": "3619136489796864",
+  "correct": true
+}

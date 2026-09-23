@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-25",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:25",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2941989 \u00d7 2837067: 5883978000000 + 2353591200000 + 88259670000 + 20593923000 + 176519340 + 20593923\nAnswer: 8346619906263",
+          "answer": "8346619906263",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8346619906263"
+  ],
+  "final_answer": "8346619906263",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 30,
+    "calls": 1
+  },
+  "trial": 25,
+  "expected": "8346619906263",
+  "correct": true
+}

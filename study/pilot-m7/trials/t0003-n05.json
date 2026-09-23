@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8813144: Break into 1864744 \u00d7 (8000000 + 813144) = 14917952000000 + 1864744 \u00d7 813144. Continue: 1864744 \u00d7 813144 = 1516285395136. Total: 14917952000000 + 1516285395136 = 16434237395136\nAnswer: 16434237395136",
+          "answer": "16434237395136",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8813144: break into parts (8M + 800K + 10K + 3K + 100 + 40 + 4), sum partial products\nAnswer: 16434257395136",
+          "answer": "16434257395136",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8000000 = 14917952000000\n1864744 \u00d7 813144 = 1516305395136\nSum: 16434257395136\nAnswer: 16434257395136",
+          "answer": "16434257395136",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8813144: Break into parts (8M + 813144), calculate each, sum.\nAnswer: 16434504315264",
+          "answer": "16434504315264",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1864744 multiplied by 8813144? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1864744 \u00d7 8813144: breaking by place value and summing\nAnswer: 16434257395136",
+          "answer": "16434257395136",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16434237395136",
+    "16434257395136",
+    "16434257395136",
+    "16434504315264",
+    "16434257395136"
+  ],
+  "final_answer": "16434257395136",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 152,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "16434257395136",
+  "correct": true
+}

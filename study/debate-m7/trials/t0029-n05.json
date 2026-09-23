@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-29",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 (2500000 - 14570) = 20642277500000 - 120303193270\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2M + 400K + 80K + 5K + 400 + 30 = 16513822M + 3302764M + 660552K + 41284K + 3302K + 247K = 20521974306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = (8000000 \u00d7 2485430) + (256911 \u00d7 2485430) = 19883440000000 + 638534306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 16513822000000 + 4008152306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 16.5B + 3.3B + 660.6B + 41.3B + 3.3B + 247.7M\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430: sum of parts = 20,521,974,306,730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 16,513,822,000,000 + 3,302,764,400,000 + 660,552,880,000 + 41,284,555,000 + 3,302,764,400 + 247,707,330\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = 8256911 \u00d7 2000000 + 8256911 \u00d7 485430 = 16513822000000 + 4008152306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2 = 16,513,822,000. Plus 8256911 \u00d7 485430 = 7,555,073,565. Sum = 24,068,895,565.\nAnswer: 24068895565",
+          "answer": "24068895565",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430: 2M + 485K decomposition\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "20521974306730",
+    "20521974306730",
+    "20521974306730",
+    "20521974306730",
+    "20521974306730"
+  ],
+  "final_answer": "20521974306730",
+  "usage": {
+    "input_tokens": 966,
+    "output_tokens": 249,
+    "calls": 10
+  },
+  "trial": 29,
+  "expected": "20521974306730",
+  "correct": true
+}

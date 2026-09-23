@@ -1,0 +1,58 @@
+{
+  "task_id": "chain10-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 19. Add 89. Multiply by 3. Multiply by 2. Multiply by 8. Multiply by 8. Add 19. Subtract 85. Multiply by 3. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 19 + 89 = 116, \u00d7 3 = 348, \u00d7 2 = 696, \u00d7 8 = 5568, \u00d7 8 = 44544, + 19 = 44563, - 85 = 44478, \u00d7 3 = 133434, + 70 = 133504\nAnswer: 133504",
+          "answer": "133504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 19. Add 89. Multiply by 3. Multiply by 2. Multiply by 8. Multiply by 8. Add 19. Subtract 85. Multiply by 3. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 19 = 27 \u2192 + 89 = 116 \u2192 \u00d7 3 = 348 \u2192 \u00d7 2 = 696 \u2192 \u00d7 8 = 5568 \u2192 \u00d7 8 = 44544 \u2192 + 19 = 44563 \u2192 - 85 = 44478 \u2192 \u00d7 3 = 133434 \u2192 + 70 = 133504\nAnswer: 133504",
+          "answer": "133504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 19. Add 89. Multiply by 3. Multiply by 2. Multiply by 8. Multiply by 8. Add 19. Subtract 85. Multiply by 3. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 19 = 27, + 89 = 116, \u00d7 3 = 348, \u00d7 2 = 696, \u00d7 8 = 5568, \u00d7 8 = 44544, + 19 = 44563, - 85 = 44478, \u00d7 3 = 133434, + 70 = 133504\nAnswer: 133504",
+          "answer": "133504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "133504",
+    "133504",
+    "133504"
+  ],
+  "final_answer": "133504",
+  "usage": {
+    "input_tokens": 285,
+    "output_tokens": 106,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "133504",
+  "correct": true
+}

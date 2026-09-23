@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-11-8",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2405715 multiplied by 4441258? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2405715 \u00d7 4441258: Break into 2405715 \u00d7 (4000000 + 441258) = 9622860000000 + 2405715 \u00d7 441258. Continue: 2405715 \u00d7 441258 = 1061540989470. Total: 9622860000000 + 1061540989470 = 10684400989470\nAnswer: 10684400989470",
+          "answer": "10684400989470",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2405715 multiplied by 4441258? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2405715 \u00d7 4441258: break into parts (4M + 400K + 40K + 1K + 200 + 50 + 8), sum partial products\nAnswer: 10684400989470",
+          "answer": "10684400989470",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2405715 multiplied by 4441258? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2405715 \u00d7 4000000 = 9622860000000\n2405715 \u00d7 441258 = 1061540989470\nSum: 10684400989470\nAnswer: 10684400989470",
+          "answer": "10684400989470",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "10684400989470",
+    "10684400989470",
+    "10684400989470"
+  ],
+  "final_answer": "10684400989470",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 109,
+    "calls": 3
+  },
+  "trial": 8,
+  "expected": "10684400989470",
+  "correct": true
+}

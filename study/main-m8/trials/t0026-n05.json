@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-26",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:26",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97700391 \u00d7 62533863\nBreaking down: 90M + 7M + 700K + 391\n90M \u00d7 62533863 = 5,628,047,670,000,000\n7M \u00d7 62533863 = 437,737,041,000,000\n700K \u00d7 62533863 = 43,773,704,100,000\n391 \u00d7 62533863 = 24,452,928,433\nAnswer: 6109610745028433",
+          "answer": "6109610745028433",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(97000000 + 700391)(62000000 + 533863) = 6014000000000000 + 51784811000000 + 43424282000000 + 373912840433\nAnswer: 6109582505840433",
+          "answer": "6109582505840433",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97000000 \u00d7 62533863 = 6065784711000000; 700391 \u00d7 62533863 = 43798154834133\nAnswer: 6109582865834133",
+          "answer": "6109582865834133",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97.700 \u00d7 62.534 \u2248 6107.8\nAnswer: 6107824221633",
+          "answer": "6107824221633",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97700391 \u00d7 62533863: (97M + 700391)(62M + 533863) = 6.014T + 51.7B + 43.4B + 373.9B\nAnswer: 6109583865139833",
+          "answer": "6109583865139833",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6109610745028433",
+    "6109582505840433",
+    "6109582865834133",
+    "6107824221633",
+    "6109583865139833"
+  ],
+  "final_answer": "6109610745028433",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 150,
+    "calls": 5
+  },
+  "trial": 26,
+  "expected": "6109582865840433",
+  "correct": false
+}

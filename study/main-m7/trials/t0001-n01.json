@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8831878: Breaking into parts (8M + 800k + 30k + 1k + 800 + 70 + 8), sum all contributions\nAnswer: 16189593913294",
+          "answer": "16189593913294",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16189593913294"
+  ],
+  "final_answer": "16189593913294",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 30,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "16188593913294",
+  "correct": false
+}

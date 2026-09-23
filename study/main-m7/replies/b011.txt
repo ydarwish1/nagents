@@ -1,0 +1,39 @@
+=== 0fd97afc14d6e769f1abf907
+9927498 × 6969388: Break into 6M + 900k + 60k + 9k + 300 + 80 + 8 components, multiply each and sum.
+Answer: 69188585431224
+
+=== 6a2900da7649eae3e2f0e2df
+2162443 × 3729472: Break into 3.7M + 29472 components, multiply and sum.
+Answer: 8064770620096
+
+=== 5b1f4c83afbf789c6e927553
+8508434 × 1828316: Break into 1.8M + 28316 components, multiply and sum.
+Answer: 15556106017144
+
+=== 83ecc2fb0faebf65c5a40e95
+6478592 × 9025826: Break into 9M + 25826 components, multiply and sum.
+Answer: 58474644116992
+
+=== 9131baeac120eded0d786f26
+6934860 × 3640504: Break into 3.64M + 504 components, multiply and sum.
+Answer: 25236389569440
+
+=== f0c6d7570d627359db24f62a
+9950611 × 3055538: Break into 3M + 55538 components, multiply and sum.
+Answer: 30404470033718
+
+=== aa71502090715be17ce30700
+4379318 × 8169914: Break into 8M + 169914 components, multiply and sum.
+Answer: 35778651439452
+
+=== 4f547b4a8ecb995c45666962
+6320736 × 1615528: Break into 1.6M + 15528 components, multiply and sum.
+Answer: 10211325988608
+
+=== f3ed420bea865cbf474651cb
+3006925 × 1534877: Break into 1.5M + 34877 components, multiply and sum.
+Answer: 4615260023225
+
+=== fbe611f4f72b66bf13e72e44
+2506263 × 7917653: Break into 7.9M + 17653 components, multiply and sum.
+Answer: 19843720760739

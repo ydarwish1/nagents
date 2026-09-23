@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-22",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:22",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 47773437 into digit place values, multiply by 98527508, and sum all products\nAnswer: 4706997695204996",
+          "answer": "4706997695204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98527508 \u00d7 47773437\nBreaking down: 90M + 8.5M + 27508\n90M \u00d7 47773437 = 4,299,609,330,000,000\n8.5M \u00d7 47773437 = 382,426,363,185,000\n27508 \u00d7 47773437 = 1,314,155,666,796\nAnswer: 4683349848851796",
+          "answer": "4683349848851796",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(98000000 + 527508)(47000000 + 773437) = 4606000000000000 + 75796826000000 + 24792876000000 + 407794204996\nAnswer: 4706997496204996",
+          "answer": "4706997496204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98000000 \u00d7 47773437 = 4681796826000000; 527508 \u00d7 47773437 = 25200870204996\nAnswer: 4706997696204996",
+          "answer": "4706997696204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98.528 \u00d7 47.773 \u2248 4704.8\nAnswer: 4704847471696",
+          "answer": "4704847471696",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98527508 \u00d7 47773437: (98M + 527508)(47M + 773437) = 4.606T + 75.7B + 24.7B + 407.9B\nAnswer: 4706997695040996",
+          "answer": "4706997695040996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98527508 \u00d7 40000000 + 98527508 \u00d7 7773437\nAnswer: 4707016696204996",
+          "answer": "4707016696204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into (98M + 527k) \u00d7 (47M + 773k): 98M\u00d747M=4.606T, 98M\u00d7773k=75.796T, 527k\u00d747M=24.792T, 527k\u00d7773k=408B. Sum.\nAnswer: 4707037328482996",
+          "answer": "4707037328482996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98527508 \u00d7 (47000000 + 773437) = 4630992876000000 + 76206454114396\nAnswer: 4707199330114396",
+          "answer": "4707199330114396",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4706997695204996",
+    "4683349848851796",
+    "4706997496204996",
+    "4706997696204996",
+    "4704847471696",
+    "4706997695040996",
+    "4707016696204996",
+    "4707037328482996",
+    "4707199330114396"
+  ],
+  "final_answer": "4706997695204996",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 240,
+    "calls": 9
+  },
+  "trial": 22,
+  "expected": "4706997696204996",
+  "correct": false
+}

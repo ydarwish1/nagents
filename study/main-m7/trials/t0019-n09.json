@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-19",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6969388: Break into 6M + 900k + 60k + 9k + 300 + 80 + 8 components, multiply each and sum.\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6969388: break by place value and sum partial products\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6969388: Sum of products at each digit position\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 (7000000 - 30612) = 69492486000000 - 303900568776\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 (7000000 - 30612) = 69492486000000 - 303900568776\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6000000 + 9927498 \u00d7 969388 = 59564988000000 + 9623597431224\nAnswer: 69188585431224",
+          "answer": "69188585431224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 7M - 30612\nAnswer: 69188586830424",
+          "answer": "69188586830424",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6969388 = 9927498 \u00d7 (7000000 - 30612) = 69492486000000 - 303900717576\nAnswer: 69188585282424",
+          "answer": "69188585282424",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9927498 \u00d7 6000000 + 9623477451224\nAnswer: 69188465451224",
+          "answer": "69188465451224",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "69188585431224",
+    "69188585431224",
+    "69188585431224",
+    "69188585431224",
+    "69188585431224",
+    "69188585431224",
+    "69188586830424",
+    "69188585282424",
+    "69188465451224"
+  ],
+  "final_answer": "69188585431224",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 183,
+    "calls": 9
+  },
+  "trial": 19,
+  "expected": "69188585431224",
+  "correct": true
+}

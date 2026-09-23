@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-10",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8 = 16,594,888; \u00d7 1M = 16,594,888,000. Then 2074361 \u00d7 131464 = 1,234,244,795. Sum = 17,829,132,795.\nAnswer: 17829132795",
+          "answer": "17829132795",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8M + 100K + 30K + 1K + 400 + 60 + 4 = 16,594,888M + 207,436M + 62,230M + 2,074M + 829K + 124K + 8K = 16,867,591,794,504\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8000000 + 131464 breakdown\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8131464 = 2074361 \u00d7 (8000000 + 131464) = 16594888000000 + 272699826704\nAnswer: 16867587826704",
+          "answer": "16867587826704",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8131464: 16594888000000 + 207436100000 + 62230830000 + 2074361000 + 829744400 + 124461660 + 8297444\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 (8000000 + 131464) = 16594888000000 + 272704794504\nAnswer: 16867592794504",
+          "answer": "16867592794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8131464 = (2074361 \u00d7 8000000) + (2074361 \u00d7 131464) = 16594888000000 + 272703794504\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8131464 = 16.6B + 207.4B + 62.2B + 2.1B + 829.7M + 124.5M + 8.3M\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 16,594,888,000,000 + 207,436,100,000 + 62,230,830,000 + 2,074,361,000 + 829,744,400 + 124,461,660 + 8,297,444\nAnswer: 16867591794504",
+          "answer": "16867591794504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17829132795",
+    "16867591794504",
+    "16867591794504",
+    "16867587826704",
+    "16867591794504",
+    "16867592794504",
+    "16867591794504",
+    "16867591794504",
+    "16867591794504"
+  ],
+  "final_answer": "16867591794504",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 254,
+    "calls": 9
+  },
+  "trial": 10,
+  "expected": "16867591794504",
+  "correct": true
+}

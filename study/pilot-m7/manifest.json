@@ -1,0 +1,38 @@
+{
+  "nagents_version": "0.3.0",
+  "model": "subagents:haiku,no-tools,10-per-batch",
+  "topology": "independent",
+  "sizes": [
+    1,
+    3,
+    5
+  ],
+  "trials": 10,
+  "master_seed": 11,
+  "task_ids": [
+    "mult7-11-0",
+    "mult7-11-1",
+    "mult7-11-2",
+    "mult7-11-3",
+    "mult7-11-4",
+    "mult7-11-5",
+    "mult7-11-6",
+    "mult7-11-7",
+    "mult7-11-8",
+    "mult7-11-9"
+  ],
+  "config": {
+    "suite": "mult",
+    "suite_path": null,
+    "depth": 8,
+    "mock": false,
+    "mock_accuracy": null,
+    "model": null,
+    "effort": null,
+    "max_tokens": 16000,
+    "subagents": "haiku,no-tools,10-per-batch",
+    "digits": 7,
+    "workers": 1
+  },
+  "started_at": "2026-09-23T06:25:30+0000"
+}

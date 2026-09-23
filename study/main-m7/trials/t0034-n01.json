@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-34",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:34",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: Break into parts (7M + 400K + 7K + 500 + 30 + 9). Sum components: 23,137,674,000,000 + 1,322,152,800,000 + 23,137,674,000 + 1,652,691,000 + 99,161,460 + 29,748,438\nAnswer: 24484746074898",
+          "answer": "24484746074898",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "24484746074898"
+  ],
+  "final_answer": "24484746074898",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 51,
+    "calls": 1
+  },
+  "trial": 34,
+  "expected": "24484746074898",
+  "correct": true
+}

@@ -1,0 +1,71 @@
+{
+  "task_id": "mult7-21-27",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2805962 \u00d7 4631030: Break into (2800000 + 5962) \u00d7 4631030\n= 12,966,884,000,000 + 27,610,200,860\nAnswer: 12994494200860",
+          "answer": "12994494200860",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2805962 \u00d7 4000000 = 11,223,848,000,000; plus 2805962 \u00d7 631030 = 1,770,646,200,860\nAnswer: 12994494200860",
+          "answer": "12994494200860",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2805962 \u00d7 4631030: Break (4M + 600K + 30K + 1K + 30). Sum: 11,223,848,000,000 + 1,683,577,200,000 + 84,178,860,000 + 2,805,962,000 + 84,178,860\nAnswer: 12994494200860",
+          "answer": "12994494200860",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2805962 \u00d7 4631030: Breaking into place values and summing partial products\nAnswer: 13078588882",
+          "answer": "13078588882",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12994494200860",
+    "12994494200860",
+    "12994494200860",
+    "13078588882"
+  ],
+  "final_answer": "12994494200860",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 119,
+    "calls": 4
+  },
+  "trial": 27,
+  "expected": "12994494200860",
+  "correct": true
+}

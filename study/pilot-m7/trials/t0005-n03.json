@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3586397 multiplied by 4853762? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3586397 \u00d7 4853762: Break into 3586397 \u00d7 (4000000 + 853762) = 14345588000000 + 3586397 \u00d7 853762. Continue: 3586397 \u00d7 853762 = 3061929475514. Total: 14345588000000 + 3061929475514 = 17407517475514\nAnswer: 17407517475514",
+          "answer": "17407517475514",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3586397 multiplied by 4853762? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3586397 \u00d7 4853762: break into parts (4M + 800K + 50K + 3K + 700 + 60 + 2), sum partial products\nAnswer: 17407517475514",
+          "answer": "17407517475514",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3586397 multiplied by 4853762? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3586397 \u00d7 4000000 = 14345588000000\n3586397 \u00d7 853762 = 3061849275514\nSum: 17407437275514\nAnswer: 17407437275514",
+          "answer": "17407437275514",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17407517475514",
+    "17407517475514",
+    "17407437275514"
+  ],
+  "final_answer": "17407517475514",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 110,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "17407517475514",
+  "correct": true
+}

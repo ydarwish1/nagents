@@ -1,0 +1,45 @@
+{
+  "task_id": "mult7-21-29",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 (2500000 - 14570) = 20642277500000 - 120303193270\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8256911 \u00d7 2485430 = (8000000 \u00d7 2485430) + (256911 \u00d7 2485430) = 19883440000000 + 638534306730\nAnswer: 20521974306730",
+          "answer": "20521974306730",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "20521974306730",
+    "20521974306730"
+  ],
+  "final_answer": "20521974306730",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 48,
+    "calls": 2
+  },
+  "trial": 29,
+  "expected": "20521974306730",
+  "correct": true
+}

@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-12",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20773831 = (89932155 \u00d7 20M) + (89932155 \u00d7 773831)\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20000000 + 89932155 \u00d7 773831 = 1798643100000000 + 69592483375705\nAnswer: 1868235583375705",
+          "answer": "1868235583375705",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 (20000000 + 773831) = 1798643100000000 + 69592489635805\nAnswer: 1868235589635805",
+          "answer": "1868235589635805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20000000 + 89932155 \u00d7 773831\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20773831: \u00d7 20000000 = 1,798,643,100,000,000; \u00d7 773831 = 69,592,289,435,805\nAnswer: 1867235389435805",
+          "answer": "1867235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20773831: Multiply by 21M then subtract 226169 component\nAnswer: 1868228061410605",
+          "answer": "1868228061410605",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20773831: (89\u00d720\u00d710\u00b9\u00b2) + (89\u00d7773831\u00d710\u2076) + (932155\u00d720\u00d710\u2076) + (932155\u00d7773831)\n= 1780T + 68871159B + 18643100B + 721230433605\nAnswer: 1869315489433605",
+          "answer": "1869315489433605",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1868235389435805",
+    "1868235583375705",
+    "1868235589635805",
+    "1868235389435805",
+    "1867235389435805",
+    "1868228061410605",
+    "1869315489433605"
+  ],
+  "final_answer": "1868235389435805",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 173,
+    "calls": 7
+  },
+  "trial": 12,
+  "expected": "1868235389435805",
+  "correct": true
+}

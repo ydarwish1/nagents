@@ -1,0 +1,58 @@
+{
+  "task_id": "mult5-11-1",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 18613 multiplied by 84576? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "18613 \u00d7 (80000 + 4576) = 1489040000 + 85189088\nAnswer: 1574229088",
+          "answer": "1574229088",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 18613 multiplied by 84576? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "18613 \u00d7 80000 = 1,488,640,000; 18613 \u00d7 4576 = 85,173,088\nAnswer: 1573813088",
+          "answer": "1573813088",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 18613 multiplied by 84576? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "18613 \u00d7 84576 = 18613 \u00d7 (84000 + 576)\n18613 \u00d7 84 = 1563492, so 18613 \u00d7 84000 = 1563492000\n18613 \u00d7 576 = 18613 \u00d7 500 + 18613 \u00d7 76 = 9306500 + 1414588 = 10721088\nTotal: 1563492000 + 10721088 = 1574213088\nAnswer: 1574213088",
+          "answer": "1574213088",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1574229088",
+    "1573813088",
+    "1574213088"
+  ],
+  "final_answer": "1574229088",
+  "usage": {
+    "input_tokens": 189,
+    "output_tokens": 89,
+    "calls": 3
+  },
+  "trial": 1,
+  "expected": "1574213088",
+  "correct": false
+}

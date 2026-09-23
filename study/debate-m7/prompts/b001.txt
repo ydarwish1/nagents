@@ -1,0 +1,58 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 4755dc7e9e727bb89339ed98
+What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 24869908021536, 24869908101536, 24869904061536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 7d39c0e30fb62f602d61490c
+What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 8384338864006, 8384338824006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 36127c8bdeda22fb29fae332
+What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 11390471759618, 11391269903718, 11390469738318, 11390469921918. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: fc01d3fc07e0b6de08e55731
+What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: cff55554c5e37566798b95ea
+What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 25184290539845, 30806220627, 25184047939045, 25184338730245. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: e0adeaa2cdbb642b3f9c2e6a
+What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 19843720760739, 19843720760739, 19843720760739, 19843720660739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 363367a55ff856c8624dbf7f
+What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 30404470033718, 30404470033718, 30404370033718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 1de8a2a9b85453cb43e1e395
+What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: c0e594cb273dfc024062dff6
+What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: eb17433174dcda42ead0778f
+What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+Other solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>

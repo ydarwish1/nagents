@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2490583 multiplied by 1065783? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2490583 \u00d7 1065783: Break into 2490583 \u00d7 (1000000 + 65783) = 2490583000000 + 2490583 \u00d7 65783. Continue: 2490583 \u00d7 65783 = 163837961489. Total: 2490583000000 + 163837961489 = 2654420961489\nAnswer: 2654420961489",
+          "answer": "2654420961489",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2490583 multiplied by 1065783? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2490583 \u00d7 1065783: break into parts (1M + 60K + 5K + 700 + 80 + 3), sum partial products\nAnswer: 2654421021489",
+          "answer": "2654421021489",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2490583 multiplied by 1065783? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2490583 \u00d7 1000000 = 2490583000000\n2490583 \u00d7 65783 = 163838021489\nSum: 2654421021489\nAnswer: 2654421021489",
+          "answer": "2654421021489",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2654420961489",
+    "2654421021489",
+    "2654421021489"
+  ],
+  "final_answer": "2654421021489",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 105,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "2654421021489",
+  "correct": true
+}

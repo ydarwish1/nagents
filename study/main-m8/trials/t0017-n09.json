@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-17",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6517256300000000 - 35899589430357\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 99000000 = 6452083737000000; \u00d7 449161 = 29272973510043. Sum: 6481356710510043\nAnswer: 6481356710510043",
+          "answer": "6481356710510043",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 100000000 = 6517256300000000; 65172563 \u00d7 550839 = 35899589430357\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 100000000 = 6517256300000000; 65172563 \u00d7 550839 = 35899589430357\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 99449161: (65M + 172563) \u00d7 (99M + 449161). Sum: 6435T + 29.1B + 17.08B + 77.5B.\nAnswer: 6482279779550050043",
+          "answer": "6482279779550050043",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 99000000 = 6,452,083,737,000,000; 65172563 \u00d7 449161 = 29,273,973,569,643\nAnswer: 6481357710569643",
+          "answer": "6481357710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into 100M - 0.55M components; multiply and subtract\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65.172M \u00d7 100M - 65.172M \u00d7 550.839K\nAnswer: 6481356710428843",
+          "answer": "6481356710428843",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65172563 \u00d7 99449161\nBuilding products digit by digit with positional shifts and summing.\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6481356710569643",
+    "6481356710510043",
+    "6481356710569643",
+    "6481356710569643",
+    "6482279779550050043",
+    "6481357710569643",
+    "6481356710569643",
+    "6481356710428843",
+    "6481356710569643"
+  ],
+  "final_answer": "6481356710569643",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 211,
+    "calls": 9
+  },
+  "trial": 17,
+  "expected": "6481356710569643",
+  "correct": true
+}

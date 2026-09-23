@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-24",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14156542 \u00d7 14 \u00d7 1000000 = 198191588000000; 14156542 \u00d7 35812 = 506974082104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "198698562082104"
+  ],
+  "final_answer": "198698562082104",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 24,
+    "calls": 1
+  },
+  "trial": 24,
+  "expected": "198698562082104",
+  "correct": true
+}

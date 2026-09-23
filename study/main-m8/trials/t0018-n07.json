@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-18",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 50M = 3987417200000000; \u00d7 1314256 = 104809739592064\nAnswer: 4092226939592064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51000000 + 79748344 \u00d7 314256\nAnswer: 4092226739592064",
+          "answer": "4092226739592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51314256: Breaking (79M + 748344) \u00d7 (51M + 314256), sum of parts\nAnswer: 4092226939592064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 50000000 = 3987417200000000; \u00d7 1000000 = 79748344000000; \u00d7 300000 = 23924503200000; \u00d7 14256 = 1136875192064\nAnswer: 4092226939192064",
+          "answer": "4092226939192064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51M = 4,067,245,344,000,000; \u00d7 314,256 = 25,062,038,446,464; total = 4,067,245,344,000,000 + 25,062,038,446,464\nAnswer: 4092307382446464",
+          "answer": "4092307382446464",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51314256: 79748344 \u00d7 (50,000,000 + 1,314,256) = 3,987,417,200,000,000 + 104,809,709,591,264\nAnswer: 4092226909591264",
+          "answer": "4092226909591264",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 (51000000 + 314256) = 4067145344000000 + 25061645798464\nAnswer: 4092206989798464",
+          "answer": "4092206989798464",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4092226939592064",
+    "4092226739592064",
+    "4092226939592064",
+    "4092226939192064",
+    "4092307382446464",
+    "4092226909591264",
+    "4092206989798464"
+  ],
+  "final_answer": "4092226939592064",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 186,
+    "calls": 7
+  },
+  "trial": 18,
+  "expected": "4092226939592064",
+  "correct": true
+}

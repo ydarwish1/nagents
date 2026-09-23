@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-9",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 (76000 + 717) = 3341112000 + 31541754\nAnswer: 3372653754",
+          "answer": "3372653754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 76000 = 3,341,112,000; 43962 \u00d7 717 = 31,520,754\nAnswer: 3372632754",
+          "answer": "3372632754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 76717 = 43962 \u00d7 (76000 + 717)\n43962 \u00d7 76 = 3341112, so 43962 \u00d7 76000 = 3341112000\n43962 \u00d7 717 = 43962 \u00d7 700 + 43962 \u00d7 17 = 30773400 + 747354 = 31520754\nTotal: 3341112000 + 31520754 = 3372632754\nAnswer: 3372632754",
+          "answer": "3372632754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 76717 = 43962 \u00d7 (70000 + 6717) = 3077340000 + 295292754\nAnswer: 3372632754",
+          "answer": "3372632754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43962 \u00d7 76717 = 43962 \u00d7 (76000 + 717) = 3,341,112,000 + 31,520,754\nAnswer: 3372632754",
+          "answer": "3372632754",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3372653754",
+    "3372632754",
+    "3372632754",
+    "3372632754",
+    "3372632754"
+  ],
+  "final_answer": "3372632754",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 130,
+    "calls": 5
+  },
+  "trial": 9,
+  "expected": "3372632754",
+  "correct": true
+}

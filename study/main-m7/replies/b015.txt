@@ -1,0 +1,39 @@
+=== 946c7c9d55718026d6fbb5d7
+2506263 × 7917653: break by place value and sum partial products
+Answer: 19843720760739
+
+=== b53d7f512f7ddb4fe0641800
+9927498 × 6969388: break by place value and sum partial products
+Answer: 69188585431224
+
+=== 15f7406c0c8c30f0eee0a4a8
+2162443 × 3729472: break by place value and sum partial products
+Answer: 8064770620096
+
+=== da5055a8536b495e57aa72f4
+8508434 × 1828316: break by place value and sum partial products
+Answer: 15556106017144
+
+=== d0e081b93d41f6dc39335c68
+6478592 × 9025826: break by place value and sum partial products
+Answer: 58474644116992
+
+=== 8dc6165946d71854692f459a
+6934860 × 3640504: break by place value and sum partial products
+Answer: 25246385569440
+
+=== 9d26bef5de3f514f9fdcdecb
+9950611 × 3055538: break by place value and sum partial products
+Answer: 30404470033718
+
+=== cb9aadb6988bec8bdaf915ff
+4379318 × 8169914: break by place value and sum partial products
+Answer: 35778651438652
+
+=== 46af7878b52d985493aaa12d
+6320736 × 1615528: break by place value and sum partial products
+Answer: 10211325988608
+
+=== 1d42536ec92e9a7b6b73b33f
+3006925 × 1534877: break by place value and sum partial products
+Answer: 4615260023225

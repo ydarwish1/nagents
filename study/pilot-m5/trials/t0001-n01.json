@@ -1,0 +1,32 @@
+{
+  "task_id": "mult5-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 18613 multiplied by 84576? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "18613 \u00d7 (80000 + 4576) = 1489040000 + 85189088\nAnswer: 1574229088",
+          "answer": "1574229088",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1574229088"
+  ],
+  "final_answer": "1574229088",
+  "usage": {
+    "input_tokens": 63,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "1574213088",
+  "correct": false
+}

@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25451 \u00d7 (89000 + 547) = 2265139000 + 13921897\nAnswer: 2279060897",
+          "answer": "2279060897",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25451 \u00d7 89000 = 2,265,139,000; 25451 \u00d7 547 = 13,921,697\nAnswer: 2279060697",
+          "answer": "2279060697",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25451 \u00d7 89547 = 25451 \u00d7 (90000 - 453)\n25451 \u00d7 90 = 2290590, so 25451 \u00d7 90000 = 2290590000\n25451 \u00d7 453 = 25451 \u00d7 400 + 25451 \u00d7 53 = 10180400 + 1348903 = 11529303\nTotal: 2290590000 - 11529303 = 2279060697\nAnswer: 2279060697",
+          "answer": "2279060697",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25451 \u00d7 89547 = 25451 \u00d7 (80000 + 9547) = 2036080000 + 242980697\nAnswer: 2279060697",
+          "answer": "2279060697",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25451 \u00d7 89547 = 25451 \u00d7 (89000 + 547) = 2,265,139,000 + 13,921,697\nAnswer: 2279060697",
+          "answer": "2279060697",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2279060897",
+    "2279060697",
+    "2279060697",
+    "2279060697",
+    "2279060697"
+  ],
+  "final_answer": "2279060697",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 130,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "2279060697",
+  "correct": true
+}

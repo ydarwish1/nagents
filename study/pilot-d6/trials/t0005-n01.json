@@ -1,0 +1,32 @@
+{
+  "task_id": "chain6-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 54. Subtract 84. Multiply by 4. Multiply by 3. Multiply by 9. Add 60. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 54 = 62, 62 - 84 = -22, -22 \u00d7 4 = -88, -88 \u00d7 3 = -264, -264 \u00d7 9 = -2376, -2376 + 60 = -2316\nAnswer: -2316",
+          "answer": "-2316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-2316"
+  ],
+  "final_answer": "-2316",
+  "usage": {
+    "input_tokens": 83,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "-2316",
+  "correct": true
+}

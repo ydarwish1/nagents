@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-21-16",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:16",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 (1000000 + 300000 + 2000 + 52) = 9656080130496\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 1302052: 7416048 \u00d7 (1,000,000 + 302,052) = 7,416,048,000,000 + 2,240,032,130,496\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 1302052: Break into place values:\n7,416,048,000,000 + 2,224,814,400,000 + 14,832,096,000 + 370,802,400 + 14,832,096\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 1302052: Break into 7416048 \u00d7 (1000000 + 302052)\n= 7,416,048,000,000 + 2,240,032,130,496\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7416048 \u00d7 1000000 = 7,416,048,000,000; plus 7416048 \u00d7 302052 = 2,240,032,130,496\nAnswer: 9656080130496",
+          "answer": "9656080130496",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9656080130496",
+    "9656080130496",
+    "9656080130496",
+    "9656080130496",
+    "9656080130496"
+  ],
+  "final_answer": "9656080130496",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 138,
+    "calls": 5
+  },
+  "trial": 16,
+  "expected": "9656080130496",
+  "correct": true
+}

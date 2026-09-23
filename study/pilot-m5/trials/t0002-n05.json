@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-2",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 (33000 + 97) = 2103354000 + 6182386\nAnswer: 2109536386",
+          "answer": "2109536386",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 33000 = 2,103,354,000; 63738 \u00d7 97 = 6,182,586\nAnswer: 2109536586",
+          "answer": "2109536586",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 33097 = 63738 \u00d7 (33000 + 97)\n63738 \u00d7 33 = 2103354, so 63738 \u00d7 33000 = 2103354000\n63738 \u00d7 97 = 63738 \u00d7 100 - 63738 \u00d7 3 = 6373800 - 191214 = 6182586\nTotal: 2103354000 + 6182586 = 2109536586\nAnswer: 2109536586",
+          "answer": "2109536586",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 33097 = 63738 \u00d7 (30000 + 3097) = 1912140000 + 197396586\nAnswer: 2109536586",
+          "answer": "2109536586",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "63738 \u00d7 33097 = 63738 \u00d7 (33000 + 97) = 2,103,354,000 + 6,182,586\nAnswer: 2109536586",
+          "answer": "2109536586",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2109536386",
+    "2109536586",
+    "2109536586",
+    "2109536586",
+    "2109536586"
+  ],
+  "final_answer": "2109536586",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 126,
+    "calls": 5
+  },
+  "trial": 2,
+  "expected": "2109536586",
+  "correct": true
+}

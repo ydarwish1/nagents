@@ -1,0 +1,39 @@
+=== 83bfafb66e58802cca7b5574
+842905454 × 875823559: Break into (842M + 905k) × (875M + 823k), compute chunks and sum.
+Answer: 738236454312426786
+
+=== 360662172d01533a9f347b56
+703226126 × 768547101: Break into chunks (703M + 226k) × (768M + 547k), sum terms.
+Answer: 540462394480760726
+
+=== 5321bb13c94e122de9765519
+960974134 × 392404081: Break into chunks (960M + 974k) × (392M + 404k), sum terms.
+Answer: 377090011840433054
+
+=== 01031929f830005ba4a4d998
+430669697 × 650150486: Break into chunks (430M + 669k) × (650M + 150k), sum terms.
+Answer: 280000112031095242
+
+=== 20fd03974f7282010f6539f5
+258103769 × 736556295: Break into chunks (258M + 103k) × (736M + 556k), sum terms.
+Answer: 190077623344825255
+
+=== 72c2816358e3974f59b09383
+666298344 × 228867112: Break into chunks (666M + 298k) × (228M + 867k), sum terms.
+Answer: 152522848456769728
+
+=== 2e296bdbc65e83cd463720d0
+224619248 × 761237143: Break into chunks (224M + 619k) × (761M + 237k), sum terms.
+Answer: 171026926704755264
+
+=== 4fb73fed32f9c4b505980f92
+861914019 × 194127323: Break into chunks (861M + 914k) × (194M + 127k), sum terms.
+Answer: 167306813891340737
+
+=== 3d46271146d6e3f2afce1e29
+312784074 × 233817637: Break into chunks (312M + 784k) × (233M + 817k), sum terms.
+Answer: 73134512626607138
+
+=== 49736befba3c1b5ddf3837ab
+703642370 × 914183987: Break into chunks (703M + 642k) × (914M + 183k), sum terms.
+Answer: 643392944491627190

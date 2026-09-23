@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-6",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88 \u00d7 10^6 = 5,087,066,424,000,000\n57807573 \u00d7 619973 = 35,839,134,455,529\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88619973 = (57807573 \u00d7 88M) + (57807573 \u00d7 619973)\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 90000000 - 57807573 \u00d7 1380027 = 5202681570000000 - 79776011544471\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 (88000000 + 619973) = 5087066424000000 + 35839134455529\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88000000 + 57807573 \u00d7 619973\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88619973: \u00d7 88000000 = 5,087,066,424,000,000; \u00d7 619973 = 35,839,134,455,529\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88619973: Multiply by 88.6M then add 19973 component\nAnswer: 5123104890848729",
+          "answer": "5123104890848729",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57807573 \u00d7 88619973: (57\u00d788\u00d710\u00b9\u00b2) + (57\u00d7619973\u00d710\u2076) + (807573\u00d788\u00d710\u2076) + (807573\u00d7619973)\n= 5016T + 35338461B + 71066424B + 500673455529\nAnswer: 5121405550455529",
+          "answer": "5121405550455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 57807573 multiplied by 88619973? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "57M \u00d7 88619973 = 5.051T, 808K \u00d7 88619973 \u2248 71.6B, sum \u2248 5.123Q\nAnswer: 5122905558455529",
+          "answer": "5122905558455529",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5122905558455529",
+    "5122905558455529",
+    "5122905558455529",
+    "5122905558455529",
+    "5122905558455529",
+    "5122905558455529",
+    "5123104890848729",
+    "5121405550455529",
+    "5122905558455529"
+  ],
+  "final_answer": "5122905558455529",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 220,
+    "calls": 9
+  },
+  "trial": 6,
+  "expected": "5122905558455529",
+  "correct": true
+}

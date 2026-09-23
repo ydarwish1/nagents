@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-28",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76709553 \u00d7 11000000 = 843805083000000; 76709553 \u00d7 911235 = 69900429527955\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76709553 \u00d7 11911235: break into (76M + 700K + 9553) \u00d7 (11M + 900K + 11235). Compute partial products and sum.\nAnswer: 844521906787255",
+          "answer": "844521906787255",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76709553 \u00d7 11000000 = 843,805,083,000,000; 76709553 \u00d7 911235 = 69,900,431,529,755\nAnswer: 913705514529755",
+          "answer": "913705514529755",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "913705512527955",
+    "844521906787255",
+    "913705514529755"
+  ],
+  "final_answer": "913705512527955",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 83,
+    "calls": 3
+  },
+  "trial": 28,
+  "expected": "913705512527955",
+  "correct": true
+}

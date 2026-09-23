@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-23",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74976196 \u00d7 61000000 + 74976196 \u00d7 767980\nAnswer: 4631128175004080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74976196 \u00d7 61767980: \u00d7 61000000 = 4,573,547,956,000,000; \u00d7 767980 = 57,580,218,204,080\nAnswer: 4631128174204080",
+          "answer": "4631128174204080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74976196 \u00d7 61767980: Break into (75M - 23804) \u00d7 (62M - 232020) and expand\nAnswer: 4631128175213680",
+          "answer": "4631128175213680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74976196 \u00d7 61767980: (74\u00d761\u00d710\u00b9\u00b2) + (74\u00d7767980\u00d710\u2076) + (976196\u00d761\u00d710\u2076) + (976196\u00d7767980)\n= 4514T + 56830520B + 59547956B + 749699004080\nAnswer: 4630927651004080",
+          "answer": "4630927651004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74M \u00d7 61767980 = 4.571T, 976K \u00d7 61767980 \u2248 60.3B, sum \u2248 4.631Q\nAnswer: 4631128551609680",
+          "answer": "4631128551609680",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4631128175004080",
+    "4631128174204080",
+    "4631128175213680",
+    "4630927651004080",
+    "4631128551609680"
+  ],
+  "final_answer": "4631128175004080",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 127,
+    "calls": 5
+  },
+  "trial": 23,
+  "expected": "4631128175004080",
+  "correct": true
+}

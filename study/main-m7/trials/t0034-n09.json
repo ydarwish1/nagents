@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-34",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:34",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: Break into parts (7M + 400K + 7K + 500 + 30 + 9). Sum components: 23,137,674,000,000 + 1,322,152,800,000 + 23,137,674,000 + 1,652,691,000 + 99,161,460 + 29,748,438\nAnswer: 24484746074898",
+          "answer": "24484746074898",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: Breaking into place values and summing partial products\nAnswer: 24613527063",
+          "answer": "24613527063",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7000000 = 23,137,674,000,000; 3305382 \u00d7 407539 = 1,347,069,891,498\nAnswer: 24484743891498",
+          "answer": "24484743891498",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539 = 3305382 \u00d7 7000000 + 3305382 \u00d7 407539\n= 23137674000000 + 1347057390858\nAnswer: 24484731390858",
+          "answer": "24484731390858",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 (7000000 + 407539) = 24484745975098\nAnswer: 24484745975098",
+          "answer": "24484745975098",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: 3305382 \u00d7 (7,000,000 + 407,539) = 23,137,674,000,000 + 1,347,072,155,598\nAnswer: 24484746155598",
+          "answer": "24484746155598",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: Break into place values:\n23,137,674,000,000 + 1,322,152,800,000 + 23,137,674,000 + 1,652,691,000 + 99,161,460 + 29,748,438\nAnswer: 24484746074898",
+          "answer": "24484746074898",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7407539: Break into 3305382 \u00d7 (7000000 + 407539)\n= 23,137,674,000,000 + 1,347,072,074,898\nAnswer: 24484746074898",
+          "answer": "24484746074898",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3305382 \u00d7 7000000 = 23,137,674,000,000; plus 3305382 \u00d7 407539 = 1,347,072,045,098\nAnswer: 24484746045098",
+          "answer": "24484746045098",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "24484746074898",
+    "24613527063",
+    "24484743891498",
+    "24484731390858",
+    "24484745975098",
+    "24484746155598",
+    "24484746074898",
+    "24484746074898",
+    "24484746045098"
+  ],
+  "final_answer": "24484746074898",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 268,
+    "calls": 9
+  },
+  "trial": 34,
+  "expected": "24484746074898",
+  "correct": true
+}

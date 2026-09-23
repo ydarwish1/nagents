@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-24",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14156542 \u00d7 14 \u00d7 1000000 = 198191588000000; 14156542 \u00d7 35812 = 506974082104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14156542 \u00d7 14000000 = 198191588000000; 14156542 \u00d7 35812 = 506974082104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14156542 \u00d7 14035812: (14M + 156542) \u00d7 (14M + 35812). Sum: 196T + 501.3B + 2191.5B + 5.6B.\nAnswer: 198698561605819504",
+          "answer": "198698561605819504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "198698562082104",
+    "198698562082104",
+    "198698561605819504"
+  ],
+  "final_answer": "198698562082104",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 76,
+    "calls": 3
+  },
+  "trial": 24,
+  "expected": "198698562082104",
+  "correct": true
+}

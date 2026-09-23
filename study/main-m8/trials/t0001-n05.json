@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-1",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "90M \u00d7 47M + 1.4M \u00d7 47M + 1.785K \u00d7 47M\nAnswer: 4340915086621305",
+          "answer": "4340915086621305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "91401785 \u00d7 47492673\nBuilding partial products from each digit, shifting by position, then summing.\nAnswer: 4342560318751305",
+          "answer": "4342560318751305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4295883895000000 + 45031232210305\nAnswer: 4340915127210305",
+          "answer": "4340915127210305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "91401785 \u00d7 47000000 = 4295883895000000; \u00d7 492673 = 45031199621905. Sum: 4340915094621905\nAnswer: 4340915094621905",
+          "answer": "4340915094621905",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "91401785 \u00d7 40000000 = 3656071400000000; 91401785 \u00d7 7492673 = 684843686621305\nAnswer: 4340915086621305",
+          "answer": "4340915086621305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4340915086621305",
+    "4342560318751305",
+    "4340915127210305",
+    "4340915094621905",
+    "4340915086621305"
+  ],
+  "final_answer": "4340915086621305",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 112,
+    "calls": 5
+  },
+  "trial": 1,
+  "expected": "4340915086621305",
+  "correct": true
+}

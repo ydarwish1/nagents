@@ -1,0 +1,39 @@
+=== d22764d8c176014ede61cfa5
+Break into 50M + 3.9M components; multiply each part and sum
+Answer: 827805043491735
+
+=== 70f1ca1031df3c00d46d7685
+Break into 60M + 5.2M components; multiply each part and sum
+Answer: 4407749825792508
+
+=== 2ba2487444f13a83865a20f7
+Break into 16M + 0.8M components; multiply each part and sum
+Answer: 1350141246177504
+
+=== 4b7710fe3313f33d3af7d3d6
+Break into 10M + 1.9M components; multiply each part and sum
+Answer: 913705512527955
+
+=== c966668b3f4bba74c57a482a
+Break into 14M + 0.04M components; multiply each part and sum
+Answer: 198698562082104
+
+=== f5beae1a35b834f8278f7796
+Break into 80M + 3.4M components; multiply each part and sum
+Answer: 3619136489796864
+
+=== e33725dab91f1cf8291471f4
+Break into 100M - 0.55M components; multiply and subtract
+Answer: 6481356710569643
+
+=== adcc0a90f7787d3bebca9f28
+Break into 20M + 4.3M components; multiply each part and sum
+Answer: 1086111071811558
+
+=== 628927d6bdd6046eb19f98b4
+Break into 50M - 2.5M components; multiply and subtract
+Answer: 4340915086621305
+
+=== 219819b6e7e5a7995a1a4203
+Break into 25M - 0.07M components; multiply and subtract
+Answer: 1682944163934342

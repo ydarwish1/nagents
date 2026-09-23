@@ -1,0 +1,39 @@
+=== 29eadf95d126ae01be050ae2
+1668385 × 5942366: break into parts (5M + 900K + 40K + 2K + 300 + 60 + 6), sum partial products
+Answer: 9914154298910
+
+=== 4a3db10bed5e7414870c6e54
+2876831 × 1305164: break into parts (1M + 300K + 5K + 100 + 60 + 4), sum partial products
+Answer: 3754736255284
+
+=== 25563cb152457122a6c5dbce
+9549794 × 9145142: break into parts (9M + 100K + 40K + 5K + 100 + 40 + 2), sum partial products
+Answer: 87334222200748
+
+=== 3da6f4ebfeddbafcc33799f8
+1864744 × 8813144: break into parts (8M + 800K + 10K + 3K + 100 + 40 + 4), sum partial products
+Answer: 16434257395136
+
+=== b0e66b82b3514f08f8ccdf30
+3099064 × 5248244: break into parts (5M + 200K + 40K + 8K + 200 + 40 + 4), sum partial products
+Answer: 16264644043616
+
+=== 66c23c579454480acdaa2aa9
+3586397 × 4853762: break into parts (4M + 800K + 50K + 3K + 700 + 60 + 2), sum partial products
+Answer: 17407517475514
+
+=== 88d449b650e45701b27527a6
+2490583 × 1065783: break into parts (1M + 60K + 5K + 700 + 80 + 3), sum partial products
+Answer: 2654421021489
+
+=== 57a8a6acbc6d3ee4f0b64633
+7226120 × 7580877: break into parts (7M + 500K + 80K + 800 + 70 + 7), sum partial products
+Answer: 54780325060840
+
+=== 515c7ad681642b10cca0ffc3
+2405715 × 4441258: break into parts (4M + 400K + 40K + 1K + 200 + 50 + 8), sum partial products
+Answer: 10684400989470
+
+=== 1effc897939053ac322e9cd7
+7780523 × 2324039: break into parts (2M + 300K + 20K + 4K + 30 + 9), sum partial products
+Answer: 18082238892397

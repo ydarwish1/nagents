@@ -1,0 +1,39 @@
+=== 98182a054e6c571f89ca52ac
+1668385 × 5942366: breaking by place value and summing
+Answer: 9914154298910
+
+=== 2f68a14645b48ec765312239
+2876831 × 1305164: breaking by place value and summing
+Answer: 3754736255284
+
+=== 61bc8a3930bedbb488a543e1
+9549794 × 9145142: breaking by place value and summing
+Answer: 87334222196748
+
+=== c88664a303f90b1125bcebaf
+1864744 × 8813144: breaking by place value and summing
+Answer: 16434257395136
+
+=== 3cf4fe5f9251aa9e84972f79
+3099064 × 5248244: breaking by place value and summing
+Answer: 16264644043616
+
+=== d4bdc2930d47ed2df433480a
+3586397 × 4853762: breaking by place value and summing
+Answer: 17407517475514
+
+=== ea6950a3db6f1c3963534c8a
+2490583 × 1065783: breaking by place value and summing
+Answer: 2654421021489
+
+=== 9df4f546a452009a7f157975
+7226120 × 7580877: breaking by place value and summing
+Answer: 54780326907240
+
+=== 2456c170d0190ccc0a7755fc
+2405715 × 4441258: breaking by place value and summing
+Answer: 10684400989470
+
+=== e6803b934772526887887cb1
+7780523 × 2324039: breaking by place value and summing
+Answer: 18085351201597

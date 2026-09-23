@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-38",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:38",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40M \u00d7 49092078 = 1.964T, 2.66M \u00d7 49092078 \u2248 130.6B, sum \u2248 2.094Q\nAnswer: 2094247723359668",
+          "answer": "2094247723359668",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 49 \u00d7 10^6 = 2,090,319,714,000,000\n42659586 \u00d7 92078 = 3,928,009,359,708\nAnswer: 2094247723359708",
+          "answer": "2094247723359708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 49092078 = (42659586 \u00d7 49M) + (42659586 \u00d7 92078)\nAnswer: 2094247723359708",
+          "answer": "2094247723359708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 50000000 - 42659586 \u00d7 907922 = 2132979300000000 - 38731281229692\nAnswer: 2094248018770308",
+          "answer": "2094248018770308",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 (49000000 + 92078) = 2090319714000000 + 3928009359708\nAnswer: 2094247723359708",
+          "answer": "2094247723359708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 49000000 + 42659586 \u00d7 92078\nAnswer: 2094247720659708",
+          "answer": "2094247720659708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42659586 \u00d7 49092078: \u00d7 49000000 = 2,090,319,714,000,000; \u00d7 92078 = 3,928,009,359,708\nAnswer: 2094247723359708",
+          "answer": "2094247723359708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2094247723359668",
+    "2094247723359708",
+    "2094247723359708",
+    "2094248018770308",
+    "2094247723359708",
+    "2094247720659708",
+    "2094247723359708"
+  ],
+  "final_answer": "2094247723359708",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 158,
+    "calls": 7
+  },
+  "trial": 38,
+  "expected": "2094247723359708",
+  "correct": true
+}

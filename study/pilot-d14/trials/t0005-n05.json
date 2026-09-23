@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-5",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 6. Multiply by 8. Multiply by 7. Multiply by 3. Subtract 67. Add 54. Subtract 68. Subtract 26. Multiply by 7. Add 55. Add 83. Add 87. Multiply by 6. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 6 = 3; 3 \u00d7 8 = 24; 24 \u00d7 7 = 168; 168 \u00d7 3 = 504; 504 - 67 = 437; 437 + 54 = 491; 491 - 68 = 423; 423 - 26 = 397; 397 \u00d7 7 = 2779; 2779 + 55 = 2834; 2834 + 83 = 2917; 2917 + 87 = 3004; 3004 \u00d7 6 = 18024; 18024 \u00d7 7 = 126168\nAnswer: 126168",
+          "answer": "126168",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 6. Multiply by 8. Multiply by 7. Multiply by 3. Subtract 67. Add 54. Subtract 68. Subtract 26. Multiply by 7. Add 55. Add 83. Add 87. Multiply by 6. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 6 = 3, \u00d7 8 = 24, \u00d7 7 = 168, \u00d7 3 = 504, - 67 = 437, + 54 = 491, - 68 = 423, - 26 = 397, \u00d7 7 = 2779, + 55 = 2834, + 83 = 2917, + 87 = 3004, \u00d7 6 = 18024, \u00d7 7 = 126168\nAnswer: 126168",
+          "answer": "126168",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 6. Multiply by 8. Multiply by 7. Multiply by 3. Subtract 67. Add 54. Subtract 68. Subtract 26. Multiply by 7. Add 55. Add 83. Add 87. Multiply by 6. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 6 = 3; \u00d78 = 24; \u00d77 = 168; \u00d73 = 504; -67 = 437; +54 = 491; -68 = 423; -26 = 397; \u00d77 = 2779; +55 = 2834; +83 = 2917; +87 = 3004; \u00d76 = 18024; \u00d77 = 126168\nAnswer: 126168",
+          "answer": "126168",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 6. Multiply by 8. Multiply by 7. Multiply by 3. Subtract 67. Add 54. Subtract 68. Subtract 26. Multiply by 7. Add 55. Add 83. Add 87. Multiply by 6. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 6 = 3; 3 * 8 = 24; 24 * 7 = 168; 168 * 3 = 504; 504 - 67 = 437; 437 + 54 = 491; 491 - 68 = 423; 423 - 26 = 397; 397 * 7 = 2779; 2779 + 55 = 2834; 2834 + 83 = 2917; 2917 + 87 = 3004; 3004 * 6 = 18024; 18024 * 7 = 126168\nAnswer: 126168",
+          "answer": "126168",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Subtract 6. Multiply by 8. Multiply by 7. Multiply by 3. Subtract 67. Add 54. Subtract 68. Subtract 26. Multiply by 7. Add 55. Add 83. Add 87. Multiply by 6. Multiply by 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 - 6 = 3; 3 \u00d7 8 = 24; 24 \u00d7 7 = 168; 168 \u00d7 3 = 504; 504 - 67 = 437; 437 + 54 = 491; 491 - 68 = 423; 423 - 26 = 397; 397 \u00d7 7 = 2779; 2779 + 55 = 2834; 2834 + 83 = 2917; 2917 + 87 = 3004; 3004 \u00d7 6 = 18024; 18024 \u00d7 7 = 126168\nAnswer: 126168",
+          "answer": "126168",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "126168",
+    "126168",
+    "126168",
+    "126168",
+    "126168"
+  ],
+  "final_answer": "126168",
+  "usage": {
+    "input_tokens": 540,
+    "output_tokens": 264,
+    "calls": 5
+  },
+  "trial": 5,
+  "expected": "126168",
+  "correct": true
+}

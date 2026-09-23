@@ -1,0 +1,58 @@
+{
+  "task_id": "chain14-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 3. Multiply by 2. Multiply by 3. Multiply by 9. Add 66. Subtract 72. Subtract 81. Multiply by 3. Multiply by 4. Add 85. Subtract 22. Add 34. Subtract 13. Subtract 26. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u00d7 3 = 27; 27 \u00d7 2 = 54; 54 \u00d7 3 = 162; 162 \u00d7 9 = 1458; 1458 + 66 = 1524; 1524 - 72 = 1452; 1452 - 81 = 1371; 1371 \u00d7 3 = 4113; 4113 \u00d7 4 = 16452; 16452 + 85 = 16537; 16537 - 22 = 16515; 16515 + 34 = 16549; 16549 - 13 = 16536; 16536 - 26 = 16510\nAnswer: 16510",
+          "answer": "16510",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 3. Multiply by 2. Multiply by 3. Multiply by 9. Add 66. Subtract 72. Subtract 81. Multiply by 3. Multiply by 4. Add 85. Subtract 22. Add 34. Subtract 13. Subtract 26. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u00d7 3 = 27, \u00d7 2 = 54, \u00d7 3 = 162, \u00d7 9 = 1458, + 66 = 1524, - 72 = 1452, - 81 = 1371, \u00d7 3 = 4113, \u00d7 4 = 16452, + 85 = 16537, - 22 = 16515, + 34 = 16549, - 13 = 16536, - 26 = 16510\nAnswer: 16510",
+          "answer": "16510",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 3. Multiply by 2. Multiply by 3. Multiply by 9. Add 66. Subtract 72. Subtract 81. Multiply by 3. Multiply by 4. Add 85. Subtract 22. Add 34. Subtract 13. Subtract 26. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u00d7 3 = 27; \u00d72 = 54; \u00d73 = 162; \u00d79 = 1458; +66 = 1524; -72 = 1452; -81 = 1371; \u00d73 = 4113; \u00d74 = 16452; +85 = 16537; -22 = 16515; +34 = 16549; -13 = 16536; -26 = 16510\nAnswer: 16510",
+          "answer": "16510",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16510",
+    "16510",
+    "16510"
+  ],
+  "final_answer": "16510",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 155,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "16510",
+  "correct": true
+}

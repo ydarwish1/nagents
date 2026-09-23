@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-7",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8781196 \u00d7 1805217: Breaking into parts (1M + 800k + 5k + 200 + 17), sum all contributions\nAnswer: 15851964299532",
+          "answer": "15851964299532",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "15851964299532"
+  ],
+  "final_answer": "15851964299532",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "15851964299532",
+  "correct": true
+}

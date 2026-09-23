@@ -1,0 +1,391 @@
+{
+  "per_size": [
+    {
+      "size": 1,
+      "trials": 40,
+      "accuracy": 0.675,
+      "ci95": [
+        0.525,
+        0.825
+      ],
+      "mean_output_tokens": 27.1,
+      "input_tokens_total": 2560,
+      "output_tokens_total": 1082,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.675,
+      "independent_reference": 0.5778
+    },
+    {
+      "size": 2,
+      "trials": 40,
+      "accuracy": 0.675,
+      "ci95": [
+        0.525,
+        0.825
+      ],
+      "mean_output_tokens": 53.9,
+      "input_tokens_total": 5120,
+      "output_tokens_total": 2154,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.85,
+      "independent_reference": 0.5778
+    },
+    {
+      "size": 3,
+      "trials": 40,
+      "accuracy": 0.775,
+      "ci95": [
+        0.65,
+        0.9
+      ],
+      "mean_output_tokens": 78.8,
+      "input_tokens_total": 7680,
+      "output_tokens_total": 3153,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.9,
+      "independent_reference": 0.7188
+    },
+    {
+      "size": 4,
+      "trials": 40,
+      "accuracy": 0.775,
+      "ci95": [
+        0.65,
+        0.9
+      ],
+      "mean_output_tokens": 104.2,
+      "input_tokens_total": 10240,
+      "output_tokens_total": 4168,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.95,
+      "independent_reference": 0.8378
+    },
+    {
+      "size": 5,
+      "trials": 40,
+      "accuracy": 0.825,
+      "ci95": [
+        0.7,
+        0.95
+      ],
+      "mean_output_tokens": 130.8,
+      "input_tokens_total": 12800,
+      "output_tokens_total": 5231,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.975,
+      "independent_reference": 0.9131
+    },
+    {
+      "size": 7,
+      "trials": 40,
+      "accuracy": 0.875,
+      "ci95": [
+        0.75,
+        0.975
+      ],
+      "mean_output_tokens": 181.0,
+      "input_tokens_total": 17920,
+      "output_tokens_total": 7240,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 0.978
+    },
+    {
+      "size": 9,
+      "trials": 40,
+      "accuracy": 0.975,
+      "ci95": [
+        0.925,
+        1.0
+      ],
+      "mean_output_tokens": 232.8,
+      "input_tokens_total": 23040,
+      "output_tokens_total": 9311,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9949
+    }
+  ],
+  "gains": [
+    {
+      "from_size": 1,
+      "to_size": 2,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from_size": 2,
+      "to_size": 3,
+      "gain": 0.1,
+      "ci95": [
+        0.025,
+        0.2
+      ]
+    },
+    {
+      "from_size": 3,
+      "to_size": 4,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from_size": 4,
+      "to_size": 5,
+      "gain": 0.05,
+      "ci95": [
+        0.0,
+        0.125
+      ]
+    },
+    {
+      "from_size": 5,
+      "to_size": 7,
+      "gain": 0.05,
+      "ci95": [
+        0.0,
+        0.125
+      ]
+    },
+    {
+      "from_size": 7,
+      "to_size": 9,
+      "gain": 0.1,
+      "ci95": [
+        0.025,
+        0.2
+      ]
+    }
+  ],
+  "saturation_size": null,
+  "saturation_size_ci": null,
+  "epsilon": 0.01,
+  "overlap": {
+    "answers": 360,
+    "pairs": 1440,
+    "solo_accuracy": 0.5778,
+    "error_correlation": 0.0634,
+    "same_wrong_answer_rate": 0.0108
+  },
+  "seat_balanced": {
+    "per_size": [
+      {
+        "size": 1,
+        "trials": 40,
+        "accuracy": 0.5778,
+        "ci95": [
+          0.5139,
+          0.6417
+        ]
+      },
+      {
+        "size": 2,
+        "trials": 40,
+        "accuracy": 0.5778,
+        "ci95": [
+          0.5139,
+          0.6389
+        ]
+      },
+      {
+        "size": 3,
+        "trials": 40,
+        "accuracy": 0.7092,
+        "ci95": [
+          0.6336,
+          0.7864
+        ]
+      },
+      {
+        "size": 4,
+        "trials": 40,
+        "accuracy": 0.8094,
+        "ci95": [
+          0.7307,
+          0.8794
+        ]
+      },
+      {
+        "size": 5,
+        "trials": 40,
+        "accuracy": 0.8684,
+        "ci95": [
+          0.7974,
+          0.9306
+        ]
+      },
+      {
+        "size": 7,
+        "trials": 40,
+        "accuracy": 0.9373,
+        "ci95": [
+          0.8766,
+          0.9794
+        ]
+      },
+      {
+        "size": 9,
+        "trials": 40,
+        "accuracy": 0.9778,
+        "ci95": [
+          0.9333,
+          1.0
+        ]
+      }
+    ],
+    "gains": [
+      {
+        "from_size": 1,
+        "to_size": 2,
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "from_size": 2,
+        "to_size": 3,
+        "gain": 0.1314,
+        "ci95": [
+          0.1141,
+          0.1479
+        ]
+      },
+      {
+        "from_size": 3,
+        "to_size": 4,
+        "gain": 0.1002,
+        "ci95": [
+          0.0851,
+          0.1141
+        ]
+      },
+      {
+        "from_size": 4,
+        "to_size": 5,
+        "gain": 0.059,
+        "ci95": [
+          0.0427,
+          0.0748
+        ]
+      },
+      {
+        "from_size": 5,
+        "to_size": 7,
+        "gain": 0.0689,
+        "ci95": [
+          0.0394,
+          0.1007
+        ]
+      },
+      {
+        "from_size": 7,
+        "to_size": 9,
+        "gain": 0.0405,
+        "ci95": [
+          0.0153,
+          0.0743
+        ]
+      }
+    ],
+    "saturation_size": null,
+    "saturation_size_ci": null,
+    "epsilon": 0.01,
+    "seat_accuracy": [
+      0.675,
+      0.625,
+      0.625,
+      0.55,
+      0.625,
+      0.55,
+      0.525,
+      0.6,
+      0.425
+    ]
+  },
+  "manifest": {
+    "nagents_version": "0.3.0",
+    "model": "subagents:haiku,no-tools,10-per-batch",
+    "topology": "independent",
+    "sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9
+    ],
+    "trials": 40,
+    "master_seed": 21,
+    "task_ids": [
+      "mult7-21-0",
+      "mult7-21-1",
+      "mult7-21-2",
+      "mult7-21-3",
+      "mult7-21-4",
+      "mult7-21-5",
+      "mult7-21-6",
+      "mult7-21-7",
+      "mult7-21-8",
+      "mult7-21-9",
+      "mult7-21-10",
+      "mult7-21-11",
+      "mult7-21-12",
+      "mult7-21-13",
+      "mult7-21-14",
+      "mult7-21-15",
+      "mult7-21-16",
+      "mult7-21-17",
+      "mult7-21-18",
+      "mult7-21-19",
+      "mult7-21-20",
+      "mult7-21-21",
+      "mult7-21-22",
+      "mult7-21-23",
+      "mult7-21-24",
+      "mult7-21-25",
+      "mult7-21-26",
+      "mult7-21-27",
+      "mult7-21-28",
+      "mult7-21-29",
+      "mult7-21-30",
+      "mult7-21-31",
+      "mult7-21-32",
+      "mult7-21-33",
+      "mult7-21-34",
+      "mult7-21-35",
+      "mult7-21-36",
+      "mult7-21-37",
+      "mult7-21-38",
+      "mult7-21-39"
+    ],
+    "config": {
+      "suite": "mult",
+      "suite_path": null,
+      "depth": 8,
+      "mock": false,
+      "mock_accuracy": null,
+      "model": null,
+      "effort": null,
+      "max_tokens": 16000,
+      "subagents": "haiku,no-tools,10-per-batch",
+      "digits": 7,
+      "workers": 1
+    },
+    "started_at": "2026-09-23T06:28:35+0000"
+  }
+}

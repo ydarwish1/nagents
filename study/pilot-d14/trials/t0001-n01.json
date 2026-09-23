@@ -1,0 +1,32 @@
+{
+  "task_id": "chain14-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Multiply by 8. Subtract 93. Subtract 93. Multiply by 7. Add 5. Add 62. Subtract 22. Add 24. Multiply by 4. Multiply by 3. Subtract 88. Add 52. Add 32. Add 44. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u00d7 8 = 16; 16 - 93 = -77; -77 - 93 = -170; -170 \u00d7 7 = -1190; -1190 + 5 = -1185; -1185 + 62 = -1123; -1123 - 22 = -1145; -1145 + 24 = -1121; -1121 \u00d7 4 = -4484; -4484 \u00d7 3 = -13452; -13452 - 88 = -13540; -13540 + 52 = -13488; -13488 + 32 = -13456; -13456 + 44 = -13412\nAnswer: -13412",
+          "answer": "-13412",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-13412"
+  ],
+  "final_answer": "-13412",
+  "usage": {
+    "input_tokens": 105,
+    "output_tokens": 70,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "-13412",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Breakdown: (703226126 \u00d7 7 \u00d7 100000000) + (703226126 \u00d7 68547101)\n\u2248 492258288200000000 + 48204110016040000\nAnswer: 540462398216040000",
+          "answer": "540462398216040000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "540462398216040000"
+  ],
+  "final_answer": "540462398216040000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "540462400484760726",
+  "correct": false
+}

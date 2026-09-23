@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-8",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61000000 = 5093672447000000\n83502827 \u00d7 492279 = 41106688172733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61000000 + 83502827 \u00d7 492279\nAnswer: 5134779142880133",
+          "answer": "5134779142880133",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5134779135172733",
+    "5134779142880133"
+  ],
+  "final_answer": "5134779135172733",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 40,
+    "calls": 2
+  },
+  "trial": 8,
+  "expected": "5134779135172733",
+  "correct": true
+}

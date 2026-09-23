@@ -1,0 +1,84 @@
+{
+  "task_id": "chain6-11-0",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u00d7 2 = 8, 8 \u00d7 4 = 32, 32 \u00d7 4 = 128, 128 \u00d7 2 = 256, 256 - 83 = 173, 173 + 54 = 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u00d7 2 = 8, 8 \u00d7 4 = 32, 32 \u00d7 4 = 128, 128 \u00d7 2 = 256, 256 - 83 = 173, 173 + 54 = 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u2192 \u00d72: 8 \u2192 \u00d74: 32 \u2192 \u00d74: 128 \u2192 \u00d72: 256 \u2192 -83: 173 \u2192 +54: 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u00d7 2 = 8, \u00d7 4 = 32, \u00d7 4 = 128, \u00d7 2 = 256, - 83 = 173, + 54 = 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u00d7 2 = 8, \u00d7 4 = 32, \u00d7 4 = 128, \u00d7 2 = 256, \u2212 83 = 173, + 54 = 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "227",
+    "227",
+    "227",
+    "227",
+    "227"
+  ],
+  "final_answer": "227",
+  "usage": {
+    "input_tokens": 425,
+    "output_tokens": 102,
+    "calls": 5
+  },
+  "trial": 0,
+  "expected": "227",
+  "correct": true
+}

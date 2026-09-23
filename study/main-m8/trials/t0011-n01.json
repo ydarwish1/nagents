@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-11",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97628805 \u00d7 90000000 + 97628805 \u00d7 1643945\nAnswer: 8947088835835725",
+          "answer": "8947088835835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8947088835835725"
+  ],
+  "final_answer": "8947088835835725",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 11,
+  "expected": "8947088835835725",
+  "correct": true
+}

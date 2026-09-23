@@ -1,0 +1,84 @@
+{
+  "task_id": "chain25-11-7",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5 - 5 = 0, - 62 = -62, \u00d7 9 = -558, - 46 = -604, \u00d7 4 = -2416, + 88 = -2328, \u00d7 2 = -4656, - 87 = -4743, - 37 = -4780, - 73 = -4853, - 81 = -4934, - 31 = -4965, + 57 = -4908, + 65 = -4843, + 95 = -4748, + 95 = -4653, - 43 = -4696, - 44 = -4740, - 38 = -4778, + 23 = -4755, + 77 = -4678, \u00d7 3 = -14034, \u00d7 3 = -42102, - 89 = -42191, \u00d7 2 = -84382\nAnswer: -84382",
+          "answer": "-84382",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5 - 5 = 0; 0 - 62 = -62; -62 \u00d7 9 = -558; -558 - 46 = -604; -604 \u00d7 4 = -2416; -2416 + 88 = -2328; -2328 \u00d7 2 = -4656; -4656 - 87 = -4743; -4743 - 37 = -4780; -4780 - 73 = -4853; -4853 - 81 = -4934; -4934 - 31 = -4965; -4965 + 57 = -4908; -4908 + 65 = -4843; -4843 + 95 = -4748; -4748 + 95 = -4653; -4653 - 43 = -4696; -4696 - 44 = -4740; -4740 - 38 = -4778; -4778 + 23 = -4755; -4755 + 77 = -4678; -4678 \u00d7 3 = -14034; -14034 \u00d7 3 = -42102; -42102 - 89 = -42191; -42191 \u00d7 2 = -84382\nAnswer: -84382",
+          "answer": "-84382",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5 \u2192 -5=0 \u2192 -62=-62 \u2192 \u00d79=-558 \u2192 -46=-604 \u2192 \u00d74=-2416 \u2192 +88=-2328 \u2192 \u00d72=-4656 \u2192 -87=-4743 \u2192 -37=-4780 \u2192 -73=-4853 \u2192 -81=-4934 \u2192 -31=-4965 \u2192 +57=-4908 \u2192 +65=-4843 \u2192 +95=-4748 \u2192 +95=-4653 \u2192 -43=-4696 \u2192 -44=-4740 \u2192 -38=-4778 \u2192 +23=-4755 \u2192 +77=-4678 \u2192 \u00d73=-14034 \u2192 \u00d73=-42102 \u2192 -89=-42191 \u2192 \u00d72=-84382\nAnswer: -84382",
+          "answer": "-84382",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5 \u2192 0 \u2192 -62 \u2192 -558 \u2192 -604 \u2192 -2416 \u2192 -2328 \u2192 -4656 \u2192 -4743 \u2192 -4780 \u2192 -4853 \u2192 -4934 \u2192 -4965 \u2192 -4908 \u2192 -4843 \u2192 -4748 \u2192 -4653 \u2192 -4696 \u2192 -4740 \u2192 -4778 \u2192 -4755 \u2192 -4678 \u2192 -14034 \u2192 -42102 \u2192 -42191 \u2192 -84382\nAnswer: -84382",
+          "answer": "-84382",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Subtract 5. Subtract 62. Multiply by 9. Subtract 46. Multiply by 4. Add 88. Multiply by 2. Subtract 87. Subtract 37. Subtract 73. Subtract 81. Subtract 31. Add 57. Add 65. Add 95. Add 95. Subtract 43. Subtract 44. Subtract 38. Add 23. Add 77. Multiply by 3. Multiply by 3. Subtract 89. Multiply by 2. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5 - 5 = 0; - 62 = -62; \u00d7 9 = -558; - 46 = -604; \u00d7 4 = -2416; + 88 = -2328; \u00d7 2 = -4656; - 87 = -4743; - 37 = -4780; - 73 = -4853; - 81 = -4934; - 31 = -4965; + 57 = -4908; + 65 = -4843; + 95 = -4748; + 95 = -4653; - 43 = -4696; - 44 = -4740; - 38 = -4778; + 23 = -4755; + 77 = -4678; \u00d7 3 = -14034; \u00d7 3 = -42102; - 89 = -42191; \u00d7 2 = -84382\nAnswer: -84382",
+          "answer": "-84382",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-84382",
+    "-84382",
+    "-84382",
+    "-84382",
+    "-84382"
+  ],
+  "final_answer": "-84382",
+  "usage": {
+    "input_tokens": 700,
+    "output_tokens": 428,
+    "calls": 5
+  },
+  "trial": 7,
+  "expected": "-84382",
+  "correct": true
+}

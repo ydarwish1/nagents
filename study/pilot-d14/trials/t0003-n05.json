@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 34. Multiply by 3. Multiply by 5. Subtract 88. Add 80. Multiply by 3. Subtract 53. Subtract 49. Multiply by 4. Add 44. Add 25. Subtract 38. Add 45. Subtract 61. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 34 = 40; 40 \u00d7 3 = 120; 120 \u00d7 5 = 600; 600 - 88 = 512; 512 + 80 = 592; 592 \u00d7 3 = 1776; 1776 - 53 = 1723; 1723 - 49 = 1674; 1674 \u00d7 4 = 6696; 6696 + 44 = 6740; 6740 + 25 = 6765; 6765 - 38 = 6727; 6727 + 45 = 6772; 6772 - 61 = 6711\nAnswer: 6711",
+          "answer": "6711",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 34. Multiply by 3. Multiply by 5. Subtract 88. Add 80. Multiply by 3. Subtract 53. Subtract 49. Multiply by 4. Add 44. Add 25. Subtract 38. Add 45. Subtract 61. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 34 = 40, \u00d7 3 = 120, \u00d7 5 = 600, - 88 = 512, + 80 = 592, \u00d7 3 = 1776, - 53 = 1723, - 49 = 1674, \u00d7 4 = 6696, + 44 = 6740, + 25 = 6765, - 38 = 6727, + 45 = 6772, - 61 = 6711\nAnswer: 6711",
+          "answer": "6711",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 34. Multiply by 3. Multiply by 5. Subtract 88. Add 80. Multiply by 3. Subtract 53. Subtract 49. Multiply by 4. Add 44. Add 25. Subtract 38. Add 45. Subtract 61. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 34 = 40; \u00d73 = 120; \u00d75 = 600; -88 = 512; +80 = 592; \u00d73 = 1776; -53 = 1723; -49 = 1674; \u00d74 = 6696; +44 = 6740; +25 = 6765; -38 = 6727; +45 = 6772; -61 = 6711\nAnswer: 6711",
+          "answer": "6711",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 34. Multiply by 3. Multiply by 5. Subtract 88. Add 80. Multiply by 3. Subtract 53. Subtract 49. Multiply by 4. Add 44. Add 25. Subtract 38. Add 45. Subtract 61. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 34 = 40; 40 * 3 = 120; 120 * 5 = 600; 600 - 88 = 512; 512 + 80 = 592; 592 * 3 = 1776; 1776 - 53 = 1723; 1723 - 49 = 1674; 1674 * 4 = 6696; 6696 + 44 = 6740; 6740 + 25 = 6765; 6765 - 38 = 6727; 6727 + 45 = 6772; 6772 - 61 = 6711\nAnswer: 6711",
+          "answer": "6711",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Add 34. Multiply by 3. Multiply by 5. Subtract 88. Add 80. Multiply by 3. Subtract 53. Subtract 49. Multiply by 4. Add 44. Add 25. Subtract 38. Add 45. Subtract 61. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 + 34 = 40; 40 \u00d7 3 = 120; 120 \u00d7 5 = 600; 600 - 88 = 512; 512 + 80 = 592; 592 \u00d7 3 = 1776; 1776 - 53 = 1723; 1723 - 49 = 1674; 1674 \u00d7 4 = 6696; 6696 + 44 = 6740; 6740 + 25 = 6765; 6765 - 38 = 6727; 6727 + 45 = 6772; 6772 - 61 = 6711\nAnswer: 6711",
+          "answer": "6711",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6711",
+    "6711",
+    "6711",
+    "6711",
+    "6711"
+  ],
+  "final_answer": "6711",
+  "usage": {
+    "input_tokens": 530,
+    "output_tokens": 272,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "6711",
+  "correct": true
+}

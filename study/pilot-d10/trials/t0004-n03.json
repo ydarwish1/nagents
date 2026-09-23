@@ -1,0 +1,58 @@
+{
+  "task_id": "chain10-11-4",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Multiply by 9. Add 24. Subtract 16. Subtract 4. Subtract 82. Subtract 28. Add 96. Add 87. Subtract 53. Add 58. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u00d7 9 = 18, + 24 - 16 - 4 = 22, - 82 - 28 = -88, + 96 = 8, + 87 = 95, - 53 = 42, + 58 = 100\nAnswer: 100",
+          "answer": "100",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Multiply by 9. Add 24. Subtract 16. Subtract 4. Subtract 82. Subtract 28. Add 96. Add 87. Subtract 53. Add 58. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u00d7 9 = 18 \u2192 + 24 = 42 \u2192 - 16 = 26 \u2192 - 4 = 22 \u2192 - 82 = -60 \u2192 - 28 = -88 \u2192 + 96 = 8 \u2192 + 87 = 95 \u2192 - 53 = 42 \u2192 + 58 = 100\nAnswer: 100",
+          "answer": "100",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Multiply by 9. Add 24. Subtract 16. Subtract 4. Subtract 82. Subtract 28. Add 96. Add 87. Subtract 53. Add 58. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 \u00d7 9 = 18, + 24 = 42, - 16 = 26, - 4 = 22, - 82 = -60, - 28 = -88, + 96 = 8, + 87 = 95, - 53 = 42, + 58 = 100\nAnswer: 100",
+          "answer": "100",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "100",
+    "100",
+    "100"
+  ],
+  "final_answer": "100",
+  "usage": {
+    "input_tokens": 279,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 4,
+  "expected": "100",
+  "correct": true
+}

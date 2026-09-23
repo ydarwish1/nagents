@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-7",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "47430 \u00d7 (23000 + 134) = 1090890000 + 6355620\nAnswer: 1097245620",
+          "answer": "1097245620",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "47430 \u00d7 23000 = 1,090,890,000; 47430 \u00d7 134 = 6,355,620\nAnswer: 1097245620",
+          "answer": "1097245620",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "47430 \u00d7 23134 = 47430 \u00d7 (23000 + 134)\n47430 \u00d7 23 = 1090890, so 47430 \u00d7 23000 = 1090890000\n47430 \u00d7 134 = 47430 \u00d7 100 + 47430 \u00d7 34 = 4743000 + 1612620 = 6355620\nTotal: 1090890000 + 6355620 = 1097245620\nAnswer: 1097245620",
+          "answer": "1097245620",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "47430 \u00d7 23134 = 47430 \u00d7 (20000 + 3134) = 948600000 + 148645620\nAnswer: 1097245620",
+          "answer": "1097245620",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "47430 \u00d7 23134 = 47430 \u00d7 (23000 + 134) = 1,090,890,000 + 6,355,620\nAnswer: 1097245620",
+          "answer": "1097245620",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1097245620",
+    "1097245620",
+    "1097245620",
+    "1097245620",
+    "1097245620"
+  ],
+  "final_answer": "1097245620",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 128,
+    "calls": 5
+  },
+  "trial": 7,
+  "expected": "1097245620",
+  "correct": true
+}

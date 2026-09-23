@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-2",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 11. Add 87. Add 28. Subtract 11. Add 89. Subtract 84. Subtract 57. Subtract 8. Subtract 58. Add 6. Subtract 88. Add 82. Multiply by 3. Multiply by 4. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 11 = -3; -3 + 87 = 84; 84 + 28 = 112; 112 - 11 = 101; 101 + 89 = 190; 190 - 84 = 106; 106 - 57 = 49; 49 - 8 = 41; 41 - 58 = -17; -17 + 6 = -11; -11 - 88 = -99; -99 + 82 = -17; -17 \u00d7 3 = -51; -51 \u00d7 4 = -204\nAnswer: -204",
+          "answer": "-204",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 11. Add 87. Add 28. Subtract 11. Add 89. Subtract 84. Subtract 57. Subtract 8. Subtract 58. Add 6. Subtract 88. Add 82. Multiply by 3. Multiply by 4. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 11 = -3, + 87 = 84, + 28 = 112, - 11 = 101, + 89 = 190, - 84 = 106, - 57 = 49, - 8 = 41, - 58 = -17, + 6 = -11, - 88 = -99, + 82 = -17, \u00d7 3 = -51, \u00d7 4 = -204\nAnswer: -204",
+          "answer": "-204",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 11. Add 87. Add 28. Subtract 11. Add 89. Subtract 84. Subtract 57. Subtract 8. Subtract 58. Add 6. Subtract 88. Add 82. Multiply by 3. Multiply by 4. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 11 = -3; +87 = 84; +28 = 112; -11 = 101; +89 = 190; -84 = 106; -57 = 49; -8 = 41; -58 = -17; +6 = -11; -88 = -99; +82 = -17; \u00d73 = -51; \u00d74 = -204\nAnswer: -204",
+          "answer": "-204",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 11. Add 87. Add 28. Subtract 11. Add 89. Subtract 84. Subtract 57. Subtract 8. Subtract 58. Add 6. Subtract 88. Add 82. Multiply by 3. Multiply by 4. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 11 = -3; -3 + 87 = 84; 84 + 28 = 112; 112 - 11 = 101; 101 + 89 = 190; 190 - 84 = 106; 106 - 57 = 49; 49 - 8 = 41; 41 - 58 = -17; -17 + 6 = -11; -11 - 88 = -99; -99 + 82 = -17; -17 * 3 = -51; -51 * 4 = -204\nAnswer: -204",
+          "answer": "-204",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Subtract 11. Add 87. Add 28. Subtract 11. Add 89. Subtract 84. Subtract 57. Subtract 8. Subtract 58. Add 6. Subtract 88. Add 82. Multiply by 3. Multiply by 4. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 - 11 = -3; -3 + 87 = 84; 84 + 28 = 112; 112 - 11 = 101; 101 + 89 = 190; 190 - 84 = 106; 106 - 57 = 49; 49 - 8 = 41; 41 - 58 = -17; -17 + 6 = -11; -11 - 88 = -99; -99 + 82 = -17; -17 \u00d7 3 = -51; -51 \u00d7 4 = -204\nAnswer: -204",
+          "answer": "-204",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-204",
+    "-204",
+    "-204",
+    "-204",
+    "-204"
+  ],
+  "final_answer": "-204",
+  "usage": {
+    "input_tokens": 525,
+    "output_tokens": 248,
+    "calls": 5
+  },
+  "trial": 2,
+  "expected": "-204",
+  "correct": true
+}

@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-19",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 (46000000 + 434994) = 1293379378000000 + 12230701503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break 46434994 into digit place values, multiply by 28116943, and sum all products\nAnswer: 1305610074303342",
+          "answer": "1305610074303342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 46434994\nBreaking down: 28M + 116943\n28M \u00d7 46434994 = 1,300,179,832,000,000\n116943 \u00d7 46434994 = 5,430,239,503,342\nAnswer: 1305610071503342",
+          "answer": "1305610071503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "(28000000 + 116943)(46000000 + 434994) = 1288000000000000 + 12179832000000 + 5379378000000 + 50869503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28000000 \u00d7 46434994 = 1300179832000000; 116943 \u00d7 46434994 = 5430247503342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28.117 \u00d7 46.435 \u2248 1305.0\nAnswer: 1305071826542",
+          "answer": "1305071826542",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 46434994: (28M + 116943)(46M + 434994) = 1.288T + 12.1B + 5.3B + 50.8B\nAnswer: 1305610079297542",
+          "answer": "1305610079297542",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28116943 \u00d7 40000000 + 28116943 \u00d7 6434994\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Break into (28M + 116k) \u00d7 (46M + 434k): 28M\u00d746M=1.288T, 28M\u00d7434k=12.179T, 116k\u00d746M=5.379T, 116k\u00d7434k=50.8B. Sum.\nAnswer: 1306010029819642",
+          "answer": "1306010029819642",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1305610079503342",
+    "1305610074303342",
+    "1305610071503342",
+    "1305610079503342",
+    "1305610079503342",
+    "1305071826542",
+    "1305610079297542",
+    "1305610079503342",
+    "1306010029819642"
+  ],
+  "final_answer": "1305610079503342",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 228,
+    "calls": 9
+  },
+  "trial": 19,
+  "expected": "1305610079503342",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "chain25-11-4",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u00d7 9 = 81, - 99 = -18, \u00d7 6 = -108, + 93 = -15, \u00d7 5 = -75, - 44 = -119, + 4 = -115, \u00d7 4 = -460, \u00d7 9 = -4140, + 7 = -4133, + 66 = -4067, + 64 = -4003, + 3 = -4000, + 79 = -3921, - 58 = -3979, \u00d7 2 = -7958, \u00d7 3 = -23874, - 8 = -23882, - 41 = -23923, \u00d7 6 = -143538, - 89 = -143627, - 34 = -143661, + 77 = -143584, + 13 = -143571, + 13 = -143558\nAnswer: -143558",
+          "answer": "-143558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u00d7 9 = 81; 81 - 99 = -18; -18 \u00d7 6 = -108; -108 + 93 = -15; -15 \u00d7 5 = -75; -75 - 44 = -119; -119 + 4 = -115; -115 \u00d7 4 = -460; -460 \u00d7 9 = -4140; -4140 + 7 = -4133; -4133 + 66 = -4067; -4067 + 64 = -4003; -4003 + 3 = -4000; -4000 + 79 = -3921; -3921 - 58 = -3979; -3979 \u00d7 2 = -7958; -7958 \u00d7 3 = -23874; -23874 - 8 = -23882; -23882 - 41 = -23923; -23923 \u00d7 6 = -143538; -143538 - 89 = -143627; -143627 - 34 = -143661; -143661 + 77 = -143584; -143584 + 13 = -143571; -143571 + 13 = -143558\nAnswer: -143558",
+          "answer": "-143558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 9. Multiply by 9. Subtract 99. Multiply by 6. Add 93. Multiply by 5. Subtract 44. Add 4. Multiply by 4. Multiply by 9. Add 7. Add 66. Add 64. Add 3. Add 79. Subtract 58. Multiply by 2. Multiply by 3. Subtract 8. Subtract 41. Multiply by 6. Subtract 89. Subtract 34. Add 77. Add 13. Add 13. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9 \u2192 \u00d79=81 \u2192 -99=-18 \u2192 \u00d76=-108 \u2192 +93=-15 \u2192 \u00d75=-75 \u2192 -44=-119 \u2192 +4=-115 \u2192 \u00d74=-460 \u2192 \u00d79=-4140 \u2192 +7=-4133 \u2192 +66=-4067 \u2192 +64=-4003 \u2192 +3=-4000 \u2192 +79=-3921 \u2192 -58=-3979 \u2192 \u00d72=-7958 \u2192 \u00d73=-23874 \u2192 -8=-23882 \u2192 -41=-23923 \u2192 \u00d76=-143538 \u2192 -89=-143627 \u2192 -34=-143661 \u2192 +77=-143584 \u2192 +13=-143571 \u2192 +13=-143558\nAnswer: -143558",
+          "answer": "-143558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-143558",
+    "-143558",
+    "-143558"
+  ],
+  "final_answer": "-143558",
+  "usage": {
+    "input_tokens": 411,
+    "output_tokens": 290,
+    "calls": 3
+  },
+  "trial": 4,
+  "expected": "-143558",
+  "correct": true
+}

@@ -1,0 +1,84 @@
+{
+  "task_id": "chain14-11-7",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Add 50. Subtract 31. Multiply by 8. Multiply by 7. Add 22. Subtract 98. Add 22. Subtract 8. Subtract 96. Multiply by 3. Subtract 7. Multiply by 7. Add 89. Subtract 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 + 50 = 52; 52 - 31 = 21; 21 \u00d7 8 = 168; 168 \u00d7 7 = 1176; 1176 + 22 = 1198; 1198 - 98 = 1100; 1100 + 22 = 1122; 1122 - 8 = 1114; 1114 - 96 = 1018; 1018 \u00d7 3 = 3054; 3054 - 7 = 3047; 3047 \u00d7 7 = 21329; 21329 + 89 = 21418; 21418 - 7 = 21411\nAnswer: 21411",
+          "answer": "21411",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Add 50. Subtract 31. Multiply by 8. Multiply by 7. Add 22. Subtract 98. Add 22. Subtract 8. Subtract 96. Multiply by 3. Subtract 7. Multiply by 7. Add 89. Subtract 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 + 50 = 52, - 31 = 21, \u00d7 8 = 168, \u00d7 7 = 1176, + 22 = 1198, - 98 = 1100, + 22 = 1122, - 8 = 1114, - 96 = 1018, \u00d7 3 = 3054, - 7 = 3047, \u00d7 7 = 21329, + 89 = 21418, - 7 = 21411\nAnswer: 21411",
+          "answer": "21411",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Add 50. Subtract 31. Multiply by 8. Multiply by 7. Add 22. Subtract 98. Add 22. Subtract 8. Subtract 96. Multiply by 3. Subtract 7. Multiply by 7. Add 89. Subtract 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 + 50 = 52; -31 = 21; \u00d78 = 168; \u00d77 = 1176; +22 = 1198; -98 = 1100; +22 = 1122; -8 = 1114; -96 = 1018; \u00d73 = 3054; -7 = 3047; \u00d77 = 21329; +89 = 21418; -7 = 21411\nAnswer: 21411",
+          "answer": "21411",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Add 50. Subtract 31. Multiply by 8. Multiply by 7. Add 22. Subtract 98. Add 22. Subtract 8. Subtract 96. Multiply by 3. Subtract 7. Multiply by 7. Add 89. Subtract 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 + 50 = 52; 52 - 31 = 21; 21 * 8 = 168; 168 * 7 = 1176; 1176 + 22 = 1198; 1198 - 98 = 1100; 1100 + 22 = 1122; 1122 - 8 = 1114; 1114 - 96 = 1018; 1018 * 3 = 3054; 3054 - 7 = 3047; 3047 * 7 = 21329; 21329 + 89 = 21418; 21418 - 7 = 21411\nAnswer: 21411",
+          "answer": "21411",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Add 50. Subtract 31. Multiply by 8. Multiply by 7. Add 22. Subtract 98. Add 22. Subtract 8. Subtract 96. Multiply by 3. Subtract 7. Multiply by 7. Add 89. Subtract 7. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 + 50 = 52; 52 - 31 = 21; 21 \u00d7 8 = 168; 168 \u00d7 7 = 1176; 1176 + 22 = 1198; 1198 - 98 = 1100; 1100 + 22 = 1122; 1122 - 8 = 1114; 1114 - 96 = 1018; 1018 \u00d7 3 = 3054; 3054 - 7 = 3047; 3047 \u00d7 7 = 21329; 21329 + 89 = 21418; 21418 - 7 = 21411\nAnswer: 21411",
+          "answer": "21411",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "21411",
+    "21411",
+    "21411",
+    "21411",
+    "21411"
+  ],
+  "final_answer": "21411",
+  "usage": {
+    "input_tokens": 535,
+    "output_tokens": 275,
+    "calls": 5
+  },
+  "trial": 7,
+  "expected": "21411",
+  "correct": true
+}

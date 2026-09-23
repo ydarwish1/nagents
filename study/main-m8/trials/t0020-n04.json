@@ -1,0 +1,71 @@
+{
+  "task_id": "mult8-21-20",
+  "size": 4,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43398016 \u00d7 4 = 173592064; \u00d7 50 = 2169900800; \u00d7 4000 = 173592064000; \u00d7 90000 = 3905821440000; \u00d7 300000 = 13019404800000; \u00d7 3000000 = 130194048000000; \u00d7 80000000 = 3471841280000000. Sum: 3619136489796864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43398016 \u00d7 8 \u00d7 10000000 = 3471841280000000; 43398016 \u00d7 3394054 = 147295209796864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43398016 \u00d7 83000000 = 3602035328000000; 43398016 \u00d7 394054 = 17101161796864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43398016 \u00d7 83394054: (43M + 398016) \u00d7 (83M + 394054). Sum partial products.\nAnswer: 3619979806887950464",
+          "answer": "3619979806887950464",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3619136489796864",
+    "3619136489796864",
+    "3619136489796864",
+    "3619979806887950464"
+  ],
+  "final_answer": "3619136489796864",
+  "usage": {
+    "input_tokens": 256,
+    "output_tokens": 131,
+    "calls": 4
+  },
+  "trial": 20,
+  "expected": "3619136489796864",
+  "correct": true
+}

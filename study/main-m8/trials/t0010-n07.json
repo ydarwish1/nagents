@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-10",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 73 = 3657973644; \u00d773000000 = 3657973644000000\n50109228 \u00d7 800000 = 40087382400000\n50109228 \u00d7 2000 = 100218456000\n50109228 \u00d7 450 = 22549152600\nAnswer: 3698183793008600",
+          "answer": "3698183793008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 73000000 + 50109228 \u00d7 802450\nAnswer: 3698183793908600",
+          "answer": "3698183793908600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 70M = 3507645960000000; \u00d7 3802450 = 190537834008600\nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 74000000 - 50109228 \u00d7 197550\nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 73802450: Breaking (50M + 109228) \u00d7 (73M + 802450), sum of parts\nAnswer: 3698183775701600",
+          "answer": "3698183775701600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 70000000 = 3507645960000000; \u00d7 3000000 = 150327684000000; \u00d7 802450 = 40210150008600\nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50109228 \u00d7 73M = 3,657,973,644,000,000; \u00d7 802,450 = 40,210,099,808,600; total = 3,657,973,644,000,000 + 40,210,099,808,600\nAnswer: 3698183743808600",
+          "answer": "3698183743808600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3698183793008600",
+    "3698183793908600",
+    "3698183794008600",
+    "3698183794008600",
+    "3698183775701600",
+    "3698183794008600",
+    "3698183743808600"
+  ],
+  "final_answer": "3698183794008600",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 187,
+    "calls": 7
+  },
+  "trial": 10,
+  "expected": "3698183794008600",
+  "correct": true
+}

@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-11",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316 = 8508434 \u00d7 (1800000 + 28316) = 15315181200000 + 240924817144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556105017144, 15556106017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316 = 8508434\u00d7(1000000+800000+20000+8000+300+10+6)\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1000000 + 6806747200000 + 240923817144\nAnswer: 15556105017144",
+          "answer": "15556105017144",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556106017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1800000 + 8508434 \u00d7 28316 = 15315181200000 + 240924817144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316: Break into 1.8M + 28316 components, multiply and sum.\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316 = (8508434 \u00d7 1800000) + (8508434 \u00d7 28316) = 15315181200000 + 240924817144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316: break by place value and sum partial products\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1,828,316 = 8,508,434,000,000 + 7,047,672,017,144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316: Sum of products at each digit position\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8508434 \u00d7 1828316: Breaking into parts: 8508434000000 + 6806747200000 + 170168680000 + 68067472000 + 2552530200 + 85084340 + 51050604 = 15556106017144\nAnswer: 15556106017144",
+          "answer": "15556106017144",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "15556106017144",
+    "15556106017144",
+    "15556106017144",
+    "15556106017144",
+    "15556106017144"
+  ],
+  "final_answer": "15556106017144",
+  "usage": {
+    "input_tokens": 970,
+    "output_tokens": 240,
+    "calls": 10
+  },
+  "trial": 11,
+  "expected": "15556106017144",
+  "correct": true
+}

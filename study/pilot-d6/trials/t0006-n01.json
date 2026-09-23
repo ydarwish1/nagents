@@ -1,0 +1,32 @@
+{
+  "task_id": "chain6-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 6. Multiply by 7. Subtract 70. Multiply by 6. Multiply by 7. Multiply by 4. Multiply by 3. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6 \u00d7 7 = 42, 42 - 70 = -28, -28 \u00d7 6 = -168, -168 \u00d7 7 = -1176, -1176 \u00d7 4 = -4704, -4704 \u00d7 3 = -14112\nAnswer: -14112",
+          "answer": "-14112",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-14112"
+  ],
+  "final_answer": "-14112",
+  "usage": {
+    "input_tokens": 87,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "-14112",
+  "correct": true
+}

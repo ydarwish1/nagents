@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-13",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "44610246 \u00d7 24346673\nBreaking into partial products by digits of 24346673 and adding with place values.\nAnswer: 1086111071911558",
+          "answer": "1086111071911558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1070645904000000 + 15465147851458\nAnswer: 1086111051851458",
+          "answer": "1086111051851458",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "44610246 \u00d7 24000000 = 1070645904000000; \u00d7 346673 = 15465183671558. Sum: 1086111087671558\nAnswer: 1086111087671558",
+          "answer": "1086111087671558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1086111071911558",
+    "1086111051851458",
+    "1086111087671558"
+  ],
+  "final_answer": "1086111071911558",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 73,
+    "calls": 3
+  },
+  "trial": 13,
+  "expected": "1086111071811558",
+  "correct": false
+}

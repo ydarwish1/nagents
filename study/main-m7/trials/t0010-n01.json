@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-10",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2074361 \u00d7 8 = 16,594,888; \u00d7 1M = 16,594,888,000. Then 2074361 \u00d7 131464 = 1,234,244,795. Sum = 17,829,132,795.\nAnswer: 17829132795",
+          "answer": "17829132795",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17829132795"
+  ],
+  "final_answer": "17829132795",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 10,
+  "expected": "16867591794504",
+  "correct": false
+}

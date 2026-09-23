@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-18",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 50M = 3987417200000000; \u00d7 1314256 = 104809739592064\nAnswer: 4092226939592064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51000000 + 79748344 \u00d7 314256\nAnswer: 4092226739592064",
+          "answer": "4092226739592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4092226939592064",
+    "4092226739592064"
+  ],
+  "final_answer": "4092226939592064",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 37,
+    "calls": 2
+  },
+  "trial": 18,
+  "expected": "4092226939592064",
+  "correct": true
+}

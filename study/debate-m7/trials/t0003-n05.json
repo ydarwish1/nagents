@@ -1,0 +1,119 @@
+{
+  "task_id": "mult7-21-3",
+  "size": 5,
+  "topology": "debate",
+  "seed": "21:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 (1600000 + 15528) = 10113177600000 + 98148388608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211326088608, 10211325988608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1615528: sum of parts = 10,211,325,988,608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 (1000000 + 615528) = 6320736000000 + 3890590088608\nAnswer: 10211326088608",
+          "answer": "10211326088608",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211325988608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1615528 = 10113177600000 + 98148388608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1000000 + 6320736 \u00d7 615528 = 6320736000000 + 3890589988608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1615528 = 1000000 + 615528; continuing: 600000 + 15000 + 528\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1M + 600K + 15528\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1615528 = 6320736\u00d7(1000000+600000+10000+5000+500+20+8)\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1615528 = 6320736 \u00d7 (1600000 + 15528) = 10113177600000 + 98148388608\nAnswer: 10211326988608",
+          "answer": "10211326988608",
+          "stop_reason": "end_turn"
+        },
+        {
+          "round": 1,
+          "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211325988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>",
+          "reply": "6320736 \u00d7 1615528: 6,000,000 \u00d7 1,615,528 + 320,736 \u00d7 1,615,528 = 9,693,168,000,000 + 518,157,988,608\nAnswer: 10211325988608",
+          "answer": "10211325988608",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "10211325988608",
+    "10211325988608",
+    "10211325988608",
+    "10211325988608",
+    "10211325988608"
+  ],
+  "final_answer": "10211325988608",
+  "usage": {
+    "input_tokens": 970,
+    "output_tokens": 205,
+    "calls": 10
+  },
+  "trial": 3,
+  "expected": "10211325988608",
+  "correct": true
+}

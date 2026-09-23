@@ -1,0 +1,32 @@
+{
+  "task_id": "chain10-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 8. Add 19. Add 89. Multiply by 3. Multiply by 2. Multiply by 8. Multiply by 8. Add 19. Subtract 85. Multiply by 3. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8 + 19 + 89 = 116, \u00d7 3 = 348, \u00d7 2 = 696, \u00d7 8 = 5568, \u00d7 8 = 44544, + 19 = 44563, - 85 = 44478, \u00d7 3 = 133434, + 70 = 133504\nAnswer: 133504",
+          "answer": "133504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "133504"
+  ],
+  "final_answer": "133504",
+  "usage": {
+    "input_tokens": 95,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "133504",
+  "correct": true
+}

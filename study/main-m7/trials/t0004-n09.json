@@ -1,0 +1,136 @@
+{
+  "task_id": "mult7-21-4",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Decomposed by place values: 8,723,827,000,000 + 747,756,600,000 + 31,156,525,000 + 623,130,500 + 71,036,877\nAnswer: 9503291292377",
+          "answer": "9503291292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7 = 8,723,827,000. Plus 1246261 \u00d7 625557 = 1,473,080,502. Sum = 10,196,907,502.\nAnswer: 10196907502",
+          "answer": "10196907502",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7M + 600K + 20K + 5K + 500 + 50 + 7 = 8,723,827M + 747,756M + 24,925M + 6,231M + 623K + 62K + 8K = 9,503,434,292,377\nAnswer: 9503434292377",
+          "answer": "9503434292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7000000 + 625557 breakdown\nAnswer: 9503434272247",
+          "answer": "9503434272247",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7625557 = 1246261 \u00d7 (7600000 + 25557) = 9476383600000 + 31850752377\nAnswer: 9508234352377",
+          "answer": "9508234352377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7625557: 8723827000000 + 747756600000 + 24925220000 + 6231305000 + 623130500 + 62313050 + 8723827\nAnswer: 9503434292377",
+          "answer": "9503434292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 (7500000 + 125557) = 9346957500000 + 156476792377\nAnswer: 9503434292377",
+          "answer": "9503434292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7625557 = (1246261 \u00d7 7000000) + (1246261 \u00d7 625557) = 8723827000000 + 780607292377\nAnswer: 9503434292377",
+          "answer": "9503434292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1246261 \u00d7 7625557 = 8.7B + 747.8B + 24.9B + 6.2B + 623.1M + 62.3M + 8.7M\nAnswer: 9503434292377",
+          "answer": "9503434292377",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9503291292377",
+    "10196907502",
+    "9503434292377",
+    "9503434272247",
+    "9508234352377",
+    "9503434292377",
+    "9503434292377",
+    "9503434292377",
+    "9503434292377"
+  ],
+  "final_answer": "9503434292377",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 237,
+    "calls": 9
+  },
+  "trial": 4,
+  "expected": "9503434292377",
+  "correct": true
+}

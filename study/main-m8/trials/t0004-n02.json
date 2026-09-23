@@ -1,0 +1,45 @@
+{
+  "task_id": "mult8-21-4",
+  "size": 2,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 (95000000 + 869836) = 9390949785000000 + 85985117913108\nAnswer: 9476934902913108",
+          "answer": "9476934902913108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "98852103 \u00d7 95000000 = 9390949785000000\n98852103 \u00d7 869836 = 85985117865108\nAnswer: 9476934902865108",
+          "answer": "9476934902865108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9476934902913108",
+    "9476934902865108"
+  ],
+  "final_answer": "9476934902913108",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 46,
+    "calls": 2
+  },
+  "trial": 4,
+  "expected": "9476934902865108",
+  "correct": false
+}

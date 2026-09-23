@@ -1,0 +1,84 @@
+{
+  "task_id": "mult7-21-1",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8831878: Breaking into parts (8M + 800k + 30k + 1k + 800 + 70 + 8), sum all contributions\nAnswer: 16189593913294",
+          "answer": "16189593913294",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8000000 + 800000 + 30000 + 1878 = 14663784000000 + 1466378400000 + 54989190000 + 3443275594\nAnswer: 16188626867594",
+          "answer": "16188626867594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8831878 broken as (8\u00d710^6 + 8\u00d710^5 + 31\u00d710^3 + 878):\n14,663,784,000,000 + 1,466,378,400,000 + 56,822,163,000 + 1,609,294,594\nAnswer: 16188593857594",
+          "answer": "16188593857594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8 \u00d7 10^6 = 14,663,784,000,000; remaining 1832973 \u00d7 831878 = 1,524,809,913,294\nAnswer: 16188593913294",
+          "answer": "16188593913294",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1832973 \u00d7 8,000,000 = 14,663,784,000,000; \u00d7 800,000 = 1,466,378,400,000; \u00d7 31,000 = 56,802,163,000; \u00d7 878 = 1,610,150,794\nAnswer: 16188574713794",
+          "answer": "16188574713794",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16189593913294",
+    "16188626867594",
+    "16188593857594",
+    "16188593913294",
+    "16188574713794"
+  ],
+  "final_answer": "16189593913294",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 163,
+    "calls": 5
+  },
+  "trial": 1,
+  "expected": "16188593913294",
+  "correct": false
+}

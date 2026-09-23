@@ -1,0 +1,39 @@
+=== 51e224cc22d5c0add2f5f61e
+37478830 × 58820452: Break into (37M + 478830) × (60M - 1179548) and expand
+Answer: 2204521721031160
+
+=== 6a6ddac132d90d82ba7b0548
+71420437 × 84657156: Break into (71M + 420437) × (85M - 342844) and expand
+Answer: 6046251077697172
+
+=== f618cdb4b1fc023d0806e777
+74976196 × 61767980: Break into (75M - 23804) × (62M - 232020) and expand
+Answer: 4631128175213680
+
+=== f8636a462088fcf303f7be17
+15531969 × 92338218: Multiply by 92M then add 338218 component
+Answer: 1434194846769442
+
+=== ab527b3c3183963366a055e4
+62835671 × 44797478: Multiply by 45M then subtract 202522 component
+Answer: 2814879563957838
+
+=== 17874c8fb24a90c92bfc11df
+89932155 × 20773831: Multiply by 21M then subtract 226169 component
+Answer: 1868228061410605
+
+=== 6472b397d123296fca28e833
+86804349 × 90051101: Multiply by 90M then add 51101 component
+Answer: 7816829148270849
+
+=== 79c716b4531dae859e82cfe3
+57807573 × 88619973: Multiply by 88.6M then add 19973 component
+Answer: 5123104890848729
+
+=== 462a3381cfc26f68db9df7aa
+42659586 × 49092078: Multiply by 49M then add 92078 component
+Answer: 2094244233009708
+
+=== 85adb23cc2d27ecacdda7d7f
+72356228 × 62381747: Multiply by 62M then add 381747 component
+Answer: 4513690130340716

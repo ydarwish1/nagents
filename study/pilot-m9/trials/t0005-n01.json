@@ -1,0 +1,32 @@
+{
+  "task_id": "mult9-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 666298344 multiplied by 228867112? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "666298344 \u00d7 228867112\nAnswer: 152513627438528000",
+          "answer": "152513627438528000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "152513627438528000"
+  ],
+  "final_answer": "152513627438528000",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "152493777721662528",
+  "correct": false
+}

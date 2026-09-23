@@ -1,0 +1,32 @@
+{
+  "task_id": "chain50-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 5. Add 5. Subtract 71. Multiply by 5. Subtract 34. Subtract 79. Multiply by 7. Subtract 8. Multiply by 2. Multiply by 2. Multiply by 6. Subtract 43. Subtract 21. Subtract 11. Add 16. Add 9. Add 58. Multiply by 5. Add 53. Add 85. Add 19. Add 72. Add 88. Subtract 51. Add 14. Add 31. Subtract 9. Add 35. Subtract 34. Add 43. Subtract 95. Add 78. Add 49. Add 75. Add 48. Subtract 48. Add 5. Subtract 31. Add 9. Subtract 62. Subtract 66. Add 94. Add 30. Subtract 29. Add 39. Subtract 19. Add 13. Subtract 44. Add 55. Subtract 14. Subtract 64. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "5+5=10; 10-71=-61; -61\u00d75=-305; -305-34=-339; -339-79=-418; -418\u00d77=-2926; -2926-8=-2934; -2934\u00d72=-5868; -5868\u00d72=-11736; -11736\u00d76=-70416; continuing through multiplications and additions/subtractions yields\nAnswer: -351671",
+          "answer": "-351671",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-351671"
+  ],
+  "final_answer": "-351671",
+  "usage": {
+    "input_tokens": 199,
+    "output_tokens": 55,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "-351671",
+  "correct": true
+}

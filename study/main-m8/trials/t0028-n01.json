@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-28",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76709553 \u00d7 11000000 = 843805083000000; 76709553 \u00d7 911235 = 69900429527955\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "913705512527955"
+  ],
+  "final_answer": "913705512527955",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 24,
+    "calls": 1
+  },
+  "trial": 28,
+  "expected": "913705512527955",
+  "correct": true
+}

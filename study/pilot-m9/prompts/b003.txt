@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 6abe2e38531a630d25407960
+What is 842905454 multiplied by 875823559? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 81617323bbdc0c56a1591ae2
+What is 703226126 multiplied by 768547101? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: d852fa39463e18a35b64c0fc
+What is 960974134 multiplied by 392404081? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 5ca384901b2b81acf5796bab
+What is 430669697 multiplied by 650150486? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: a34a4993e10cab3085d935dd
+What is 258103769 multiplied by 736556295? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ccaf354ca00692fed8a9af42
+What is 666298344 multiplied by 228867112? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 4f36b91e1d80b3e52fa9b85b
+What is 224619248 multiplied by 761237143? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 18528d2faab6d965d24b156b
+What is 861914019 multiplied by 194127323? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 37fa51b6714777e002294767
+What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 2a5b375c52e96fa3407d4205
+What is 703642370 multiplied by 914183987? Work it out step by step. End with one final line in exactly this form: Answer: <number>

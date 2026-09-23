@@ -1,0 +1,58 @@
+{
+  "task_id": "mult7-21-12",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333 = 1529479 \u00d7 1800000 + 1529479 \u00d7 333\n= 2753062200000 + 509316507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 (1800000 + 333) = 2753571516507\nAnswer: 2753571516507",
+          "answer": "2753571516507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1529479 \u00d7 1800333: 1529479 \u00d7 (1,800,000 + 333) = 2,753,062,200,000 + 509,336,507\nAnswer: 2753571536507",
+          "answer": "2753571536507",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2753571516507",
+    "2753571516507",
+    "2753571536507"
+  ],
+  "final_answer": "2753571516507",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 65,
+    "calls": 3
+  },
+  "trial": 12,
+  "expected": "2753571516507",
+  "correct": true
+}

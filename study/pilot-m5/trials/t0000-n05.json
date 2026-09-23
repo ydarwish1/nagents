@@ -1,0 +1,84 @@
+{
+  "task_id": "mult5-11-0",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "45239 \u00d7 (17000 + 241) = 769063000 + 10902599\nAnswer: 779965599",
+          "answer": "779965599",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "45239 \u00d7 17000 = 769,063,000; 45239 \u00d7 241 = 10,902,599\nAnswer: 779965599",
+          "answer": "779965599",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "45239 \u00d7 17241 = 45239 \u00d7 (17000 + 241)\n45239 \u00d7 17 = 769063, so 45239 \u00d7 17000 = 769063000\n45239 \u00d7 241 = 45239 \u00d7 200 + 45239 \u00d7 41 = 9047800 + 1854799 = 10902599\nTotal: 769063000 + 10902599 = 779965599\nAnswer: 779965599",
+          "answer": "779965599",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "45239 \u00d7 17241 = 45239 \u00d7 (10000 + 7241) = 452390000 + 317575599\nAnswer: 779965599",
+          "answer": "779965599",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "45239 \u00d7 17241 = 45239 \u00d7 (17000 + 241) = 769,063,000 + 10,902,599\nAnswer: 779965599",
+          "answer": "779965599",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "779965599",
+    "779965599",
+    "779965599",
+    "779965599",
+    "779965599"
+  ],
+  "final_answer": "779965599",
+  "usage": {
+    "input_tokens": 315,
+    "output_tokens": 125,
+    "calls": 5
+  },
+  "trial": 0,
+  "expected": "779965599",
+  "correct": true
+}

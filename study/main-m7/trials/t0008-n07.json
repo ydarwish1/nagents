@@ -1,0 +1,110 @@
+{
+  "task_id": "mult7-21-8",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4 = 11,745,700,000. Plus 2936425 \u00d7 258976 = 27,091,457,050. Sum = 38,837,157,050.\nAnswer: 38837157050",
+          "answer": "38837157050",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4M + 200K + 50K + 8K + 900 + 70 + 6 = 11,745,700M + 587,285M + 146,821M + 23,491M + 2,642K + 205K + 17K = 12,506,163,600,800\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4000000 + 258976 breakdown\nAnswer: 12505963600800",
+          "answer": "12505963600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976 = 2936425 \u00d7 (4000000 + 258976) = 11745700000000 + 760463560800\nAnswer: 12506163560800",
+          "answer": "12506163560800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976: 11745700000000 + 587285000000 + 146821250000 + 23491400000 + 2642782500 + 205549750 + 17618550\nAnswer: 12506163600800",
+          "answer": "12506163600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 (4000000 + 258976) = 11745700000000 + 760263600800\nAnswer: 12505963600800",
+          "answer": "12505963600800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4258976 = (2936425 \u00d7 4000000) + (2936425 \u00d7 258976) = 11745700000000 + 760463400800\nAnswer: 12506163400800",
+          "answer": "12506163400800",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "38837157050",
+    "12506163600800",
+    "12505963600800",
+    "12506163560800",
+    "12506163600800",
+    "12505963600800",
+    "12506163400800"
+  ],
+  "final_answer": "12506163600800",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 187,
+    "calls": 7
+  },
+  "trial": 8,
+  "expected": "12506163600800",
+  "correct": true
+}

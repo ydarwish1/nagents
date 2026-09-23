@@ -1,0 +1,58 @@
+{
+  "task_id": "chain10-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 43. Add 88. Subtract 55. Add 26. Subtract 42. Multiply by 8. Subtract 24. Multiply by 4. Add 86. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 43 = -41, + 88 = 47, - 55 = -8, + 26 = 18, - 42 = -24, \u00d7 8 = -192, - 24 = -216, \u00d7 4 = -864, + 86 = -778, + 70 = -708\nAnswer: -708",
+          "answer": "-708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 43. Add 88. Subtract 55. Add 26. Subtract 42. Multiply by 8. Subtract 24. Multiply by 4. Add 86. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 43 = -41 \u2192 + 88 = 47 \u2192 - 55 = -8 \u2192 + 26 = 18 \u2192 - 42 = -24 \u2192 \u00d7 8 = -192 \u2192 - 24 = -216 \u2192 \u00d7 4 = -864 \u2192 + 86 = -778 \u2192 + 70 = -708\nAnswer: -708",
+          "answer": "-708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 2. Subtract 43. Add 88. Subtract 55. Add 26. Subtract 42. Multiply by 8. Subtract 24. Multiply by 4. Add 86. Add 70. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2 - 43 = -41, + 88 = 47, - 55 = -8, + 26 = 18, - 42 = -24, \u00d7 8 = -192, - 24 = -216, \u00d7 4 = -864, + 86 = -778, + 70 = -708\nAnswer: -708",
+          "answer": "-708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "-708",
+    "-708",
+    "-708"
+  ],
+  "final_answer": "-708",
+  "usage": {
+    "input_tokens": 279,
+    "output_tokens": 101,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "-708",
+  "correct": true
+}

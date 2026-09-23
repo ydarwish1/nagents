@@ -1,0 +1,58 @@
+{
+  "task_id": "mult9-11-3",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 430669697 multiplied by 650150486? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "430669697 \u00d7 650150486\nAnswer: 280036357895742000",
+          "answer": "280036357895742000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 430669697 multiplied by 650150486? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "430669697 \u00d7 650150486: Breaking into place value components and summing.\nAnswer: 280000212809322242",
+          "answer": "280000212809322242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 430669697 multiplied by 650150486? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "430M\u00d7650M + 430M\u00d7150,486 + 669,697\u00d7650M + 669,697\u00d7150,486\nAnswer: 280000112709010542",
+          "answer": "280000112709010542",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "280036357895742000",
+    "280000212809322242",
+    "280000112709010542"
+  ],
+  "final_answer": "280036357895742000",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 57,
+    "calls": 3
+  },
+  "trial": 3,
+  "expected": "280000112810022742",
+  "correct": false
+}

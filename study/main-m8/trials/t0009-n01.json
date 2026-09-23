@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74256131 multiplied by 33287156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74256131 \u00d7 30000000 + 74256131 \u00d7 3287156\nAnswer: 2471775416553436",
+          "answer": "2471775416553436",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2471775416553436"
+  ],
+  "final_answer": "2471775416553436",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 16,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "2471775416553436",
+  "correct": true
+}

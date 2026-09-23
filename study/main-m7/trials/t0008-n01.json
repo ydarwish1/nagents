@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2936425 \u00d7 4 = 11,745,700,000. Plus 2936425 \u00d7 258976 = 27,091,457,050. Sum = 38,837,157,050.\nAnswer: 38837157050",
+          "answer": "38837157050",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "38837157050"
+  ],
+  "final_answer": "38837157050",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "12506163600800",
+  "correct": false
+}

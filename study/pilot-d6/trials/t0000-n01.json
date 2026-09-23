@@ -1,0 +1,32 @@
+{
+  "task_id": "chain6-11-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "Start with 4. Multiply by 2. Multiply by 4. Multiply by 4. Multiply by 2. Subtract 83. Add 54. What number do you have now? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4 \u00d7 2 = 8, 8 \u00d7 4 = 32, 32 \u00d7 4 = 128, 128 \u00d7 2 = 256, 256 - 83 = 173, 173 + 54 = 227\nAnswer: 227",
+          "answer": "227",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "227"
+  ],
+  "final_answer": "227",
+  "usage": {
+    "input_tokens": 85,
+    "output_tokens": 23,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "227",
+  "correct": true
+}

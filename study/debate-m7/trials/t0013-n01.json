@@ -1,0 +1,32 @@
+{
+  "task_id": "mult7-21-13",
+  "size": 1,
+  "topology": "debate",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1705523 \u00d7 7000000 + 400000 + 13000 + 58 = 11938661000000 + 682209200000 + 22171799000 + 98920334\nAnswer: 12643140919334",
+          "answer": "12643140919334",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "12643140919334"
+  ],
+  "final_answer": "12643140919334",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 29,
+    "calls": 1
+  },
+  "trial": 13,
+  "expected": "12643140919334",
+  "correct": true
+}

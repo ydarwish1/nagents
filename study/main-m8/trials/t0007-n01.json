@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67516649 multiplied by 24926358? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67M \u00d7 24.926M + 516K \u00d7 24.926M\nAnswer: 1682944165734342",
+          "answer": "1682944165734342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1682944165734342"
+  ],
+  "final_answer": "1682944165734342",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 13,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "1682944163934342",
+  "correct": false
+}

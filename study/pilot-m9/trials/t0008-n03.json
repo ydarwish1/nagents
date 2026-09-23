@@ -1,0 +1,58 @@
+{
+  "task_id": "mult9-11-8",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312784074 \u00d7 233817637\nAnswer: 73141567389838000",
+          "answer": "73141567389838000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312784074 \u00d7 233817637: Breaking into place value components and summing.\nAnswer: 73134433073913138",
+          "answer": "73134433073913138",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 312784074 multiplied by 233817637? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "312M\u00d7233M + 312M\u00d7817,637 + 784,074\u00d7233M + 784,074\u00d7817,637\nAnswer: 73174761152706538",
+          "answer": "73174761152706538",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "73141567389838000",
+    "73134433073913138",
+    "73174761152706538"
+  ],
+  "final_answer": "73141567389838000",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 55,
+    "calls": 3
+  },
+  "trial": 8,
+  "expected": "73134433073913138",
+  "correct": false
+}

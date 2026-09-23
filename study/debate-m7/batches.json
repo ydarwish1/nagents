@@ -1,0 +1,2042 @@
+[
+  {
+    "batch": "b000",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "305cd35c9b489d3189a5f764",
+        "seat": 0,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869908021536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cd8e25e8da111d186606e4a3",
+        "seat": 0,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338864006, 8384338824006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "71c7c986f1c7b5a80a751aca",
+        "seat": 0,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 11390471759618, 11391269903718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3650e13abf4acff3b5626546",
+        "seat": 1,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b4d5c8bda198e9d7e726d539",
+        "seat": 1,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 30806220627. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "06566215e3606cb3106865ac",
+        "seat": 2,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1c8346105ac639f5828ddbf7",
+        "seat": 2,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2e810cecbefacdb32aa2312c",
+        "seat": 3,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594, 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bf6a8eadcbe5ae2f1f6dab1b",
+        "seat": 4,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096, 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "aef0c8d0106041f97c2c3c06",
+        "seat": 4,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12505963600800, 12506163560800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b001",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "4755dc7e9e727bb89339ed98",
+        "seat": 0,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869908021536, 24869908101536, 24869904061536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7d39c0e30fb62f602d61490c",
+        "seat": 0,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338864006, 8384338824006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "36127c8bdeda22fb29fae332",
+        "seat": 0,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 11390471759618, 11391269903718, 11390469738318, 11390469921918. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fc01d3fc07e0b6de08e55731",
+        "seat": 1,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cff55554c5e37566798b95ea",
+        "seat": 1,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 30806220627, 25184047939045, 25184338730245. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e0adeaa2cdbb642b3f9c2e6a",
+        "seat": 2,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760739, 19843720760739, 19843720660739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "363367a55ff856c8624dbf7f",
+        "seat": 2,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404470033718, 30404370033718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1de8a2a9b85453cb43e1e395",
+        "seat": 3,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c0e594cb273dfc024062dff6",
+        "seat": 4,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "eb17433174dcda42ead0778f",
+        "seat": 4,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b002",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "b306fca8b9dc712dbe24eb6c",
+        "seat": 0,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16188626867594, 16188593857594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a118d0de68b31236496c14c1",
+        "seat": 0,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "103334e3c21eb8b1c474c846",
+        "seat": 0,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188515312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "59e96f71af467324246282b7",
+        "seat": 1,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e7aa88ea4c459e696c0e298b",
+        "seat": 1,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9de02cfdecaa7ba5645c03d1",
+        "seat": 2,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908021536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2afd4ff867c9d477acddee68",
+        "seat": 2,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0654956ca3f692beb0e1e039",
+        "seat": 2,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11390471759618. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "47a77ec9173189fa603318fc",
+        "seat": 3,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760739, 19843720760539, 19843720660739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e88c459cfde98d1f8a902d54",
+        "seat": 3,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263, 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b003",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "43ee0c3d116c9d90884be6dc",
+        "seat": 0,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16188626867594, 16188593857594, 16188593913294, 16188574713794. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0ceb329b70c8d88b6f6bd348",
+        "seat": 0,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "245fa3cbde2e8904175e2807",
+        "seat": 0,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188515312, 6659188518312, 6659187894312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4334a1ba811f66409fff5fd3",
+        "seat": 1,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c43c18d0abbe5116a2e9e440",
+        "seat": 1,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820, 2805968205820, 2804368205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "08e9aa4b5e129aff535c5aa9",
+        "seat": 2,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908021536, 24869904061536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "19871599dd6543b02deb1975",
+        "seat": 2,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4d287b2bc6e8d8acf271f63d",
+        "seat": 2,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11390471759618, 11390469738318, 11390469921918. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "67b8fcdf1b2b3393ec06a0c3",
+        "seat": 3,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615259923825, 4615260023825, 4615262024925. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a0974f5edb774f85440b685a",
+        "seat": 4,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b004",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "66d9c10c7cc86e1ef10602fa",
+        "seat": 0,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16867591794504, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "422fc9ca77f8b46e76337d4a",
+        "seat": 0,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d9336cda981273c892f12109",
+        "seat": 0,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10196907502, 9503434292377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c868fd894e842c64239bed75",
+        "seat": 1,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c0565518957ab2cd75d2dbbd",
+        "seat": 1,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4f1752cccc27135b17186a1b",
+        "seat": 2,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188626867594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "109a23c66d4d6a68e005bc81",
+        "seat": 2,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4d235382545acbb516527cf5",
+        "seat": 2,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188515312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2a2104711e65a9ed52a858c4",
+        "seat": 3,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338824006, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c9bf01fdd1a884249e6819d4",
+        "seat": 3,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860, 12994494200860, 12994475175860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b005",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "e0e7fcfde0d29a9d4979e945",
+        "seat": 0,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16867591794504, 16867591794504, 16867587826704, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0130de9be7737f294a63e912",
+        "seat": 0,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263, 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a38c0b076d681972a10c74c3",
+        "seat": 0,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10196907502, 9503434292377, 9503434272247, 9508234352377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7d0a1a5a30a24e692fb09c4d",
+        "seat": 1,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678, 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "72521fe82cb86c8633762c26",
+        "seat": 1,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007384009880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d9cab6ce8402be7fa4013372",
+        "seat": 2,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188626867594, 16188593913294, 16188574713794. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9fc2762eed427886d89e9f88",
+        "seat": 2,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d2ce87c0105fa54890d3628f",
+        "seat": 2,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188515312, 6659187894312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bde1755cab3de9a0c6309151",
+        "seat": 3,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704, 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e154a00decd1941b818779d1",
+        "seat": 4,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224, 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b006",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "5cb06d79bc140c7a724e0f63",
+        "seat": 0,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556105017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9998e5330b2f81b0ecea7d85",
+        "seat": 0,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259923825, 4615260023825. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "703fd6fb79230b52f06674c8",
+        "seat": 0,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246266217440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "810fc15e9dec5f0820f4bf2f",
+        "seat": 1,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "122235f24d25a3c28bca317c",
+        "seat": 1,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d50bbdd393998a802b8246fb",
+        "seat": 2,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "375963e081e47b25eb97a51d",
+        "seat": 2,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9223f71780b1b2e20a618ff2",
+        "seat": 2,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 10196907502. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d060dc464ff4b4ac4fea15a1",
+        "seat": 3,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "23a56d6b60c4776c8a839a82",
+        "seat": 4,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678, 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b007",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "90b800f16296476b54271c36",
+        "seat": 0,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556105017144, 15556106017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "70c4211f6e5fd5e09f41beaa",
+        "seat": 0,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259923825, 4615260023825, 4615260023225, 4615262024925. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fab97bd89f21011757955674",
+        "seat": 0,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246266217440, 25246385569440, 25236389569440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "56974ef94a0cbb13db521123",
+        "seat": 1,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224, 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f1921ee648ab56d852b2ecaf",
+        "seat": 1,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8394f2f60082859ea664e53c",
+        "seat": 2,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504, 16867587826704, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3ed4736f9c4345fb95fe4a1f",
+        "seat": 2,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263, 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1e54241aa9e9928a71d757af",
+        "seat": 2,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 10196907502, 9503434272247, 9508234352377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b224593bfa755d720f59e4a0",
+        "seat": 3,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "878665677b7b97945eb74e21",
+        "seat": 4,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419147253328, 49419148253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b008",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "6f679d62776155e38e644862",
+        "seat": 0,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571536507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "48cdf4a2876f1172e5f248ba",
+        "seat": 0,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c0ba687bf344b3d7e1ff65aa",
+        "seat": 0,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843612969085, 9843612068685. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "81c3f1d94dfe2799e3f7df50",
+        "seat": 1,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "930dcecca878ac5ab99322f4",
+        "seat": 1,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24484743891498. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7750ef52a57ef2e03a96b76d",
+        "seat": 2,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "493ed5356cd932524ff18c03",
+        "seat": 2,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615259923825. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e798a9f31deeec28eb019b62",
+        "seat": 2,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246266217440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1cf88bb1a8302d5c807fd160",
+        "seat": 3,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 25184290339845, 30806220627, 25184338730245. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "160c618fed88fafd296d7f05",
+        "seat": 4,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822776780, 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b009",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "5d1eb56b9bd666a0f73a4d3f",
+        "seat": 0,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571536507, 2753571516507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "acd5cf322a979905c20d5d57",
+        "seat": 0,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860, 13078588882, 12994475175860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "07e9deaef9a2f23eab06de56",
+        "seat": 0,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843612969085, 9843612068685, 9843612069385, 9843612068785. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d8ea6ef9d1d8e5c3c4335c02",
+        "seat": 1,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328, 49419147253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8753fad13adc785b239814f4",
+        "seat": 1,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24484743891498, 24484731390858, 24484745975098. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "77180e6800e059cc0971df83",
+        "seat": 2,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b438ec359bd8c5573d2d1df3",
+        "seat": 2,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615259923825, 4615260023225, 4615262024925. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "490cdcad56e4721a6e739ac6",
+        "seat": 2,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246266217440, 25236389569440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "36ef4ce4b62fc339fd256ff5",
+        "seat": 3,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820, 2804968205820, 2804368205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "15a470bdd9c3cc36ba6ee2c0",
+        "seat": 4,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594, 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b010",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "86365aac5a70bbcf6df8ac54",
+        "seat": 0,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4a08d55fe03716f4c790815a",
+        "seat": 0,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0181ae7c17e261dc4b1048e8",
+        "seat": 0,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964259532, 15851964319532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "516265e51e695be7fa87b731",
+        "seat": 1,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8a5d7c429f81f9a2d6b2acc1",
+        "seat": 1,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "69948a7bb162a666a5a94d1f",
+        "seat": 2,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4fc19c21350412e8a2e5eaca",
+        "seat": 2,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "31f1104986bc0f890129bab3",
+        "seat": 2,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612969085. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "93355b04d6c2f4ab9f3dcd92",
+        "seat": 3,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 61007384009880, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "657ac1a346845f91e42b3a0f",
+        "seat": 4,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760739, 19843720760539, 19843720760739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b011",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "a8004e4929b80f6cd3527e01",
+        "seat": 0,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334, 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1d2e5074fe5d80a0b51b0181",
+        "seat": 0,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704, 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "10eae380e7f3c46e154af347",
+        "seat": 0,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964259532, 15851964319532, 15851964298532, 15851964299532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "21792a4985d6f83fce37808d",
+        "seat": 1,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822976780, 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b1c9e506c6193a168184f672",
+        "seat": 1,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822, 10236945726922, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ed9dc1dd819d2266f08d8f06",
+        "seat": 2,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571516507, 2753571516507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4776eb74bdbdebaf642a83fe",
+        "seat": 2,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860, 13078588882, 12994475175860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5b56b0b030201df3d266d61a",
+        "seat": 2,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612969085, 9843612069385, 9843612068785. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "392416258196a1ec5551fc04",
+        "seat": 3,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778650438552, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "03779ad168de65b7cc84dccf",
+        "seat": 4,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338864006, 8384338824006, 8384338863406. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b012",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "dc074c53aa8193669c29d3a6",
+        "seat": 0,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171247627760, 77171241647760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "50a1315aa99038d4ef96a3e7",
+        "seat": 0,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1e56c9e980638938f6618aa4",
+        "seat": 0,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12506163600800, 12505963600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a3ebfe49b8e4c08d3a5664af",
+        "seat": 1,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8a0cd27cf628b5ba15544284",
+        "seat": 1,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 38612928240. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9a87ca240f91df5983b49bc9",
+        "seat": 2,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7f9eaee303358094cc5ca6dc",
+        "seat": 2,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bcae6967b47c38b68c282c4d",
+        "seat": 2,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964259532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "42b8554b9b89769ab1e3ada4",
+        "seat": 3,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24613527063, 24484743891498, 24484745975098. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cab7c01b0a06d58b419ef41a",
+        "seat": 4,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b013",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "ffb18d70f1b29e7045af76be",
+        "seat": 0,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171247627760, 77171241647760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "69f1ab6a805fb7452873a05b",
+        "seat": 0,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c989a5540ad172f749858586",
+        "seat": 0,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12506163600800, 12505963600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b1e88cabdaeb30a01bec0c9a",
+        "seat": 1,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594, 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "862b5079f63b57d9f668db59",
+        "seat": 1,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 38612928240, 34961103640080, 34961147543280. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c5d11656b22312277c6c83aa",
+        "seat": 2,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334, 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "96bfa5a4c57459d4d4beff6c",
+        "seat": 2,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704, 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1b04b329c89da3eac51f2281",
+        "seat": 2,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964259532, 15851964298532, 15851964299532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "efab0b3c535dac011ddfc991",
+        "seat": 3,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822, 10236945726822, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ddcc8601d1b6a39c2610e3ee",
+        "seat": 4,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263, 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b014",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "13f45a0292299f5da94f3097",
+        "seat": 0,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9dca4f4e62a069f0161b38a7",
+        "seat": 0,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211326088608, 10211325988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "31c00a3ce1583f2ee1f74a14",
+        "seat": 0,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "39135ee730ae4a51a424c41f",
+        "seat": 1,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760539. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c0a84f6a91d674eec48c0181",
+        "seat": 1,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404469983718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "8eb450a4f689862fbb310af0",
+        "seat": 2,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "073ac1d4428ac97968eb4a6a",
+        "seat": 2,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bf9964d49e9cb1cb149f29f8",
+        "seat": 2,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1ddadb884ddec686356628f0",
+        "seat": 3,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 34961103640080, 38612928240, 34961147543280. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1799db37da6819eff29d0799",
+        "seat": 4,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615259923825, 4615260023825, 4615260023225. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b015",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "16f2a00ce2ba9fe7f78264d6",
+        "seat": 0,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096, 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d1a1cc6c7175c6d45dd9b366",
+        "seat": 0,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211326088608, 10211325988608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "89b75213befb80fb7191ee42",
+        "seat": 0,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644116992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f8752f5e8894a8fe3a352de8",
+        "seat": 1,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760539, 19843720760739, 19843720660739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "aebd4153650ac52d95fc8256",
+        "seat": 1,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404469983718, 30404370033718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0d7f53245615fcc2151cecb7",
+        "seat": 2,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e268b2a3fb3ef948651ec1d1",
+        "seat": 2,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e7696eeeb0e43d6111fde605",
+        "seat": 2,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3a2c651055a9314395c97a39",
+        "seat": 4,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860, 12994494200860, 13078588882. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "58465406c539cd66efffbad1",
+        "seat": 4,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704, 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b016",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "74e11d33b735e1ac753c6958",
+        "seat": 0,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6bc32167d6a70306b47fc11a",
+        "seat": 0,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290339845, 30806220627. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "61ad65ba79a9d15e54c1005a",
+        "seat": 1,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9519344148e72449cb2d5a71",
+        "seat": 1,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338824006. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d33d573676238c511bd12982",
+        "seat": 1,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11391269903718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ca4d97e29c820a538cb69465",
+        "seat": 2,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "31a0a89a552c94aec15765a5",
+        "seat": 2,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b2f907ce86c64bd68ab5da75",
+        "seat": 2,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "157ab14d517cfbe66639f92d",
+        "seat": 3,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404470033718, 30404469983718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b5a2f1df79e88e938cf964c0",
+        "seat": 4,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b017",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "7d7770de778deae90f771a1a",
+        "seat": 0,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1b0f42a38a972565705f3d9e",
+        "seat": 0,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290339845, 30806220627, 25184047939045, 25184338730245. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0f8fbe9e917f0d3fba9a698c",
+        "seat": 1,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908101536, 24869904061536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cb315dfdcdaf4eb67e9fc9a0",
+        "seat": 1,
+        "prompt": "What is 3463621 multiplied by 2420686? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8384338464006, 8384338824006, 8384338863406, 10758006826. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e12ef88fb29fda1b4ca8251b",
+        "seat": 1,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11391269903718, 11390469738318, 11390469921918. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6c7906c5cccd2ed8bc058a82",
+        "seat": 2,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096, 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e9ac5c0fce38b19a41a734c1",
+        "seat": 2,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "58f588c405fe8f6803325d91",
+        "seat": 2,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "cb4faf0bef9326d24b125e80",
+        "seat": 3,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188626867594, 16188593857594, 16188574713794. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f1ad3d54a3056b760fdc64dc",
+        "seat": 3,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188515312, 6659188518312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b018",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "7925de9ba17f61c43d9cc94e",
+        "seat": 0,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6dba4e6a9760ee48a5bc0381",
+        "seat": 0,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3767fea4ea9db9a9692558da",
+        "seat": 1,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188593857594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2698c6b899f4858368863068",
+        "seat": 1,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "951a057c1d12eaf741ae90ed",
+        "seat": 1,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "2d8f6e66afaddc2c9d6d9c27",
+        "seat": 2,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c46a3a6ba1d0841d97c5cb82",
+        "seat": 2,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 25184290339845. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6927b17f9ffda5b8dd8d9946",
+        "seat": 3,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908021536, 24869908101536, 24869908101536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a12fa99e038d266957c06fa2",
+        "seat": 3,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504, 16867591794504, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a60cfb7ae75c9989ec45ab74",
+        "seat": 3,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11390471759618, 11391269903718, 11390469921918. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b019",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "d0794e4e609d1d49b79faa18",
+        "seat": 0,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955792, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b576e007fb3fab8c83d2419a",
+        "seat": 0,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820, 2805968205820, 2804368205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "98806e07e594255529e24e36",
+        "seat": 1,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188593857594, 16188593913294, 16188574713794. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "31f73de13d253e29fc035c1d",
+        "seat": 1,
+        "prompt": "What is 8630720 multiplied by 2487661? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 21470305545920, 21470305545920, 21470305545920, 21470305545920. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ea186cfe6088514a24dd3a20",
+        "seat": 1,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188518312, 6659187894312, 6659188518312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5d741038844ef1c1d2c3f81c",
+        "seat": 2,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "de9a963f8afec832423032c1",
+        "seat": 2,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 25184290339845, 25184047939045, 25184338730245. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "601cf20571243f558b762125",
+        "seat": 3,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ba65dad178594215f9ca2b12",
+        "seat": 3,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 10196907502, 9503434292377, 9508234352377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "06eba9764d229390e0b4487a",
+        "seat": 3,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246266217440, 25246385569440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b020",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "28dee00d846fa1517f2b566a",
+        "seat": 0,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3ec4557554b4233ca3d1b3d4",
+        "seat": 0,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007383709880, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fd40c7b6f6c902cddc3e761a",
+        "seat": 1,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "191532ff7f559529fec67b08",
+        "seat": 1,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "eff9e7b112c4e3ba0cade0f1",
+        "seat": 1,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 9503434292377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "855bedc5a0c8da8aee22d38b",
+        "seat": 2,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a4a07f9c12f3768816a34089",
+        "seat": 2,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7a86c83b2be6c4fb08561366",
+        "seat": 3,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571516507, 2753571536507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "e2f655a9fdd942970ddd00bd",
+        "seat": 3,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612969085, 9843612068685, 9843612068785. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "96c9798e0ac6030340776a4d",
+        "seat": 4,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211326088608, 10211325988608, 10211325988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b021",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "46f3f4977e455e262839fa88",
+        "seat": 0,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599676678, 9297599676678, 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4fd0303c40db96e89a9cbdd8",
+        "seat": 0,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007383709880, 61007384009880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "109430007e308448b37bfafb",
+        "seat": 1,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504, 16867587826704, 16867591794504. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a36cc3cb502face49932505c",
+        "seat": 1,
+        "prompt": "What is 2941989 multiplied by 2837067? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8346619906263, 8346619906263, 8346619906263, 8346619906263. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7f6e51133dba8b8a3d95054d",
+        "seat": 1,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 9503434292377, 9503434272247, 9508234352377. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c643fe95a7cab5d30042c895",
+        "seat": 2,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a4bf59f0692610caa47627fd",
+        "seat": 2,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820, 2805968205820, 2804368205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a9da44f4a721bba92ff66409",
+        "seat": 3,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334, 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5d0c8627a3b106d10153b6c2",
+        "seat": 3,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964259532, 15851964319532, 15851964299532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "45167d4b9f37057932bf8faa",
+        "seat": 4,
+        "prompt": "What is 7453719 multiplied by 3378755? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25184290539845, 25184290339845, 30806220627, 25184047939045. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b022",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "00a0994eea65056bb100b0c7",
+        "seat": 0,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ee601c3dfc477fc3f0a08fc3",
+        "seat": 0,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "dca06afe7b799b3dd1c0a882",
+        "seat": 1,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "203b0f5d7b61502c0cf65ab0",
+        "seat": 1,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615260023825. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f7302985e753388942e88d67",
+        "seat": 1,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "da8e78074cc37fc8e7680d22",
+        "seat": 2,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "90fd41c9c1410e9383450fe4",
+        "seat": 2,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9af6172ceec212084a6aa16a",
+        "seat": 3,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0616e15f6a440e350034ed3f",
+        "seat": 3,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12506163600800, 12505963600800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ab3a36f567232933e6f4bbae",
+        "seat": 4,
+        "prompt": "What is 1471140 multiplied by 1906663? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2804968205820, 2804968205820, 2804968205820, 2805968205820. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b023",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "d051f14b953796f4e44bb074",
+        "seat": 0,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224, 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "40df26c4d60673cc118c25b6",
+        "seat": 0,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778650438552, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "66d7a0521340fe997673b71b",
+        "seat": 1,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556106017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5b9fd94c6211ba260608d041",
+        "seat": 1,
+        "prompt": "What is 3006925 multiplied by 1534877? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 4615259023225, 4615260023825, 4615260023225, 4615262024925. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9f5a06be635664937878bf0f",
+        "seat": 1,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246385569440, 25236389569440, 25246385569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b0fc49d721ecd5d2bcece7c3",
+        "seat": 2,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678, 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b889fa72512a8cb245fcb9da",
+        "seat": 2,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 414867679380, 61007384009880. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "981599e6edd016b94d45aba3",
+        "seat": 3,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096, 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "85268e4ea540d01bb21a1562",
+        "seat": 3,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f18b45aa1571713b5f1763d6",
+        "seat": 4,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24613527063, 24484743891498, 24484731390858. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b024",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "5616bdca6dc946658bb2c4da",
+        "seat": 0,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3ee6f49baca79b4cb90de667",
+        "seat": 0,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24613527063, 24484743891498. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "730576870c107f5fb33e4408",
+        "seat": 1,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571536507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "75537176466e1dbf73feba44",
+        "seat": 1,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0a1e7d251c1c5985ff23ff31",
+        "seat": 1,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612068685. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bd2fdf3f683d78666928bcb8",
+        "seat": 2,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "bdc0788456cda5a7fcc8324f",
+        "seat": 2,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "185b2ecf7c654b4e084d5842",
+        "seat": 3,
+        "prompt": "What is 7416048 multiplied by 1302052? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9656080130496, 9656080130496, 9656080130496, 9656080130496. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "99697ede06b241fa695df120",
+        "seat": 4,
+        "prompt": "What is 4035457 multiplied by 6162848? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24869900142336, 24869908021536, 24869908101536, 24869904061536. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "774613c7f5f96efc3e7deaa6",
+        "seat": 4,
+        "prompt": "What is 7135667 multiplied by 8549640? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 61007384009880, 61007383709880, 61007384009880, 414867679380. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b025",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "89a4f0bb1ce662ed07295f2b",
+        "seat": 0,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419148253328, 49419147253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "298e2f305963b757c9979615",
+        "seat": 0,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24613527063, 24484743891498, 24484731390858, 24484745975098. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "408f8b6e4ae9aed5de5db349",
+        "seat": 1,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571536507, 2753571516507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4d9f8b8a56f920d802d45fdf",
+        "seat": 1,
+        "prompt": "What is 2805962 multiplied by 4631030? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12994494200860, 12994494200860, 13078588882, 12994475175860. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b9b54b3e2a45ea7d195d1c0b",
+        "seat": 1,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612068685, 9843612069385, 9843612068785. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "41b8f48c0cffde102681dddd",
+        "seat": 2,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224, 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a16562e9b203e10237b705e0",
+        "seat": 2,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778651799452, 35777750838652. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "763c52132ee9145d6538de7f",
+        "seat": 3,
+        "prompt": "What is 2398413 multiplied by 2200784? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 5278388955192, 5278388955792, 5278388955792, 5278388955792. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d3f5471913cdeadd25f46e73",
+        "seat": 4,
+        "prompt": "What is 1832973 multiplied by 8831878? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 16189593913294, 16188626867594, 16188593857594, 16188593913294. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d8ae5d91bd8959d201551076",
+        "seat": 4,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822, 10236945726822, 10236945726922. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b026",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "413cd8cc653d616772001433",
+        "seat": 0,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822776780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "43a03b0f9045af7499b7a415",
+        "seat": 0,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c2e783c939cc54b6590b070b",
+        "seat": 1,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "718b60ccdd2c4f39272cf1f2",
+        "seat": 1,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7cf1e562d88bea14207cfd04",
+        "seat": 1,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964319532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "308e8941e516815e9c835a34",
+        "seat": 2,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5b598736904f3d140bf0300f",
+        "seat": 2,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24613527063. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3d8890c9054df2f90c8c6dc9",
+        "seat": 3,
+        "prompt": "What is 1045809 multiplied by 8890342? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9297599656878, 9297599676678, 9297599676678, 9297599676678. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4c25a11746f5644e1f045943",
+        "seat": 4,
+        "prompt": "What is 2074361 multiplied by 8131464? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 17829132795, 16867591794504, 16867591794504, 16867587826704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6af75c6370e99216df67a749",
+        "seat": 4,
+        "prompt": "What is 4379318 multiplied by 8169914? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 35778651438652, 35778651438652, 35778650438552, 35778651799452. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b027",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "942d3fcf35c9b0e1e92df516",
+        "seat": 0,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822776780, 57254822976780, 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fa120c9acff3d2313537728a",
+        "seat": 0,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822, 10236945726922, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c6fdcc4a79802a2a2b4b5ddb",
+        "seat": 1,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334, 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "90baacaf6c12d9ca90f6ffcb",
+        "seat": 1,
+        "prompt": "What is 2461596 multiplied by 4942424? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12166251148704, 12166251148704, 12166251148704, 12166251148704. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d57c0f0f64cc1577bad37bb5",
+        "seat": 1,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964319532, 15851964298532, 15851964299532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "65f4501183fbc9ccb1de3fa9",
+        "seat": 2,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419147253328, 49419147253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "731d1d3ab82af007d9fc859e",
+        "seat": 2,
+        "prompt": "What is 3305382 multiplied by 7407539? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 24484746074898, 24613527063, 24484731390858, 24484745975098. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "733b860231626f17af9cd8c3",
+        "seat": 3,
+        "prompt": "What is 9927498 multiplied by 6969388? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 69188585431224, 69188585431224, 69188585431224, 69188585431224. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d647f37f6da4f07e53034313",
+        "seat": 4,
+        "prompt": "What is 8508434 multiplied by 1828316? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15556106017144, 15556105017144, 15556106017144, 15556106017144. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "f105d15b65539b8b49820cbe",
+        "seat": 4,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 34961103640080, 38612928240, 34961103640080. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b028",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "13a0e1ebc937d2b406c60a84",
+        "seat": 0,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9af6f43b0d125979e496522e",
+        "seat": 0,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 38612928240. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fb09fb97e02ee1a00dd3ba30",
+        "seat": 1,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171241647760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3224d0a63c9fc98f2b8809e2",
+        "seat": 1,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a11c0b830146fd18927df79f",
+        "seat": 1,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12505963600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7763bac72ce0f8fc8f35ff5c",
+        "seat": 2,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822776780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "88968ddb973d0bf4b3f0c872",
+        "seat": 2,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "82a7d181b80dfcda3bc0df5e",
+        "seat": 3,
+        "prompt": "What is 9552272 multiplied by 5173549? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 49419147253328, 49419147253328, 49419148253328, 49419147253328. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "31cb5566525c6636c2be2126",
+        "seat": 4,
+        "prompt": "What is 1529479 multiplied by 1800333? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 2753571516507, 2753571516507, 2753571536507, 2753571516507. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "7a60848a37e5f546a09c40a7",
+        "seat": 4,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404470033718, 30404469983718, 30404370033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b029",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "3a2099f5307dfa2902f8aa9f",
+        "seat": 0,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594, 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "57ea63829f8863c5cf41f73b",
+        "seat": 0,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 38612928240, 34961103640080, 34961147543280. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0d56a88d80f12519e1d4e4b7",
+        "seat": 1,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171241647760, 77171241647760, 77171241627760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "12dbc8a37fccab873eac072c",
+        "seat": 1,
+        "prompt": "What is 8256911 multiplied by 2485430? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 20521974306730, 20521974306730, 20521974306730, 24068895565. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "c0f9c450b3a80937d3434e71",
+        "seat": 1,
+        "prompt": "What is 2936425 multiplied by 4258976? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 38837157050, 12505963600800, 12506163560800, 12506163600800. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "aa0acbbdc397ae089c3a2388",
+        "seat": 2,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822776780, 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "0021c67a0c12a3bc4aa101fd",
+        "seat": 2,
+        "prompt": "What is 2913198 multiplied by 3513989? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10236945726822, 10236945726822, 10236945726922, 10236945726822. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d197f2374747005450cdc5e9",
+        "seat": 4,
+        "prompt": "What is 1705523 multiplied by 7413058? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 12643140919334, 12643140919334, 12643140919334, 12643140919334. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "d1861f3171ef691d8805999e",
+        "seat": 4,
+        "prompt": "What is 2431398 multiplied by 4684741? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 13190334150, 11390471759618, 11391269903718, 11390469738318. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b18d604b9bc7ce12523d2505",
+        "seat": 4,
+        "prompt": "What is 2896337 multiplied by 2299176? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 6659188518312, 6659188515312, 6659188518312, 6659187894312. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b030",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "eb8d813bd144315a7b20d1b0",
+        "seat": 0,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760539. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5b8fa924341472c8637c2d67",
+        "seat": 0,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404469983718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "a9a4148b4d29cc5a7b56a323",
+        "seat": 1,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fd1b57112d3138265f4cd115",
+        "seat": 1,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211325988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "ede2374116190a3e9608b670",
+        "seat": 1,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "766ab50582e309716b53f6bc",
+        "seat": 2,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "fce0a45928427fe07ef35304",
+        "seat": 2,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 34961103640080. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "91856fc1efd1fdd961bbcd77",
+        "seat": 3,
+        "prompt": "What is 7586865 multiplied by 7546572? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 57254822976780, 57254822776780, 57254822976780, 57254822976780. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "b35d60cbe4a05ab11770e9d3",
+        "seat": 4,
+        "prompt": "What is 9890660 multiplied by 7802436? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 77171241647760, 77171247627760, 77171241647760, 77171241647760. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "9a437f80f79c6bf944c5b260",
+        "seat": 4,
+        "prompt": "What is 1246261 multiplied by 7625557? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9503291292377, 10196907502, 9503434292377, 9503434272247. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  },
+  {
+    "batch": "b031",
+    "round": 1,
+    "seats": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "system": "You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>",
+    "items": [
+      {
+        "id": "435596158a0fa97c6b4c4310",
+        "seat": 0,
+        "prompt": "What is 2506263 multiplied by 7917653? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 19843720760739, 19843720760539, 19843720760739, 19843720660739. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "4a4911a10f5185b050608a7d",
+        "seat": 0,
+        "prompt": "What is 9950611 multiplied by 3055538? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 30404470033718, 30404469983718, 30404370033718, 30404470033718. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "def427b6b883873e85cee80d",
+        "seat": 1,
+        "prompt": "What is 2162443 multiplied by 3729472? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 8064770620096, 8064770620096, 8064770620096, 8064770620096. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "85a47220328af253e59230e9",
+        "seat": 1,
+        "prompt": "What is 6320736 multiplied by 1615528? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 10211325988608, 10211325988608, 10211325988608, 10211326988608. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "5613cdd071c7a84340d49a30",
+        "seat": 1,
+        "prompt": "What is 6478592 multiplied by 9025826? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 58474644156992, 58474644116992, 58474644116992, 58474644116992. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "6944e8bbfce55a2cd7fc61e6",
+        "seat": 2,
+        "prompt": "What is 5264806 multiplied by 5339899? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 28113532294594, 28113532294594, 28113532294594, 28113532294594. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3063c47615ec21bb02962022",
+        "seat": 2,
+        "prompt": "What is 7679580 multiplied by 4552476? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 34961103640080, 34961103640080, 34961103640080, 34961147543280. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "3e9103d847e9a07ee91a15b2",
+        "seat": 4,
+        "prompt": "What is 6934860 multiplied by 3640504? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 25246385569440, 25246266217440, 25246385569440, 25236389569440. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "50a23c6a9fb2775d721e43d7",
+        "seat": 4,
+        "prompt": "What is 7956485 multiplied by 1237181? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 9843619639985, 9843612969085, 9843612068685, 9843612069385. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      },
+      {
+        "id": "1d355c36e259ab85f988aa35",
+        "seat": 4,
+        "prompt": "What is 8781196 multiplied by 1805217? Work it out step by step. End with one final line in exactly this form: Answer: <number>\n\nOther solvers answered the same problem independently. Their answers: 15851964299532, 15851964259532, 15851964319532, 15851964298532. Check your own work against theirs, then give your final answer. End with one final line in exactly this form: Answer: <number>"
+      }
+    ]
+  }
+]

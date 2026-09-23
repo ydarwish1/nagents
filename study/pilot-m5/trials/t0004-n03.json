@@ -1,0 +1,58 @@
+{
+  "task_id": "mult5-11-4",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25575 multiplied by 11410? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25575 \u00d7 (11000 + 410) = 281325000 + 10485750\nAnswer: 291810750",
+          "answer": "291810750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25575 multiplied by 11410? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25575 \u00d7 11000 = 281,325,000; 25575 \u00d7 410 = 10,485,750\nAnswer: 291810750",
+          "answer": "291810750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 25575 multiplied by 11410? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "25575 \u00d7 11410 = 25575 \u00d7 (11000 + 410)\n25575 \u00d7 11 = 281325, so 25575 \u00d7 11000 = 281325000\n25575 \u00d7 410 = 25575 \u00d7 400 + 25575 \u00d7 10 = 10230000 + 255750 = 10485750\nTotal: 281325000 + 10485750 = 291810750\nAnswer: 291810750",
+          "answer": "291810750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "291810750",
+    "291810750",
+    "291810750"
+  ],
+  "final_answer": "291810750",
+  "usage": {
+    "input_tokens": 189,
+    "output_tokens": 85,
+    "calls": 3
+  },
+  "trial": 4,
+  "expected": "291810750",
+  "correct": true
+}

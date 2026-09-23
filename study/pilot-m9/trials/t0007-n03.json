@@ -1,0 +1,58 @@
+{
+  "task_id": "mult9-11-7",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 861914019 multiplied by 194127323? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "861914019 \u00d7 194127323\nAnswer: 167228389127637000",
+          "answer": "167228389127637000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 861914019 multiplied by 194127323? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "861914019 \u00d7 194127323: Breaking into place value components and summing.\nAnswer: 167321081164641137",
+          "answer": "167321081164641137",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 861914019 multiplied by 194127323? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "861M\u00d7194M + 861M\u00d7127,323 + 914,019\u00d7194M + 914,019\u00d7127,323\nAnswer: 167337289682693537",
+          "answer": "167337289682693537",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "167228389127637000",
+    "167321081164641137",
+    "167337289682693537"
+  ],
+  "final_answer": "167228389127637000",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 57,
+    "calls": 3
+  },
+  "trial": 7,
+  "expected": "167321061164641137",
+  "correct": false
+}

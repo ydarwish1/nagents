@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-14",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:14",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14563398 \u00d7 12000000 + 14563398 \u00d7 249578\nAnswer: 178395479746044",
+          "answer": "178395479746044",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14563398 \u00d7 12M = 174760776000000; \u00d7 249578 = 3634703706044\nAnswer: 178395479706044",
+          "answer": "178395479706044",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14563398 \u00d7 12000000 + 14563398 \u00d7 249578\nAnswer: 178395479746044",
+          "answer": "178395479746044",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14563398 \u00d7 12249578: Breaking (14M + 563398) \u00d7 (12M + 249578), sum of parts\nAnswer: 178395372894844",
+          "answer": "178395372894844",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14563398 \u00d7 12000000 = 174760776000000; \u00d7 200000 = 2912679600000; \u00d7 49578 = 722044246044\nAnswer: 178395499846044",
+          "answer": "178395499846044",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "178395479746044",
+    "178395479706044",
+    "178395479746044",
+    "178395372894844",
+    "178395499846044"
+  ],
+  "final_answer": "178395479746044",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 101,
+    "calls": 5
+  },
+  "trial": 14,
+  "expected": "178395479746044",
+  "correct": true
+}

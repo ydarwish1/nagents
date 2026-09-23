@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 8de10e01656809329d1296bf
+What is 45239 multiplied by 17241? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: cabe9429b05932eb2b8f458b
+What is 18613 multiplied by 84576? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: beda0bda4a0b06988416b686
+What is 63738 multiplied by 33097? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: ab49d20720137179de9ab2b4
+What is 25588 multiplied by 55636? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 2c1873b8be45a2d6ff35d6de
+What is 25575 multiplied by 11410? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 676ba930e317a44bc0fffccf
+What is 68729 multiplied by 87924? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: bbf2696c605d0586d75b10da
+What is 50542 multiplied by 42194? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 02801036a3fb27fe1973af52
+What is 47430 multiplied by 23134? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 8ca267ed1913c06a323595ba
+What is 25451 multiplied by 89547? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: e9f49dc202dfdce753c680e4
+What is 43962 multiplied by 76717? Work it out step by step. End with one final line in exactly this form: Answer: <number>
