@@ -19,9 +19,10 @@ def main(argv=None) -> int:
     sub = parser.add_subparsers(dest="command", required=True)
 
     run_p = sub.add_parser("run", help="run one grid: same tasks, every group size")
-    run_p.add_argument("--suite", default="chain", choices=["chain", "arith", "jsonl"])
+    run_p.add_argument("--suite", default="chain", choices=["chain", "arith", "mult", "jsonl"])
     run_p.add_argument("--suite-path", default=None, help="path to a .jsonl task file (suite=jsonl)")
     run_p.add_argument("--depth", type=int, default=8, help="chain suite difficulty")
+    run_p.add_argument("--digits", type=int, default=6, help="mult suite difficulty")
     run_p.add_argument("--trials", type=int, default=20)
     run_p.add_argument("--sizes", type=_parse_sizes, default=[1, 2, 3, 4, 5])
     run_p.add_argument("--topology", default="independent", choices=["independent", "debate"])
@@ -159,10 +160,14 @@ def main(argv=None) -> int:
         extra_config["mock_correlation"] = args.mock_correlation
     if args.subagents:
         extra_config["subagents"] = args.subagents
+    if args.suite == "mult":
+        extra_config["digits"] = args.digits
 
     from .external import PendingAnswers
 
-    tasks = make_suite(args.suite, args.trials, args.seed, depth=args.depth, path=args.suite_path)
+    tasks = make_suite(
+        args.suite, args.trials, args.seed, depth=args.depth, path=args.suite_path, digits=args.digits
+    )
     try:
         results = run_grid(
             model,

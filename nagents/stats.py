@@ -1,5 +1,7 @@
 """Statistics: accuracy, bootstrap CIs, paired marginal gains, saturation."""
 import random
+from collections import Counter
+from itertools import combinations
 from typing import Dict, List, Optional
 
 
@@ -178,3 +180,39 @@ def error_overlap(groups: List[dict]) -> dict:
         "error_correlation": None if corr is None else round(corr, 4),
         "same_wrong_answer_rate": round(same_wrong / both_wrong, 4) if both_wrong else None,
     }
+
+
+def _vote_credit(answers: List[str], truth: str) -> float:
+    """Chance the right answer wins a plurality vote, ties broken at random."""
+    counts = Counter(a for a in answers if a)
+    if not counts:
+        return 0.0
+    top = max(counts.values())
+    tied = [a for a, c in counts.items() if c == top]
+    return 1.0 / len(tied) if truth in tied else 0.0
+
+
+def seat_balanced(groups: List[dict], sizes: List[int], max_subsets: int = 300) -> dict:
+    """Vote accuracy with every seat counted equally.
+
+    `groups` holds one entry per trial: the first-round answers of the largest
+    group and the truth. For each size n, every n-seat subset of those agents
+    votes and the results are averaged, so no seat is the solo agent by
+    accident of layout. Returns per-trial scores per size (floats in [0, 1])
+    and each seat's own accuracy.
+    """
+    n_seats = min(len(g["answers"]) for g in groups)
+    scores: Dict[int, List[float]] = {}
+    for n in sizes:
+        subsets = list(combinations(range(n_seats), n))
+        if len(subsets) > max_subsets:
+            subsets = random.Random(f"subsets:{n}").sample(subsets, max_subsets)
+        scores[n] = [
+            mean([_vote_credit([g["answers"][i] for i in sub], str(g["expected"])) for sub in subsets])
+            for g in groups
+        ]
+    seat_accuracy = [
+        round(mean([1.0 if g["answers"][i] == str(g["expected"]) else 0.0 for g in groups]), 4)
+        for i in range(n_seats)
+    ]
+    return {"scores": scores, "seat_accuracy": seat_accuracy}

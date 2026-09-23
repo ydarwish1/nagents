@@ -18,7 +18,7 @@ from typing import List, Optional
 
 from . import __version__
 from .external import PendingAnswers
-from .stats import error_overlap, independent_vote_accuracy, mean, summarize
+from .stats import error_overlap, independent_vote_accuracy, mean, seat_balanced, summarize
 from .topologies import run_group
 
 _VOLATILE_KEYS = ("started_at", "nagents_version")
@@ -56,7 +56,7 @@ def _trial_stats(record: dict) -> dict:
     }
 
 
-def _finalize(sizes: List[int], stats_by_size: dict, epsilon: float = 0.01) -> dict:
+def _finalize(sizes: List[int], stats_by_size: dict, epsilon: float = 0.01, topology: str = None) -> dict:
     correct = {s: [st["correct"] for st in stats_by_size[s]] for s in sizes}
     out_tokens = {s: [st["out"] for st in stats_by_size[s]] for s in sizes}
     extras = {
@@ -85,6 +85,15 @@ def _finalize(sizes: List[int], stats_by_size: dict, epsilon: float = 0.01) -> d
         )
     results = summarize(sizes, correct, out_tokens, epsilon=epsilon, extras_by_size=extras)
     results["overlap"] = overlap
+    # Independent voting only: debate groups change their answers after round 1,
+    # so subsets of first-round answers say nothing about them.
+    if topology == "independent" and largest >= 2:
+        groups = [{"answers": st["round0"], "expected": st["expected"]} for st in stats_by_size[largest]]
+        usable = [s for s in sizes if s <= min(len(g["answers"]) for g in groups)]
+        balanced = seat_balanced(groups, usable)
+        summary = summarize(usable, balanced["scores"], epsilon=epsilon)
+        summary["seat_accuracy"] = balanced["seat_accuracy"]
+        results["seat_balanced"] = summary
     return results
 
 
@@ -179,7 +188,7 @@ def run_grid(
             path = model.write_pending()
             raise PendingAnswers(len(model.pending), waiting, path)
         model.clear_pending_file()
-    results = _finalize(sizes, stats_by_size)
+    results = _finalize(sizes, stats_by_size, topology=manifest.get("topology"))
     results["manifest"] = manifest
     (out / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     return results
@@ -207,7 +216,7 @@ def recompute(out_dir: str) -> dict:
             f"{len(missing)} trial transcript(s) missing (e.g. {preview}). "
             "The run is incomplete — finish it first (nagents run ... --resume)."
         )
-    results = _finalize(sizes, stats_by_size)
+    results = _finalize(sizes, stats_by_size, topology=manifest.get("topology"))
     results["manifest"] = manifest
     (out / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     return results

@@ -21,6 +21,7 @@ subagent runtime does not report per-reply usage) and flagged as estimates.
 """
 import hashlib
 import json
+from collections import Counter
 import re
 import threading
 from pathlib import Path
@@ -128,8 +129,12 @@ class ExternalModel:
 def make_batches(run_dir, per_batch: int = 10) -> List[dict]:
     """Split pending calls into subagent batches and write batches.json.
 
-    Calls are grouped by (round, seat) and a batch never holds the same task
-    twice, so no subagent ever answers one problem for two seats.
+    A batch never holds the same task twice, so no subagent ever answers one
+    problem for two seats. Seats are spread across batches rather than one
+    seat per batch: subagents differ in how careful they are, and a seat
+    answered by a single subagent would make that seat (and the 1-agent
+    group) only as good as that one subagent. Inside a batch the order is
+    shuffled, since the first problem gets the most care.
     """
     if per_batch < 1:
         raise ValueError("per_batch must be at least 1")
@@ -137,27 +142,36 @@ def make_batches(run_dir, per_batch: int = 10) -> List[dict]:
     if not path.exists():
         raise SystemExit(f"{path} not found — nothing is waiting for answers.")
     rows = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
-    buckets: Dict[tuple, List[dict]] = {}
+    by_round: Dict[int, List[dict]] = {}
     for row in rows:
-        buckets.setdefault((row["round"], row["agent"]), []).append(row)
+        by_round.setdefault(row["round"], []).append(row)
     batches = []
-    for (rnd, agent), items in sorted(buckets.items()):
-        open_batches: List[List[dict]] = []
-        for row in items:
-            for batch in open_batches:
+    for rnd, items in sorted(by_round.items()):
+        items.sort(key=lambda r: r["agent"])  # stable: keeps task order within a seat
+        seats_per_task = max(Counter(r["task_id"] for r in items).values())
+        n_open = max(-(-len(items) // per_batch), seats_per_task)
+        open_batches: List[List[dict]] = [[] for _ in range(n_open)]
+        for j, row in enumerate(items):
+            for k in range(len(open_batches)):
+                batch = open_batches[(j + k) % len(open_batches)]
                 if len(batch) < per_batch and all(r["task_id"] != row["task_id"] for r in batch):
                     batch.append(row)
                     break
             else:
                 open_batches.append([row])
         for batch in open_batches:
+            if not batch:
+                continue
+            # Solvers work the first problem in a batch more carefully than the
+            # rest, so the order inside a batch must not follow the seat.
+            batch.sort(key=lambda r: hashlib.sha256(r["key"].encode()).hexdigest())
             batches.append(
                 {
                     "batch": f"b{len(batches):03d}",
                     "round": rnd,
-                    "seat": agent,
+                    "seats": sorted({r["agent"] for r in batch}),
                     "system": batch[0]["system"],
-                    "items": [{"id": r["key"], "prompt": r["prompt"]} for r in batch],
+                    "items": [{"id": r["key"], "seat": r["agent"], "prompt": r["prompt"]} for r in batch],
                 }
             )
     (Path(run_dir) / BATCHES_FILE).write_text(json.dumps(batches, indent=2), encoding="utf-8")

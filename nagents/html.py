@@ -53,7 +53,24 @@ def _headline(results: dict) -> str:
         )
     else:
         text += "Accuracy was still rising at the largest group measured."
-    return text
+    note = _seat_note(results)
+    return text + (" " + note if note else "")
+
+
+def _seat_note(results: dict) -> str:
+    """When seats differ a lot, the seat-order curve can mislead; say so."""
+    sb = results.get("seat_balanced")
+    if not sb or not sb.get("seat_accuracy"):
+        return ""
+    seats = sb["seat_accuracy"]
+    if max(seats) - min(seats) < 0.15:
+        return ""
+    first, last = sb["per_size"][0], sb["per_size"][-1]
+    return (
+        f"But seats were not equally good (alone, they ranged from {_pct(min(seats))} to "
+        f"{_pct(max(seats))}), so the fairer curve counts every seat equally: "
+        f"{_pct(first['accuracy'])} for one agent, {_pct(last['accuracy'])} for {last['size']}."
+    )
 
 
 def render_html(results: dict, run_dir) -> str:

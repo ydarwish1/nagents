@@ -165,7 +165,7 @@ class Solver:
         blocks = []
         for item in batch["items"]:
             truth = next(a for p, a in self.answers.items() if item["prompt"].startswith(p))
-            answer = int(truth) + (1 if batch["seat"] == 1 else 0)
+            answer = int(truth) + (1 if item["seat"] == 1 else 0)
             blocks.append(f"=== {item['id']}\nworking\nAnswer: {answer}")
         return "\n\n".join(blocks)
 
@@ -201,6 +201,25 @@ class TestSubagentRuns(unittest.TestCase):
             # seat 1 is always wrong: groups of 3 and 5 still vote right
             self.assertEqual([r["accuracy"] for r in results["per_size"]], [1.0, 1.0, 1.0])
             self.assertEqual(recompute(tmp)["per_size"], results["per_size"])
+
+    def test_batches_mix_seats_and_never_repeat_a_task(self):
+        tasks = gen_chain(20, seed=5, depth=3)
+        with tempfile.TemporaryDirectory() as tmp:
+            try:
+                run_grid(ExternalModel(tmp), tasks, [1, 3, 5], "independent", 3, tmp, "subagents:test", progress=False)
+            except PendingAnswers:
+                pass
+            batches = make_batches(tmp, per_batch=10)
+            self.assertEqual(sum(len(b["items"]) for b in batches), 20 * 5)
+            self.assertEqual(len(batches), 10)
+            for b in batches:
+                ids = [i["prompt"] for i in b["items"]]
+                self.assertEqual(len(ids), len(set(ids)))
+            # no seat is answered by a single subagent
+            for seat in range(5):
+                self.assertGreater(sum(seat in b["seats"] for b in batches), 1)
+            # the order inside a batch does not follow the seat
+            self.assertLess(sum(b["items"][0]["seat"] == 0 for b in batches), len(batches))
 
     def test_debate_needs_a_second_loop_and_never_asks_for_garbage(self):
         tasks = gen_chain(4, seed=8, depth=3)
@@ -254,3 +273,23 @@ class TestSubagentRuns(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSeatBalanced(unittest.TestCase):
+    def test_every_seat_counts_equally(self):
+        from nagents.stats import seat_balanced
+        # seat 0 always right, seats 1-2 wrong with different numbers
+        groups = [{"answers": ["7", "1", "2"], "expected": "7"} for _ in range(4)]
+        out = seat_balanced(groups, [1, 2, 3])
+        self.assertEqual(out["seat_accuracy"], [1.0, 0.0, 0.0])
+        self.assertAlmostEqual(out["scores"][1][0], 1 / 3)
+        self.assertAlmostEqual(out["scores"][2][0], (0.5 + 0.5 + 0) / 3)  # ties split
+        self.assertAlmostEqual(out["scores"][3][0], 1 / 3)
+
+    def test_independent_runs_report_it_and_debate_runs_do_not(self):
+        with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
+            ra = run_grid(MockModel(0.6), gen_chain(8, 1, 4), [1, 3], "independent", 1, a, "m", progress=False)
+            rb = run_grid(MockModel(0.6), gen_chain(8, 1, 4), [1, 3], "debate", 1, b, "m", progress=False)
+            self.assertEqual([r["size"] for r in ra["seat_balanced"]["per_size"]], [1, 3])
+            self.assertNotIn("seat_balanced", rb)
+            self.assertIn("Seat check", render(ra))

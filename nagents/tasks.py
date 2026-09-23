@@ -68,6 +68,25 @@ def gen_chain(n: int, seed: int, depth: int = 8) -> List[Task]:
     return tasks
 
 
+def gen_mult(n: int, seed: int, digits: int = 6) -> List[Task]:
+    """Multiply two random `digits`-digit numbers. Difficulty grows with digits.
+
+    Chained arithmetic turned out too easy for models that reason before
+    answering (Haiku solved 50-step chains perfectly), so this suite gives a
+    difficulty knob that keeps biting: long multiplication of big numbers.
+    """
+    if digits < 1:
+        raise ValueError("digits must be at least 1")
+    rng = random.Random(f"mult:{seed}:{digits}")
+    lo, hi = 10 ** (digits - 1), 10 ** digits - 1
+    tasks = []
+    for i in range(n):
+        a, b = rng.randint(lo, hi), rng.randint(lo, hi)
+        prompt = f"What is {a} multiplied by {b}? {ANSWER_INSTRUCTION}"
+        tasks.append(Task(f"mult{digits}-{seed}-{i}", prompt, str(a * b)))
+    return tasks
+
+
 def load_jsonl(path: str) -> List[Task]:
     """Load a custom suite: one JSON object per line with id, prompt, answer."""
     tasks = []
@@ -87,7 +106,10 @@ def make_suite(
     seed: int,
     depth: int = 8,
     path: Optional[str] = None,
+    digits: int = 6,
 ) -> List[Task]:
+    if name == "mult":
+        return gen_mult(trials, seed, digits)
     if name == "arith":
         return gen_arith(trials, seed)
     if name == "chain":

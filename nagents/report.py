@@ -130,6 +130,25 @@ def render(results: dict) -> str:
         else:
             lines.append("Data quality: no refusals, every vote parsed.")
 
+    balanced = results.get("seat_balanced")
+    if balanced:
+        seats = balanced["seat_accuracy"]
+        lo_i = min(range(len(seats)), key=seats.__getitem__)
+        hi_i = max(range(len(seats)), key=seats.__getitem__)
+        lines.append("")
+        lines.append(
+            f"Seat check: each agent seat alone is right {seats[lo_i]:.3f} (seat {lo_i}) "
+            f"to {seats[hi_i]:.3f} (seat {hi_i}) of the time. With every seat counted "
+            "equally (all seat subsets vote, ties split):"
+        )
+        lines.append("")
+        lines.append("| size | accuracy | 95% CI |")
+        lines.append("|-----:|---------:|:------:|")
+        for row in balanced["per_size"]:
+            ci = row["ci95"]
+            lines.append(f"| {row['size']} | {row['accuracy']:.3f} | [{ci[0]:.3f}, {ci[1]:.3f}] |")
+        lines.append(_saturation_line("every seat equal, paired-CI rule", balanced.get("saturation_size_ci"), eps))
+
     overlap = results.get("overlap") or {}
     if overlap.get("solo_accuracy") is not None:
         corr = overlap.get("error_correlation")

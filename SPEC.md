@@ -173,6 +173,30 @@ every headline number. Publish as the portfolio "nagents" page (card 06).
 Heterogeneous seats (mixed models), orchestrator-worker topology,
 tool-using agents, external benchmark suites via `jsonl`.
 
+### Findings so far (2026-09-23, Claude Haiku via subagents, no tools)
+
+All runs are committed in `study/`.
+
+- **Chain arithmetic is too easy.** Haiku solved `chain` perfectly at depths
+  6, 10, 14, 25 and 50 (`study/pilot-d*`), so the `mult` suite was added:
+  multiply two `--digits`-digit numbers. Solo accuracy: 5 digits 88%, 7 digits
+  60%, 9 digits 6% (`study/pilot-m*`). Phase 2 used 7 and 8 digits.
+- **Phase 2 (voting, 40 trials, sizes 1–9, every seat counted equally).**
+  7 digits: 57.8% → 97.8%; 8 digits: 37.8% → 91.1%. No saturation in range for
+  either. Error correlation +0.06 / +0.02, same wrong answer 1.1% / 0.4%, so
+  both curves sit close to the independent-mistakes reference. Size 2 = size 1
+  (a split pair is a tie).
+- **Phase 3 (debate vs. voting, 7 digits, paired).** Debate reached 40/40 at
+  sizes 3 and 5 against 77.5% / 82.5% for voting on the same seats
+  (+22.5 [+10, +37.5] and +17.5 [+7.5, +30] points), at ~2.6× the tokens.
+- **Position-in-batch bias (threat found and fixed).** Within a 10-problem
+  batch, the first problem was right ~72% of the time against 22–44% later.
+  Batches used to put seat 0 first, inflating size 1. Fixes: batches are
+  shuffled by a hash of each call's key; every independent run reports a seat
+  check (each seat's solo accuracy) and a seat-balanced curve (plurality credit
+  averaged over all n-seat subsets of the largest group, ties split). Runs
+  before the fix are kept; the seat-balanced curve is the headline for them.
+
 ## 5. Threats to validity (tracked, not hand-waved)
 
 - **Ceiling effects.** If solo accuracy is ~100%, groups can't help. Mitigation:
@@ -180,6 +204,9 @@ tool-using agents, external benchmark suites via `jsonl`.
 - **Answer-extraction errors masquerading as model errors.** Mitigation: strict
   `Answer: <number>` contract, extractor unit-tested, transcripts auditable.
 - **Vote ties.** Deterministic tie-break, recorded in the transcript.
+- **Order effects inside a subagent batch.** A subagent gives the first problem in a batch the most care, so a
+  seat that always comes first looks better. Mitigation: shuffled batches, the
+  seat check, and the seat-balanced curve (see findings above).
 - **API drift mid-experiment.** Model id pinned in the manifest; one run = one
   code version; phases re-run their own baselines rather than borrowing.
 - **Mock leakage.** Mock results are labeled `mock(...)` in every manifest and

@@ -21,6 +21,7 @@ MEASURED = "#2563eb"
 BAND = "#bfdbfe"
 REFERENCE = "#9ca3af"
 CEILING = "#16a34a"
+BALANCED = "#f59e0b"
 
 
 def _scale(v, lo, hi, a, b):
@@ -72,16 +73,27 @@ def _y_axis(parts: List[str]) -> None:
 
 
 def _legend(parts: List[str], items: List[Tuple[str, str, Optional[str]]]) -> None:
-    x = PAD_L
-    y = H - 14
-    for label, color, dash in items:
-        extra = f' stroke-dasharray="{dash}"' if dash else ""
-        parts.append(
-            f'<line x1="{x}" x2="{x + 22}" y1="{y - 4}" y2="{y - 4}" stroke="{color}" '
-            f'stroke-width="2.5"{extra}/>'
-        )
-        parts.append(f'<text x="{x + 28}" y="{y}" font-size="11.5" fill="{INK}">{escape(label)}</text>')
-        x += 40 + 6.4 * len(label)
+    widths = [40 + 6.4 * len(label) for label, _, _ in items]
+    rows: List[List[int]] = [[]]
+    used = 0.0
+    for i, w in enumerate(widths):
+        if rows[-1] and PAD_L + used + w > W - 8:
+            rows.append([])
+            used = 0.0
+        rows[-1].append(i)
+        used += w
+    ys = [H - 14] if len(rows) == 1 else [H - 26 + 18 * r for r in range(len(rows))]
+    for row, y in zip(rows, ys):
+        x = PAD_L
+        for i in row:
+            label, color, dash = items[i]
+            extra = f' stroke-dasharray="{dash}"' if dash else ""
+            parts.append(
+                f'<line x1="{x}" x2="{x + 22}" y1="{y - 4}" y2="{y - 4}" stroke="{color}" '
+                f'stroke-width="2.5"{extra}/>'
+            )
+            parts.append(f'<text x="{x + 28}" y="{y}" font-size="11.5" fill="{INK}">{escape(label)}</text>')
+            x += widths[i]
 
 
 def _subtitle(results: dict) -> str:
@@ -126,6 +138,11 @@ def accuracy_svg(results: dict) -> str:
     if all("best_of_n" in r for r in rows):
         parts.append(_polyline([(X(r["size"]), Y(r["best_of_n"])) for r in rows], CEILING, "2 4", width=2))
         legend.append(("someone was right", CEILING, "2 4"))
+
+    balanced = (results.get("seat_balanced") or {}).get("per_size")
+    if balanced:
+        parts.append(_polyline([(X(r["size"]), Y(r["accuracy"])) for r in balanced], BALANCED, width=2))
+        legend.append(("every seat counted equally", BALANCED, None))
 
     parts.append(_polyline([(X(r["size"]), Y(r["accuracy"])) for r in rows], MEASURED))
     for r in rows:
@@ -188,8 +205,17 @@ def cost_svg(results: dict) -> Optional[str]:
 SERIES = ["#2563eb", "#ea580c", "#7c3aed", "#0891b2"]
 
 
-def compare_svg(runs: List[Tuple[str, dict]], title: str = "Accuracy by group size") -> str:
-    """Several runs' accuracy curves on one chart (e.g. debate vs. independent)."""
+def compare_svg(
+    runs: List[Tuple[str, dict]],
+    title: str = "Accuracy by group size",
+    subtitle: Optional[str] = None,
+    references: bool = False,
+) -> str:
+    """Several runs' accuracy curves on one chart (e.g. debate vs. independent).
+
+    With `references`, each run's "if mistakes were independent" curve is drawn
+    dashed in the run's colour, where the rows carry it.
+    """
     sizes = sorted({r["size"] for _, res in runs for r in res["per_size"]})
     x_lo, x_hi = min(sizes), max(sizes)
     if x_lo == x_hi:
@@ -202,7 +228,9 @@ def compare_svg(runs: List[Tuple[str, dict]], title: str = "Accuracy by group si
         return _scale(v, 0, 1, H - PAD_B, PAD_T)
 
     trials = {res.get("manifest", {}).get("trials") for _, res in runs}
-    parts = _frame(title, f"{'/'.join(str(t) for t in sorted(trials, key=str))} trials per size · shaded = 95% CI")
+    if subtitle is None:
+        subtitle = f"{'/'.join(str(t) for t in sorted(trials, key=str))} trials per size · shaded = 95% CI"
+    parts = _frame(title, subtitle)
     _y_axis(parts)
     for s in sizes:
         parts.append(
@@ -225,6 +253,10 @@ def compare_svg(runs: List[Tuple[str, dict]], title: str = "Accuracy by group si
         for r in rows:
             parts.append(f'<circle cx="{X(r["size"]):.1f}" cy="{Y(r["accuracy"]):.1f}" r="4" fill="{color}"/>')
         legend.append((label, color, None))
+        if references and all(r.get("independent_reference") is not None for r in rows):
+            parts.append(_polyline([(X(r["size"]), Y(r["independent_reference"])) for r in rows], color, "6 5", width=1.5))
+    if references:
+        legend.append(("dashed: if mistakes were independent", REFERENCE, "6 5"))
     _legend(parts, legend)
     parts.append("</svg>")
     return "\n".join(parts)

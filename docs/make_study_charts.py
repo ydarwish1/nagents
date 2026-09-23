@@ -1,0 +1,50 @@
+"""Rebuild the README's real-data charts from the committed study runs in study/.
+
+    python3 docs/make_study_charts.py
+
+The voting chart uses the seat-balanced curve (every agent seat counted
+equally; see "Seat check" in the report) because in these runs the first
+problem of each subagent batch was solved more carefully than the rest.
+"""
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from nagents.charts import compare_svg  # noqa: E402
+from nagents.stats import independent_vote_accuracy  # noqa: E402
+
+
+def load(name):
+    return json.loads((ROOT / "study" / name / "results.json").read_text(encoding="utf-8"))
+
+
+def balanced(res):
+    """The seat-balanced curve, with the independence reference for its solo accuracy."""
+    rows = [dict(r) for r in res["seat_balanced"]["per_size"]]
+    p = rows[0]["accuracy"]
+    for r in rows:
+        r["independent_reference"] = round(independent_vote_accuracy(p, r["size"]), 4)
+    return {"per_size": rows, "manifest": res["manifest"]}
+
+
+img = ROOT / "docs" / "img"
+m7, m8 = load("main-m7"), load("main-m8")
+(img / "study-voting.svg").write_text(compare_svg(
+    [("7-digit multiplication", balanced(m7)), ("8-digit multiplication", balanced(m8))],
+    "Claude Haiku: majority vote of 1 to 9 agents",
+    "40 problems per size, every seat counted equally · shaded = 95% CI",
+    references=True,
+), encoding="utf-8")
+
+debate = load("debate-m7")
+sizes = {r["size"] for r in debate["per_size"]}
+plain = {"per_size": [r for r in m7["per_size"] if r["size"] in sizes], "manifest": m7["manifest"]}
+(img / "study-debate.svg").write_text(compare_svg(
+    [("vote on first answers", plain), ("see the others' answers, revise, then vote", debate)],
+    "Does talking it over beat voting? (7-digit multiplication)",
+    "Same 40 problems and same first answers in both · shaded = 95% CI",
+), encoding="utf-8")
+print("wrote docs/img/study-voting.svg and docs/img/study-debate.svg")

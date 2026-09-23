@@ -58,3 +58,18 @@ class TestMakeSuite(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMult(unittest.TestCase):
+    def test_deterministic_and_correct(self):
+        from nagents.tasks import gen_mult
+        a, b = gen_mult(5, seed=3, digits=7), gen_mult(5, seed=3, digits=7)
+        self.assertEqual(a, b)
+        for t in a:
+            x, y = [int(w) for w in t.prompt.split("?")[0].split() if w.isdigit()]
+            self.assertEqual(len(str(x)), 7)
+            self.assertEqual(str(x * y), t.answer)
+
+    def test_make_suite_routes_digits(self):
+        from nagents.tasks import make_suite
+        self.assertTrue(make_suite("mult", 2, 1, digits=4)[0].task_id.startswith("mult4-"))
