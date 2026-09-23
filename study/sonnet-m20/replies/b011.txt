@@ -1,0 +1,39 @@
+=== 318d739f1a98ef99990c92ec
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 5308797537689255450186156678900940207875
+
+=== f3aea1c826b1594c3b527dd3
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 1520271239891595444690459225251624179380
+
+=== c2b3003e4886d6f2255aaaa7
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 7019584378469554290984057112569879176656
+
+=== b91ca0488f7dc45da5609c5b
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 5979103420116444201685078331286595514460
+
+=== 1aa42a293c08b2d39f3e7bcb
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 1328368192309360384868664940597321167289
+
+=== cbb1f305bef7981298dc2389
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 1589276288607984287324587987695765259568
+
+=== ca4f52d7708389941943ada5
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 939461338731979904477647509518406728572
+
+=== a99fd151250455d400e1ce5d
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 3755987281143123692282455632699027367284
+
+=== 3d4fb32625b562206d35d001
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 1082043616855201427736409522421184481657
+
+=== 70b87362d78c66bf94af50d4
+Split both 20-digit numbers into four 5-digit chunks and multiplied via base-10^5 decomposition, summing partial products with carries.
+Answer: 1950353129035728077641712258662422267928
