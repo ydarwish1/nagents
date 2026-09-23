@@ -1,0 +1,39 @@
+=== 9eba1746306a64cfd69a6abc
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 912086848200479282329730995883076559960
+
+=== 435ee9ec3f1c7b257393941b
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 6221386512093310806180718750829227994568
+
+=== 15bfcfb00ebd50075c37f207
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 6771167030600902342337037218653672770000
+
+=== 868e66c3735fc0dc40b32e3c
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 4285236943153844799289081955981930683095
+
+=== 5e27fd07f3a9eef08780e9fd
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 964106433244503765753113909028608254184
+
+=== 654f5a3a9df73399fc0f3f3d
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 4784210514810521388401574787820714289186
+
+=== 375af62af71173fcd8a9c565
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 346504340693838413101998470970701792150
+
+=== 06478cb1438fa70e2c82693f
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 1699789651060040714910559372098207793344
+
+=== 111e9468d9d83b6d396dec82
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 6851637253813115116155124485188024185768
+
+=== 9c4bb4dbe94a15da04e29eb6
+Split both numbers into 5-digit blocks and multiplied block-by-block (16 partial products), then summed with correct power-of-10 offsets and carried.
+Answer: 1176866075395592071246995589752393887895
