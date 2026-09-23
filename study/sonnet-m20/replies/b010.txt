@@ -1,0 +1,39 @@
+=== 3ca10c5238e9ae2cac8fd3dd
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 5979103420116444201685078331286595514460
+
+=== 50e066a8dc9b779e9cb16b09
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 7019584378469554290984057112569879176656
+
+=== ce17da798e53c8001593276e
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 806976010077134500044898015616409027012
+
+=== a5a44e9a7cd32d946ae51894
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 1328368192309360384868664940597321167289
+
+=== 136cd13a28de4f52515cab52
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 5308797537689255450186156678900940207875
+
+=== 27b1cc923773c610c2668cb6
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 939461338731979904477647509518406728572
+
+=== 6341d9eee1d4d48d63f0e92e
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 1950353129035728077641712258662422267928
+
+=== c2b1a7bf8145a3570f6078d7
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 1238156825453690276278288499154067665810
+
+=== bd02842ea5bbeec1cfc56ee4
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 1589276288607984287324587987695765259568
+
+=== 1550523cd4c6031a40084e93
+Split both numbers into 5-digit blocks and multiplied via block decomposition, then summed with carries.
+Answer: 3755987281143123692282455632699027367284

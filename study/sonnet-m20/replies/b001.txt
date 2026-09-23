@@ -1,0 +1,39 @@
+=== 0359ec15883b9331ef5e98e7
+Split both 20-digit numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 666387204998755428917981121536368046592
+
+=== 2b91dcba327d6d849c003802
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 964106433244503765753113909028608254184
+
+=== e9c9cb7f10b884bfe6f449cf
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 4285236943153844799289081955981930683095
+
+=== 7ae388d8fc569093b3698926
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 4474034048390368343074476825525906020904
+
+=== 1ffa1ae1bb4dbc8e3ee0aefe
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 6478163381621496629370787379708373802126
+
+=== 5aa12fe695cb0c4f56c1e6a1
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 5510062764632832486636478058064399404060
+
+=== feaa1f47626c1fd83e2592d6
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 5444721863891899784083025921870444861973
+
+=== 92bcd861de0196c31ccd4637
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 912086848200479282329730995883076559960
+
+=== 7ab4cf0aab1c755609088bf1
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 2837901884867574309744997889506202807840
+
+=== 93e91f33ef9f54931a5041d0
+Split both numbers into 5-digit chunks and multiplied via distributive expansion, summing partial products by place value.
+Answer: 6221386512093310806180718750829227994568
