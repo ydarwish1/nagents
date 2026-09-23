@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 892051611432=892051|611432, 937027904221=937027|904221.\n892051*937027=835,875,872,377; 892051*904221=806,611,247,271; 937027*611432=572,928,292,664; 611432*904221=552,869,654,472.\nCombine: 835,875,872,377e12 + (806,611,247,271+572,928,292,664)e6 + 552,869,654,472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "835877251917092804654472"
+  ],
+  "final_answer": "835877251917092804654472",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 76,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "835877251917092804654472",
+  "correct": true
+}

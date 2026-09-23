@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 294971392997 multiplied by 936194081671? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 6-digit halves, computed the four partial products, combined with appropriate powers of 10.\nAnswer: 276150472386042055457987",
+          "answer": "276150472386042055457987",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "276150472386042055457987"
+  ],
+  "final_answer": "276150472386042055457987",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 37,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "276150472386042055457987",
+  "correct": true
+}

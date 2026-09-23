@@ -1,0 +1,32 @@
+{
+  "task_id": "mult10-11-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2094668373 multiplied by 3455725127? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "2094668373 x 3455725127 = 2094668373 x (3,000,000,000 + 455,725,127).\n2094668373 x 3,000,000,000 = 6,284,005,119,000,000,000\n2094668373 x 455,725,127 = 954,593,010,308,308,371\nSum = 7,238,598,129,308,308,371\nAnswer: 7238598129308308371",
+          "answer": "7238598129308308371",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7238598129308308371"
+  ],
+  "final_answer": "7238598129308308371",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 58,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "7238598129308308371",
+  "correct": true
+}

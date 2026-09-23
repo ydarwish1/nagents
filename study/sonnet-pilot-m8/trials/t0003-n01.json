@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "33935859 \u00d7 26446881 = 33935859\u00d726,000,000 + 33935859\u00d7446,881 = 882,332,334,000,000 + 15,165,290,605,779\nAnswer: 897497624605779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "897497624605779"
+  ],
+  "final_answer": "897497624605779",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 31,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "897497624605779",
+  "correct": true
+}

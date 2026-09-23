@@ -1,0 +1,32 @@
+{
+  "task_id": "mult10-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7004993709 multiplied by 6431297589? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "7004993709 x 6431297589 = 7004993709 x (6,000,000,000 + 431,297,589).\n7004993709 x 6,000,000,000 = 42,029,962,254,000,000,000\n7004993709 x 431,297,589 = 3,021,236,897,651,867,601\nSum = 45,051,199,151,651,867,601\nAnswer: 45051199151651867601",
+          "answer": "45051199151651867601",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "45051199151651867601"
+  ],
+  "final_answer": "45051199151651867601",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 60,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "45051199151651867601",
+  "correct": true
+}

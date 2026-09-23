@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-4",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split via 4-digit blocks: 8769/2272 and 7372/6273.\n8769\u00d77372=64,645,068; 8769\u00d76273=55,007,937; 2272\u00d77372=16,749,184; 2272\u00d76273=14,252,256\nTotal=64,645,068\u00d710^8+(55,007,937+16,749,184)\u00d710^4+14,252,256=6,465,224,385,462,256\nAnswer: 6465224385462256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "87692272 \u00d7 73726273 = 87692272\u00d773,000,000 + 87692272\u00d7726,273 = 6,401,535,856,000,000 + 63,688,529,462,256\nAnswer: 6465224385462256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "87692272 \u00d7 73726273 = 87692272\u00d770,000,000 + 87692272\u00d73,726,273 = 6,138,459,040,000,000 + 326,765,345,462,256\nAnswer: 6465224385462256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6465224385462256",
+    "6465224385462256",
+    "6465224385462256"
+  ],
+  "final_answer": "6465224385462256",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 126,
+    "calls": 3
+  },
+  "trial": 4,
+  "expected": "6465224385462256",
+  "correct": true
+}

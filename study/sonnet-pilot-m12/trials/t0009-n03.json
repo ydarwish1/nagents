@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves: 915206|049673 x 888795|840817. Cross-multiplied and combined with base 10^6/10^12.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 6-digit halves, computed the four partial products, combined with appropriate powers of 10.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 915206049673 = 915206\u00b710^6+049673; 888795840817 = 888795\u00b710^6+840817.\n915206\u00d7888795=813,430,516,770; 915206\u00d7840817=769,520,763,302; 049673\u00d7888795=44,149,114,035; 049673\u00d7840817=41,765,902,841.\nCombine: 813430516770\u00b710^12 + (769520763302+44149114035)\u00b710^6 + 41765902841 = 813431330439919102902841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "813431330439919102902841",
+    "813431330439919102902841",
+    "813431330439919102902841"
+  ],
+  "final_answer": "813431330439919102902841",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 155,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "813431330439919102902841",
+  "correct": true
+}

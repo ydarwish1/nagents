@@ -1,0 +1,84 @@
+{
+  "task_id": "mult12-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 892051611432=892051|611432, 937027904221=937027|904221.\n892051*937027=835,875,872,377; 892051*904221=806,611,247,271; 937027*611432=572,928,292,664; 611432*904221=552,869,654,472.\nCombine: 835,875,872,377e12 + (806,611,247,271+572,928,292,664)e6 + 552,869,654,472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves: 892051|611432 x 937027|904221. Cross-multiplied and combined with base 10^6/10^12.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 6-digit halves, computed the four partial products (middle sum exceeded 12 digits, carried extra digit), combined.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 892051611432 = 892051\u00b710^6+611432; 937027904221 = 937027\u00b710^6+904221.\n892051\u00d7937027=835,875,872,377; 892051\u00d7904221=806,611,247,271; 611432\u00d7937027=572,928,292,664; 611432\u00d7904221=552,869,654,472.\nCombine: 835875872377\u00b710^12 + (806611247271+572928292664)\u00b710^6 + 552869654472 = 835877251917092804654472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472"
+  ],
+  "final_answer": "835877251917092804654472",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 265,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "835877251917092804654472",
+  "correct": true
+}

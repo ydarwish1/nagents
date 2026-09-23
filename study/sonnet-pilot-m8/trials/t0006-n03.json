@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72391622 \u00d7 12326265 = 72391622\u00d712,000,000 + 72391622\u00d7326,265 = 868,699,464,000,000 + 23,618,852,551,830\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72391622 x 12326265. Split 12326265 = 12,000,000 + 326,265.\na*12,000,000 = 868,699,464,000,000\na*326,265 = 23,618,852,551,830\nSum = 892,318,316,551,830\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72391622 \u00d7 12326265 = 72391622\u00d712,000,000 + 72391622\u00d7326,265 = 868,699,464,000,000 + 23,618,852,551,830\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "892318316551830",
+    "892318316551830",
+    "892318316551830"
+  ],
+  "final_answer": "892318316551830",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 105,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "892318316551830",
+  "correct": true
+}

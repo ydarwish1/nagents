@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 823131232242 = 823131\u00b710^6+232242; 238806565624 = 238806\u00b710^6+565624.\n823131\u00d7238806=196,568,621,586; 823131\u00d7565624=465,582,648,744; 232242\u00d7238806=55,460,783,052; 232242\u00d7565624=131,361,649,008.\nCombine: 196568621586\u00b710^12 + (465582648744+55460783052)\u00b710^6 + 131361649008 = 196569142629563157649008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "196569142629563157649008"
+  ],
+  "final_answer": "196569142629563157649008",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 84,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "196569142629563157649008",
+  "correct": true
+}

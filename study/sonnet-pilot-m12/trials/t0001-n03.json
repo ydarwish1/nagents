@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-1",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 823131232242 = 823131\u00b710^6+232242; 238806565624 = 238806\u00b710^6+565624.\n823131\u00d7238806=196,568,621,586; 823131\u00d7565624=465,582,648,744; 232242\u00d7238806=55,460,783,052; 232242\u00d7565624=131,361,649,008.\nCombine: 196568621586\u00b710^12 + (465582648744+55460783052)\u00b710^6 + 131361649008 = 196569142629563157649008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 823131232242=823131|232242, 238806565624=238806|565624.\n823131*238806=196,568,621,586; 823131*565624=465,582,648,744; 238806*232242=55,460,783,052; 232242*565624=131,361,649,008.\nCombine: 196,568,621,586e12 + (465,582,648,744+55,460,783,052)e6 + 131,361,649,008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "196569142629563157649008",
+    "196569142629563157649008",
+    "196569142629563157649008"
+  ],
+  "final_answer": "196569142629563157649008",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 187,
+    "calls": 3
+  },
+  "trial": 1,
+  "expected": "196569142629563157649008",
+  "correct": true
+}

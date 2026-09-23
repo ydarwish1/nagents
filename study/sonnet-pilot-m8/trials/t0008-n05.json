@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89583287 \u00d7 69952089 = 89583287\u00d770,000,000 \u2212 89583287\u00d747,911 = 6,270,830,090,000,000 \u2212 4,292,024,863,457\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks: 8958/3287 and 6995/2089.\n8958\u00d76995=62,661,210; 8958\u00d72089=18,713,262; 3287\u00d76995=22,992,565; 3287\u00d72089=6,866,543\nTotal=62,661,210\u00d710^8+(18,713,262+22,992,565)\u00d710^4+6,866,543=6,266,538,065,136,543\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89583287 \u00d7 69952089 = 89583287\u00d770,000,000 \u2212 89583287\u00d747,911 = 6,270,830,090,000,000 \u2212 4,292,024,863,457\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89583287 \u00d7 69952089 = 89583287\u00d770,000,000 \u2212 89583287\u00d747,911 = 6,270,830,090,000,000 \u2212 4,292,024,863,457\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89583287 x 69952089. Split 69952089 = 69,000,000 + 952,089.\na*69,000,000 = 6,181,236,803,000,000\na*952,089 = 85,291,262,136,543\nSum = 6,266,528,065,136,543\nAnswer: 6266528065136543",
+          "answer": "6266528065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6266538065136543",
+    "6266538065136543",
+    "6266538065136543",
+    "6266538065136543",
+    "6266528065136543"
+  ],
+  "final_answer": "6266538065136543",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 197,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "6266538065136543",
+  "correct": true
+}

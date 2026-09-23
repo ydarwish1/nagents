@@ -1,0 +1,32 @@
+{
+  "task_id": "mult10-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4244779043 multiplied by 2023902501? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split 4244779043=42447*10^5+79043, 2023902501=20239*10^5+2501.\n42447*20239=859084833; 42447*2501=106159947; 79043*20239=1599751277; 79043*2501=197686543.\nCross terms sum=1705911224.\nTotal=859084833e10+1705911224e5+197686543=8591018921320086543.\nAnswer: 8591018921320086543",
+          "answer": "8591018921320086543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8591018921320086543"
+  ],
+  "final_answer": "8591018921320086543",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 68,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "8591018921320086543",
+  "correct": true
+}

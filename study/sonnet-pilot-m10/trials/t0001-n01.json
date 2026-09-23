@@ -1,0 +1,32 @@
+{
+  "task_id": "mult10-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1826651159 multiplied by 5526447940? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "1826651159 = 1,826,000,000 + 651,159. 1826*5526447940=10,091,293,938,440 -> *10^6 = 10,091,293,938,440,000,000. 651,159*5526447940 = 3,598,596,314,162,460. Sum = 10,094,892,534,754,162,460.\nAnswer: 10094892534754162460",
+          "answer": "10094892534754162460",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "10094892534754162460"
+  ],
+  "final_answer": "10094892534754162460",
+  "usage": {
+    "input_tokens": 65,
+    "output_tokens": 54,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "10094892534754162460",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-0",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 6-digit halves, computed the four partial products, combined with appropriate powers of 10.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 491596433615 = 491596\u00b710^6+433615; 961436537082 = 961436\u00b710^6+537082.\n491596\u00d7961436=472,638,091,856; 491596\u00d7537082=264,027,362,872; 433615\u00d7961436=416,893,071,140; 433615\u00d7537082=232,886,811,430.\nCombine: 472638091856\u00b710^12 + (264027362872+416893071140)\u00b710^6 + 232886811430 = 472638772776666898811430.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "472638772776666898811430",
+    "472638772776666898811430",
+    "472638772776666898811430"
+  ],
+  "final_answer": "472638772776666898811430",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 149,
+    "calls": 3
+  },
+  "trial": 0,
+  "expected": "472638772776666898811430",
+  "correct": true
+}

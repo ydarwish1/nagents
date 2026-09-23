@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89583287 \u00d7 69952089 = 89583287\u00d770,000,000 \u2212 89583287\u00d747,911 = 6,270,830,090,000,000 \u2212 4,292,024,863,457\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6266538065136543"
+  ],
+  "final_answer": "6266538065136543",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "6266538065136543",
+  "correct": true
+}

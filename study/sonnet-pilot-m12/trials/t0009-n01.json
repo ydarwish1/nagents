@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit halves: 915206|049673 x 888795|840817. Cross-multiplied and combined with base 10^6/10^12.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "813431330439919102902841"
+  ],
+  "final_answer": "813431330439919102902841",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 35,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "813431330439919102902841",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-7",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86842974 multiplied by 96358010? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86842974 x 96358010. Split 96358010 = 96,000,000 + 358,010.\na*96,000,000 = 8,336,925,504,000,000\na*358,010 = 31,090,653,121,740\nSum = 8,368,016,157,121,740\nAnswer: 8368016157121740",
+          "answer": "8368016157121740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86842974 multiplied by 96358010? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86842974 \u00d7 96358010 = 86842974\u00d796,000,000 + 86842974\u00d7358,010 = 8,336,925,504,000,000 + 31,090,653,121,740\nAnswer: 8368016157121740",
+          "answer": "8368016157121740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86842974 multiplied by 96358010? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks: 8684/2974 and 9635/8010.\n8684\u00d79635=83,670,340; 8684\u00d78010=69,558,840; 2974\u00d79635=28,654,490; 2974\u00d78010=23,821,740\nTotal=83,670,340\u00d710^8+(69,558,840+28,654,490)\u00d710^4+23,821,740=8,368,016,157,121,740\nAnswer: 8368016157121740",
+          "answer": "8368016157121740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8368016157121740",
+    "8368016157121740",
+    "8368016157121740"
+  ],
+  "final_answer": "8368016157121740",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 134,
+    "calls": 3
+  },
+  "trial": 7,
+  "expected": "8368016157121740",
+  "correct": true
+}

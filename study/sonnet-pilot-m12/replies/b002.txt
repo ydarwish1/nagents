@@ -1,0 +1,39 @@
+=== 5e1bac1939879d55ca523472
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 370247117884396514038728
+
+=== 061002db7a03455796693d4b
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 160951440878270137293380
+
+=== b5d027f0cc291b9f97f4931d
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 196569142629563157649008
+
+=== 14b982df20a0c5bc9245c38a
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 472638772776666898811430
+
+=== deca3847222b12e972d4900f
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 121213044018518014071462
+
+=== e9eb0d69722d340717d441da
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 77505323527739890964706
+
+=== 32ccf680ff0867b86e9d5d3c
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 249424305504579808498740
+
+=== 94c0e10240e183ee3e4f46fe
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 276150472386042055457987
+
+=== 8b7df3e98975376998dc1b5d
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 813431330439919102902841
+
+=== 0e782e9aabe03b4d041d1e6c
+Split into 6-digit halves and combine via a1*b1*10^12+(a1*b0+a0*b1)*10^6+a0*b0.
+Answer: 835877251917092804654472

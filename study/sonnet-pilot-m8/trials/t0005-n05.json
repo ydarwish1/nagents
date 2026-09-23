@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-5",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "26233070 \u00d7 95619276 = 26233070\u00d795,000,000 + 26233070\u00d7619,276 = 2,492,141,650,000,000 + 16,245,510,657,320\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "26233070 \u00d7 95619276 = 26233070\u00d795,000,000 + 26233070\u00d7619,276 = 2,492,141,650,000,000 + 16,245,510,657,320\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "26233070 x 95619276. Split 95619276 = 95,000,000 + 619,276.\na*95,000,000 = 2,492,141,650,000,000\na*619,276 = 16,245,510,657,320\nSum = 2,508,387,160,657,320\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "26233070 \u00d7 95619276 = 26233070\u00d795,000,000 + 26233070\u00d7619,276 = 2,492,141,650,000,000 + 16,245,510,657,320\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split 26233070=26,000,000+233,070; 95619276=95,619,276.\n26,000,000\u00d795,619,276=2,486,101,176,000,000\n233,070\u00d795,619,276=22,285,984,657,320\nSum=2,508,387,160,657,320\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2508387160657320",
+    "2508387160657320",
+    "2508387160657320",
+    "2508387160657320",
+    "2508387160657320"
+  ],
+  "final_answer": "2508387160657320",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 188,
+    "calls": 5
+  },
+  "trial": 5,
+  "expected": "2508387160657320",
+  "correct": true
+}

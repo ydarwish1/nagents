@@ -1,0 +1,58 @@
+{
+  "task_id": "mult10-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4244779043 multiplied by 2023902501? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split 4244779043=42447*10^5+79043, 2023902501=20239*10^5+2501.\n42447*20239=859084833; 42447*2501=106159947; 79043*20239=1599751277; 79043*2501=197686543.\nCross terms sum=1705911224.\nTotal=859084833e10+1705911224e5+197686543=8591018921320086543.\nAnswer: 8591018921320086543",
+          "answer": "8591018921320086543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4244779043 multiplied by 2023902501? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4244779043 x 2023902501 = 4244779043 x (2,000,000,000 + 23,902,501).\n4244779043 x 2,000,000,000 = 8,489,558,086,000,000,000\n4244779043 x 23,902,501 = 101,460,835,320,086,543\nSum = 8,591,018,921,320,086,543\nAnswer: 8591018921320086543",
+          "answer": "8591018921320086543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4244779043 multiplied by 2023902501? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4244779043 = 4,244,000,000 + 779,043. 4244*2023902501=8,589,442,214,244 -> *10^6 = 8,589,442,214,244,000,000. 779,043*2023902501 = 1,576,707,076,086,543. Sum = 8,591,018,921,320,086,543.\nAnswer: 8591018921320086543",
+          "answer": "8591018921320086543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8591018921320086543",
+    "8591018921320086543",
+    "8591018921320086543"
+  ],
+  "final_answer": "8591018921320086543",
+  "usage": {
+    "input_tokens": 195,
+    "output_tokens": 179,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "8591018921320086543",
+  "correct": true
+}

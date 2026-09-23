@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split: 216685950474=216685|950474, 357685043069=357685|043069.\n216685*357685=77,504,974,225; 216685*043069=9,332,406,265; 357685*950474=339,970,292,690; 950474*043069=40,935,964,706.\nCombine: 77,504,974,225e12 + (9,332,406,265+339,970,292,690)e6 + 40,935,964,706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "77505323527739890964706"
+  ],
+  "final_answer": "77505323527739890964706",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 73,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "77505323527739890964706",
+  "correct": true
+}

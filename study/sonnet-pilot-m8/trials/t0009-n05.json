@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-9",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks: 8345/5904 and 3246/9563.\n8345\u00d73246=27,087,870; 8345\u00d79563=79,803,235; 5904\u00d73246=19,164,384; 5904\u00d79563=56,459,952\nTotal=27,087,870\u00d710^8+(79,803,235+19,164,384)\u00d710^4+56,459,952=2,709,776,732,649,952\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83455904 \u00d7 32469563 = 83455904\u00d732,000,000 + 83455904\u00d7469,563 = 2,670,588,928,000,000 + 39,187,804,649,952\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83455904 \u00d7 32469563 = 83455904\u00d732,000,000 + 83455904\u00d7469,563 = 2,670,588,928,000,000 + 39,187,804,649,952\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83455904 x 32469563. Split 32469563 = 32,000,000 + 469,563.\na*32,000,000 = 2,670,588,928,000,000\na*469,563 = 39,187,804,649,952\nSum = 2,709,776,732,649,952\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83455904 \u00d7 32469563 = 83455904\u00d732,000,000 + 83455904\u00d7469,563 = 2,670,588,928,000,000 + 39,187,804,649,952\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2709776732649952",
+    "2709776732649952",
+    "2709776732649952",
+    "2709776732649952",
+    "2709776732649952"
+  ],
+  "final_answer": "2709776732649952",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 198,
+    "calls": 5
+  },
+  "trial": 9,
+  "expected": "2709776732649952",
+  "correct": true
+}
