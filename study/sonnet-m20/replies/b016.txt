@@ -1,0 +1,39 @@
+=== 6d9790ec307992656356e10e
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 6851637253813115116155124485188024185768
+
+=== f53a8b4f6f694e914805daa2
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 1965041275108065944825282203948523547392
+
+=== d1ee354bfd0b96ee79a7e6df
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 1176866075395592071246995589752393887895
+
+=== 7d323c17238ea31e0ae7f149
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 4784210514810521388401574787820714289186
+
+=== 9011540261eebf56f31fab77
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 1699789651060040714910559372098207793344
+
+=== 671c137ca998679fed069626
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 346504340693838413102998470970701792150
+
+=== ae1cc759554123b51e26034c
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 845474426940627863357721871000003350113
+
+=== 48417ca9e47e8d40723d57ac
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 3076509081614119130019054387890353494756
+
+=== 29ae0f9526eddc3b7f9d78d7
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 6771167030600902342337037218653672770000
+
+=== 0838c939547f386dbe143ed6
+Split both numbers into 5-digit blocks (base 10^5) and multiplied via block convolution (16 sub-products), then summed with carries.
+Answer: 342555677606519242631227780194435725695
