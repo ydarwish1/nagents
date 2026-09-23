@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks, computed 16 chunk products, summed into c0..c6, propagated carries base 10^5. Checked via mod 9 (2*4=8, matches).\nAnswer: 583387380297327609234559334144031479090",
+          "answer": "583387380297327609234559334144031479090",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=24967|46265|34704|94910, B=23365|90579|48460|11399. Chunked multiply-and-carry as above.\nAnswer: 583387380297327609234559334144031479090",
+          "answer": "583387380297327609234559334144031479090",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 24967462653470494910 multiplied by 23365905794846011399? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks (A3..A0)=(24967,46265,34704,94910), (B3..B0)=(23365,90579,48460,11399); summed 16 partial products with base-10^5 carrying.\nAnswer: 583387380297327609234559334144031479090",
+          "answer": "583387380297327609234559334144031479090",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "583387380297327609234559334144031479090",
+    "583387380297327609234559334144031479090",
+    "583387380297327609234559334144031479090"
+  ],
+  "final_answer": "583387380297327609234559334144031479090",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 128,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "583387380297327609234559334144031479090",
+  "correct": true
+}

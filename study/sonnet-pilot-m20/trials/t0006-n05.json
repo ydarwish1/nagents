@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-11-6",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks (A3..A0)=(29771,20251,84681,24694), (B3..B0)=(56064,67824,50430,57868); summed 16 partial products with base-10^5 carrying.\nAnswer: 1669112890165930965765890550105281792392",
+          "answer": "1669112890165930965765890550105281792392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.\nAnswer: 1669112890165930965765890550105281792392",
+          "answer": "1669112890165930965765890550105281792392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.\nAnswer: 1669112890165930965765890550105281792392",
+          "answer": "1669112890165930965765890550105281792392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (7*4=28\u22611, matches).\nAnswer: 1669112890165930965765890550105281792392",
+          "answer": "1669112890165930965765890550105281792392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 29771202518468124694 multiplied by 56064678245043057868? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=29771|20251|84681|24694, B=56064|67824|50430|57868. Chunked multiply-and-carry as above.\nAnswer: 1669112890165930965765890550105281792392",
+          "answer": "1669112890165930965765890550105281792392",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1669112890165930965765890550105281792392",
+    "1669112890165930965765890550105281792392",
+    "1669112890165930965765890550105281792392",
+    "1669112890165930965765890550105281792392",
+    "1669112890165930965765890550105281792392"
+  ],
+  "final_answer": "1669112890165930965765890550105281792392",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 210,
+    "calls": 5
+  },
+  "trial": 6,
+  "expected": "1669112890165930965765890550105281792392",
+  "correct": true
+}

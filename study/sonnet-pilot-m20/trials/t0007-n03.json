@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-11-7",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.\nAnswer: 872172832087924345335997373204180980594",
+          "answer": "872172832087924345335997373204180980594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.\nAnswer: 872172832087924345335997373204180980594",
+          "answer": "872172832087924345335997373204180980594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 58604766541745938177 multiplied by 14882284898561099122? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into 5-digit chunks (base 10^5), formed the 7 convolution sums c0..c6 from 16 chunk products, then propagated carries base 10^5. Checked via mod 9 (product \u2261 4*7=28\u22611, matches).\nAnswer: 872172832087924345335997373204180980594",
+          "answer": "872172832087924345335997373204180980594",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "872172832087924345335997373204180980594",
+    "872172832087924345335997373204180980594",
+    "872172832087924345335997373204180980594"
+  ],
+  "final_answer": "872172832087924345335997373204180980594",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 149,
+    "calls": 3
+  },
+  "trial": 7,
+  "expected": "872172832087924345335997373204180980594",
+  "correct": true
+}

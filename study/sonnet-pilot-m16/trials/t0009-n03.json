@@ -1,0 +1,58 @@
+{
+  "task_id": "mult16-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2850236819838032 multiplied by 1202919655778694? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into limbs (2850|2368|1983|8032) and (1202|9196|5577|8694), computed all 16 partial products, summed by place value with carries.\nAnswer: 3428605894207324919505916490208",
+          "answer": "3428605894207324919505916490208",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2850236819838032 multiplied by 1202919655778694? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 4-digit blocks (2850|2368|1983|8032) x (1202|9196|5577|8694), multiplied all 16 block pairs, summed by matching power-of-10 position with carries.\nAnswer: 3428605894207324919505916490208",
+          "answer": "3428605894207324919505916490208",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2850236819838032 multiplied by 1202919655778694? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split 2850236819838032=A1*10^8+A0 (A1=28502368,A0=19838032), 1202919655778694=B1*10^8+B0 (B1=12029196,B0=55778694). A1B1=342860571136128, A1B0=1589824862947392, A0B1=238635575182272, A0B0=1106539516490208. Combine A1B1*10^16+(A1B0+A0B1)*10^8+A0B0.\nAnswer: 3428605894207324919505916490208",
+          "answer": "3428605894207324919505916490208",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3428605894207324919505916490208",
+    "3428605894207324919505916490208",
+    "3428605894207324919505916490208"
+  ],
+  "final_answer": "3428605894207324919505916490208",
+  "usage": {
+    "input_tokens": 204,
+    "output_tokens": 166,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "3428605894207324919505916490208",
+  "correct": true
+}

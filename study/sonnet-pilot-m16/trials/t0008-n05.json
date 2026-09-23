@@ -1,0 +1,84 @@
+{
+  "task_id": "mult16-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into chunks (8639|3714|4241|2250) x (1066|3258|9243|0398), computed 16 partial products, summed by power of 10^4 with carry propagation.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into limbs (8639|3714|4241|2250) and (1066|3258|9243|0398), computed all 16 partial products, summed by place value with carries.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit blocks (8639|3714|4241|2250) x (1066|3258|9243|0398), multiplied block pairs, combined via position sums with carries.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A1=86393714,A0=42412250,B1=10663258,B0=92430398. A1B1=921238461960212, A1B0=7985405369718172, A0B1=452252764110500, A0B0=3920181147575500. Combine as above.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9212385463367937303048347575500",
+    "9212385463367937303048347575500",
+    "9212385463367937303048347575500",
+    "9212385463367937303048347575500",
+    "9212385463367937303048347575500"
+  ],
+  "final_answer": "9212385463367937303048347575500",
+  "usage": {
+    "input_tokens": 340,
+    "output_tokens": 224,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "9212385463367937303048347575500",
+  "correct": true
+}

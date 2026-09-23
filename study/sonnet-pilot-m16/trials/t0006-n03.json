@@ -1,0 +1,58 @@
+{
+  "task_id": "mult16-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3116297682142549 multiplied by 6242639590009261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A1=31162976,A0=82142549,B1=62426395,B0=90009261. A1B1=1945392249151520, A1B0=2804956440320736, A0B1=5127863210180855, A0B0=7393590132146289. Combine as above.\nAnswer: 19453923284797172443749232146289",
+          "answer": "19453923284797172443749232146289",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3116297682142549 multiplied by 6242639590009261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.\nAnswer: 19453923284797172443749232146289",
+          "answer": "19453923284797172443749232146289",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3116297682142549 multiplied by 6242639590009261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into chunks (3116|2976|8214|2549) x (6242|6395|9000|9261), computed 16 partial products, summed by power of 10^4 with carry propagation.\nAnswer: 19453923284797172443749232146289",
+          "answer": "19453923284797172443749232146289",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "19453923284797172443749232146289",
+    "19453923284797172443749232146289",
+    "19453923284797172443749232146289"
+  ],
+  "final_answer": "19453923284797172443749232146289",
+  "usage": {
+    "input_tokens": 204,
+    "output_tokens": 137,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "19453923284797172443749232146289",
+  "correct": true
+}

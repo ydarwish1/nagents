@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.\nAnswer: 3323456299546490158334750310591847865367",
+          "answer": "3323456299546490158334750310591847865367",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3323456299546490158334750310591847865367"
+  ],
+  "final_answer": "3323456299546490158334750310591847865367",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 42,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "3323456299546490158334750310591847865367",
+  "correct": true
+}

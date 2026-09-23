@@ -1,0 +1,84 @@
+{
+  "task_id": "mult20-11-4",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (8*6=48\u22613, matches).\nAnswer: 5811037547795829992095423105023185848320",
+          "answer": "5811037547795829992095423105023185848320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=95271|98852|76784|65440, B=60994|18766|83680|68928. Chunked multiply-and-carry as above.\nAnswer: 5811037547795829992095423105023185848320",
+          "answer": "5811037547795829992095423105023185848320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks (A3..A0)=(95271,98852,76784,65440), (B3..B0)=(60994,18766,83680,68928); summed 16 partial products with base-10^5 carrying.\nAnswer: 5811037547795829992095423105023185848320",
+          "answer": "5811037547795829992095423105023185848320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.\nAnswer: 5811037547795829992095423105023185848320",
+          "answer": "5811037547795829992095423105023185848320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 95271988527678465440 multiplied by 60994187668368068928? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each 20-digit number into four 5-digit chunks and multiplied via a1*b1*10^20+(cross terms)*10^10+a0*b0 style expansion (16 sub-products), then summed with base-100000 carrying.\nAnswer: 5811037547795829992095423105023185848320",
+          "answer": "5811037547795829992095423105023185848320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5811037547795829992095423105023185848320",
+    "5811037547795829992095423105023185848320",
+    "5811037547795829992095423105023185848320",
+    "5811037547795829992095423105023185848320",
+    "5811037547795829992095423105023185848320"
+  ],
+  "final_answer": "5811037547795829992095423105023185848320",
+  "usage": {
+    "input_tokens": 350,
+    "output_tokens": 225,
+    "calls": 5
+  },
+  "trial": 4,
+  "expected": "5811037547795829992095423105023185848320",
+  "correct": true
+}

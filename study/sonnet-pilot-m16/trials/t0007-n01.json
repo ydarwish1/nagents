@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8546922437630780 multiplied by 1973399644544004? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.\nAnswer: 16866493700365753449203214843120",
+          "answer": "16866493700365753449203214843120",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "16866493700365753449203214843120"
+  ],
+  "final_answer": "16866493700365753449203214843120",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 43,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "16866493700365753449203214843120",
+  "correct": true
+}

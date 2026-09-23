@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-11-8",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.\nAnswer: 3323456299546490158334750310591847865367",
+          "answer": "3323456299546490158334750310591847865367",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5-digit chunks, computed 16 products, combined via convolution with carries base 10^5. Checked via mod 9 (3*7=21\u22613, matches).\nAnswer: 3323456299546490158334750310591847865367",
+          "answer": "3323456299546490158334750310591847865367",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 49506964401500703147 multiplied by 67131086297138152261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both numbers into 5-digit chunks (base 10^5): A=49506|96440|15007|03147, B=67131|08629|71381|52261. Computed all 16 cross products, summed by weight with carrying.\nAnswer: 3323456299546490158334750310591847865367",
+          "answer": "3323456299546490158334750310591847865367",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3323456299546490158334750310591847865367",
+    "3323456299546490158334750310591847865367",
+    "3323456299546490158334750310591847865367"
+  ],
+  "final_answer": "3323456299546490158334750310591847865367",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 142,
+    "calls": 3
+  },
+  "trial": 8,
+  "expected": "3323456299546490158334750310591847865367",
+  "correct": true
+}

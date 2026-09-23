@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=97739|12213|55474|41639, B=48044|06263|22823|67559. Chunked multiply-and-carry as above.\nAnswer: 4695784505504537237047708132072299389201",
+          "answer": "4695784505504537237047708132072299389201",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4695784505504537237047708132072299389201"
+  ],
+  "final_answer": "4695784505504537237047708132072299389201",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "4695784505504537237047698132072299389201",
+  "correct": false
+}

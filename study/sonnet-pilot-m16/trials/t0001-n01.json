@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 4254975806327673 multiplied by 8356337772324202? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A1=42549758,A0=06327673,B1=83563377,B0=72324202. A1B1=3555601469012766, A1B0=3077377292643116, A0B1=528761724431721, A0B0=457643900241946. Combine as above.\nAnswer: 35556015050741562165127600241946",
+          "answer": "35556015050741562165127600241946",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "35556015050741562165127600241946"
+  ],
+  "final_answer": "35556015050741562165127600241946",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 49,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "35556015050741562165127600241946",
+  "correct": true
+}

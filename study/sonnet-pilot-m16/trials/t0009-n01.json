@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2850236819838032 multiplied by 1202919655778694? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into limbs (2850|2368|1983|8032) and (1202|9196|5577|8694), computed all 16 partial products, summed by place value with carries.\nAnswer: 3428605894207324919505916490208",
+          "answer": "3428605894207324919505916490208",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3428605894207324919505916490208"
+  ],
+  "final_answer": "3428605894207324919505916490208",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 43,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "3428605894207324919505916490208",
+  "correct": true
+}

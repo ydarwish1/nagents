@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 52390551172998732602 multiplied by 19934922507831740409? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into four 5-digit chunks, formed the 16 pairwise products, summed by power-of-10 position with carrying.\nAnswer: 1044401577776323023690450468824869114218",
+          "answer": "1044401577776323023690450468824869114218",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1044401577776323023690450468824869114218"
+  ],
+  "final_answer": "1044401577776323023690450468824869114218",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 42,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "1044401577776323023690449868824869114218",
+  "correct": false
+}

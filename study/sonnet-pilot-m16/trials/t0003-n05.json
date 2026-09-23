@@ -1,0 +1,84 @@
+{
+  "task_id": "mult16-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2064195370991975 multiplied by 4170251848574935? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into chunks (2064|1953|7099|1975) x (4170|2518|4857|4935), computed 16 partial products, summed by power of 10^4 with carry propagation.\nAnswer: 8608214561699107502541071146625",
+          "answer": "8608214561699107502541071146625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2064195370991975 multiplied by 4170251848574935? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into limbs (2064|1953|7099|1975) and (4170|2518|4857|4935), computed all 16 partial products, summed by place value with carries.\nAnswer: 8608214561699107502541071146625",
+          "answer": "8608214561699107502541071146625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2064195370991975 multiplied by 4170251848574935? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit blocks (2064|1953|7099|1975) x (4170|2518|4857|4935), multiplied block pairs, combined via position sums with carries.\nAnswer: 8608214561699107502541071146625",
+          "answer": "8608214561699107502541071146625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2064195370991975 multiplied by 4170251848574935? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A1=20641953,A0=70991975,B1=41702518,B0=48574935. A1B1=860821416537654, A1B0=1002681525248055, A0B1=2960544115293050, A0B0=3448430571146625. Combine as above.\nAnswer: 8608214561699107502541071146625",
+          "answer": "8608214561699107502541071146625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2064195370991975 multiplied by 4170251848574935? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into 4-digit limbs and multiply via limb decomposition (base 10^4), then sum shifted partial products with carries.\nAnswer: 8608214561699107502541071146625",
+          "answer": "8608214561699107502541071146625",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8608214561699107502541071146625",
+    "8608214561699107502541071146625",
+    "8608214561699107502541071146625",
+    "8608214561699107502541071146625",
+    "8608214561699107502541071146625"
+  ],
+  "final_answer": "8608214561699107502541071146625",
+  "usage": {
+    "input_tokens": 340,
+    "output_tokens": 224,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "8608214561699107502541071146625",
+  "correct": true
+}

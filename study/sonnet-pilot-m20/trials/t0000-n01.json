@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-11-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 17710466293135420277 multiplied by 89479621101000058329? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=17710|46629|31354|20277, B=89479|62110|10000|58329. Chunked multiply-and-carry as above.\nAnswer: 1584725813431790436702140877272929337133",
+          "answer": "1584725813431790436702140877272929337133",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1584725813431790436702140877272929337133"
+  ],
+  "final_answer": "1584725813431790436702140877272929337133",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "1584725813431790436702140877272929337133",
+  "correct": true
+}

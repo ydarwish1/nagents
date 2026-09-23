@@ -1,0 +1,58 @@
+{
+  "task_id": "mult20-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A=97739|12213|55474|41639, B=48044|06263|22823|67559. Chunked multiply-and-carry as above.\nAnswer: 4695784505504537237047708132072299389201",
+          "answer": "4695784505504537237047708132072299389201",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks (A3..A0)=(97739,12213,55474,41639), (B3..B0)=(48044,6263,22823,67559); summed 16 partial products with base-10^5 carrying.\nAnswer: 4695784505504537337047708132072299389201",
+          "answer": "4695784505504537337047708132072299389201",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97739122135547441639 multiplied by 48044062632282367559? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.\nAnswer: 4695784505504537237047698132072299389201",
+          "answer": "4695784505504537237047698132072299389201",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4695784505504537237047708132072299389201",
+    "4695784505504537337047708132072299389201",
+    "4695784505504537237047698132072299389201"
+  ],
+  "final_answer": "4695784505504537237047708132072299389201",
+  "usage": {
+    "input_tokens": 210,
+    "output_tokens": 122,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "4695784505504537237047698132072299389201",
+  "correct": false
+}

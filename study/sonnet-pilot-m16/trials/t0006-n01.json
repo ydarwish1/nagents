@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3116297682142549 multiplied by 6242639590009261? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "A1=31162976,A0=82142549,B1=62426395,B0=90009261. A1B1=1945392249151520, A1B0=2804956440320736, A0B1=5127863210180855, A0B0=7393590132146289. Combine as above.\nAnswer: 19453923284797172443749232146289",
+          "answer": "19453923284797172443749232146289",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "19453923284797172443749232146289"
+  ],
+  "final_answer": "19453923284797172443749232146289",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 49,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "19453923284797172443749232146289",
+  "correct": true
+}

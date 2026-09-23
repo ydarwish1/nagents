@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 8639371442412250 multiplied by 1066325892430398? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into chunks (8639|3714|4241|2250) x (1066|3258|9243|0398), computed 16 partial products, summed by power of 10^4 with carry propagation.\nAnswer: 9212385463367937303048347575500",
+          "answer": "9212385463367937303048347575500",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9212385463367937303048347575500"
+  ],
+  "final_answer": "9212385463367937303048347575500",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 45,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "9212385463367937303048347575500",
+  "correct": true
+}

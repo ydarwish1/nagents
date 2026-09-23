@@ -1,0 +1,32 @@
+{
+  "task_id": "mult20-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 82457170822788303089 multiplied by 59325914586943093733? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Blocks (A3..A0)=(82457,17082,27883,3089), (B3..B0)=(59325,91458,69430,93733); summed 16 partial products with base-10^5 carrying.\nAnswer: 4891847073313715052461776058382940441237",
+          "answer": "4891847073313715052461776058382940441237",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4891847073313715052461776058382940441237"
+  ],
+  "final_answer": "4891847073313715052461776058382940441237",
+  "usage": {
+    "input_tokens": 70,
+    "output_tokens": 44,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "4891847073313715052461776058382940441237",
+  "correct": true
+}
