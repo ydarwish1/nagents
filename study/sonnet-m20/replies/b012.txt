@@ -1,0 +1,39 @@
+=== 208ded09bee0b2d73726cd26
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits (schoolbook decomposition), then combined with base-10^10/10^20 shifts.
+Answer: 1965041275108065944825282203948523547392
+
+=== 17a11940eff9edfc01e56412
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 939461338731979904477647509518406728572
+
+=== 348a407f11e6bfb60b8f07bd
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 1589276288607984287324587987695765259568
+
+=== 8f1de54bb0438d6744242a36
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 1520271239891595444690459225251624179380
+
+=== b4f95a2f33ff0268365cd788
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 845474426940627863357721871000003350113
+
+=== 6e49207d7d39efdf116d55ff
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 1328368192309360384868664940597321167289
+
+=== 666accb6daaac40369259560
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 1082043616855201427736409522421184481657
+
+=== cad9331d957196adea918b9a
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 3755987281143123692382455632699027367284
+
+=== 02974f1f7ef878940a685a42
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 5308797537689255450186156678900940207875
+
+=== d324193051e442198be5f6be
+Split both 20-digit numbers into 10-digit halves and multiplied via 5+5 digit sub-splits, then combined with base-10^10/10^20 shifts.
+Answer: 1950353129035728077641712258662422267928
