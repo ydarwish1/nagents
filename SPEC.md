@@ -101,13 +101,13 @@ single optional dependency (real runs only). Tests never touch the network.
 
 ## 4. Phases — start to finish
 
-### Phase 0 — Foundation (this commit) ✅
+### Phase 0 — Foundation ✅
 Scaffold, task generators, both topologies, mock model, transcript writer,
 bootstrap stats, saturation heuristic, CLI, unit tests, CI.
 **Exit:** tests green; mock grid runs end to end and shows a rise-then-flatten
 curve. Cost: $0.
 
-### Phase 0.1 — Hardening (this commit) ✅
+### Phase 0.1 — Hardening ✅
 Crash-safe resume (`--resume` + manifest config guard), `recompute` (results
 rebuilt from transcripts, incomplete runs refused), `--workers` parallel calls
 (results identical at any worker count), refusal/unparsed-vote tracking,
@@ -116,7 +116,32 @@ estimates in the report, SDK retries raised for long grids, CI matrix
 (Python 3.9 + 3.13) that also exercises run → recompute → report.
 **Exit:** tests green; a resumed run provably makes zero model calls. Cost: $0.
 
+### Phase 0.2 — Shared mistakes, cost per point, receipts, subagents ✅
+- **Shared mistakes (why curves flatten).** From first-round answers only: error
+  correlation between agents (phi over agent pairs), how often two wrong agents
+  gave the same wrong number, a best-case "if mistakes were independent" curve
+  (independent agents, wrong answers never matching), and the "someone in the
+  group was right" ceiling. The mock gains `--mock-correlation` so the effect can
+  be demonstrated and tested offline; correlation 0 reproduces the old mock exactly.
+- **Cost per point (RQ3).** Tokens (and dollars when the model is priced) per
+  question per size, and per +1 accuracy point for every size step.
+- **Receipts (phase 4 groundwork).** `charts/accuracy.svg`, `charts/cost.svg`, and
+  `report.html` with every trial cell linking to its transcript; `compare` puts two
+  runs side by side, paired per trial when they share tasks, with an overlay chart.
+- **Subagent backend.** `--subagents LABEL` answers calls with Claude subagents
+  instead of the API: pending calls → `batches` (no batch ever repeats a task) →
+  `ingest` → `--resume`. Replies are keyed by a hash of exactly what the agent
+  saw. Seats are shared across sizes (nested design), so a grid up to size N costs
+  N answers per task rather than the sum of all sizes. Token counts are estimated
+  from text length and flagged.
+**Exit:** tests green; a subagent plumbing check (1 subagent, 2 throwaway
+problems) completed pending → ingest → resume → report. Cost: $0.
+
 ### Phase 1 — Real smoke run
+Subagent route (no API key): `nagents-solver` subagents (Haiku, no tools, 10
+problems per subagent), `chain` at depths 6, 10 and 14, 10 trials, seats 1–5.
+Pick the depth where solo accuracy lands 40–80% for phase 2.
+API route: as below.
 Wire check against the live API. `chain --depth 10`, sizes {1,3,5}, 10 trials,
 `--effort low`, topology independent.
 **Exit:** transcripts parse, refusal/stop-reason handling observed, measured

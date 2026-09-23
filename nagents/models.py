@@ -32,11 +32,20 @@ class MockModel:
     call identity. In debate rounds it drifts toward the majority answer, so
     demo curves look like real help-then-saturate behavior. It makes no claims
     about real models — it exists to exercise and demo the pipeline.
+
+    `correlation` (0..1) makes agents share mistakes, the way real models do:
+    with that probability a call's right/wrong draw comes from one draw shared
+    by every agent on the task, and a shared mistake is the same wrong number.
+    Every agent's own accuracy stays `accuracy`; only the overlap changes.
+    correlation=0 reproduces the independent mock exactly.
     """
 
-    def __init__(self, accuracy: float = 0.65, debate_shift: float = 0.15):
+    def __init__(self, accuracy: float = 0.65, debate_shift: float = 0.15, correlation: float = 0.0):
+        if not 0.0 <= correlation <= 1.0:
+            raise ValueError("correlation must be between 0 and 1")
         self.accuracy = accuracy
         self.debate_shift = debate_shift
+        self.correlation = correlation
 
     def complete(self, system: str, prompt: str, meta: dict) -> ModelReply:
         acc = self.accuracy
@@ -44,13 +53,19 @@ class MockModel:
         if meta.get("round", 0) > 0 and majority_correct is not None:
             acc = acc + self.debate_shift if majority_correct else acc - self.debate_shift
             acc = min(0.99, max(0.01, acc))
-        u = _unit(meta["seed"], meta["task_id"], meta["agent"], meta.get("round", 0))
+        seed, task_id, agent, rnd = meta["seed"], meta["task_id"], meta["agent"], meta.get("round", 0)
+        shared = self.correlation > 0 and _unit("mix", seed, task_id, agent, rnd) < self.correlation
+        if shared:
+            u = _unit("shared", seed, task_id, rnd)
+            wrong_draw = _unit("shared-wrong", seed, task_id)
+        else:
+            u = _unit(seed, task_id, agent, rnd)
+            wrong_draw = _unit("wrong", seed, task_id, agent)
         truth = int(meta["answer"])
         if u < acc:
             answer = truth
         else:
-            offset = 1 + int(_unit("wrong", meta["seed"], meta["task_id"], meta["agent"]) * 7)
-            answer = truth + offset
+            answer = truth + 1 + int(wrong_draw * 7)
         text = f"I worked through the steps.\nAnswer: {answer}"
         return ModelReply(text, input_tokens=len(prompt) // 4, output_tokens=len(text) // 4)
 

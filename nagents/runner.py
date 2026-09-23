@@ -17,7 +17,8 @@ from pathlib import Path
 from typing import List, Optional
 
 from . import __version__
-from .stats import summarize
+from .external import PendingAnswers
+from .stats import error_overlap, independent_vote_accuracy, mean, summarize
 from .topologies import run_group
 
 _VOLATILE_KEYS = ("started_at", "nagents_version")
@@ -42,12 +43,16 @@ def _trial_stats(record: dict) -> dict:
         for agent in record["agents"]
         for rnd in agent["rounds"]
     )
+    expected = str(record["expected"])
     return {
         "correct": 1 if record["correct"] else 0,
         "in": record["usage"]["input_tokens"],
         "out": record["usage"]["output_tokens"],
         "refusal": refusal,
         "unparsed": any(v == "" for v in record["votes"]),
+        "any_correct": any(v == expected for v in record["votes"]),
+        "round0": [agent["rounds"][0]["answer"] for agent in record["agents"]],
+        "expected": expected,
     }
 
 
@@ -60,10 +65,27 @@ def _finalize(sizes: List[int], stats_by_size: dict, epsilon: float = 0.01) -> d
             "output_tokens_total": sum(st["out"] for st in stats_by_size[s]),
             "refusal_trials": sum(1 for st in stats_by_size[s] if st["refusal"]),
             "unparsed_vote_trials": sum(1 for st in stats_by_size[s] if st["unparsed"]),
+            "best_of_n": round(mean([1 if st["any_correct"] else 0 for st in stats_by_size[s]]), 4),
         }
         for s in sizes
     }
-    return summarize(sizes, correct, out_tokens, epsilon=epsilon, extras_by_size=extras)
+    # Mistake overlap is read off the largest groups: every agent there answered
+    # round 1 alone, and (in the nested design) they include every smaller group.
+    largest = sizes[-1]
+    overlap = error_overlap(
+        [{"answers": st["round0"], "expected": st["expected"]} for st in stats_by_size[largest]]
+        if largest >= 2 else []
+    )
+    p = overlap["solo_accuracy"]
+    if p is None:  # no groups of 2+: fall back to size-1 accuracy
+        p = mean(correct[sizes[0]]) if sizes[0] == 1 else None
+    for s in sizes:
+        extras[s]["independent_reference"] = (
+            None if p is None else round(independent_vote_accuracy(p, s), 4)
+        )
+    results = summarize(sizes, correct, out_tokens, epsilon=epsilon, extras_by_size=extras)
+    results["overlap"] = overlap
+    return results
 
 
 def run_grid(
@@ -115,8 +137,10 @@ def run_grid(
         )
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
+    external = hasattr(model, "cell_pending")  # answers supplied from outside
     stats_by_size = {s: [] for s in sizes}
     reused = 0
+    waiting = 0
     for t, task in enumerate(tasks):
         seed = f"{master_seed}:{t}"
         for size in sizes:
@@ -129,7 +153,12 @@ def run_grid(
                     )
                 reused += 1
             else:
+                if external:
+                    model.begin_cell()
                 record = run_group(model, task, size, topology, seed, workers=workers)
+                if external and model.cell_pending():
+                    waiting += 1  # never write a cell with a missing answer
+                    continue
                 record["trial"] = t
                 record["expected"] = task.answer
                 record["correct"] = record["final_answer"] == task.answer
@@ -145,6 +174,11 @@ def run_grid(
             file=sys.stderr,
             flush=True,
         )
+    if external:
+        if waiting:
+            path = model.write_pending()
+            raise PendingAnswers(len(model.pending), waiting, path)
+        model.clear_pending_file()
     results = _finalize(sizes, stats_by_size)
     results["manifest"] = manifest
     (out / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")

@@ -115,3 +115,66 @@ def summarize(
         "saturation_size_ci": find_saturation_ci(sizes, correct_by_size, epsilon),
         "epsilon": epsilon,
     }
+
+
+def independent_vote_accuracy(p: float, n: int) -> float:
+    """Vote accuracy for n agents whose mistakes are independent and never match.
+
+    Each agent is right with probability p. Wrong answers are all different, so
+    the right answer wins with 2+ votes; with exactly one right vote every
+    answer ties and the earliest agent's answer wins (probability 1/n that it is
+    the right one). This is the best case for voting — the gap between it and
+    the measured curve is what shared mistakes cost.
+    """
+    from math import comb
+
+    total = 0.0
+    for k in range(1, n + 1):
+        weight = 1.0 if k >= 2 else 1.0 / n
+        total += comb(n, k) * p ** k * (1 - p) ** (n - k) * weight
+    return total
+
+
+def error_overlap(groups: List[dict]) -> dict:
+    """How often agents make the same mistake.
+
+    `groups` holds one entry per trial cell with 2+ agents:
+    {"answers": [round-1 answer per agent], "expected": "<truth>"}.
+    Only first-round answers are used — they are given before anyone sees
+    anyone else, so any overlap comes from the agents, not from the topology.
+
+    Returns solo accuracy p, the error correlation (phi coefficient over every
+    agent pair within a group: 0 = mistakes independent, 1 = always wrong
+    together) and, among pairs that were both wrong, the share that gave the
+    same wrong number.
+    """
+    answers = total_right = pairs = both_wrong = same_wrong = 0
+    for group in groups:
+        truth = str(group["expected"])
+        wrong = [a != truth for a in group["answers"]]
+        answers += len(wrong)
+        total_right += sum(1 for w in wrong if not w)
+        n = len(wrong)
+        for i in range(n):
+            for j in range(i + 1, n):
+                pairs += 1
+                if wrong[i] and wrong[j]:
+                    both_wrong += 1
+                    a, b = group["answers"][i], group["answers"][j]
+                    if a and a == b:
+                        same_wrong += 1
+    if not answers or not pairs:
+        return {"answers": answers, "pairs": pairs, "solo_accuracy": None,
+                "error_correlation": None, "same_wrong_answer_rate": None}
+    p = total_right / answers
+    q = 1 - p
+    corr = None
+    if 0 < q < 1:
+        corr = ((both_wrong / pairs) - q * q) / (q * (1 - q))
+    return {
+        "answers": answers,
+        "pairs": pairs,
+        "solo_accuracy": round(p, 4),
+        "error_correlation": None if corr is None else round(corr, 4),
+        "same_wrong_answer_rate": round(same_wrong / both_wrong, 4) if both_wrong else None,
+    }

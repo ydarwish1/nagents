@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="640" height="420" fill="#ffffff"/>
+<text x="64" y="22" font-size="15" font-weight="600" fill="#1f2328">Same skill per agent. Only how often they share a mistake differs.</text>
+<text x="64" y="39" font-size="11.5" fill="#6b7280">200 trials per size · shaded = 95% CI</text>
+<line x1="64" x2="616" y1="342.0" y2="342.0" stroke="#e5e7eb"/>
+<text x="56" y="346.0" font-size="11" fill="#6b7280" text-anchor="end">0%</text>
+<line x1="64" x2="616" y1="268.5" y2="268.5" stroke="#e5e7eb"/>
+<text x="56" y="272.5" font-size="11" fill="#6b7280" text-anchor="end">25%</text>
+<line x1="64" x2="616" y1="195.0" y2="195.0" stroke="#e5e7eb"/>
+<text x="56" y="199.0" font-size="11" fill="#6b7280" text-anchor="end">50%</text>
+<line x1="64" x2="616" y1="121.5" y2="121.5" stroke="#e5e7eb"/>
+<text x="56" y="125.5" font-size="11" fill="#6b7280" text-anchor="end">75%</text>
+<line x1="64" x2="616" y1="48.0" y2="48.0" stroke="#e5e7eb"/>
+<text x="56" y="52.0" font-size="11" fill="#6b7280" text-anchor="end">100%</text>
+<text x="16" y="195" font-size="11.5" fill="#6b7280" transform="rotate(-90 16 195)" text-anchor="middle">accuracy</text>
+<text x="80.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">1</text>
+<text x="145.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">2</text>
+<text x="210.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">3</text>
+<text x="275.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">4</text>
+<text x="340.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">5</text>
+<text x="470.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">7</text>
+<text x="600.0" y="360" font-size="11" fill="#6b7280" text-anchor="middle">9</text>
+<text x="340" y="376" font-size="11.5" fill="#6b7280" text-anchor="middle">agents in the group</text>
+<polygon points="80.0,131.8 145.0,131.8 210.0,93.6 275.0,78.9 340.0,56.8 470.0,50.9 600.0,49.5 600.0,59.8 470.0,67.1 340.0,74.5 275.0,106.8 210.0,125.9 145.0,171.5 80.0,171.5" fill="#2563eb" opacity="0.12"/>
+<polyline points="80.0,152.4 145.0,152.4 210.0,109.7 275.0,92.1 340.0,65.6 470.0,58.3 600.0,53.9" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.0" cy="152.4" r="4" fill="#2563eb"/>
+<circle cx="145.0" cy="152.4" r="4" fill="#2563eb"/>
+<circle cx="210.0" cy="109.7" r="4" fill="#2563eb"/>
+<circle cx="275.0" cy="92.1" r="4" fill="#2563eb"/>
+<circle cx="340.0" cy="65.6" r="4" fill="#2563eb"/>
+<circle cx="470.0" cy="58.3" r="4" fill="#2563eb"/>
+<circle cx="600.0" cy="53.9" r="4" fill="#2563eb"/>
+<polygon points="80.0,145.0 145.0,143.5 210.0,130.3 275.0,123.0 340.0,123.0 470.0,118.6 600.0,120.0 600.0,158.2 470.0,156.8 340.0,159.7 275.0,161.2 210.0,170.0 145.0,183.2 80.0,184.7" fill="#ea580c" opacity="0.12"/>
+<polyline points="80.0,164.1 145.0,164.1 210.0,149.4 275.0,142.1 340.0,140.6 470.0,137.7 600.0,139.1" fill="none" stroke="#ea580c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.0" cy="164.1" r="4" fill="#ea580c"/>
+<circle cx="145.0" cy="164.1" r="4" fill="#ea580c"/>
+<circle cx="210.0" cy="149.4" r="4" fill="#ea580c"/>
+<circle cx="275.0" cy="142.1" r="4" fill="#ea580c"/>
+<circle cx="340.0" cy="140.6" r="4" fill="#ea580c"/>
+<circle cx="470.0" cy="137.7" r="4" fill="#ea580c"/>
+<circle cx="600.0" cy="139.1" r="4" fill="#ea580c"/>
+<line x1="64" x2="86" y1="402" y2="402" stroke="#2563eb" stroke-width="2.5"/>
+<text x="92" y="406" font-size="11.5" fill="#1f2328">mistakes independent</text>
+<line x1="232.0" x2="254.0" y1="402" y2="402" stroke="#ea580c" stroke-width="2.5"/>
+<text x="260.0" y="406" font-size="11.5" fill="#1f2328">mistakes shared (correlation 0.6)</text>
+</svg>

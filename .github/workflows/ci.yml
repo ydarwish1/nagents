@@ -22,5 +22,9 @@ jobs:
         run: python -m nagents run --mock --suite chain --depth 6 --trials 12 --sizes 1,3,5 --seed 7 --workers 3 --out /tmp/ci-demo
       - name: Recompute results from transcripts
         run: python -m nagents recompute /tmp/ci-demo
-      - name: Report
-        run: python -m nagents report /tmp/ci-demo
+      - name: Report (with charts and report.html)
+        run: python -m nagents report /tmp/ci-demo --html
+      - name: Shared-mistake mock grid and compare
+        run: |
+          python -m nagents run --mock --mock-correlation 0.6 --suite chain --depth 6 --trials 12 --sizes 1,3,5 --seed 7 --out /tmp/ci-shared
+          python -m nagents compare /tmp/ci-demo /tmp/ci-shared --chart /tmp/ci-compare.svg
