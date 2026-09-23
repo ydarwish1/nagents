@@ -1,0 +1,39 @@
+=== 36b1471a8397af1cc69d2ffa
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 4233203018916269136977198821032117607472
+
+=== 0d0cb30275c82e2dc9785a93
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 4474034048390368343074476825525906020904
+
+=== ef9d40bd153afd97b38440fa
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 2278636113995783432305256568048230748000
+
+=== e9ad36ef79840ea385ff5eec
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 2837901884867574309744997889506202807840
+
+=== 617e4a1b91b744dec8a20c52
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 1940940391467664193627282825463751258990
+
+=== 8752657da6a0abbe8835e4e6
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 5143334582701466172600343329053157549746
+
+=== 5bb187c2cf2765adeb8a05cc
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 6478163381621496629370787379708373802126
+
+=== b17ed40b7335834d74c9dbfd
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 5444721863891899784083025921870444861973
+
+=== acc3da65c2c008a66b25f17f
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 354769918398337267057816185007892830149
+
+=== dc86a125133b2474a455163b
+Split both numbers into 5-digit chunks and multiplied via base-100000 decomposition (16 partial products, combined with carries).
+Answer: 2290180480611925487354983120037472972531
