@@ -1,0 +1,39 @@
+=== 6fcf0eca19d46bf723b1f6eb
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 1669112890165930965765890550105281792392
+
+=== 1f0eecaa9e4d034dcc7be00b
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 583387380297327609234559334144031479090
+
+=== 11fe5fce56f1cd4bd637668e
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 1044401577776323023690449868824869114218
+
+=== c7d703e11bf712f316de755e
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 872172832087924345335997373204180980594
+
+=== 491bd6639cfacd1676e0ca4b
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 4891847073313715052461776058382939541237
+
+=== b8c455e47530e68975d8450f
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 3323456299546490158334750310591847865367
+
+=== 442829f4aac1a8db752bba92
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 6643080992993685269813655441581539857450
+
+=== fe46dc8dde38e88cf90dc1c4
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 4695784505504537237047698132072299389201
+
+=== caf2afb4379944c06698aef5
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 1584725813431790436702140877272929337133
+
+=== e9b8aa169508469ad3b9f79d
+Split both 20-digit numbers into four 5-digit limbs, multiplied all 16 limb pairs, and combined with base-10^5 shifts and carries.
+Answer: 5811037547795829992095423105023185848320

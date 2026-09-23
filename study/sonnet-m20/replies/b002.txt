@@ -1,0 +1,39 @@
+=== 988c05dc609563d4f1fa7e28
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 354769918398337267057816185007892830149
+
+=== a1463c77c1d24ea78a43b0fe
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 2837901884867574309744997889506202807840
+
+=== 82a46bb2da00319edf49478f
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 666387204998755428917981121536368046592
+
+=== 77622120e252618937651382
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 5510062764632832486636478058064399404060
+
+=== 3f1bc9b01585ef842fce7f42
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 5143334582701466172600343329053157549746
+
+=== d0903c8a016806e77eebdc11
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 4285236943153844799289081955981930683095
+
+=== 8769e054c39121afcd354a74
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 5444721863891899784083025921870444861973
+
+=== 058a4cf9c054a87913ed9c46
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 912086848200479282329730995883076559960
+
+=== 177a0d2dc70c167859df4de0
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 4474034048390368343074476825525906020904
+
+=== 9033e1f61d117dca3a012c25
+Split both 20-digit numbers into four 5-digit chunks, formed all 16 partial products, combined with powers of 10^5, carried digit groups.
+Answer: 6478163381621496629370787379708373802126
