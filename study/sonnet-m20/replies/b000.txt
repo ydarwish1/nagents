@@ -1,0 +1,39 @@
+=== 3dd8a755e818ec39cde741ec
+Split both 20-digit numbers into 5-digit limbs, multiplied via convolution, carried in base 10^5. Checked with digit-sum (mod 9) and alternating-sum (mod 11) tests: both matched.
+Answer: 1176866075395592071246995589752393887895
+
+=== b1f078a5a730869c09f66760
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 912086848200479282329730995883076559960
+
+=== edeade08a2804bca00ae4a41
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 964106433244503765753113909028608254184
+
+=== 0416e10733f362c40db6b8b5
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 6221386512093310806180718750829227994568
+
+=== 372b2f8dffbe4c957ca4818d
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 4474034048390368343074476825525906020904
+
+=== 610000a3ab03f5bf31f67051
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 6478163381621496629370787379708373802126
+
+=== 9997648a2f57a72b8b6ed00a
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 1699789651060040714910559372098207793344
+
+=== b00165ef82b015872f4fc1bf
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 4285236943153844799289081955981930683095
+
+=== ea2e2b141402d3f78ac58231
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 5510062764632832486636478058064399404060
+
+=== 335fe4ef0be18ed57f74b8a4
+Split both numbers into 5-digit limbs, convolution product, base-10^5 carry propagation. Verified with mod-9 digit-sum check (matched).
+Answer: 666387204998755428917981121536368046592
