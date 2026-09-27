@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-2",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15,531,969 \u00d7 92,338,218 = (15,531,969 \u00d7 92 \u00d7 1,000,000) + (15,531,969 \u00d7 338,218)  \n= 1,428,941,148,000,000 + 5,253,191,491,242  \nAnswer: 1,434,194,339,491,242",
+          "answer": "1434194339491242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((1553\\times9233)\\times10^8+(1553\\times8218+1969\\times9233)\\times10^4+1969\\times8218\\).\nThe parts are \\(1,433,884,900,000,000\\), \\(309,423,310,000\\), and \\(16,181,242\\).\nAnswer: 1,434,194,339,491,242",
+          "answer": "1434194339491242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 15531969 multiplied by 92338218? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "15,531,969 \u00d7 (92,000,000 + 338,218)\n= 1,428,941,148,000,000 + 5,253,191,491,242\nAnswer: 1434194339491242",
+          "answer": "1434194339491242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1434194339491242",
+    "1434194339491242",
+    "1434194339491242"
+  ],
+  "final_answer": "1434194339491242",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 115,
+    "calls": 3
+  },
+  "trial": 2,
+  "expected": "1434194339491242",
+  "correct": true
+}

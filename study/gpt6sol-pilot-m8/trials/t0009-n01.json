@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split at four digits: \\(8345|5904 \\times 3246|9563\\). The low product gives \\(9952\\) and carry \\(5645\\); the middle sum \\(98,967,619+5645\\) gives \\(3264\\) and carry \\(9897\\). The high sum is \\(27,087,870+9897=27,097,767\\).\nAnswer: 2709776732649952",
+          "answer": "2709776732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2709776732649952"
+  ],
+  "final_answer": "2709776732649952",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 61,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "2709776732649952",
+  "correct": true
+}

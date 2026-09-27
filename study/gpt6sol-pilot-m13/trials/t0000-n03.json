@@ -1,0 +1,58 @@
+{
+  "task_id": "mult13-11-0",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2217262678769 multiplied by 6870993811413? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 15|234|798|144|098|809|584|990|597.\nAnswer: 15234798144098809584990597",
+          "answer": "15234798144098809584990597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2217262678769 multiplied by 6870993811413? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 15|234|798|144|098|809|584|990|597.\nAnswer: 15234798144098809584990597",
+          "answer": "15234798144098809584990597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2217262678769 multiplied by 6870993811413? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 15|234|798|144|098|809|584|990|597.\nAnswer: 15234798144098809584990597",
+          "answer": "15234798144098809584990597",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "15234798144098809584990597",
+    "15234798144098809584990597",
+    "15234798144098809584990597"
+  ],
+  "final_answer": "15234798144098809584990597",
+  "usage": {
+    "input_tokens": 201,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 0,
+  "expected": "15234798144098809584990597",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-1",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 196|569|142|629|563|157|649|008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 196|569|142|629|563|157|649|008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 196569 | 142 | 629 | 563 | 157 | 649 | 008.\nAnswer: 196569142629563157649008",
+          "answer": "196569142629563157649008",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "196569142629563157649008",
+    "196569142629563157649008",
+    "196569142629563157649008"
+  ],
+  "final_answer": "196569142629563157649008",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 1,
+  "expected": "196569142629563157649008",
+  "correct": true
+}

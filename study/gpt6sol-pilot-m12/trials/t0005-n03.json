@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 294971392997 multiplied by 936194081671? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 276|150|472|386|042|055|457|987.\nAnswer: 276150472386042055457987",
+          "answer": "276150472386042055457987",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 294971392997 multiplied by 936194081671? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 276|150|966|472|386|042|055|457|987.\nAnswer: 276150966472386042055457987",
+          "answer": "276150966472386042055457987",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 294971392997 multiplied by 936194081671? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 276|150|472|386|042|055|457|987.\nAnswer: 276150472386042055457987",
+          "answer": "276150472386042055457987",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "276150472386042055457987",
+    "276150966472386042055457987",
+    "276150472386042055457987"
+  ],
+  "final_answer": "276150472386042055457987",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 86,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "276150472386042055457987",
+  "correct": true
+}

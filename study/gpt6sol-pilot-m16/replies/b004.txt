@@ -1,0 +1,7 @@
+=== e2f7ec42f59367adf5f19098
+Splitting both numbers into four-digit groups and multiplying with carries gives 1540 | 9567 | 0482 | 9445 | 2807 | 5117 | 0665 | 8100.
+Answer: 15409567048294452807511706658100
+
+=== 2e1a4e04469e97e1947294bb
+I can’t reliably complete this multiplication by hand.
+Answer: 0

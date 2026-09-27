@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-0",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 472|638|772|776|666|898|811|430.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 472|638|772|776|666|898|811|430.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 491596433615 multiplied by 961436537082? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 472|638|772|776|666|898|811|430.\nAnswer: 472638772776666898811430",
+          "answer": "472638772776666898811430",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "472638772776666898811430",
+    "472638772776666898811430",
+    "472638772776666898811430"
+  ],
+  "final_answer": "472638772776666898811430",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 84,
+    "calls": 3
+  },
+  "trial": 0,
+  "expected": "472638772776666898811430",
+  "correct": true
+}

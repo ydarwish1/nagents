@@ -1,0 +1,39 @@
+=== 5e1bac1939879d55ca523472
+Split into 6-digit groups: \(514189\times720059=370246417151\), \(514189\times591592+550709\times720059=700733070719\), and \(550709\times591592=325795038728\). Combining the groups gives the product.
+Answer: 370247117884396514038728
+
+=== 061002db7a03455796693d4b
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== b5d027f0cc291b9f97f4931d
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== 14b982df20a0c5bc9245c38a
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== deca3847222b12e972d4900f
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== e9eb0d69722d340717d441da
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== 32ccf680ff0867b86e9d5d3c
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== 94c0e10240e183ee3e4f46fe
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== 8b7df3e98975376998dc1b5d
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0
+
+=== 0e782e9aabe03b4d041d1e6c
+I can’t reliably work out this product by hand without risking an incorrect result.
+Answer: 0

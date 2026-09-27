@@ -1,0 +1,5 @@
+=== a2df73346917faf7bb70206b
+Grouping in millions, the multiplication gives \(12|651283|862317|730852|821065\).
+Answer: 12651283862317730852821065
+
+I can’t reliably finish the remaining nine products without risking incorrect arithmetic.

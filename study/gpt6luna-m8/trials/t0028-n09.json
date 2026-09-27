@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-28",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 11,911,235 = 76,709,553 \u00d7 (11,000,000 + 911,235)\n= 843,805,083,000,000 + 69,881,707,444,955\nAnswer: 913686790444955",
+          "answer": "913686790444955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "11,911,235 \u00d7 76,000,000 = 905,253,860,000,000  \n11,911,235 \u00d7 709,553 = 8,451,652,527,955  \nAdding: 913,705,512,527,955\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 11,911,235\n= 76,709,553 \u00d7 (12,000,000 \u2212 88,765)\n= 920,514,636,000,000 \u2212 6,809,123,472,045\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 7670|9553 \u00d7 1191|1235.\nHigh: 7670\u00d71191 = 9,134,970; cross: 20,850,073; low: 11,797,955.\n9,134,970\u00d7100,000,000 + 20,850,073\u00d710,000 + 11,797,955\nAnswer: 913705511797955",
+          "answer": "913705511797955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 11,911,235 = 76,709,553 \u00d7 (12,000,000 \u2212 88,765)  \n= 920,514,636,000,000 \u2212 6,809,123,472,045  \nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(11,911,235=12,000,000-88,765\\).\n\\(76,709,553\\times12,000,000=920,514,636,000,000\\).\n\\(76,709,553\\times88,765=6,809,123,472,045\\).\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 (12,000,000 \u2212 88,765)\n= 920,514,636,000,000 \u2212 6,809,123,472,045\nAnswer: 913,705,512,527,955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 11,911,235 = (77,000,000 \u2212 290,447) \u00d7 11,911,235  \n= 917,165,095,000,000 \u2212 350,750,137,045\nAnswer: 916814344862955",
+          "answer": "916814344862955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "11,911,235 = 12,000,000 \u2212 88,765.\n76,709,553 \u00d7 12,000,000 = 920,514,636,000,000.\n76,709,553 \u00d7 88,765 = 6,809,123,472,045.\nSubtracting gives 913,705,512,527,955.\nAnswer: 913705512527955",
+          "answer": "913705512527955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "913686790444955",
+    "913705512527955",
+    "913705512527955",
+    "913705511797955",
+    "913705512527955",
+    "913705512527955",
+    "913705512527955",
+    "916814344862955",
+    "913705512527955"
+  ],
+  "final_answer": "913705512527955",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 320,
+    "calls": 9
+  },
+  "trial": 28,
+  "expected": "913705512527955",
+  "correct": true
+}

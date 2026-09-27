@@ -1,0 +1,9 @@
+=== 804d8d53ca69f5268befdda0
+Using blocks of six digits, the product’s blocks from right to left are 542686, 089634, 751605, 045458, and 6.
+Answer: 6045458751605089634542686
+
+=== 9225d560146e8ee0c2d466eb
+Using blocks of six digits, the product’s blocks from right to left are 206260, 456434, 571537, 039958, and 67.
+Answer: 67039958571537456434206260
+
+I can’t reliably finish the remaining eight products without risking incorrect answers.

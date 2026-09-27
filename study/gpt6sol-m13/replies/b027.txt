@@ -1,0 +1,5 @@
+=== b06353082dab7380a3104fcf
+Using groups of six digits, \(8115392466620=8|115392|466620\) and \(9671189034188=9|671189|034188\). Multiplying and carrying between groups gives \(78|485494|631311|721912|804560\).
+Answer: 78485494631311721912804560
+
+I can’t reliably complete the other nine products by hand without risking incorrect answers.

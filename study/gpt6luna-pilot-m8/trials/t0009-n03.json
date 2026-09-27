@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-9",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,455,904 \u00d7 32,469,563  \n= 83,455,904 \u00d7 (32,000,000 + 469,563)  \n= 2,670,588,928,000,000 + 39,188,804,649,952  \nAnswer: 2,709,777,732,649,952",
+          "answer": "2709777732649952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split the second factor: 32,469,563 = 30,000,000 + 2,000,000 + 400,000 + 60,000 + 9,000 + 500 + 60 + 3.\nAnswer: 270?",
+          "answer": "270",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83455904 multiplied by 32469563? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8345|5904 \u00d7 3246|9563.\n8345\u00d73246 = 27,087,870; cross-products sum to 98,967,619; 5904\u00d79563 = 56,459,952.\nCombine: 27,087,870\u00d7100,000,000 + 98,967,619\u00d710,000 + 56,459,952.\nAnswer: 2709776676459952",
+          "answer": "2709776676459952",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2709777732649952",
+    "270",
+    "2709776676459952"
+  ],
+  "final_answer": "2709777732649952",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 112,
+    "calls": 3
+  },
+  "trial": 9,
+  "expected": "2709776732649952",
+  "correct": false
+}

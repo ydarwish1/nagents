@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50276758 multiplied by 90539936? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50276758 \u00d7 90539936 = 50276758 \u00d7 (90000000 + 539936)  \n= 4524908220000000 + 27146231607488  \nAnswer: 4552054451607488",
+          "answer": "4552054451607488",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4552054451607488"
+  ],
+  "final_answer": "4552054451607488",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 29,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "4552054451607488",
+  "correct": true
+}

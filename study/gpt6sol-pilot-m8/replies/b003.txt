@@ -1,0 +1,39 @@
+=== 759971c6c3f86d3b86a724da
+Using 10,000-part multiplication: the low part is 7160 with carry 918; the middle part is 3133 with carry 3826; the high part is 33952026.
+Answer: 3395202631337160
+
+=== 38d5f3a9cdd46ee6fabb73c3
+Using 10,000-part multiplication: the low part is 2256 with carry 1425; the middle part is 8546 with carry 7175; the high part is 64652243.
+Answer: 6465224385462256
+
+=== a8e20c81aebf5c64d71b87d3
+Using 10,000-part multiplication: the low part is 6543 with carry 686; the middle part is 6513 with carry 4170; the high part is 62665380.
+Answer: 6266538065136543
+
+=== 43173879f33c6971079dd208
+Using 10,000-part multiplication: the low part is 1830 with carry 1016; the middle part is 1655 with carry 4735; the high part is 8923183.
+Answer: 892318316551830
+
+=== 82e94bff7eba49441b757719
+Using 10,000-part multiplication: the low part is 5795 with carry 1563; the middle part is 9033 with carry 3702; the high part is 6897457.
+Answer: 689745790335795
+
+=== 555f470d59c0faec6f283dcf
+Using 10,000-part multiplication: the low part is 9952 with carry 5645; the middle part is 3264 with carry 9897; the high part is 27097767.
+Answer: 2709776732649952
+
+=== 3e7fc850f51bfd99bd575a25
+Using 10,000-part multiplication: the low part is 5779 with carry 4031; the middle part is 2460 with carry 3884; the high part is 8974976.
+Answer: 897497624605779
+
+=== c3ea8a318841fbb94bf32b8a
+Using 10,000-part multiplication: the low part is 1740 with carry 2382; the middle part is 5712 with carry 9821; the high part is 83680161.
+Answer: 8368016157121740
+
+=== 866bb9269f06f514850cee16
+Using 10,000-part multiplication: the low part is 7320 with carry 2847; the middle part is 6065 with carry 5368; the high part is 25083871.
+Answer: 2508387160657320
+
+=== e006efd0685351d39b4a58ee
+Using 10,000-part multiplication: the low part is 1792 with carry 1610; the middle part is 5100 with carry 7195; the high part is 43774695.
+Answer: 4377469551001792

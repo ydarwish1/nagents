@@ -1,0 +1,39 @@
+=== e2f7ec42f59367adf5f19098
+Split into 2,257,826,819 × 1,000,000 + 509,150 and 6,824,955,268 × 1,000,000 + 998,214, then multiply the parts and combine.
+Answer: 1541161464457273507476872842100
+
+=== 2e1a4e04469e97e1947294bb
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 3554557376055219244177818289146
+
+=== 924a5735bf59dda533c56be5
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 3428898006649874458744251165408
+
+=== 2cb87c473ffd2f442b1258c9
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 13405589978147134169478446784384
+
+=== 9075b8f92879fa76d115487d
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 1686861468070835433425112346320
+
+=== ec40868e5574a2ef9f1d9c55
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 4872196436215368684943341412848
+
+=== f4bdf6e120c7f9c04da73ad7
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 19457984108733182065327073645389
+
+=== b23bf775f1401cc8b18d19fe
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 9213418011780802189521589967500
+
+=== 974aa2f8702924d081221035
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 36855706767233477360797901075536
+
+=== 8c031e12fb824e567998ff5f
+Split each number into million-sized parts, multiply the parts, then combine by place value.
+Answer: 8608278869093246261376781948625

@@ -1,0 +1,84 @@
+{
+  "task_id": "mult12-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 835877 | 251 | 917 | 092 | 804 | 654 | 472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 835|877|251|917|092|804|654|472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 835|877|251|917|092|804|654|472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 835|877|251|917|092|804|654|472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 835|877|251|917|092|804|654|472.\nAnswer: 835877251917092804654472",
+          "answer": "835877251917092804654472",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472",
+    "835877251917092804654472"
+  ],
+  "final_answer": "835877251917092804654472",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 142,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "835877251917092804654472",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 17178429 multiplied by 40151855? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using 10,000-place chunks: 1717|8429 \u00d7 4015|1855 gives chunks 6897457|9033|5795.\nAnswer: 689745790335795",
+          "answer": "689745790335795",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "689745790335795"
+  ],
+  "final_answer": "689745790335795",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "689745790335795",
+  "correct": true
+}

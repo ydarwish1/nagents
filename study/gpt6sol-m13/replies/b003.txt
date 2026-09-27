@@ -1,0 +1,13 @@
+=== 78913e932da068816901ca9e
+Grouping digits in threes and multiplying from right to left gives 9 | 312 | 162 | 326 | 028 | 587 | 696 | 330 | 598.
+Answer: 9312162326028587696330598
+
+=== b0bf33f762da7f4d2f1f3588
+Grouping digits in threes and carrying between groups gives 48 | 965 | 817 | 615 | 260 | 514 | 879 | 113 | 091.
+Answer: 48965817615260514879113091
+
+=== 388fc14888e7a28063ca9d3f
+Grouping digits in threes and carrying between groups gives 10 | 848 | 377 | 940 | 313 | 436 | 880 | 683 | 820.
+Answer: 10848377940313436880683820
+
+I can’t reliably finish the remaining seven products without risking incorrect arithmetic.

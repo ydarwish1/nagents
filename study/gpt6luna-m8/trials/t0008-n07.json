@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-8",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,502,827 \u00d7 61,492,279 = 83,502,827 \u00d7 (61,000,000 + 492,279)  \n= 5,093,672,447,000,000 + 41,106,688,172,733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "61492279 \u00d7 83502827 = 61492279 \u00d7 (83,000,000 + 502,827)\n= 5,103,859,157,000,000 + 30,919,978,172,733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,502,827 \u00d7 61,492,279 = 83,502,827 \u00d7 (61,000,000 + 492,279)  \n= 5,093,672,447,000,000 + 41,106,688,172,733  \nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,502,827 \u00d7 61,492,279 = 83,502,827 \u00d7 (61,000,000 + 492,279)\n= 5,093,672,447,000,000 + 41,106,688,172,733\nAnswer: 5,134,779,135,172,733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 (61,000,000 + 492,279)\n= 5,093,672,447,000,000 + 41,106,688,192,333\n= 5,134,779,135,192,333\nAnswer: 5134779135192333",
+          "answer": "5134779135192333",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83502827 \u00d7 61492279 = 83502827 \u00d7 (61,000,000 + 492,279)\n= 5,093,672,447,000,000 + 41,106,688,172,733\nAnswer: 5134779135172733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 83502827 multiplied by 61492279? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "61,492,279 = 61,500,000 \u2212 7,721  \n83,502,827 \u00d7 61,500,000 = 5,135,423,860,500,000  \n83,502,827 \u00d7 7,721 = 644,725,327,267  \nSubtract.\nAnswer: 5,134,779,135,172,733",
+          "answer": "5134779135172733",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5134779135172733",
+    "5134779135172733",
+    "5134779135172733",
+    "5134779135172733",
+    "5134779135192333",
+    "5134779135172733",
+    "5134779135172733"
+  ],
+  "final_answer": "5134779135172733",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 233,
+    "calls": 7
+  },
+  "trial": 8,
+  "expected": "5134779135172733",
+  "correct": true
+}

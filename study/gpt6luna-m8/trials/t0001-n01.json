@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 91401785 multiplied by 47492673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "91,401,785 \u00d7 47,492,673 = 91,401,785 \u00d7 (47,000,000 + 492,673)  \n= 4,295,883,895,000,000 + 45,031,191,621,305  \nAnswer: 4340915086621305",
+          "answer": "4340915086621305",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4340915086621305"
+  ],
+  "final_answer": "4340915086621305",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 33,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "4340915086621305",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult14-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 70249817997649 multiplied by 43354977632700? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups gives 3045|679|287|989|318|296|185|522|300.\nAnswer: 3045679287989318296185522300",
+          "answer": "3045679287989318296185522300",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3045679287989318296185522300"
+  ],
+  "final_answer": "3045679287989318296185522300",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "3045679287989318296185522300",
+  "correct": true
+}

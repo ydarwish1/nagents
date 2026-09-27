@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-4",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "87,692,272 \u00d7 73,726,273  \n= 87,692,272 \u00d7 (73,000,000 + 726,273)  \n= 6,401,535,856,000,000 + 63,688,529,462,256  \nAnswer: 6,465,224,385,462,256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split the second factor: 73,726,273 = 70,000,000 + 3,000,000 + 700,000 + 26,000 + 273.\nPartial products: 6,138,459,040,000,000 + 263,076,816,000,000 + 61,384,590,400,000 + 22,800,? + 23,?  \nAnswer: 6462948718652656",
+          "answer": "6462948718652656",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 8769|2272 \u00d7 7372|6273.\n8769\u00d77372 = 64,645,068; cross-products sum to 71,757,121; 2272\u00d76273 = 14,252,256.\nCombine: 64,645,068\u00d7100,000,000 + 71,757,121\u00d710,000 + 14,252,256.\nAnswer: 6465238623466256",
+          "answer": "6465238623466256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "73,726,273 = 73,000,000 + 726,273  \n87,692,272 \u00d7 73,000,000 = 6,401,535,856,000,000  \n87,692,272 \u00d7 726,273 = 63,688,528,462,256  \nAdd the partial products.\nAnswer: 6465224384462256",
+          "answer": "6465224384462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "87,692,272 \u00d7 (73,000,000 + 726,273)\n= 6,401,535,856,000,000 + 63,688,529,462,256\nAnswer: 6,465,224,385,462,256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6465224385462256",
+    "6462948718652656",
+    "6465238623466256",
+    "6465224384462256",
+    "6465224385462256"
+  ],
+  "final_answer": "6465224385462256",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 215,
+    "calls": 5
+  },
+  "trial": 4,
+  "expected": "6465224385462256",
+  "correct": true
+}

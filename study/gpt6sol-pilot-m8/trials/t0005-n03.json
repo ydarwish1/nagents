@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-5",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using 10,000-place chunks: 2623|3070 \u00d7 9561|9276 gives chunks 25083871|6065|7320.\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 2623,3070 and 9561,9276. High 2623\u00b79561=25,? 9561*(2600+23)=24,858,600+219,903=25,078,503. Cross 2623\u00b79276+3070\u00b79561=24,331,? 9276*(2600+23)=24,117,600+213,348=24,330,948; 9561*(3000+70)=28,683,000+669,270=29,352,270. Low 3070\u00b79276=28,477,320. Total 2,507,850,300,000,000+536,832,180,000+28,477,320 = 2,508,387,160,657,320.\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 26233070 multiplied by 95619276? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The high, cross, and low products are 25,078,503; 53,683,218; and 28,477,320. Carrying gives 25,083,871 | 6,065 | 7,320.\nAnswer: 2508387160657320",
+          "answer": "2508387160657320",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2508387160657320",
+    "2508387160657320",
+    "2508387160657320"
+  ],
+  "final_answer": "2508387160657320",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 151,
+    "calls": 3
+  },
+  "trial": 5,
+  "expected": "2508387160657320",
+  "correct": true
+}

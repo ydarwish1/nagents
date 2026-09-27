@@ -1,0 +1,84 @@
+{
+  "task_id": "mult12-11-9",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 813|431|330|439|919|102|902|841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 813|431|330|439|919|102|902|841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 813|431|330|439|919|102|902|841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 813|431|330|439|919|102|902|841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 813431 | 330 | 439 | 919 | 102 | 902 | 841.\nAnswer: 813431330439919102902841",
+          "answer": "813431330439919102902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "813431330439919102902841",
+    "813431330439919102902841",
+    "813431330439919102902841",
+    "813431330439919102902841",
+    "813431330439919102902841"
+  ],
+  "final_answer": "813431330439919102902841",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 142,
+    "calls": 5
+  },
+  "trial": 9,
+  "expected": "813431330439919102902841",
+  "correct": true
+}

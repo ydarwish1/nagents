@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-22",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:22",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98527508 multiplied by 47773437? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using base-1000 chunks: 98|527|508 \u00d7 47|773|437 gives chunks 4|706|997|696|204|996.\nAnswer: 4706997696204996",
+          "answer": "4706997696204996",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4706997696204996"
+  ],
+  "final_answer": "4706997696204996",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 22,
+  "expected": "4706997696204996",
+  "correct": true
+}

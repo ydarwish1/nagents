@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5112000234077 multiplied by 4662116725926? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 23 | 832 | 741 | 794 | 228 | 008 | 854 | 580 | 302.\nAnswer: 23832741794228008854580302",
+          "answer": "23832741794228008854580302",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "23832741794228008854580302"
+  ],
+  "final_answer": "23832741794228008854580302",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "23832741794228008854580302",
+  "correct": true
+}

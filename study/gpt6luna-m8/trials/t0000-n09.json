@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-0",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 8680|4349 \u00d7 9005|1101.\n8680\u00d79005 = 78,163,400; cross terms total 48,719,425; 4349\u00d71101 = 4,788,249.\nCombine: 78,163,400\u00d710\u2078 + 48,719,425\u00d710\u2074 + 4,788,249.\nAnswer: 7816827194788249",
+          "answer": "7816827194788249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86,804,349 \u00d7 90,051,101\nAnswer: 781?",
+          "answer": "781",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: \\(8680|4349 \\times 9005|1101\\).\n\n\\(8680\u00d79005=78,163,400\\); cross terms sum to \\(48,719,425\\); \\(4349\u00d71101=4,788,249\\).\n\n\\(78,163,400\u00d710^8+48,719,425\u00d710^4+4,788,249\\)\nAnswer: 7816827194788249",
+          "answer": "7816827194788249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86,804,349 \u00d7 90,051,101 = (86,804,349 \u00d7 90 \u00d7 1,000,000) + (86,804,349 \u00d7 51,101)  \n= 7,812,391,410,000,000 + 4,435,789,038,249  \nAnswer: 7,816,827,199,038,249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((8680\\times9005)\\times10^8+(8680\\times1101+4349\\times9005)\\times10^4+4349\\times1101\\).\nThe parts are \\(7,816,340,000,000,000\\), \\(487,194,250,000\\), and \\(4,788,249\\).\nAnswer: 7,816,831,194,788,249",
+          "answer": "7816831194788249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86,804,349 \u00d7 (90,000,000 + 51,101)\n= 7,812,391,410,000,000 + 4,435,789,038,249\nAnswer: 7816827199038249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(86,804,349(90,000,000+51,101)\\).\nThe two products are \\(7,812,391,410,000,000\\) and \\(4,435,789,038,249\\).\nAdd.\nAnswer: 7816827199038249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n86,000,000\u00d790,000,000 + 86,000,000\u00d751,101 + 804,349\u00d790,000,000 + 804,349\u00d751,101.\nAnswer: 7817589198926349",
+          "answer": "7817589198926349",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "86,804,349 \u00d7 90,051,101\n= 86,804,349 \u00d7 (90,000,000 + 51,101)\n= 7,812,391,410,000,000 + 4,435,789,038,249\nAnswer: 7,816,827,199,038,249",
+          "answer": "7816827199038249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7816827194788249",
+    "781",
+    "7816827194788249",
+    "7816827199038249",
+    "7816831194788249",
+    "7816827199038249",
+    "7816827199038249",
+    "7817589198926349",
+    "7816827199038249"
+  ],
+  "final_answer": "7816827199038249",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 336,
+    "calls": 9
+  },
+  "trial": 0,
+  "expected": "7816827199038249",
+  "correct": true
+}

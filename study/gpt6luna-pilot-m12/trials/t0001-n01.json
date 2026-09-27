@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 823131232242 multiplied by 238806565624? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\(823{,}131{,}232{,}242 \\times 238{,}806{,}565{,}624\\)\n\\(= (823{,}131 \\times 10^6 + 232{,}242)(238{,}806 \\times 10^6 + 565{,}624)\\)\n\\(= 823{,}131 \\times 238{,}806 \\times 10^{12} + (823{,}131 \\times 565{,}624 + 232{,}242 \\times 238{,}806)\\times 10^6 + 232{,}242 \\times 565{,}624\\)\nAnswer: 823131232242 \u00d7 238806565624",
+          "answer": "823131232242",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "823131232242"
+  ],
+  "final_answer": "823131232242",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 78,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "196569142629563157649008",
+  "correct": false
+}

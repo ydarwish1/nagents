@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-24",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,035,812 = 14,000,000 + 35,812.\n14,156,542 \u00d7 14,000,000 = 198,191,588,000,000.\n14,156,542 \u00d7 35,812 = 506,974,082,104.\nAdding gives 198,698,562,082,104.\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "198698562082104"
+  ],
+  "final_answer": "198698562082104",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 44,
+    "calls": 1
+  },
+  "trial": 24,
+  "expected": "198698562082104",
+  "correct": true
+}

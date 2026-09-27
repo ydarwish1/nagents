@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-3",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "33,935,859 \u00d7 (26,000,000 + 446,881)\n= 882,332,334,000,000 + 15,165,290,605,779\nAnswer: 897,497,624,605,779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "33,935,859 \u00d7 26,446,881  \n= 33,935,859 \u00d7 (26,000,000 + 446,881)  \n= 882,332,334,000,000 + 15,165,290,605,779  \nAnswer: 897,497,624,605,779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split the second factor: 26,446,881 = 20,000,000 + 6,000,000 + 400,000 + 40,000 + 6,000 + 800 + 80 + 1.\nAnswer: 897?",
+          "answer": "897",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "897497624605779",
+    "897497624605779",
+    "897"
+  ],
+  "final_answer": "897497624605779",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 89,
+    "calls": 3
+  },
+  "trial": 3,
+  "expected": "897497624605779",
+  "correct": true
+}

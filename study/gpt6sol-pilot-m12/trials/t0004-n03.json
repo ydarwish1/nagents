@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-4",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 290304898210 multiplied by 859180492794? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 249|424|305|504|579|808|498|740.\nAnswer: 249424305504579808498740",
+          "answer": "249424305504579808498740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 290304898210 multiplied by 859180492794? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 249|424|305|504|579|808|498|740.\nAnswer: 249424305504579808498740",
+          "answer": "249424305504579808498740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 290304898210 multiplied by 859180492794? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 249|424|305|504|579|808|498|740.\nAnswer: 249424305504579808498740",
+          "answer": "249424305504579808498740",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "249424305504579808498740",
+    "249424305504579808498740",
+    "249424305504579808498740"
+  ],
+  "final_answer": "249424305504579808498740",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 81,
+    "calls": 3
+  },
+  "trial": 4,
+  "expected": "249424305504579808498740",
+  "correct": true
+}

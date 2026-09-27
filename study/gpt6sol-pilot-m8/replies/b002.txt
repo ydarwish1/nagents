@@ -1,0 +1,39 @@
+=== 8e437a480702881421dc3250
+Using 10,000-sized parts: 89,583,287 = 8,958·10,000 + 3,287 and 69,952,089 = 6,995·10,000 + 2,089. The high, cross, and low products are 62,661,210; 41,705,827; and 6,866,543. Carrying between parts gives 62,665,380 | 6,513 | 6,543.
+Answer: 6266538065136543
+
+=== 0b97440f6070059255987933
+The 10,000-sized high, cross, and low products are 6,893,755; 37,027,470; and 15,635,795. Carrying gives 6,897,457 | 9,033 | 5,795.
+Answer: 689745790335795
+
+=== 5c37dca39574e740e27c92e2
+The high, cross, and low products are 83,670,340; 98,213,330; and 23,821,740. Carrying gives 83,680,161 | 5,712 | 1,740.
+Answer: 8368016157121740
+
+=== fb16652d1116f8cf6056777e
+The high, cross, and low products are 33,948,200; 38,262,215; and 9,187,160. Carrying gives 33,952,026 | 3,133 | 7,160.
+Answer: 3395202631337160
+
+=== a3490cb97389f1ae2c96f104
+The high, cross, and low products are 8,971,092; 38,838,429; and 40,315,779. Carrying gives 8,974,976 | 2,460 | 5,779.
+Answer: 897497624605779
+
+=== f785efbff25f0582bbade285
+The high, cross, and low products are 27,087,870; 98,967,619; and 56,459,952. Carrying gives 27,097,767 | 3,264 | 9,952.
+Answer: 2709776732649952
+
+=== cf554f267ef67f28e4fef501
+The high, cross, and low products are 64,645,068; 71,757,121; and 14,252,256. Carrying gives 64,652,243 | 8,546 | 2,256.
+Answer: 6465224385462256
+
+=== dfcc6806768782d1fae1df98
+The high, cross, and low products are 43,767,500; 71,953,490; and 16,101,792. Carrying gives 43,774,695 | 5,100 | 1,792.
+Answer: 4377469551001792
+
+=== 12305de8ff6e4ae6729604d6
+The high, cross, and low products are 25,078,503; 53,683,218; and 28,477,320. Carrying gives 25,083,871 | 6,065 | 7,320.
+Answer: 2508387160657320
+
+=== 97be09bafa517a2f0bbd0543
+The high, cross, and low products are 8,918,448; 47,350,639; and 10,161,830. Carrying gives 8,923,183 | 1,655 | 1,830.
+Answer: 892318316551830

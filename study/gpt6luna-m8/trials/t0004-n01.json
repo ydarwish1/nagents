@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 98852103 multiplied by 95869836? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "9885\u00d79586 = 94,757,610; 9885\u00d79836 + 2103\u00d79586 = 117,388,218; 2103\u00d79836 = 20,685,108.\nCombine: 94,757,610\u00d7100,000,000 + 117,388,218\u00d710,000 + 20,685,108.\nAnswer: 9476934902865108",
+          "answer": "9476934902865108",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9476934902865108"
+  ],
+  "final_answer": "9476934902865108",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 44,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "9476934902865108",
+  "correct": true
+}

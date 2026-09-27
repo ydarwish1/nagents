@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-17",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 (100,000,000 \u2212 550,839)\n= 6,517,256,300,000,000 \u2212 35,904,599,430,357\nAnswer: 6,481,351,700,569,643",
+          "answer": "6481351700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6481351700569643"
+  ],
+  "final_answer": "6481351700569643",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 17,
+  "expected": "6481356710569643",
+  "correct": false
+}

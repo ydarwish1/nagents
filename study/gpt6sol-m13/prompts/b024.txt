@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: f9e1a131477d0601e5112405
+What is 5563131582743 multiplied by 6388016013953? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 63735eb5f89f07131255d393
+What is 7341195337198 multiplied by 9493228750144? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 4b89ea9f61255939f2d9a58d
+What is 1200219212444 multiplied by 4323167787313? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: bc2c3a0c999b8847aeec89cd
+What is 1930459794325 multiplied by 5294402673370? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: b60b6878bb073ddaf4d5372e
+What is 6174363498787 multiplied by 2903250468006? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: cf831a0ad6452075f37619c8
+What is 2079375884056 multiplied by 5816350275025? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: b69cb8034a345eca93219424
+What is 5339164663667 multiplied by 9332705555622? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 921c5d43a2d91d5848adac47
+What is 8365572554525 multiplied by 3918549691424? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 781252aeb080995049bb9a7a
+What is 1520856312948 multiplied by 1735220277311? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 29316d5c1492ccd5ec3f6909
+What is 8281859153125 multiplied by 4860639317766? Work it out step by step. End with one final line in exactly this form: Answer: <number>

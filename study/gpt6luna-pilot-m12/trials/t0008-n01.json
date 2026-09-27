@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-8",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 892051611432 multiplied by 937027904221? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: 892051\u00b7937027, cross terms 892051\u00b7904221 + 611432\u00b7937027, and 611432\u00b7904221.\nAnswer: 892051611432 \u00d7 937027904221",
+          "answer": "892051611432",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "892051611432"
+  ],
+  "final_answer": "892051611432",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 8,
+  "expected": "835877251917092804654472",
+  "correct": false
+}

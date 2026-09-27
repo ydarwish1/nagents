@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-20",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43,398,016 \u00d7 83,394,054 = (43,000,000 + 398,016) \u00d7 83,394,054  \n= 3,585,944,322,000,000 + 33,192,167,796,864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,394,054 = 83,000,000 + 394,054.\n43,398,016 \u00d7 83,000,000 = 3,602,035,328,000,000.\n43,398,016 \u00d7 394,054 = 17,101,161,796,864.\nAdding gives 3,619,136,489,796,864.\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43,398,016 \u00d7 83,394,054 = 43,398,016 \u00d7 (83,000,000 + 394,054)\n= 3,602,035,328,000,000 + 17,101,161,796,864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "83,394,054 \u00d7 43,000,000 = 3,585,944,322,000,000  \n83,394,054 \u00d7 398,016 = 33,192,167,796,864  \nAdding: 3,619,136,489,796,864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 43398016 multiplied by 83394054? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "43,398,016 \u00d7 83,394,054\n= 43,398,016 \u00d7 (83,000,000 + 394,054)\n= 3,602,035,328,000,000 + 17,101,161,796,864\nAnswer: 3619136489796864",
+          "answer": "3619136489796864",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3619136489796864",
+    "3619136489796864",
+    "3619136489796864",
+    "3619136489796864",
+    "3619136489796864"
+  ],
+  "final_answer": "3619136489796864",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 180,
+    "calls": 5
+  },
+  "trial": 20,
+  "expected": "3619136489796864",
+  "correct": true
+}

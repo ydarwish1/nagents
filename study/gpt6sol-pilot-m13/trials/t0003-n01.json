@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-11-3",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3845612433831 multiplied by 4499225111934? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Three-digit group multiplication gives 17 | 302 | 276 | 033 | 058 | 063 | 143 | 439 | 154.\nAnswer: 17302276033058063143439154",
+          "answer": "17302276033058063143439154",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17302276033058063143439154"
+  ],
+  "final_answer": "17302276033058063143439154",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 31,
+    "calls": 1
+  },
+  "trial": 3,
+  "expected": "17302276033058063143439154",
+  "correct": true
+}

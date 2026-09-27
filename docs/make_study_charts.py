@@ -61,8 +61,14 @@ haiku = solo([(5, "pilot-m5"), (7, "main-m7"), (8, "main-m8"), (9, "pilot-m9")])
 sonnet_runs = [(8, "sonnet-pilot-m8"), (10, "sonnet-pilot-m10"), (12, "sonnet-pilot-m12"),
                (16, "sonnet-pilot-m16"), (20, "sonnet-m20")]
 sonnet = solo(sonnet_runs)
+# GPT-6 at low effort, reached through the local proxy (not the OpenAI API).
+# Past 12 digits Sol often declines to answer; a skipped problem is scored wrong.
+sol = solo([(8, "gpt6sol-pilot-m8"), (12, "gpt6sol-pilot-m12"), (13, "gpt6sol-m13"),
+            (14, "gpt6sol-pilot-m14"), (16, "gpt6sol-pilot-m16")])
+luna = solo([(8, "gpt6luna-m8"), (12, "gpt6luna-pilot-m12"), (16, "gpt6luna-pilot-m16")])
 (img / "study-models.svg").write_text(compare_svg(
-    [("Claude Haiku", haiku), ("Claude Sonnet", sonnet)],
+    [("Claude Haiku", haiku), ("Claude Sonnet", sonnet),
+     ("GPT-6 Sol (low)", sol), ("GPT-6 Luna (low)", luna)],
     "One agent alone: how big a multiplication before it slips?",
     "Share of problems one agent got right (10 to 40 problems per point) · shaded = 95% CI",
     x_label="digits in each number being multiplied",

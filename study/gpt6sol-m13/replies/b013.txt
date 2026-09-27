@@ -1,0 +1,39 @@
+=== cdd4ce992b35612af6c4911a
+In three-digit groups, multiplication and carrying give 7|469|436|295|282|650|301|416|992.
+Answer: 7469436295282650301416992
+
+=== 528cf18b00f8bdaed0f6c57c
+In three-digit groups, multiplication and carrying give 15|614|725|281|423|585|622|194|546.
+Answer: 15614725281423585622194546
+
+=== e1260c09c1ee1a1078a2feaf
+In three-digit groups, multiplication and carrying give 6|125|756|793|791|341|367|884|410.
+Answer: 6125756793791341367884410
+
+=== 07192de42d2c70ac7ba582e6
+In three-digit groups, multiplication and carrying give 26|972|153|147|396|640|890|119|616.
+Answer: 26972153147396640890119616
+
+=== 98246ddf7ef32068e2e83ff2
+In three-digit groups, multiplication and carrying give 25|469|473|895|239|342|661|054|380.
+Answer: 25469473895239342661054380
+
+=== fe400e6c686bb8dd94b7461d
+In three-digit groups, multiplication and carrying give 51|714|322|786|790|650|746|267|652.
+Answer: 51714322786790650746267652
+
+=== d10283e02af3631cfb93e01d
+In three-digit groups, multiplication and carrying give 34|485|358|214|288|368|709|223|264.
+Answer: 34485358214288368709223264
+
+=== 60fc4a466b7228d3c38a24a4
+In three-digit groups, multiplication and carrying give 77|129|695|089|077|932|997|410|116.
+Answer: 77129695089077932997410116
+
+=== 329c638e09561dffd8dc04f4
+In three-digit groups, multiplication and carrying give 16|171|350|757|708|548|698|040|573.
+Answer: 16171350757708548698040573
+
+=== 5a89aaa259edd52bfd12e96b
+In three-digit groups, multiplication and carrying give 41|068|387|603|626|867|226|550|304.
+Answer: 41068387603626867226550304

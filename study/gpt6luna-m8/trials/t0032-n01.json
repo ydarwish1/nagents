@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-32",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:32",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 99697587 multiplied by 72357025? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99,697,587 = 100,000,000 \u2212 302,413  \n72,357,025 \u00d7 100,000,000 = 7,235,702,500,000,000  \n72,357,025 \u00d7 302,413 = 21,881,705,001,325  \nSubtract.\nAnswer: 7,213,820,794,998,675",
+          "answer": "7213820794998675",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7213820794998675"
+  ],
+  "final_answer": "7213820794998675",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 42,
+    "calls": 1
+  },
+  "trial": 32,
+  "expected": "7213820794998675",
+  "correct": true
+}

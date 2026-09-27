@@ -1,0 +1,39 @@
+=== 5045dc22d82c9d40c348e7d2
+Using six-digit groups, the product from left to right is 2 | 216749 | 135375 | 524813 | 922828.
+Answer: 2216749135375524813922828
+
+=== 147f9db3ad8101490485f4d9
+Using six-digit groups and carrying from right to left gives 5 | 188749 | 036952 | 078954 | 922972.
+Answer: 5188749036952078954922972
+
+=== d57e3b34893eca0fc1a61527
+The six-digit groups of the product are 17 | 925723 | 497717 | 132521 | 308722.
+Answer: 17925723497717132521308722
+
+=== 88c344f4ae77ca41205f481e
+The six-digit groups of the product are 40 | 255130 | 582223 | 350602 | 918750.
+Answer: 40255130582223350602918750
+
+=== cf13bbd178b1003f83a3e0a3
+The six-digit groups of the product are 69 | 691646 | 295635 | 261130 | 056512.
+Answer: 69691646295635261130056512
+
+=== 1485d6c26c44dc9dfea46b25
+The six-digit groups of the product are 10 | 220631 | 934495 | 394580 | 625250.
+Answer: 10220631934495394580625250
+
+=== 14233d8de41da1224e4639d0
+The six-digit groups of the product are 12 | 094378 | 803495 | 529468 | 501400.
+Answer: 12094378803495529468501400
+
+=== 9ff1f4d80be253dcedfd8f20
+The six-digit groups of the product are 32 | 780911 | 803752 | 124022 | 893600.
+Answer: 32780911803752124022893600
+
+=== 223bd92a1239b7cbac450ab5
+The six-digit groups of the product are 35 | 537373 | 507638 | 970982 | 013079.
+Answer: 35537373507638970982013079
+
+=== a6f1e3c412194618da31ddd1
+The six-digit groups of the product are 49 | 828851 | 850719 | 252677 | 985874.
+Answer: 49828851850719252677985874

@@ -1,0 +1,39 @@
+=== 7162866f5cd36cf3cb6b2387
+Using three-digit groups, the product groups are 18|079|845|183|703|156|663|573|884.
+Answer: 18079845183703156663573884
+
+=== 6874517091abc5108f302289
+Using three-digit groups, the product groups are 55|021|380|082|538|715|533|979|936.
+Answer: 55021380082538715533979936
+
+=== 64ecfa639d28cdcdd2ca4e04
+Using three-digit groups, the product groups are 78|485|494|631|307|248|828|804|560.
+Answer: 78485494631307248828804560
+
+=== 3979c0f100d1b27c70598c6b
+Using three-digit groups, the product groups are 12|260|291|159|456|174|973|054|870.
+Answer: 12260291159456174973054870
+
+=== b21d1988a6ec3215f1663d59
+Using three-digit groups, the product groups are 4|389|457|737|225|506|385|218|352.
+Answer: 4389457737225506385218352
+
+=== a7626c44663f9d89cf8d7203
+Using three-digit groups, the product groups are 31|544|224|791|041|361|378|288|953.
+Answer: 31544224791041361378288953
+
+=== 08b9047732338fa240697181
+Using three-digit groups, the product groups are 48|965|817|615|260|514|879|113|091.
+Answer: 48965817615260514879113091
+
+=== 048bc9f5db9ef00309de0801
+Using three-digit groups, the product groups are 16|290|904|896|671|549|070|931|644.
+Answer: 16290904896671549070931644
+
+=== 825fa7e3e1840f33b89ff904
+Using three-digit groups, the product groups are 10|848|377|940|313|436|880|683|820.
+Answer: 10848377940313436880683820
+
+=== 392fce6c0ec223a728ca36e4
+Using three-digit groups, the product groups are 9|312|162|326|028|587|696|330|598.
+Answer: 9312162326028587696330598

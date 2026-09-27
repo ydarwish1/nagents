@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-35",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:35",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67620956 multiplied by 65183193? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67,620,956 \u00d7 65,183,193\n= 67,620,956 \u00d7 (65,000,000 + 183,193)\n= 4,395,362,140,000,000 + 12,387,685,792,508\nAnswer: 4407749825792508",
+          "answer": "4407749825792508",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67620956 multiplied by 65183193? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 6762|0956 \u00d7 6518|3193.\nHigh: 6762\u00d76518 = 44,074,716; cross: 27,822,274; low: 3,052,508.\n44,074,716\u00d7100,000,000 + 27,822,274\u00d710,000 + 3,052,508\nAnswer: 4407749825792508",
+          "answer": "4407749825792508",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67620956 multiplied by 65183193? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67,620,956 \u00d7 65,183,193 = 67,620,956 \u00d7 (65,000,000 + 183,193)  \n= 4,395,362,140,000,000 + 12,387,685,792,508  \nAnswer: 4395374527685792",
+          "answer": "4395374527685792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4407749825792508",
+    "4407749825792508",
+    "4395374527685792"
+  ],
+  "final_answer": "4407749825792508",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 113,
+    "calls": 3
+  },
+  "trial": 35,
+  "expected": "4407749825792508",
+  "correct": true
+}

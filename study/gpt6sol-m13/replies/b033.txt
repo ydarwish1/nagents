@@ -1,0 +1,39 @@
+=== a0ad287148a4305467ce89da
+Grouping in thousands: (8,300,205,622,745) × (3,068,535,293,324). Multiplying the groups from right to left and carrying gives (25,469,878,206,263,232,890,543,380).
+Answer: 25469878206263232890543380
+
+=== efd61eef26fa9e23e776ca16
+Grouping in thousands: (8,605,031,686,436) × (8,963,324,935,881). Multiplying the groups from right to left and carrying gives (77,128,983,184,288,477,318,744,116).
+Answer: 77128983184288477318744116
+
+=== ed5eed412036aea0b9a87904
+Grouping in thousands: (6,366,768,479,428) × (4,236,396,098,672). Multiplying the groups from right to left and carrying gives (26,972,353,103,244,280,808,258,816).
+Answer: 26972353103244280808258816
+
+=== f0a0f70db808e3d9233f771d
+Grouping in thousands: (3,649,715,827,449) × (4,430,852,023,077). Multiplying the groups from right to left and carrying gives (16,171,354,768,108,842,421,373,573).
+Answer: 16171354768108842421373573
+
+=== 29d8056f505726babd6a387c
+Grouping in thousands: (1,753,984,539,378) × (3,492,480,495,845). Multiplying the groups from right to left and carrying gives (6,125,957,820,282,748,793,176,410).
+Answer: 6125957820282748793176410
+
+=== 18787521e8f0316197bd8528
+Grouping in thousands: (4,117,809,979,696) × (9,973,356,664,374). Multiplying the groups from right to left and carrying gives (41,068,398,336,382,153,532,907,904).
+Answer: 41068398336382153532907904
+
+=== c5eefbecd77260a2a0a9d49e
+Grouping in thousands: (5,967,655,366,397) × (8,665,768,984,916). Multiplying the groups from right to left and carrying gives (51,714,322,710,030,628,277,556,652).
+Answer: 51714322710030628277556652
+
+=== 81cfc22195caaa477672322e
+Grouping in thousands: (5,698,329,049,288) × (1,310,811,683,684). Multiplying the groups from right to left and carrying gives (7,469,436,267,998,233,700,829,792).
+Answer: 7469436267998233700829792
+
+=== 4a16ee95003b4d7de9431b54
+Grouping in thousands: (7,570,635,652,852) × (4,555,146,991,032). Multiplying the groups from right to left and carrying gives (34,485,858,337,188,968,754,450,464).
+Answer: 34485858337188968754450464
+
+=== 4e91899a1dcf1b85cb012c47
+Grouping in thousands: (1,957,865,099,646) × (7,975,383,638,151). Multiplying the groups from right to left and carrying gives (15,613,727,218,176,272,728,485,946).
+Answer: 15613727218176272728485946

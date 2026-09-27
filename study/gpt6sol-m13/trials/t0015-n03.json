@@ -1,0 +1,58 @@
+{
+  "task_id": "mult13-21-15",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:15",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5272959907843 multiplied by 3428784875988? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product groups are 18|079|845|183|703|156|663|573|884.\nAnswer: 18079845183703156663573884",
+          "answer": "18079845183703156663573884",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5272959907843 multiplied by 3428784875988? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 18|079|845|183|703|156|663|573|884.\nAnswer: 18079845183703156663573884",
+          "answer": "18079845183703156663573884",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5272959907843 multiplied by 3428784875988? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The three-digit groups of the product are 18|079|845|183|703|156|663|573|884.\nAnswer: 18079845183703156663573884",
+          "answer": "18079845183703156663573884",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "18079845183703156663573884",
+    "18079845183703156663573884",
+    "18079845183703156663573884"
+  ],
+  "final_answer": "18079845183703156663573884",
+  "usage": {
+    "input_tokens": 201,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 15,
+  "expected": "18079845183703156663573884",
+  "correct": true
+}

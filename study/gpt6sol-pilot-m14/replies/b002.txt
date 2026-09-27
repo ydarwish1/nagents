@@ -1,0 +1,5 @@
+=== 9f81603370361cf6bd65ce5
+Grouping digits in threes, multiply 60|778|859|933|715 by 87|382|651|643|506. Adding each group’s products and carrying gives 5|311|017|944|877|262|018|970|204|790.
+Answer: 5311017944877262018970204790
+
+I can’t reliably complete the remaining nine products without risking incorrect answers.

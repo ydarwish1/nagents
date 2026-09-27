@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-11",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 97,628,805 = 9762\u00d710,000 + 8805 and 91,643,945 = 9164\u00d710,000 + 3945.\n9762\u00d79164 = 89,458,968; cross terms sum to 119,200,110; 8805\u00d73945 = 34,735,725.\n89,458,968\u00d710\u2078 + 119,200,110\u00d710\u2074 + 34,735,725\nAnswer: 8947088535835725",
+          "answer": "8947088535835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using 4-digit chunks: 9762\u00d79164=89,458,968; cross terms=119,200,110; 8805\u00d73945=34,735,725.\nAnswer: 8,947,088,835,835,725",
+          "answer": "8947088835835725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97628805 multiplied by 91643945? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97,628,805 \u00d7 91,643,945 = 97,628,805 \u00d7 (92,000,000 \u2212 356,055)\n= 8,981,850,060,000,000 \u2212 34,761,223,854,275\nAnswer: 8947088836145725",
+          "answer": "8947088836145725",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "8947088535835725",
+    "8947088835835725",
+    "8947088836145725"
+  ],
+  "final_answer": "8947088535835725",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 119,
+    "calls": 3
+  },
+  "trial": 11,
+  "expected": "8947088835835725",
+  "correct": false
+}

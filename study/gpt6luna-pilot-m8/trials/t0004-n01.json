@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "87,692,272 \u00d7 73,726,273  \n= 87,692,272 \u00d7 (73,000,000 + 726,273)  \n= 6,401,535,856,000,000 + 63,688,529,462,256  \nAnswer: 6,465,224,385,462,256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6465224385462256"
+  ],
+  "final_answer": "6465224385462256",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 35,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "6465224385462256",
+  "correct": true
+}

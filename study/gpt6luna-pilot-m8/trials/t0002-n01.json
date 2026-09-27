@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 35751240 multiplied by 94967409? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "94,967,409 = 95,000,000 \u2212 32,591  \n35,751,240 \u00d7 95,000,000 = 3,396,367,800,000,000  \n35,751,240 \u00d7 32,591 = 1,165,168,662,840  \nSubtract the second partial product.\nAnswer: 3395202631337160",
+          "answer": "3395202631337160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3395202631337160"
+  ],
+  "final_answer": "3395202631337160",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 47,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "3395202631337160",
+  "correct": true
+}

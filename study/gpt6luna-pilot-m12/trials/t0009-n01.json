@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 915206049673 multiplied by 888795840817? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into six-digit groups: 915206049673 = 915206\u00d710\u2076+49673, and 888795840817 = 888795\u00d710\u2076+840817.\nAnswer: 815013468091837902841",
+          "answer": "815013468091837902841",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "815013468091837902841"
+  ],
+  "final_answer": "815013468091837902841",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "813431330439919102902841",
+  "correct": false
+}

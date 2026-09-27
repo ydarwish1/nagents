@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-29",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:29",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46950430 \u00d7 72614944 = 46950430 \u00d7 (72,000,000 + 614,944)\n= 3,380,430,960,000,000 + 28,871,885,225,920\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72,614,944 = 72,000,000 + 614,944  \n46,950,430 \u00d7 72,000,000 = 3,380,430,960,000,000  \n46,950,430 \u00d7 614,944 = 28,871,885,225,920  \nAdd.\nAnswer: 3,380,459,831,885,920",
+          "answer": "3380459831885920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Answer: 341?",
+          "answer": "341",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "4695\u00d77261 = 34,090,395; 4695\u00d74944 + 430\u00d77261 = 26,334,310; 430\u00d74944 = 2,125,920.\nCombine: 34,090,395\u00d7100,000,000 + 26,334,310\u00d710,000 + 2,125,920.\nAnswer: 3409302645225920",
+          "answer": "3409302645225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46,950,430 \u00d7 72,614,944 = 46,950,430 \u00d7 (72,000,000 + 614,944)  \n= 3,380,430,960,000,000 + 28,871,885,225,920\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72614944 \u00d7 46950430 = 72614944 \u00d7 (47,000,000 \u2212 49,570)\n= 3,412,902,368,000,000 \u2212 3,599,522,774,080\nAnswer: 3409302845225920",
+          "answer": "3409302845225920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 46950430 multiplied by 72614944? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "46,950,430 \u00d7 72,614,944 = 46,950,430 \u00d7 (72,000,000 + 614,944)  \n= 3,380,430,960,000,000 + 28,871,885,225,920  \nAnswer: 3409302846185920",
+          "answer": "3409302846185920",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3409302845225920",
+    "3380459831885920",
+    "341",
+    "3409302645225920",
+    "3409302845225920",
+    "3409302845225920",
+    "3409302846185920"
+  ],
+  "final_answer": "3409302845225920",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 213,
+    "calls": 7
+  },
+  "trial": 29,
+  "expected": "3409302845225920",
+  "correct": true
+}

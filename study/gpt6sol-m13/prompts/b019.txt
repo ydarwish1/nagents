@@ -1,0 +1,38 @@
+You are a careful problem solver. Show your working briefly. Always end with one final line in exactly this form: Answer: <number>
+
+Below are 10 separate problems. Solve each one on its own, doing all arithmetic yourself: no tools, no code, no calculator. Keep the working brief.
+
+Reply with one block per problem, in this exact format and nothing else:
+=== <problem id>
+<brief working>
+Answer: <number>
+
+--- problem id: 4ea0a86cf07f020d4755e941
+What is 6220136543259 multiplied by 8845686859104? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 9c001ee981251bb7a2e4e1a7
+What is 8115392466620 multiplied by 9671189034188? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 861b7b72a9974cf68553d92d
+What is 2926019615059 multiplied by 1500146381328? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 4a90ad1bc019ff1bea474304
+What is 7973272019389 multiplied by 1167922316382? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: c0a688629ee1d0f14d3b13e5
+What is 5272959907843 multiplied by 3428784875988? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: bada1c0fa5c057ebade376fe
+What is 9149463099189 multiplied by 5351769506519? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 3d250de6089ddb5851ddf7c8
+What is 2304108233492 multiplied by 4708276192335? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 0ec802f949a7b9a910e5087a
+What is 3381011712581 multiplied by 9329818253413? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 82744a81eb24304c4403abc5
+What is 1788571095930 multiplied by 6854796651559? Work it out step by step. End with one final line in exactly this form: Answer: <number>
+
+--- problem id: 4a96ab73796bf26ed96dd973
+What is 6350998219476 multiplied by 2565093601619? Work it out step by step. End with one final line in exactly this form: Answer: <number>

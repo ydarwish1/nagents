@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-24",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,035,812 = 14,000,000 + 35,812.\n14,156,542 \u00d7 14,000,000 = 198,191,588,000,000.\n14,156,542 \u00d7 35,812 = 506,974,082,104.\nAdding gives 198,698,562,082,104.\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 14,035,812 = 14,156,542 \u00d7 (14,000,000 + 35,812)\n= 198,191,588,000,000 + 506,974,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,035,812 \u00d7 14,000,000 = 196,501,368,000,000  \n14,035,812 \u00d7 156,542 = 2,197,194,082,104  \nAdding: 198,698,562,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 14,035,812\n= 14,156,542 \u00d7 (14,000,000 + 35,812)\n= 198,191,588,000,000 + 506,974,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 1415|6542 \u00d7 1403|5812.\nHigh: 1415\u00d71403 = 1,985,245; cross: 17,402,406; low: 38,022,104.\n1,985,245\u00d7100,000,000 + 17,402,406\u00d710,000 + 38,022,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 14,035,812 = 14,156,542 \u00d7 (14,000,000 + 35,812)  \n= 198,191,588,000,000 + 506,974,082,104  \nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(14,035,812=14,000,000+35,812\\).\n\\(14,156,542\\times14,000,000=198,191,588,000,000\\).\n\\(14,156,542\\times35,812=506,974,082,104\\).\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 (14,000,000 + 35,812)\n= 198,191,588,000,000 + 506,974,082,104\nAnswer: 198,698,562,082,104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 14,035,812 = (14,000,000 + 156,542) \u00d7 14,035,812  \n= 196,501,368,000,000 + 2,197,194,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104",
+    "198698562082104"
+  ],
+  "final_answer": "198698562082104",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 317,
+    "calls": 9
+  },
+  "trial": 24,
+  "expected": "198698562082104",
+  "correct": true
+}

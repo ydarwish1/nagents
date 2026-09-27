@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-11-6",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 9978287851910 multiplied by 1443943320674? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 14|408|082|095|527|959|753|387|340.\nAnswer: 14408082095527959753387340",
+          "answer": "14408082095527959753387340",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "14408082095527959753387340"
+  ],
+  "final_answer": "14408082095527959753387340",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 30,
+    "calls": 1
+  },
+  "trial": 6,
+  "expected": "14408082095527959753387340",
+  "correct": true
+}

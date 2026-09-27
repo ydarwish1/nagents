@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 87692272 multiplied by 73726273? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split at four digits: \\(8769|2272 \\times 7372|6273\\). The low product gives \\(2256\\) and carry \\(1425\\); the middle sum \\(71,757,121+1425\\) gives \\(8546\\) and carry \\(7175\\). The high sum is \\(64,645,068+7175=64,652,243\\).\nAnswer: 6465224385462256",
+          "answer": "6465224385462256",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6465224385462256"
+  ],
+  "final_answer": "6465224385462256",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 61,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "6465224385462256",
+  "correct": true
+}

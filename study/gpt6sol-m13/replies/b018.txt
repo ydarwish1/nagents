@@ -1,0 +1,13 @@
+=== 02edc1b4342ab5f2c76e05a3
+Multiplying in three-digit groups gives 47|427|720|903|233|929|000|831|005.
+Answer: 47427720903233929000831005
+
+=== 5f8d60fc012185a8517999e1
+Multiplying in three-digit groups gives 6|045|458|751|605|089|634|542|686.
+Answer: 6045458751605089634542686
+
+=== 2de0fea82dd31ebff6812c8c
+Multiplying in three-digit groups gives 12|651|283|862|317|730|852|821|065.
+Answer: 12651283862317730852821065
+
+I can’t reliably complete the remaining seven products without a calculation tool.

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-21-22",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:22",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 3381011712581 multiplied by 9329818253413? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The three-digit groups of the product are 31|544|224|791|041|361|378|288|953.\nAnswer: 31544224791041361378288953",
+          "answer": "31544224791041361378288953",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "31544224791041361378288953"
+  ],
+  "final_answer": "31544224791041361378288953",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 22,
+  "expected": "31544224791041361378288953",
+  "correct": true
+}

@@ -1,0 +1,5 @@
+=== e79222460838171de1fb147e
+Splitting each number into three-digit groups and multiplying with carries gives 67|039|958|571|537|456|434|260|820.
+Answer: 67039958571537456434260820
+
+I can’t reliably finish the other nine products by hand without risking incorrect answers.

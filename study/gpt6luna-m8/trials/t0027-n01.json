@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-27",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 71420437 multiplied by 84657156? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "71,420,437 \u00d7 (84,000,000 + 657,156)\n= 5,999,316,708,000,000 + 46,934,368,697,172\nAnswer: 6046251076697172",
+          "answer": "6046251076697172",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6046251076697172"
+  ],
+  "final_answer": "6046251076697172",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 27,
+  "expected": "6046251076697172",
+  "correct": true
+}

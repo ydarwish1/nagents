@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-7",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: \\(514189\\times720059=370246417151\\), \\(514189\\times591592+550709\\times720059=700733070719\\), and \\(550709\\times591592=325795038728\\). Combining the groups gives the product.\nAnswer: 370247117884396514038728",
+          "answer": "370247117884396514038728",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: 514189\u00b7720059, cross terms 514189\u00b7591592 + 550709\u00b7720059, and 550709\u00b7591592.\nAnswer: 514189550709 \u00d7 720059591592",
+          "answer": "514189550709",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into six-digit groups: 514189550709 = 514189\u00d710\u2076+550709, and 720059591592 = 720059\u00d710\u2076+591592.\nAnswer: 370",
+          "answer": "370",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "370247117884396514038728",
+    "514189550709",
+    "370"
+  ],
+  "final_answer": "370247117884396514038728",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 120,
+    "calls": 3
+  },
+  "trial": 7,
+  "expected": "370247117884396514038728",
+  "correct": true
+}

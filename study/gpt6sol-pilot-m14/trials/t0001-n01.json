@@ -1,0 +1,32 @@
+{
+  "task_id": "mult14-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 60778859933715 multiplied by 87382651643506? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups gives 5311|017|944|877|262|018|970|204|790.\nAnswer: 5311017944877262018970204790",
+          "answer": "5311017944877262018970204790",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "5311017944877262018970204790"
+  ],
+  "final_answer": "5311017944877262018970204790",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "5311017944877262018970204790",
+  "correct": true
+}

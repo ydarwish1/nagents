@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-14",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:14",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14563398 multiplied by 12249578? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "12249578 \u00d7 14563398 = 12249578 \u00d7 (14,000,000 + 563,398)\n= 171,494,092,000,000 + 6,901,387,746,044\nAnswer: 178395479746044",
+          "answer": "178395479746044",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "178395479746044"
+  ],
+  "final_answer": "178395479746044",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 30,
+    "calls": 1
+  },
+  "trial": 14,
+  "expected": "178395479746044",
+  "correct": true
+}

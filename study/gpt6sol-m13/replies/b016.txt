@@ -1,0 +1,39 @@
+=== 122f445749622b9d382fefe4
+Grouping in thousands: (5,339,164,663,667) × (9,332,705,555,622). Multiplying the groups and carrying gives (49,824,854,532,428,644,700,172,274).
+Answer: 49824854532428644700172274
+
+=== 7efde9b92cef023c0ecffc57
+Grouping in thousands: (1,520,856,312,948) × (1,735,220,277,311). Multiplying the groups and carrying gives (2,639,207,852,084,566,284,626,628).
+Answer: 2639207852084566284626628
+
+=== ba6b16b8441bd2e237509454
+Grouping in thousands: (5,563,131,582,743) × (6,388,016,013,953). Multiplying the groups and carrying gives (35,539,951,598,898,448,128,509,879).
+Answer: 35539951598898448128509879
+
+=== 7df00def5a683138821c8f25
+Grouping in thousands: (8,281,859,153,125) × (4,860,639,317,766). Multiplying the groups and carrying gives (40,255,133,398,735,236,365,278,750).
+Answer: 40255133398735236365278750
+
+=== c48072e26f6df65f86f93c09
+Grouping in thousands: (6,174,363,498,787) × (2,903,250,468,006). Multiplying the groups and carrying gives (17,925,720,558,713,891,862,624,722).
+Answer: 17925720558713891862624722
+
+=== e2ac5509e51d60bd4ef2f33c
+Grouping in thousands: (1,200,219,212,444) × (4,323,167,787,313). Multiplying the groups and carrying gives (5,188,749,112,722,860,274,738,972).
+Answer: 5188749112722860274738972
+
+=== 1f91023b6fb6c43998c3992c
+Grouping in thousands: (7,341,195,337,198) × (9,493,228,750,144). Multiplying the groups and carrying gives (69,691,644,801,050,030,873,628,512).
+Answer: 69691644801050030873628512
+
+=== 65db0e8e88bd4438b96c00b2
+Grouping in thousands: (8,365,572,554,525) × (3,918,549,691,424). Multiplying the groups and carrying gives (32,781,312,669,089,499,505,443,600).
+Answer: 32781312669089499505443600
+
+=== a5600cc3c9411cefaa7983de
+Grouping in thousands: (2,079,375,884,056) × (5,816,350,275,025). Multiplying the groups and carrying gives (12,094,379,604,531,414,076,766,400).
+Answer: 12094379604531414076766400
+
+=== 338d73856889c0dfa2b0610d
+Grouping in thousands: (1,930,459,794,325) × (5,294,402,673,370). Multiplying the groups and carrying gives (10,220,632,568,869,682,818,525,250).
+Answer: 10220632568869682818525250

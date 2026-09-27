@@ -1,0 +1,9 @@
+=== 675caafc04d14197864e87b1
+Grouping in millions, the multiplication gives 40 | 255130 | 223879 | 602526 | 918750.
+Answer: 40255130223879602526918750
+
+=== 0058a49394a149e0a8413c1c
+Grouping in millions, the multiplication gives 2 | 639020 | 713103 | 813559 | 922828.
+Answer: 2639020713103813559922828
+
+I can’t reliably complete the remaining eight multiplications without a tool, so I won’t guess their answers.

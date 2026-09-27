@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-17",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 (100,000,000 \u2212 550,839)\n= 6,517,256,300,000,000 \u2212 35,904,599,430,357\nAnswer: 6,481,351,700,569,643",
+          "answer": "6481351700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 99,449,161 = 65,172,563 \u00d7 (100,000,000 \u2212 550,839)  \n= 6,517,256,300,000,000 \u2212 35,900,241,155,987\nAnswer: 6481356058844013",
+          "answer": "6481356058844013",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99,449,161 = 100,000,000 \u2212 550,839.\n65,172,563 \u00d7 100,000,000 = 6,517,256,300,000,000.\n65,172,563 \u00d7 550,839 = 35,899,599,430,357.\nSubtracting gives 6,481,356,700,569,643.\nAnswer: 6481356700569643",
+          "answer": "6481356700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 99,449,161 = 65,172,563 \u00d7 (100,000,000 \u2212 550,839)\n= 6,517,256,300,000,000 \u2212 35,899,589,430,357\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 100,000,000 = 6,517,256,300,000,000  \n65,172,563 \u00d7 550,839 = 35,905,251,155,987  \nSubtracting: 6,481,351,048,844,013\nAnswer: 6481351048844013",
+          "answer": "6481351048844013",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 99,449,161\n= 65,172,563 \u00d7 (100,000,000 \u2212 550,839)\n= 6,517,256,300,000,000 \u2212 35,904,599,430,357\nAnswer: 6481351700569643",
+          "answer": "6481351700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 6517|2563 \u00d7 9944|9161.\nHigh: 6517\u00d79944 = 64,805,048; cross: 85,188,709; low: 23,479,643.\n64,805,048\u00d7100,000,000 + 85,188,709\u00d710,000 + 23,479,643\nAnswer: 6481356710569643",
+          "answer": "6481356710569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 99,449,161 = 65,172,563 \u00d7 (100,000,000 \u2212 550,839)  \n= 6,517,256,300,000,000 \u2212 3,639,671,745,357  \nAnswer: 6513616628254643",
+          "answer": "6513616628254643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(99,449,161=100,000,000-550,839\\).\n\\(65,172,563\\times100,000,000=6,517,256,300,000,000\\).\n\\(65,172,563\\times550,839=35,904,599,430,357\\).\nAnswer: 6481351700569643",
+          "answer": "6481351700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6481351700569643",
+    "6481356058844013",
+    "6481356700569643",
+    "6481356710569643",
+    "6481351048844013",
+    "6481351700569643",
+    "6481356710569643",
+    "6513616628254643",
+    "6481351700569643"
+  ],
+  "final_answer": "6481351700569643",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 335,
+    "calls": 9
+  },
+  "trial": 17,
+  "expected": "6481356710569643",
+  "correct": false
+}

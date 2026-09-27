@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-30",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(37,478,830(60,000,000-1,179,548)\\).\nThe two products are \\(2,248,729,800,000,000\\) and \\(44,208,078,968,840\\).\nSubtract.\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2204521721031160"
+  ],
+  "final_answer": "2204521721031160",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 37,
+    "calls": 1
+  },
+  "trial": 30,
+  "expected": "2204521721031160",
+  "correct": true
+}

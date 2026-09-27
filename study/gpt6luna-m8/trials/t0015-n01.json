@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-15",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:15",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 31380889 multiplied by 77234984? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using 4-digit chunks: 3138\u00d77723=24,234,774; cross terms=22,505,539; 889\u00d74984=4,430,776.\nAnswer: 2,423,702,459,820,776",
+          "answer": "2423702459820776",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2423702459820776"
+  ],
+  "final_answer": "2423702459820776",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 29,
+    "calls": 1
+  },
+  "trial": 15,
+  "expected": "2423702459820776",
+  "correct": true
+}

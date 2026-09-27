@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-0",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:0",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 86804349 multiplied by 90051101? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 8680|4349 \u00d7 9005|1101.\n8680\u00d79005 = 78,163,400; cross terms total 48,719,425; 4349\u00d71101 = 4,788,249.\nCombine: 78,163,400\u00d710\u2078 + 48,719,425\u00d710\u2074 + 4,788,249.\nAnswer: 7816827194788249",
+          "answer": "7816827194788249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "7816827194788249"
+  ],
+  "final_answer": "7816827194788249",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 51,
+    "calls": 1
+  },
+  "trial": 0,
+  "expected": "7816827199038249",
+  "correct": false
+}

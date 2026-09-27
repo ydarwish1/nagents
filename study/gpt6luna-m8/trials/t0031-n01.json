@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-31",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "16,834,656 \u00d7 80,000,000 = 1,346,772,480,000,000  \n16,834,656 \u00d7 200,109 = 3,368,766,177,504  \nAdding: 1,350,141,246,177,504\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1350141246177504"
+  ],
+  "final_answer": "1350141246177504",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 36,
+    "calls": 1
+  },
+  "trial": 31,
+  "expected": "1350141246177504",
+  "correct": true
+}

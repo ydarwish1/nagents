@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-18",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:18",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79,748,344 \u00d7 51,314,256 = 79,748,344 \u00d7 (51,000,000 + 314,256)  \n= 4,067,165,544,000,000 + 25,061,395,592,064  \nAnswer: 4092226939592064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79,748,344 \u00d7 51,314,256 = 79,748,344 \u00d7 (51,000,000 + 314,256)\n= 4,067,165,544,000,000 + 25,061,395,592,064\nAnswer: 4,092,226,939,592,064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 (51,000,000 + 314,256)\n= 4,067,165,544,000,000 + 25,061,395,592,064\n= 4,092,226,939,592,064\nAnswer: 4092226939592064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "79748344 \u00d7 51314256 = 79748344 \u00d7 (51,000,000 + 314,256)\n= 4,067,165,544,000,000 + 25,043,053,472,944\nAnswer: 4092208597472944",
+          "answer": "4092208597472944",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 79748344 multiplied by 51314256? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "51,314,256 = 51,000,000 + 314,256  \n79,748,344 \u00d7 51,000,000 = 4,067,165,544,000,000  \n79,748,344 \u00d7 314,256 = 25,061,395,592,064  \nAdd.\nAnswer: 4,092,226,939,592,064",
+          "answer": "4092226939592064",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4092226939592064",
+    "4092226939592064",
+    "4092226939592064",
+    "4092208597472944",
+    "4092226939592064"
+  ],
+  "final_answer": "4092226939592064",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 170,
+    "calls": 5
+  },
+  "trial": 18,
+  "expected": "4092226939592064",
+  "correct": true
+}

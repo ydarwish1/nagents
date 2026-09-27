@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-2",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 610298233597 multiplied by 263725883540? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 160|951|440|878|270|137|293|380.\nAnswer: 160951440878270137293380",
+          "answer": "160951440878270137293380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 610298233597 multiplied by 263725883540? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 160951 | 440 | 878 | 270 | 137 | 293 | 380.\nAnswer: 160951440878270137293380",
+          "answer": "160951440878270137293380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 610298233597 multiplied by 263725883540? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 160|951|440|878|270|137|293|380.\nAnswer: 160951440878270137293380",
+          "answer": "160951440878270137293380",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "160951440878270137293380",
+    "160951440878270137293380",
+    "160951440878270137293380"
+  ],
+  "final_answer": "160951440878270137293380",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 2,
+  "expected": "160951440878270137293380",
+  "correct": true
+}

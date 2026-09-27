@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-12",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:12",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89932155 \u00d7 20,773,831 = 89932155 \u00d7 (20,000,000 + 773,831)\n= 1,798,643,100,000,000 + 69,592,289,435,805\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: \\(8993|2155 \\times 2077|3831\\).\n\n\\(8993\u00d72077=18,678,461\\); cross terms sum to \\(42,707,988\\); \\(2155\u00d73831=8,255,805\\).\n\n\\(18,678,461\u00d710^8+42,707,988\u00d710^4+8,255,805\\)\nAnswer: 1868273188135805",
+          "answer": "1868273188135805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89,932,155 \u00d7 20,773,831 = (89,932,155 \u00d7 20 \u00d7 1,000,000) + (89,932,155 \u00d7 773,831)  \n= 1,798,643,100,000,000 + 69,592,289,435,805  \nAnswer: 1,868,235,389,435,805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split each number into groups of four digits: \\((8993\\times2077)\\times10^8+(8993\\times3831+2155\\times2077)\\times10^4+2155\\times3831\\).\nThe three parts are \\(1,867,846,100,000,000\\), \\(389,281,180,000\\), and \\(8,255,805\\).\nAnswer: 1,868,235,389,435,805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89,932,155 \u00d7 (20,000,000 + 773,831)\n= 1,798,643,100,000,000 + 69,592,289,435,805\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(20,773,831(90,000,000-67,845)\\).\n\\(20,773,831\\times90,000,000=1,869,644,790,000,000\\).\n\\(20,773,831\\times67,845=1,412,617,288,057\\).\nSubtract.\nAnswer: 1868232172711943",
+          "answer": "1868232172711943",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n89,000,000\u00d720,000,000 + 89,000,000\u00d7773,831 + 932,155\u00d720,000,000 + 932,155\u00d7773,831.\nAnswer: 1868119754608905",
+          "answer": "1868119754608905",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "20,773,831 \u00d7 89,932,155\n= 20,773,831 \u00d7 (90,000,000 \u2212 67,845)\n= 1,869,644,790,000,000 \u2212 1,409,400,564,195\nAnswer: 1,868,235,389,435,805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89932155 multiplied by 20773831? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 8993|2155 \u00d7 2077|3831.\n8993\u00d72077 = 18,678,461; cross terms total 38,928,118; 2155\u00d73831 = 8,255,805.\nCombine: 18,678,461\u00d710\u2078 + 38,928,118\u00d710\u2074 + 8,255,805.\nAnswer: 1868235389435805",
+          "answer": "1868235389435805",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1868235389435805",
+    "1868273188135805",
+    "1868235389435805",
+    "1868235389435805",
+    "1868235389435805",
+    "1868232172711943",
+    "1868119754608905",
+    "1868235389435805",
+    "1868235389435805"
+  ],
+  "final_answer": "1868235389435805",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 380,
+    "calls": 9
+  },
+  "trial": 12,
+  "expected": "1868235389435805",
+  "correct": true
+}

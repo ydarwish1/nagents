@@ -1,0 +1,84 @@
+{
+  "task_id": "mult12-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 77505 | 323 | 527 | 739 | 890 | 964 | 706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 77|505|323|527|739|890|964|706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 77|505|323|527|739|890|964|706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 77|505|323|527|739|890|964|706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 77|505|323|527|739|890|964|706.\nAnswer: 77505323527739890964706",
+          "answer": "77505323527739890964706",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "77505323527739890964706",
+    "77505323527739890964706",
+    "77505323527739890964706",
+    "77505323527739890964706",
+    "77505323527739890964706"
+  ],
+  "final_answer": "77505323527739890964706",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 141,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "77505323527739890964706",
+  "correct": true
+}

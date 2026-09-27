@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-35",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:35",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 67620956 multiplied by 65183193? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "67,620,956 \u00d7 65,183,193\n= 67,620,956 \u00d7 (65,000,000 + 183,193)\n= 4,395,362,140,000,000 + 12,387,685,792,508\nAnswer: 4407749825792508",
+          "answer": "4407749825792508",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4407749825792508"
+  ],
+  "final_answer": "4407749825792508",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 35,
+  "expected": "4407749825792508",
+  "correct": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-21-20",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:20",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 5967655366397 multiplied by 8665768984916? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "In three-digit groups, multiplication and carrying give 51|714|322|786|790|650|746|267|652.\nAnswer: 51714322786790650746267652",
+          "answer": "51714322786790650746267652",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "51714322786790650746267652"
+  ],
+  "final_answer": "51714322786790650746267652",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 31,
+    "calls": 1
+  },
+  "trial": 20,
+  "expected": "51714322786790650746267652",
+  "correct": true
+}

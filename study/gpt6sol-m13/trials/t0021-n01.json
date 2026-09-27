@@ -1,0 +1,32 @@
+{
+  "task_id": "mult13-21-21",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1411515156042 multiplied by 4282957023683? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 6|045|458|751|605|089|634|542|686.\nAnswer: 6045458751605089634542686",
+          "answer": "6045458751605089634542686",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6045458751605089634542686"
+  ],
+  "final_answer": "6045458751605089634542686",
+  "usage": {
+    "input_tokens": 67,
+    "output_tokens": 27,
+    "calls": 1
+  },
+  "trial": 21,
+  "expected": "6045458751605089634542686",
+  "correct": true
+}

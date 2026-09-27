@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-8",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:8",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89,583,287 \u00d7 (70,000,000 \u2212 47,911)\n= 6,270,830,090,000,000 \u2212 4,292,020,863,457\nAnswer: 6,266,538,069,136,543",
+          "answer": "6266538069136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "89,583,287 \u00d7 69,952,089  \n= 89,583,287 \u00d7 (70,000,000 \u2212 47,911)  \n= 6,270,830,090,000,000 \u2212 4,292,024,863,457  \nAnswer: 6,266,538,065,136,543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split the second factor: 69,952,089 = 70,000,000 \u2212 47,911.\nAnswer: 626?",
+          "answer": "626",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "8958|3287 \u00d7 6995|2089.\n8958\u00d76995 = 62,?; cross-products and final group give the remaining digits.\nAnswer: 6266000000000000",
+          "answer": "6266000000000000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 89583287 multiplied by 69952089? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "69,952,089 = 70,000,000 \u2212 47,911  \n89,583,287 \u00d7 70,000,000 = 6,270,830,090,000,000  \n89,583,287 \u00d7 47,911 = 4,292,024,863,457  \nSubtract: 6,270,830,090,000,000 \u2212 4,292,024,863,457\nAnswer: 6266538065136543",
+          "answer": "6266538065136543",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6266538069136543",
+    "6266538065136543",
+    "626",
+    "6266000000000000",
+    "6266538065136543"
+  ],
+  "final_answer": "6266538065136543",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 159,
+    "calls": 5
+  },
+  "trial": 8,
+  "expected": "6266538065136543",
+  "correct": true
+}

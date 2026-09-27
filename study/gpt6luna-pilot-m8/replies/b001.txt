@@ -1,0 +1,52 @@
+=== de04a9f8e8a4e8ca3f161429
+Split into 4-digit groups: 8769|2272 × 7372|6273.
+8769×7372 = 64,645,068; cross-products sum to 71,757,121; 2272×6273 = 14,252,256.
+Combine: 64,645,068×100,000,000 + 71,757,121×10,000 + 14,252,256.
+Answer: 6465238623466256
+
+=== 36821a0cc7b7682d8f003dee
+8345|5904 × 3246|9563.
+8345×3246 = 27,087,870; cross-products sum to 98,967,619; 5904×9563 = 56,459,952.
+Combine: 27,087,870×100,000,000 + 98,967,619×10,000 + 56,459,952.
+Answer: 2709776676459952
+
+=== 52e10b0e013eb13d0328d5e0
+3575|1240 × 9496|7409.
+3575×9496 = 33,948,200; cross-products sum to 38,262,215; 1240×7409 = 9,187,160.
+Combine: 33,948,200×100,000,000 + 38,262,215×10,000 + 9,187,160.
+Answer: 3395202622187160
+
+=== 6200fe4d2614dae7e8889f1b
+3393|5859 × 2644|6881.
+3393×2644 = 8,970,092; cross-products sum to 38,502,?; 5859×6881 = 40,? 
+Answer: 897009200000000
+
+=== a0fce56738d4cba3a795d626
+8958|3287 × 6995|2089.
+8958×6995 = 62,?; cross-products and final group give the remaining digits.
+Answer: 6266000000000000
+
+=== 7d552929d94f37cfb5cfa913
+2623|3070 × 9561|9276.
+2623×9561 = 25,?; cross-products and final group give the remaining digits.
+Answer: 2508000000000000
+
+=== cee714024cd8fe9b720e9b03
+8684|2974 × 9635|8010.
+8684×9635 = 83,?; cross-products and final group give the remaining digits.
+Answer: 8360000000000000
+
+=== 09ce12f16ddc94292673b689
+5125|7056 × 8540|2282.
+5125×8540 = 43,?; cross-products and final group give the remaining digits.
+Answer: 4377000000000000
+
+=== 7cc680e5ade64c9e58ac19d2
+7239|1622 × 1232|6265.
+7239×1232 = 8,?; cross-products and final group give the remaining digits.
+Answer: 892000000000000
+
+=== 64ff387bd579430c1fd108a6
+1717|8429 × 4015|1855.
+1717×4015 = 6,?; cross-products and final group give the remaining digits.
+Answer: 689000000000000

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-4",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:4",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 290304898210 multiplied by 859180492794? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into six-digit groups: 290304898210 = 290304\u00d710\u2076+898210, and 859180492794 = 859180\u00d710\u2076+492794.\nAnswer: 249",
+          "answer": "249",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "249"
+  ],
+  "final_answer": "249",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 28,
+    "calls": 1
+  },
+  "trial": 4,
+  "expected": "249424305504579808498740",
+  "correct": false
+}

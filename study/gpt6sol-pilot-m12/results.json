@@ -1,0 +1,181 @@
+{
+  "per_size": [
+    {
+      "size": 1,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 28.3,
+      "input_tokens_total": 660,
+      "output_tokens_total": 283,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 0.98
+    },
+    {
+      "size": 3,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 85.3,
+      "input_tokens_total": 1980,
+      "output_tokens_total": 853,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9992
+    },
+    {
+      "size": 5,
+      "trials": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_output_tokens": 142.1,
+      "input_tokens_total": 3300,
+      "output_tokens_total": 1421,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 1.0,
+      "independent_reference": 1.0
+    }
+  ],
+  "gains": [
+    {
+      "from_size": 1,
+      "to_size": 3,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from_size": 3,
+      "to_size": 5,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "saturation_size": 1,
+  "saturation_size_ci": 1,
+  "epsilon": 0.01,
+  "overlap": {
+    "answers": 50,
+    "pairs": 100,
+    "solo_accuracy": 0.98,
+    "error_correlation": -0.0204,
+    "same_wrong_answer_rate": null
+  },
+  "seat_balanced": {
+    "per_size": [
+      {
+        "size": 1,
+        "trials": 10,
+        "accuracy": 0.98,
+        "ci95": [
+          0.94,
+          1.0
+        ]
+      },
+      {
+        "size": 3,
+        "trials": 10,
+        "accuracy": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "size": 5,
+        "trials": 10,
+        "accuracy": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "gains": [
+      {
+        "from_size": 1,
+        "to_size": 3,
+        "gain": 0.02,
+        "ci95": [
+          0.0,
+          0.06
+        ]
+      },
+      {
+        "from_size": 3,
+        "to_size": 5,
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "saturation_size": 3,
+    "saturation_size_ci": 3,
+    "epsilon": 0.01,
+    "seat_accuracy": [
+      1.0,
+      0.9,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "manifest": {
+    "nagents_version": "0.3.0",
+    "model": "subagents:gpt-6-sol-low,no-tools,10-per-batch",
+    "topology": "independent",
+    "sizes": [
+      1,
+      3,
+      5
+    ],
+    "trials": 10,
+    "master_seed": 11,
+    "task_ids": [
+      "mult12-11-0",
+      "mult12-11-1",
+      "mult12-11-2",
+      "mult12-11-3",
+      "mult12-11-4",
+      "mult12-11-5",
+      "mult12-11-6",
+      "mult12-11-7",
+      "mult12-11-8",
+      "mult12-11-9"
+    ],
+    "config": {
+      "suite": "mult",
+      "suite_path": null,
+      "depth": 8,
+      "mock": false,
+      "mock_accuracy": null,
+      "model": null,
+      "effort": null,
+      "max_tokens": 16000,
+      "subagents": "gpt-6-sol-low,no-tools,10-per-batch",
+      "digits": 12,
+      "workers": 1
+    },
+    "started_at": "2026-09-26T21:20:18-0400"
+  }
+}

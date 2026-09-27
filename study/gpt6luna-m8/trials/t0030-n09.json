@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-30",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:30",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(37,478,830(60,000,000-1,179,548)\\).\nThe two products are \\(2,248,729,800,000,000\\) and \\(44,208,078,968,840\\).\nSubtract.\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n37,000,000\u00d758,000,000 + 37,000,000\u00d7820,452 + 478,830\u00d758,000,000 + 478,830\u00d7820,452.\nAnswer: 2204900598135160",
+          "answer": "2204900598135160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37,478,830 \u00d7 58,820,452\n= 37,478,830 \u00d7 (58,000,000 + 820,452)\n= 2,173,772,140,000,000 + 37,495,770,431,160\nAnswer: 2,211,267,910,431,160",
+          "answer": "2211267910431160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 3747|8830 \u00d7 5882|0452.\n3747\u00d75882 = 22,039,854; cross terms total 53,631,704; 8830\u00d7452 = 3,991,160.\nCombine: 22,039,854\u00d710\u2078 + 53,631,704\u00d710\u2074 + 3,991,160.\nAnswer: 2204521717040000",
+          "answer": "2204521717040000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37,478,830 \u00d7 58,820,452\nAnswer: 220428207?",
+          "answer": "220428207",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: \\(3747|8830 \\times 5882|0452\\).\n\n\\(3747\u00d75882=22,039,854\\); cross terms sum to \\(53,631,704\\); \\(8830\u00d7452=3,991,160\\).\n\n\\(22,039,854\u00d710^8+53,631,704\u00d710^4+3,991,160\\)\nAnswer: 2204521720991160",
+          "answer": "2204521720991160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37,478,830 \u00d7 58,820,452 = (37,478,830 \u00d7 5,882 \u00d7 10,000) + (37,478,830 \u00d7 452)  \n= 2,204,504,780,600,000 + 16,940,431,160  \nAnswer: 2,204,521,721,031,160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((3747\\times5882)\\times10^8+(3747\\times452+8830\\times5882)\\times10^4+8830\\times452\\).\nThe parts are \\(2,203,985,400,000,000\\), \\(536,317,040,000\\), and \\(3,991,160\\).\nAnswer: 2,204,521,721,031,160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 37478830 multiplied by 58820452? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "37,478,830 \u00d7 (58,000,000 + 820,452)\n= 2,173,772,140,000,000 + 30,749,581,031,160\nAnswer: 2204521721031160",
+          "answer": "2204521721031160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2204521721031160",
+    "2204900598135160",
+    "2211267910431160",
+    "2204521717040000",
+    "220428207",
+    "2204521720991160",
+    "2204521721031160",
+    "2204521721031160",
+    "2204521721031160"
+  ],
+  "final_answer": "2204521721031160",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 339,
+    "calls": 9
+  },
+  "trial": 30,
+  "expected": "2204521721031160",
+  "correct": true
+}

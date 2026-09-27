@@ -1,0 +1,136 @@
+{
+  "task_id": "mult8-21-34",
+  "size": 9,
+  "topology": "independent",
+  "seed": "21:34",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n72,000,000\u00d762,000,000 + 72,000,000\u00d7381,747 + 356,228\u00d762,000,000 + 356,228\u00d7381,747.\nAnswer: 4512585029190116",
+          "answer": "4512585029190116",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72,356,228 \u00d7 62,381,747\n= 72,356,228 \u00d7 (62,000,000 + 381,747)\n= 4,486,086,136,000,000 + 27,621,772,970,316\nAnswer: 4,513,707,908,970,316",
+          "answer": "4513707908970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 7235|6228 \u00d7 6238|1747.\n7235\u00d76238 = 45,131,930; cross terms total 51,489,809; 6228\u00d71747 = 10,880,316.\nCombine: 45,131,930\u00d710\u2078 + 51,489,809\u00d710\u2074 + 10,880,316.\nAnswer: 4513707898970316",
+          "answer": "4513707898970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72,356,228 \u00d7 62,381,747\nAnswer: 451?",
+          "answer": "451",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: \\(7235|6228 \\times 6238|1747\\).\n\n\\(7235\u00d76238=45,131,930\\); cross terms sum to \\(51,489,809\\); \\(6228\u00d71747=10,880,316\\).\n\n\\(45,131,930\u00d710^8+51,489,809\u00d710^4+10,880,316\\)\nAnswer: 4513707898970316",
+          "answer": "4513707898970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72,356,228 \u00d7 62,381,747 = (72,356,228 \u00d7 62 \u00d7 1,000,000) + (72,356,228 \u00d7 381,747)  \n= 4,486,086,136,000,000 + 27,621,772,970,316  \nAnswer: 4,513,707,908,970,316",
+          "answer": "4513707908970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((7235\\times6238)\\times10^8+(7235\\times1747+6228\\times6238)\\times10^4+6228\\times1747\\).\nThe parts are \\(4,513,193,000,000,000\\), \\(514,898,090,000\\), and \\(10,880,316\\).\nAnswer: 4,513,707,890,880,316",
+          "answer": "4513707890880316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 7,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "72,356,228 \u00d7 (62,000,000 + 381,747)\n= 4,486,086,136,000,000 + 27,621,772,970,316\nAnswer: 4513707908970316",
+          "answer": "4513707908970316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 8,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(72,356,228(62,000,000+381,747)\\).\nThe two products are \\(4,486,086,136,000,000\\) and \\(27,621,773,874,316\\).\nAdd.\nAnswer: 4513707919874316",
+          "answer": "4513707919874316",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4512585029190116",
+    "4513707908970316",
+    "4513707898970316",
+    "451",
+    "4513707898970316",
+    "4513707908970316",
+    "4513707890880316",
+    "4513707908970316",
+    "4513707919874316"
+  ],
+  "final_answer": "4513707908970316",
+  "usage": {
+    "input_tokens": 576,
+    "output_tokens": 340,
+    "calls": 9
+  },
+  "trial": 34,
+  "expected": "4513707908970316",
+  "correct": true
+}

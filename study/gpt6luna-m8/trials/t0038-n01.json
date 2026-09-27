@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-38",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:38",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 42659586 multiplied by 49092078? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "42,659,586 \u00d7 49,092,078\n= 42,659,586 \u00d7 (50,000,000 \u2212 907,922)\n= 2,132,979,300,000,000 \u2212 38,731,576,640,292\nAnswer: 2,094,247,723,359,708",
+          "answer": "2094247723359708",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2094247723359708"
+  ],
+  "final_answer": "2094247723359708",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 34,
+    "calls": 1
+  },
+  "trial": 38,
+  "expected": "2094247723359708",
+  "correct": true
+}

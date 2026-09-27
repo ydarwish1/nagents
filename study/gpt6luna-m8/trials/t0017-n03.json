@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-17",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:17",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 (100,000,000 \u2212 550,839)\n= 6,517,256,300,000,000 \u2212 35,904,599,430,357\nAnswer: 6,481,351,700,569,643",
+          "answer": "6481351700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "65,172,563 \u00d7 99,449,161 = 65,172,563 \u00d7 (100,000,000 \u2212 550,839)  \n= 6,517,256,300,000,000 \u2212 35,900,241,155,987\nAnswer: 6481356058844013",
+          "answer": "6481356058844013",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 65172563 multiplied by 99449161? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "99,449,161 = 100,000,000 \u2212 550,839.\n65,172,563 \u00d7 100,000,000 = 6,517,256,300,000,000.\n65,172,563 \u00d7 550,839 = 35,899,599,430,357.\nSubtracting gives 6,481,356,700,569,643.\nAnswer: 6481356700569643",
+          "answer": "6481356700569643",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6481351700569643",
+    "6481356058844013",
+    "6481356700569643"
+  ],
+  "final_answer": "6481351700569643",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 108,
+    "calls": 3
+  },
+  "trial": 17,
+  "expected": "6481356710569643",
+  "correct": false
+}

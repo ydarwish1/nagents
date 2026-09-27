@@ -1,0 +1,5 @@
+=== f9e1a131477d0601e5112405
+Splitting each number into six-digit groups and multiplying gives 35 | 537373 | 638289 | 982862 | 013079.
+Answer: 35537373638289982862013079
+
+I can’t reliably work out the remaining nine products without a calculator, so I won’t guess.

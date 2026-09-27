@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-13",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(24,346,673=24,000,000+346,673\\).\n\\(44,610,246\\times24,000,000=1,070,645,904,000,000\\).\n\\(44,610,246\\times346,673=15,465,167,811,558\\).\nAnswer: 1086111071811558",
+          "answer": "1086111071811558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "44,610,246 \u00d7 (24,000,000 + 346,673)\n= 1,070,645,904,000,000 + 15,465,167,811,558\nAnswer: 1,086,111,071,811,558",
+          "answer": "1086111071811558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "44,610,246 \u00d7 24,346,673 = (44,000,000 + 610,246) \u00d7 24,346,673  \n= 1,071,253,612,000,000 + 14,857,459,811,558\nAnswer: 1086111071811558",
+          "answer": "1086111071811558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1086111071811558",
+    "1086111071811558",
+    "1086111071811558"
+  ],
+  "final_answer": "1086111071811558",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 101,
+    "calls": 3
+  },
+  "trial": 13,
+  "expected": "1086111071811558",
+  "correct": true
+}

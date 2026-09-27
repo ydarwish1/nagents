@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-26",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:26",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 97700391 multiplied by 62533863? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "97,700,391 \u00d7 (62,000,000 + 533,863) = 6,057,424,242,000,000 + 52,158,622,840,433.\nAnswer: 6109582864840433",
+          "answer": "6109582864840433",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6109582864840433"
+  ],
+  "final_answer": "6109582864840433",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 26,
+    "calls": 1
+  },
+  "trial": 26,
+  "expected": "6109582865840433",
+  "correct": false
+}

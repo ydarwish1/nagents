@@ -1,0 +1,9 @@
+=== e4299ae68ed35d2376c73f34
+Multiplying in three-digit groups and carrying gives 51|714|322|786|790|650|746|267|652.
+Answer: 51714322786790650746267652
+
+=== 066ebcd3449fe768a62d888e
+Multiplying in three-digit groups and carrying gives 34|485|358|214|288|368|709|223|264.
+Answer: 34485358214288368709223264
+
+I can’t reliably work out the remaining eight products without risking incorrect answers.

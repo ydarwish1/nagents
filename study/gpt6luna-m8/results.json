@@ -1,0 +1,303 @@
+{
+  "per_size": [
+    {
+      "size": 1,
+      "trials": 40,
+      "accuracy": 0.75,
+      "ci95": [
+        0.625,
+        0.875
+      ],
+      "mean_output_tokens": 36.8,
+      "input_tokens_total": 2560,
+      "output_tokens_total": 1473,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 0,
+      "best_of_n": 0.75,
+      "independent_reference": 0.6444
+    },
+    {
+      "size": 3,
+      "trials": 40,
+      "accuracy": 0.825,
+      "ci95": [
+        0.7,
+        0.925
+      ],
+      "mean_output_tokens": 105.2,
+      "input_tokens_total": 7680,
+      "output_tokens_total": 4209,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 2,
+      "best_of_n": 0.95,
+      "independent_reference": 0.7921
+    },
+    {
+      "size": 5,
+      "trials": 40,
+      "accuracy": 0.925,
+      "ci95": [
+        0.85,
+        1.0
+      ],
+      "mean_output_tokens": 175.8,
+      "input_tokens_total": 12800,
+      "output_tokens_total": 7030,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 5,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9531
+    },
+    {
+      "size": 7,
+      "trials": 40,
+      "accuracy": 0.975,
+      "ci95": [
+        0.925,
+        1.0
+      ],
+      "mean_output_tokens": 246.1,
+      "input_tokens_total": 17920,
+      "output_tokens_total": 9845,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 7,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9915
+    },
+    {
+      "size": 9,
+      "trials": 40,
+      "accuracy": 0.975,
+      "ci95": [
+        0.925,
+        1.0
+      ],
+      "mean_output_tokens": 316.6,
+      "input_tokens_total": 23040,
+      "output_tokens_total": 12662,
+      "refusal_trials": 0,
+      "unparsed_vote_trials": 9,
+      "best_of_n": 1.0,
+      "independent_reference": 0.9986
+    }
+  ],
+  "gains": [
+    {
+      "from_size": 1,
+      "to_size": 3,
+      "gain": 0.075,
+      "ci95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "from_size": 3,
+      "to_size": 5,
+      "gain": 0.1,
+      "ci95": [
+        0.025,
+        0.2
+      ]
+    },
+    {
+      "from_size": 5,
+      "to_size": 7,
+      "gain": 0.05,
+      "ci95": [
+        0.0,
+        0.125
+      ]
+    },
+    {
+      "from_size": 7,
+      "to_size": 9,
+      "gain": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "saturation_size": 7,
+  "saturation_size_ci": 7,
+  "epsilon": 0.01,
+  "overlap": {
+    "answers": 360,
+    "pairs": 1440,
+    "solo_accuracy": 0.6444,
+    "error_correlation": 0.0453,
+    "same_wrong_answer_rate": 0.0406
+  },
+  "seat_balanced": {
+    "per_size": [
+      {
+        "size": 1,
+        "trials": 40,
+        "accuracy": 0.6444,
+        "ci95": [
+          0.5861,
+          0.7056
+        ]
+      },
+      {
+        "size": 3,
+        "trials": 40,
+        "accuracy": 0.783,
+        "ci95": [
+          0.7191,
+          0.8416
+        ]
+      },
+      {
+        "size": 5,
+        "trials": 40,
+        "accuracy": 0.9269,
+        "ci95": [
+          0.8813,
+          0.967
+        ]
+      },
+      {
+        "size": 7,
+        "trials": 40,
+        "accuracy": 0.9674,
+        "ci95": [
+          0.9229,
+          0.9944
+        ]
+      },
+      {
+        "size": 9,
+        "trials": 40,
+        "accuracy": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ]
+      }
+    ],
+    "gains": [
+      {
+        "from_size": 1,
+        "to_size": 3,
+        "gain": 0.1385,
+        "ci95": [
+          0.1227,
+          0.1538
+        ]
+      },
+      {
+        "from_size": 3,
+        "to_size": 5,
+        "gain": 0.144,
+        "ci95": [
+          0.1139,
+          0.1736
+        ]
+      },
+      {
+        "from_size": 5,
+        "to_size": 7,
+        "gain": 0.0404,
+        "ci95": [
+          0.0223,
+          0.0625
+        ]
+      },
+      {
+        "from_size": 7,
+        "to_size": 9,
+        "gain": 0.0076,
+        "ci95": [
+          -0.0097,
+          0.0247
+        ]
+      }
+    ],
+    "saturation_size": 7,
+    "saturation_size_ci": null,
+    "epsilon": 0.01,
+    "seat_accuracy": [
+      0.75,
+      0.675,
+      0.625,
+      0.625,
+      0.6,
+      0.625,
+      0.675,
+      0.575,
+      0.65
+    ]
+  },
+  "manifest": {
+    "nagents_version": "0.3.0",
+    "model": "subagents:gpt-6-luna-low,no-tools,10-per-batch",
+    "topology": "independent",
+    "sizes": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "trials": 40,
+    "master_seed": 21,
+    "task_ids": [
+      "mult8-21-0",
+      "mult8-21-1",
+      "mult8-21-2",
+      "mult8-21-3",
+      "mult8-21-4",
+      "mult8-21-5",
+      "mult8-21-6",
+      "mult8-21-7",
+      "mult8-21-8",
+      "mult8-21-9",
+      "mult8-21-10",
+      "mult8-21-11",
+      "mult8-21-12",
+      "mult8-21-13",
+      "mult8-21-14",
+      "mult8-21-15",
+      "mult8-21-16",
+      "mult8-21-17",
+      "mult8-21-18",
+      "mult8-21-19",
+      "mult8-21-20",
+      "mult8-21-21",
+      "mult8-21-22",
+      "mult8-21-23",
+      "mult8-21-24",
+      "mult8-21-25",
+      "mult8-21-26",
+      "mult8-21-27",
+      "mult8-21-28",
+      "mult8-21-29",
+      "mult8-21-30",
+      "mult8-21-31",
+      "mult8-21-32",
+      "mult8-21-33",
+      "mult8-21-34",
+      "mult8-21-35",
+      "mult8-21-36",
+      "mult8-21-37",
+      "mult8-21-38",
+      "mult8-21-39"
+    ],
+    "config": {
+      "suite": "mult",
+      "suite_path": null,
+      "depth": 8,
+      "mock": false,
+      "mock_accuracy": null,
+      "model": null,
+      "effort": null,
+      "max_tokens": 16000,
+      "subagents": "gpt-6-luna-low,no-tools,10-per-batch",
+      "digits": 8,
+      "workers": 1
+    },
+    "started_at": "2026-09-26T22:01:10-0400"
+  }
+}

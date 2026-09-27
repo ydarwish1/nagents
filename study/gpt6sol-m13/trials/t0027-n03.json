@@ -1,0 +1,58 @@
+{
+  "task_id": "mult13-21-27",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:27",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6174363498787 multiplied by 2903250468006? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "In base 1,000,000, multiply (6|174363|498787) by (2|903250|468006). Carrying gives 17|925723|717492|521363|308722.\nAnswer: 17925723717492521363308722",
+          "answer": "17925723717492521363308722",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6174363498787 multiplied by 2903250468006? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "[no answer given for this problem] I can\u2019t reliably work out the remaining nine products without a calculator, so I won\u2019t guess.",
+          "answer": "",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 6174363498787 multiplied by 2903250468006? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The six-digit groups of the product are 17 | 925723 | 497717 | 132521 | 308722.\nAnswer: 17925723497717132521308722",
+          "answer": "17925723497717132521308722",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "17925723717492521363308722",
+    "",
+    "17925723497717132521308722"
+  ],
+  "final_answer": "17925723717492521363308722",
+  "usage": {
+    "input_tokens": 201,
+    "output_tokens": 97,
+    "calls": 3
+  },
+  "trial": 27,
+  "expected": "17925723717492521363308722",
+  "correct": true
+}

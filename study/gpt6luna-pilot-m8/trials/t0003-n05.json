@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-11-3",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "33,935,859 \u00d7 (26,000,000 + 446,881)\n= 882,332,334,000,000 + 15,165,290,605,779\nAnswer: 897,497,624,605,779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "33,935,859 \u00d7 26,446,881  \n= 33,935,859 \u00d7 (26,000,000 + 446,881)  \n= 882,332,334,000,000 + 15,165,290,605,779  \nAnswer: 897,497,624,605,779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split the second factor: 26,446,881 = 20,000,000 + 6,000,000 + 400,000 + 40,000 + 6,000 + 800 + 80 + 1.\nAnswer: 897?",
+          "answer": "897",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "3393|5859 \u00d7 2644|6881.\n3393\u00d72644 = 8,970,092; cross-products sum to 38,502,?; 5859\u00d76881 = 40,? \nAnswer: 897009200000000",
+          "answer": "897009200000000",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 33935859 multiplied by 26446881? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "26,446,881 = 26,000,000 + 446,881  \n33,935,859 \u00d7 26,000,000 = 882,332,334,000,000  \n33,935,859 \u00d7 446,881 = 15,165,290,605,779  \nAdd the partial products.\nAnswer: 897497624605779",
+          "answer": "897497624605779",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "897497624605779",
+    "897497624605779",
+    "897",
+    "897009200000000",
+    "897497624605779"
+  ],
+  "final_answer": "897497624605779",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 162,
+    "calls": 5
+  },
+  "trial": 3,
+  "expected": "897497624605779",
+  "correct": true
+}

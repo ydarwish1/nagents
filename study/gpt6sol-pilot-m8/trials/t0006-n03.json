@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 7239,1622 and 1232,6265. High 7239\u00b71232=8,918,448. Cross 7239\u00b76265+1622\u00b71232=45,352,335+1,998,304=47,350,639. Low 1622\u00b76265=10,162,? 6265*(1600+22)=10,024,000+137,830=10,161,830. Total 891,844,800,000,000+473,506,390,000+10,161,830 = 892,318,316,551,830.\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The high, cross, and low products are 8,918,448; 47,350,639; and 10,161,830. Carrying gives 8,923,183 | 1,655 | 1,830.\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72391622 multiplied by 12326265? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using 10,000-part multiplication: the low part is 1830 with carry 1016; the middle part is 1655 with carry 4735; the high part is 8923183.\nAnswer: 892318316551830",
+          "answer": "892318316551830",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "892318316551830",
+    "892318316551830",
+    "892318316551830"
+  ],
+  "final_answer": "892318316551830",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 147,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "892318316551830",
+  "correct": true
+}

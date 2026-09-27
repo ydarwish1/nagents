@@ -1,0 +1,5 @@
+=== bd3b634ec4c5b197c316f7e7
+Multiplying in three-digit groups and carrying from right to left gives 1 | 414 | 528 | 963 | 375 | 646 | 534 | 778 | 507 | 519.
+Answer: 1414528963375646534778507519
+
+I can’t reliably calculate the other nine products by hand, so I won’t guess their answers.

@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-7",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: \\(514189\\times720059=370246417151\\), \\(514189\\times591592+550709\\times720059=700733070719\\), and \\(550709\\times591592=325795038728\\). Combining the groups gives the product.\nAnswer: 370247117884396514038728",
+          "answer": "370247117884396514038728",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "370247117884396514038728"
+  ],
+  "final_answer": "370247117884396514038728",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 58,
+    "calls": 1
+  },
+  "trial": 7,
+  "expected": "370247117884396514038728",
+  "correct": true
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-24",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:24",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,035,812 = 14,000,000 + 35,812.\n14,156,542 \u00d7 14,000,000 = 198,191,588,000,000.\n14,156,542 \u00d7 35,812 = 506,974,082,104.\nAdding gives 198,698,562,082,104.\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,156,542 \u00d7 14,035,812 = 14,156,542 \u00d7 (14,000,000 + 35,812)\n= 198,191,588,000,000 + 506,974,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 14156542 multiplied by 14035812? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "14,035,812 \u00d7 14,000,000 = 196,501,368,000,000  \n14,035,812 \u00d7 156,542 = 2,197,194,082,104  \nAdding: 198,698,562,082,104\nAnswer: 198698562082104",
+          "answer": "198698562082104",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "198698562082104",
+    "198698562082104",
+    "198698562082104"
+  ],
+  "final_answer": "198698562082104",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 110,
+    "calls": 3
+  },
+  "trial": 24,
+  "expected": "198698562082104",
+  "correct": true
+}

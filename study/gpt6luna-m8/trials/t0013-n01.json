@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-13",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:13",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 44610246 multiplied by 24346673? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(24,346,673=24,000,000+346,673\\).\n\\(44,610,246\\times24,000,000=1,070,645,904,000,000\\).\n\\(44,610,246\\times346,673=15,465,167,811,558\\).\nAnswer: 1086111071811558",
+          "answer": "1086111071811558",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1086111071811558"
+  ],
+  "final_answer": "1086111071811558",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 41,
+    "calls": 1
+  },
+  "trial": 13,
+  "expected": "1086111071811558",
+  "correct": true
+}

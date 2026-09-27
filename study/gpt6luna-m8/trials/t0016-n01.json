@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-16",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:16",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 62835671 multiplied by 44797478? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: \\(6283|5671 \\times 4479|7478\\).\n\n\\(6283\u00d74479=28,141,557\\); cross terms sum to \\(72,384,743\\); \\(5671\u00d77478=42,407,738\\).\n\n\\(28,141,557\u00d710^8+72,384,743\u00d710^4+42,407,738\\)\nAnswer: 2814879972407738",
+          "answer": "2814879972407738",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "2814879972407738"
+  ],
+  "final_answer": "2814879972407738",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 54,
+    "calls": 1
+  },
+  "trial": 16,
+  "expected": "2814879589237738",
+  "correct": false
+}

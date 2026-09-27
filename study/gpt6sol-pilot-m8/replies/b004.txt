@@ -1,0 +1,39 @@
+=== 1aca81c79118e3d36b49c19d
+Split at four digits: \(2623|3070 \times 9561|9276\). The low product is \(28,477,320\), giving \(7320\) and carry \(2847\). The middle sum is \(53,683,218+2847=53,686,065\), giving \(6065\) and carry \(5368\). The high sum is \(25,078,503+5368=25,083,871\).
+Answer: 2508387160657320
+
+=== ecb87d41a774ecb1f47be492
+Split at four digits: \(8769|2272 \times 7372|6273\). The low product gives \(2256\) and carry \(1425\); the middle sum \(71,757,121+1425\) gives \(8546\) and carry \(7175\). The high sum is \(64,645,068+7175=64,652,243\).
+Answer: 6465224385462256
+
+=== e7573abd9c07a65dd2cc76ea
+Split at four digits: \(5125|7056 \times 8540|2282\). The low product gives \(1792\) and carry \(1610\); the middle sum \(71,953,490+1610\) gives \(5100\) and carry \(7195\). The high sum is \(43,767,500+7195=43,774,695\).
+Answer: 4377469551001792
+
+=== 13a8da79af1162e05863ca7e
+Split at four digits: \(1717|8429 \times 4015|1855\). The low product gives \(5795\) and carry \(1563\); the middle sum \(37,027,470+1563\) gives \(9033\) and carry \(3702\). The high sum is \(6,893,755+3702=6,897,457\).
+Answer: 689745790335795
+
+=== a358059556666f67a03c478d
+Split at four digits: \(3575|1240 \times 9496|7409\). The low product gives \(7160\) and carry \(918\); the middle sum \(38,262,215+918\) gives \(3133\) and carry \(3826\). The high sum is \(33,948,200+3826=33,952,026\).
+Answer: 3395202631337160
+
+=== d328afcf71ed1a663c42c292
+Split at four digits: \(8958|3287 \times 6995|2089\). The low product gives \(6543\) and carry \(686\); the middle sum \(41,705,827+686\) gives \(6513\) and carry \(4170\). The high sum is \(62,661,210+4170=62,665,380\).
+Answer: 6266538065136543
+
+=== 9c56cf5674e0500ca8a5c7d7
+Split at four digits: \(8684|2974 \times 9635|8010\). The low product gives \(1740\) and carry \(2382\); the middle sum \(98,213,330+2382\) gives \(5712\) and carry \(9821\). The high sum is \(83,670,340+9821=83,680,161\).
+Answer: 8368016157121740
+
+=== ba3cac0b87726cd08651732a
+Split at four digits: \(8345|5904 \times 3246|9563\). The low product gives \(9952\) and carry \(5645\); the middle sum \(98,967,619+5645\) gives \(3264\) and carry \(9897\). The high sum is \(27,087,870+9897=27,097,767\).
+Answer: 2709776732649952
+
+=== d12db15356b62420f33f0d96
+Split at four digits: \(3393|5859 \times 2644|6881\). The low product gives \(5779\) and carry \(4031\); the middle sum \(38,838,429+4031\) gives \(2460\) and carry \(3884\). The high sum is \(8,971,092+3884=8,974,976\).
+Answer: 897497624605779
+
+=== 70ab98dd9a2e6c485787a7a4
+Split at four digits: \(7239|1622 \times 1232|6265\). The low product gives \(1830\) and carry \(1016\); the middle sum \(47,350,639+1016\) gives \(1655\) and carry \(4735\). The high sum is \(8,918,448+4735=8,923,183\).
+Answer: 892318316551830

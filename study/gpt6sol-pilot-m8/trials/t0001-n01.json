@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-1",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:1",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 51257056 multiplied by 85402282? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 5125,7056 and 8540,2282. High 5125\u00b78540=43,767,500. Cross 5125\u00b72282+7056\u00b78540=11,695,250+60,258,240=71,953,490. Low 7056\u00b72282=16,101,792. Total 4,376,750,000,000,000+719,534,900,000+16,101,792 = 4,377,469,550,? add 719,534,900,000 to 4,376,750,000,000,000 = 4,377,469,534,900,000; plus 16,101,792 = 4,377,469,551,001,792.\nAnswer: 4377469551001792",
+          "answer": "4377469551001792",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4377469551001792"
+  ],
+  "final_answer": "4377469551001792",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 89,
+    "calls": 1
+  },
+  "trial": 1,
+  "expected": "4377469551001792",
+  "correct": true
+}

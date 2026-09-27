@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-3",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:3",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: 216685\u00b7357685, cross terms 216685\u00b743069 + 474\u00b7357685, and 474\u00b743069.\nAnswer: 216685950474 \u00d7 357685043069",
+          "answer": "216685950474",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into six-digit groups: 216685950474 = 216685\u00d710\u2076+950474, and 357685043069 = 357685\u00d710\u2076+43069.\nAnswer: 77",
+          "answer": "77",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 216685950474 multiplied by 357685043069? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "[no answer given for this problem] 121213044207399",
+          "answer": "121213044207399",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "216685950474",
+    "77",
+    "121213044207399"
+  ],
+  "final_answer": "216685950474",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 71,
+    "calls": 3
+  },
+  "trial": 3,
+  "expected": "77505323527739890964706",
+  "correct": false
+}

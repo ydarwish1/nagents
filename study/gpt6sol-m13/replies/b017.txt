@@ -1,0 +1,9 @@
+=== 158a70aa2c0daff18d3fea42
+Using groups of six digits, the product is 7 | 469436 | 295282 | 650301 | 416992.
+Answer: 7469436295282650301416992
+
+=== f4494ce7e75ae174ddeefc8d
+Using groups of six digits, the product is 25 | 469473 | 895239 | 342661 | 054380.
+Answer: 25469473895239342661054380
+
+I can’t reliably work out the remaining eight products without tools, so I won’t guess their answers.

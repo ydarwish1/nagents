@@ -1,0 +1,58 @@
+{
+  "task_id": "mult12-11-6",
+  "size": 3,
+  "topology": "independent",
+  "seed": "11:6",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 519789974894 multiplied by 233196194373? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 121|213|044|018|518|014|071|462.\nAnswer: 121213044018518014071462",
+          "answer": "121213044018518014071462",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 519789974894 multiplied by 233196194373? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 121|213|044|018|518|014|071|462.\nAnswer: 121213044018518014071462",
+          "answer": "121213044018518014071462",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 519789974894 multiplied by 233196194373? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 121213 | 044 | 018 | 518 | 014 | 071 | 462.\nAnswer: 121213044018518014071462",
+          "answer": "121213044018518014071462",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "121213044018518014071462",
+    "121213044018518014071462",
+    "121213044018518014071462"
+  ],
+  "final_answer": "121213044018518014071462",
+  "usage": {
+    "input_tokens": 198,
+    "output_tokens": 87,
+    "calls": 3
+  },
+  "trial": 6,
+  "expected": "121213044018518014071462",
+  "correct": true
+}

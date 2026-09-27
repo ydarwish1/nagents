@@ -1,0 +1,5 @@
+=== e1cfe9d4c7d3af7a051e348c
+Grouping the factors in six-digit blocks gives 1|411515|156042 and 4|282957|023683. Multiplying and carrying from right to left gives 6|045458|791705|089634|542686.
+Answer: 6045458791705089634542686
+
+I can’t reliably calculate the other nine products by hand without risking incorrect answers.

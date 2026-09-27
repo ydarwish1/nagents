@@ -1,0 +1,58 @@
+{
+  "task_id": "mult13-21-7",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1753984539378 multiplied by 3492480495845? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Three-digit group multiplication gives 6|125|756|793|791|341|367|884|410.\nAnswer: 6125756793791341367884410",
+          "answer": "6125756793791341367884410",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1753984539378 multiplied by 3492480495845? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Grouping the factors in three-digit blocks gives 1|753|984|539|378 \u00d7 3|492|480|495|845. Multiplying and carrying from right to left gives 6|125|756|793|791|341|367|884|410.\nAnswer: 6125756793791341367884410\n\nI can\u2019t reliably complete the other nine products without risking incorrect answers.",
+          "answer": "6125756793791341367884410",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 1753984539378 multiplied by 3492480495845? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product is 6|125|756|793|791|341|367|884|410.\nAnswer: 6125756793791341367884410",
+          "answer": "6125756793791341367884410",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "6125756793791341367884410",
+    "6125756793791341367884410",
+    "6125756793791341367884410"
+  ],
+  "final_answer": "6125756793791341367884410",
+  "usage": {
+    "input_tokens": 201,
+    "output_tokens": 126,
+    "calls": 3
+  },
+  "trial": 7,
+  "expected": "6125756793791341367884410",
+  "correct": true
+}

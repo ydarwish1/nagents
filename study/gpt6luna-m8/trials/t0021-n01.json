@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-21",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:21",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 40118775 multiplied by 26088610? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "40,118,775 \u00d7 26,088,610 = 40,118,775 \u00d7 (26,000,000 + 88,610)\n= 1,043,088,150,000,000 + 3,554,924,652,750\nAnswer: 1,046,643,074,652,750",
+          "answer": "1046643074652750",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1046643074652750"
+  ],
+  "final_answer": "1046643074652750",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 33,
+    "calls": 1
+  },
+  "trial": 21,
+  "expected": "1046643074652750",
+  "correct": true
+}

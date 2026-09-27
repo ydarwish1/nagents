@@ -1,0 +1,84 @@
+{
+  "task_id": "mult12-11-7",
+  "size": 5,
+  "topology": "independent",
+  "seed": "11:7",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: \\(514189\\times720059=370246417151\\), \\(514189\\times591592+550709\\times720059=700733070719\\), and \\(550709\\times591592=325795038728\\). Combining the groups gives the product.\nAnswer: 370247117884396514038728",
+          "answer": "370247117884396514038728",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 6-digit groups: 514189\u00b7720059, cross terms 514189\u00b7591592 + 550709\u00b7720059, and 550709\u00b7591592.\nAnswer: 514189550709 \u00d7 720059591592",
+          "answer": "514189550709",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into six-digit groups: 514189550709 = 514189\u00d710\u2076+550709, and 720059591592 = 720059\u00d710\u2076+591592.\nAnswer: 370",
+          "answer": "370",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "[no answer given for this problem] 121213044207399",
+          "answer": "121213044207399",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 514189550709 multiplied by 720059591592? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\(514{,}189{,}550{,}709 \\times 720{,}059{,}591{,}592\\)\n\\(= (514{,}189 \\times 10^6 + 550{,}709)(720{,}059 \\times 10^6 + 591{,}592)\\)\n\\(= 514{,}189 \\times 720{,}059 \\times 10^{12} + (514{,}189 \\times 591{,}592 + 550{,}709 \\times 720{,}059)\\times 10^6 + 550{,}709 \\times 591{,}592\\)\nAnswer: 514189550709 \u00d7 720059591592",
+          "answer": "514189550709",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "370247117884396514038728",
+    "514189550709",
+    "370",
+    "121213044207399",
+    "514189550709"
+  ],
+  "final_answer": "514189550709",
+  "usage": {
+    "input_tokens": 330,
+    "output_tokens": 210,
+    "calls": 5
+  },
+  "trial": 7,
+  "expected": "370247117884396514038728",
+  "correct": false
+}

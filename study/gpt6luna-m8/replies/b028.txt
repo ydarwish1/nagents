@@ -1,0 +1,49 @@
+=== 572ea0666e4f1def90da5213
+Split into millions and multiply the four resulting terms:
+42,000,000×49,000,000 + 42,000,000×92,078 + 659,586×49,000,000 + 659,586×92,078.
+Answer: 2094247723359708
+
+=== 676d73d6338fbc35eb2ce72e
+Split into millions and multiply the four resulting terms:
+62,000,000×44,000,000 + 62,000,000×797,478 + 835,671×44,000,000 + 835,671×797,478.
+Answer: 2815492400657138
+
+=== 32b9723187ce170b0d1bf30e
+Split into millions and multiply the four resulting terms:
+72,000,000×62,000,000 + 72,000,000×381,747 + 356,228×62,000,000 + 356,228×381,747.
+Answer: 4512585029190116
+
+=== f26b441b2ad03cb857b8e00e
+Split into millions and multiply the four resulting terms:
+57,000,000×88,000,000 + 57,000,000×619,973 + 807,573×88,000,000 + 807,573×619,973.
+Answer: 5122732846971429
+
+=== 0ea10e7aae593f59e5f100fc
+Split into millions and multiply the four resulting terms:
+37,000,000×58,000,000 + 37,000,000×820,452 + 478,830×58,000,000 + 478,830×820,452.
+Answer: 2204900598135160
+
+=== a4af0057144a8097dcc59acb
+Split into millions and multiply the four resulting terms:
+89,000,000×20,000,000 + 89,000,000×773,831 + 932,155×20,000,000 + 932,155×773,831.
+Answer: 1868119754608905
+
+=== a2e18bd5a83c3d0e98556478
+Split into millions and multiply the four resulting terms:
+15,000,000×92,000,000 + 15,000,000×338,218 + 531,969×92,000,000 + 531,969×338,218.
+Answer: 1433998708697442
+
+=== dcc0961122fcc02d8fc1dfb0
+Split into millions and multiply the four resulting terms:
+86,000,000×90,000,000 + 86,000,000×51,101 + 804,349×90,000,000 + 804,349×51,101.
+Answer: 7817589198926349
+
+=== bf9e6f56fe3ec6837ecf879b
+Split into millions and multiply the four resulting terms:
+74,000,000×61,000,000 + 74,000,000×767,980 + 976,196×61,000,000 + 976,196×767,980.
+Answer: 4632464913656080
+
+=== 00ceb701aa5a25bed2aa5697
+Split into millions and multiply the four resulting terms:
+71,000,000×84,000,000 + 71,000,000×657,156 + 420,437×84,000,000 + 420,437×657,156.
+Answer: 6046470704496972

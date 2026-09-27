@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-11-2",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:2",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 35751240 multiplied by 94967409? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "The high, cross, and low products are 33,948,200; 38,262,215; and 9,187,160. Carrying gives 33,952,026 | 3,133 | 7,160.\nAnswer: 3395202631337160",
+          "answer": "3395202631337160",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3395202631337160"
+  ],
+  "final_answer": "3395202631337160",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 36,
+    "calls": 1
+  },
+  "trial": 2,
+  "expected": "3395202631337160",
+  "correct": true
+}

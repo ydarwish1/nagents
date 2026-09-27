@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-28",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:28",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 76709553 multiplied by 11911235? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "76,709,553 \u00d7 11,911,235 = 76,709,553 \u00d7 (11,000,000 + 911,235)\n= 843,805,083,000,000 + 69,881,707,444,955\nAnswer: 913686790444955",
+          "answer": "913686790444955",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "913686790444955"
+  ],
+  "final_answer": "913686790444955",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 28,
+  "expected": "913705512527955",
+  "correct": false
+}

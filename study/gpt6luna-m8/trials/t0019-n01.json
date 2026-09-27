@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-19",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:19",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 28116943 multiplied by 46434994? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "28,116,943 \u00d7 46,434,994 = 28,116,943 \u00d7 (46,000,000 + 434,994)\n= 1,293,379,378,000,000 + 12,230,701,503,342\nAnswer: 1305610079503342",
+          "answer": "1305610079503342",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1305610079503342"
+  ],
+  "final_answer": "1305610079503342",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 32,
+    "calls": 1
+  },
+  "trial": 19,
+  "expected": "1305610079503342",
+  "correct": true
+}

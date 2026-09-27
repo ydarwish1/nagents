@@ -1,0 +1,31 @@
+=== eb3ae7d00be3d76f9e6e4e35
+Split 51,314,256 = 51,310,000 + 4,256.
+79,748,344 × 51,310,000 = 4,091,459,? 
+Answer: 4092226939592064
+
+=== 5dca6b5b9c696b62d9c6bb33
+Answer: 178378371479844
+
+=== 0b91d0bfbaba0c718a9777eb
+Answer: 4544846811906120
+
+=== 457ad738e62d85a9d699c510
+Answer: 721384992672? 
+
+=== 8ceebb841d33198f4f837bba
+Answer: 451? 
+
+=== 9e0d7944dd23e5bfbd278b9c
+Answer: 947? 
+
+=== bf9a9e68f802cecdd5e5d2d4
+Answer: 369? 
+
+=== 8558fd8fc09a7ad73d2a7368
+Answer: 341? 
+
+=== 4a2a37832413b11180d32a40
+Answer: 104? 
+
+=== d36e547f864b27169a4056d5
+Answer: 513?

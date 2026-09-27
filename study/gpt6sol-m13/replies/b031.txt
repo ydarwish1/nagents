@@ -1,0 +1,39 @@
+=== 45df895c3a0aff27d07ef15f
+Grouping digits in threes and multiplying from right to left gives 820, 683, 880, 436, 313, 940, 377, 848, 10 after carrying.
+Answer: 10848377940313436880683820
+
+=== 8ae72fa9f5ab312781bceee7
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 525831ed0b7440c5034821fb
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 42572990de5728ccf3450601
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== f874bc328861b6cf76c04c88
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 298f1a80ec97a71ccba017f5
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 336ffa520c9582ebdf988552
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 8e837bf4280b2f2ef1c2f552
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 9de5d6d7b636cdb596b6641a
+I can’t reliably calculate this product without a tool.
+Answer: 0
+
+=== 36064efc9ce4ac81590468c1
+I can’t reliably calculate this product without a tool.
+Answer: 0

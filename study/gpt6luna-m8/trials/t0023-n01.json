@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-23",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((7497\\times6176)\\times10^8+(7497\\times7980+6196\\times6176)\\times10^4+6196\\times7980\\).\nThe parts are \\(4,630,147,200,000,000\\), \\(980,925,560,000\\), and \\(49,444,080\\).\nAnswer: 4,631,128,175,004,080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4631128175004080"
+  ],
+  "final_answer": "4631128175004080",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 50,
+    "calls": 1
+  },
+  "trial": 23,
+  "expected": "4631128175004080",
+  "correct": true
+}

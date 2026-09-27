@@ -1,0 +1,32 @@
+{
+  "task_id": "mult8-21-34",
+  "size": 1,
+  "topology": "independent",
+  "seed": "21:34",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 72356228 multiplied by 62381747? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n72,000,000\u00d762,000,000 + 72,000,000\u00d7381,747 + 356,228\u00d762,000,000 + 356,228\u00d7381,747.\nAnswer: 4512585029190116",
+          "answer": "4512585029190116",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4512585029190116"
+  ],
+  "final_answer": "4512585029190116",
+  "usage": {
+    "input_tokens": 64,
+    "output_tokens": 41,
+    "calls": 1
+  },
+  "trial": 34,
+  "expected": "4513707908970316",
+  "correct": false
+}

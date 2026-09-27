@@ -1,0 +1,39 @@
+=== 2b79b675e778deb149cbcd7d
+Multiplying in three-digit groups and carrying gives 15|234|798|144|098|809|584|990|597.
+Answer: 15234798144098809584990597
+
+=== eea15c9a79da5d47e91f5cc6
+Multiplying in three-digit groups and carrying gives 9|764|470|060|500|819|744|411|290.
+Answer: 9764470060500819744411290
+
+=== 10512d7910b925303ee0f207
+Multiplying in three-digit groups and carrying gives 41|805|034|874|893|820|635|768|156.
+Answer: 41805034874893820635768156
+
+=== 7aae0429f5e8acabdfb9239b
+Multiplying in three-digit groups and carrying gives 17|302|276|033|058|063|143|439|154.
+Answer: 17302276033058063143439154
+
+=== ffe02eeb90c713b570c4fbda
+Multiplying in three-digit groups and carrying gives 14|809|178|585|432|169|169|814|895.
+Answer: 14809178585432169169814895
+
+=== fdc0d1b22fb62dfe255c96a1
+Multiplying in three-digit groups and carrying gives 14|408|082|095|527|959|753|387|340.
+Answer: 14408082095527959753387340
+
+=== e8a807fb1b98d97347b25c05
+Multiplying in three-digit groups and carrying gives 34|189|032|713|145|437|316|177|186.
+Answer: 34189032713145437316177186
+
+=== b30ab8ca02a37e7755c47a6c
+Multiplying in three-digit groups and carrying gives 23|832|741|794|228|008|854|580|302.
+Answer: 23832741794228008854580302
+
+=== 20dd8608759a737370705a3a
+Multiplying in three-digit groups and carrying gives 5|553|162|303|489|851|265|006|609.
+Answer: 5553162303489851265006609
+
+=== df1c8ca384e6f58b6afd8943
+Multiplying in three-digit groups and carrying gives 17|999|363|243|833|469|469|703|665.
+Answer: 17999363243833469469703665

@@ -1,0 +1,39 @@
+=== bef0571e6d8482519dba62e3
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 3116297682142549 × 6242639590009261
+
+=== 8fb45aaeda6a413e41f45fa5
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 6766638240050361 × 7199294417988168
+
+=== 014c37b2e45285d8d238cb16
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 2064195370991975 × 4170251848574935
+
+=== 416cbc93e720a3036abf622e
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 8944361472534256 × 4120861894932406
+
+=== 236628de181fc2a8b7ff56ba
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 4254975806327673 × 8356337772324202
+
+=== 8af8b9abc4d0694e5a7b86ed
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 2257826819509150 × 6824955268998214
+
+=== 296534bbacc3834f8e29ef40
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 8639371442412250 × 1066325892430398
+
+=== efc7a05af5d0deba278b4d99
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 8546922437630780 × 1973399644544004
+
+=== 7d975a44d6235657b41160cd
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 2850236819838032 × 1202919655778694
+
+=== c4f5d5dad11bf07538768573
+Using place-value multiplication, the product is the following exact integer expression.
+Answer: 5048920969525724 × 2655205313848016

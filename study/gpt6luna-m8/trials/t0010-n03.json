@@ -1,0 +1,58 @@
+{
+  "task_id": "mult8-21-10",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:10",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50,109,228 \u00d7 73,802,450 = 50,109,228 \u00d7 (73,000,000 + 802,450)  \n= 3,657,973,644,000,000 + 40,210,150,008,600\nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "73802450 \u00d7 50109228 = 73802450 \u00d7 (50,000,000 + 109,228)\n= 3,690,122,500,000,000 + 8,061,294,008,600\nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 50109228 multiplied by 73802450? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "50,109,228 \u00d7 73,802,450 = 50,109,228 \u00d7 (73,000,000 + 802,450)  \n= 3,657,973,644,000,000 + 40,210,150,008,600  \nAnswer: 3698183794008600",
+          "answer": "3698183794008600",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "3698183794008600",
+    "3698183794008600",
+    "3698183794008600"
+  ],
+  "final_answer": "3698183794008600",
+  "usage": {
+    "input_tokens": 192,
+    "output_tokens": 97,
+    "calls": 3
+  },
+  "trial": 10,
+  "expected": "3698183794008600",
+  "correct": true
+}

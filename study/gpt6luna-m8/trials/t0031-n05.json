@@ -1,0 +1,84 @@
+{
+  "task_id": "mult8-21-31",
+  "size": 5,
+  "topology": "independent",
+  "seed": "21:31",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "16,834,656 \u00d7 80,000,000 = 1,346,772,480,000,000  \n16,834,656 \u00d7 200,109 = 3,368,766,177,504  \nAdding: 1,350,141,246,177,504\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80,200,109 \u00d7 16,834,656\n= 80,200,109 \u00d7 (16,000,000 + 834,656)\n= 1,283,201,744,000,000 + 66,939,502,177,504\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 8020|0109 \u00d7 1683|4656.\nHigh: 8020\u00d71683 = 13,497,660; cross: 37,524,567; low: 507,504.\n13,497,660\u00d7100,000,000 + 37,524,567\u00d710,000 + 507,504\nAnswer: 1350141916177504",
+          "answer": "1350141916177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "80,200,109 \u00d7 16,834,656 = 80,200,109 \u00d7 (16,000,000 + 834,656)  \n= 1,283,201,744,000,000 + 66,939,502,177,504  \nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 80200109 multiplied by 16834656? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(16,834,656=16,000,000+834,656\\).\n\\(80,200,109\\times16,000,000=1,283,201,744,000,000\\).\n\\(80,200,109\\times834,656=66,939,502,177,504\\).\nAnswer: 1350141246177504",
+          "answer": "1350141246177504",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "1350141246177504",
+    "1350141246177504",
+    "1350141916177504",
+    "1350141246177504",
+    "1350141246177504"
+  ],
+  "final_answer": "1350141246177504",
+  "usage": {
+    "input_tokens": 320,
+    "output_tokens": 189,
+    "calls": 5
+  },
+  "trial": 31,
+  "expected": "1350141246177504",
+  "correct": true
+}

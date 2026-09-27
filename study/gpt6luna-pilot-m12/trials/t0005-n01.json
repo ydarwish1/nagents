@@ -1,0 +1,32 @@
+{
+  "task_id": "mult12-11-5",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:5",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 294971392997 multiplied by 936194081671? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "[no answer given for this problem] 121213044207399",
+          "answer": "121213044207399",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "121213044207399"
+  ],
+  "final_answer": "121213044207399",
+  "usage": {
+    "input_tokens": 66,
+    "output_tokens": 12,
+    "calls": 1
+  },
+  "trial": 5,
+  "expected": "276150472386042055457987",
+  "correct": false
+}

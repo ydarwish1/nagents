@@ -1,0 +1,5 @@
+=== fc4bcb4899253435f0dbbfb4
+Grouping in millions, the product’s groups after multiplication and carrying are 25 | 469473 | 895239 | 342661 | 054380.
+Answer: 25469473895239342661054380
+
+I can’t reliably work out the other nine products without a calculator, so I won’t guess.

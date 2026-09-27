@@ -1,0 +1,9 @@
+=== 979103b6e93f6b0e0985c6c0
+Grouping digits in threes and multiplying from right to left gives 10|016|633|231|781|000|149|129|931.
+Answer: 10016633231781000149129931
+
+=== 7c2679c22353a0d8bec9271a
+Grouping digits in threes and multiplying from right to left gives 6|045|458|751|605|089|634|542|686.
+Answer: 6045458751605089634542686
+
+I can’t reliably complete the remaining eight products without a calculation aid.

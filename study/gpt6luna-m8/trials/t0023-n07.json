@@ -1,0 +1,110 @@
+{
+  "task_id": "mult8-21-23",
+  "size": 7,
+  "topology": "independent",
+  "seed": "21:23",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "\\((7497\\times6176)\\times10^8+(7497\\times7980+6196\\times6176)\\times10^4+6196\\times7980\\).\nThe parts are \\(4,630,147,200,000,000\\), \\(980,925,560,000\\), and \\(49,444,080\\).\nAnswer: 4,631,128,175,004,080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74,976,196 \u00d7 (61,000,000 + 767,980)\n= 4,573,547,956,000,000 + 57,580,219,004,080\nAnswer: 4631128175004080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Use \\(74,976,196(61,768,000-20)\\).\n\\(74,976,196\\times61,768,000=4,631,129,674,528,000\\).\n\\(74,976,196\\times20=1,499,523,920\\).\nSubtract.\nAnswer: 4631128175004080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 3,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into millions and multiply the four resulting terms:\n74,000,000\u00d761,000,000 + 74,000,000\u00d7767,980 + 976,196\u00d761,000,000 + 976,196\u00d7767,980.\nAnswer: 4632464913656080",
+          "answer": "4632464913656080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 4,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74,976,196 \u00d7 61,767,980\n= 74,976,196 \u00d7 (62,000,000 \u2212 232,020)\n= 4,648,524,152,000,000 \u2212 17,395,976,995,920\nAnswer: 4,631,128,175,004,080",
+          "answer": "4631128175004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 5,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Split into 4-digit groups: 7497|6196 \u00d7 6176|7980.\n7497\u00d76176 = 46,301,472; cross terms total 98,092,556; 6196\u00d77980 = 49,444,080.\nCombine: 46,301,472\u00d710\u2078 + 98,092,556\u00d710\u2074 + 49,444,080.\nAnswer: 4631128125004080",
+          "answer": "4631128125004080",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 74976196 multiplied by 61767980? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "74,976,196 \u00d7 61,767,980 = 74,976,196 \u00d7 (60,000,000 + 1,767,980)\n= 4,498,571,760,000,000 + 132,548,? \nAnswer: 463112393?",
+          "answer": "463112393",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "4631128175004080",
+    "4631128175004080",
+    "4631128175004080",
+    "4632464913656080",
+    "4631128175004080",
+    "4631128125004080",
+    "463112393"
+  ],
+  "final_answer": "4631128175004080",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 271,
+    "calls": 7
+  },
+  "trial": 23,
+  "expected": "4631128175004080",
+  "correct": true
+}

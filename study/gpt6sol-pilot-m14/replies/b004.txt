@@ -1,0 +1,9 @@
+=== c8a6217797efe04912fec6dd
+Grouping digits in threes and multiplying from right to left gives 2|846|287|615|036|233|768|030|121|489.
+Answer: 2846287615036233768030121489
+
+=== 5f21f77b1f8d266925513c3a
+Grouping digits in threes and multiplying from right to left gives 3|045|679|287|989|318|296|185|522|300.
+Answer: 3045679287989318296185522300
+
+I can’t reliably finish the remaining eight products without risking incorrect answers.

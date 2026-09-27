@@ -1,0 +1,39 @@
+=== f678da65316ee88c256c7be4
+Grouping in thousands: (5, 563, 131, 582, 743) × (6, 388, 016, 013, 953). Multiplying and carrying from the right gives (35, 541, 311, 669, 168, 964, 189, 293, 279).
+Answer: 35541311669168964189293279
+
+=== 38b4d50dabb15e1ffb8d1d60
+Grouping in thousands: (8, 281, 859, 153, 125) × (4, 860, 639, 317, 766). Multiplying and carrying gives (40, 254, 647, 510, 215, 115, 539, 921, 750).
+Answer: 40254647510215115539921750
+
+=== 4e3de8db64583918b97775e9
+Grouping in thousands: (1, 200, 219, 212, 444) × (4, 323, 167, 787, 313). Multiplying and carrying gives (5, 188, 749, 096, 743, 478, 488, 226, 972).
+Answer: 5188749096743478488226972
+
+=== 64d3709ff2a5757311a8d1fb
+Grouping in thousands: (2, 079, 375, 884, 056) × (5, 816, 350, 275, 025). Multiplying and carrying gives (12, 094, 380, 046, 941, 759, 928, 371, 400).
+Answer: 12094380046941759928371400
+
+=== 01734fb918cd25c92358e1e9
+Grouping in thousands: (8, 365, 572, 554, 525) × (3, 918, 549, 691, 424). Multiplying and carrying gives (32, 780, 917, 415, 300, 441, 083, 906, 600).
+Answer: 32780917415300441083906600
+
+=== d00b0633ae67f0ab57236c10
+Grouping in thousands: (1, 930, 459, 794, 325) × (5, 294, 402, 673, 370). Multiplying and carrying gives (10, 220, 711, 704, 701, 891, 859, 520, 250).
+Answer: 10220711704701891859520250
+
+=== 4f9fa88f73f518550c03ba9b
+Grouping in thousands: (7, 341, 195, 337, 198) × (9, 493, 228, 750, 144). Multiplying and carrying gives (69, 693, 043, 158, 016, 481, 890, 338, 512).
+Answer: 69693043158016481890338512
+
+=== ce39ff8032af2b73ac30238e
+Grouping in thousands: (5, 339, 164, 663, 667) × (9, 332, 705, 555, 622). Multiplying and carrying gives (49, 829, 784, 946, 835, 406, 938, 985, 874).
+Answer: 49829784946835406938985874
+
+=== 24b6e4a253b9dcc5e3584843
+Grouping in thousands: (1, 520, 856, 312, 948) × (1, 735, 220, 277, 311). Multiplying and carrying gives (2, 639, 022, 092, 160, 700, 993, 818, 028).
+Answer: 2639022092160700993818028
+
+=== 4c58e5154500405bb11cb0eb
+Grouping in thousands: (6, 174, 363, 498, 787) × (2, 903, 250, 468, 006). Multiplying and carrying gives (17, 924, 893, 659, 738, 318, 232, 049, 722).
+Answer: 17924893659738318232049722

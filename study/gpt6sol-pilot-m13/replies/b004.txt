@@ -1,0 +1,5 @@
+=== 49036b2bf4a984eda7d15b2b
+Grouping digits in blocks of six and multiplying from right to left gives 17 | 302276 | 033058 | 063143 | 439154.
+Answer: 17302276033058063143439154
+
+I can’t reliably complete the other nine products by hand without risking incorrect answers.

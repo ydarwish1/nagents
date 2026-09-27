@@ -1,0 +1,58 @@
+{
+  "task_id": "mult13-21-11",
+  "size": 3,
+  "topology": "independent",
+  "seed": "21:11",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7973272019389 multiplied by 1167922316382? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Grouping digits in threes and multiplying from right to left gives 9 | 312 | 162 | 326 | 028 | 587 | 696 | 330 | 598.\nAnswer: 9312162326028587696330598",
+          "answer": "9312162326028587696330598",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 1,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7973272019389 multiplied by 1167922316382? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Using three-digit groups, the product groups are 9|312|162|326|028|587|696|330|598.\nAnswer: 9312162326028587696330598",
+          "answer": "9312162326028587696330598",
+          "stop_reason": "end_turn"
+        }
+      ]
+    },
+    {
+      "agent": 2,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 7973272019389 multiplied by 1167922316382? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "Multiplying in three-digit groups and carrying gives 9|312|162|326|028|587|696|330|598.\nAnswer: 9312162326028587696330598",
+          "answer": "9312162326028587696330598",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "9312162326028587696330598",
+    "9312162326028587696330598",
+    "9312162326028587696330598"
+  ],
+  "final_answer": "9312162326028587696330598",
+  "usage": {
+    "input_tokens": 201,
+    "output_tokens": 96,
+    "calls": 3
+  },
+  "trial": 11,
+  "expected": "9312162326028587696330598",
+  "correct": true
+}

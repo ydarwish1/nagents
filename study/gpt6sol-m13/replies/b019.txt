@@ -1,0 +1,39 @@
+=== 4ea0a86cf07f020d4755e941
+Multiplying in three-digit groups and carrying from right to left gives 55|021|380|082|538|715|533|979|936.
+Answer: 55021380082538715533979936
+
+=== 9c001ee981251bb7a2e4e1a7
+Multiplying in three-digit groups and carrying from right to left gives 78|485|494|631|307|248|828|804|560.
+Answer: 78485494631307248828804560
+
+=== 861b7b72a9974cf68553d92d
+Multiplying in three-digit groups and carrying from right to left gives 4|389|457|737|225|506|385|218|352.
+Answer: 4389457737225506385218352
+
+=== 4a90ad1bc019ff1bea474304
+Multiplying in three-digit groups and carrying from right to left gives 9|312|162|326|028|587|696|330|598.
+Answer: 9312162326028587696330598
+
+=== c0a688629ee1d0f14d3b13e5
+Multiplying in three-digit groups and carrying from right to left gives 18|079|845|183|703|156|663|573|884.
+Answer: 18079845183703156663573884
+
+=== bada1c0fa5c057ebade376fe
+Multiplying in three-digit groups and carrying from right to left gives 48|965|817|615|260|514|879|113|091.
+Answer: 48965817615260514879113091
+
+=== 3d250de6089ddb5851ddf7c8
+Multiplying in three-digit groups and carrying from right to left gives 10|848|377|940|313|436|880|683|820.
+Answer: 10848377940313436880683820
+
+=== 0ec802f949a7b9a910e5087a
+Multiplying in three-digit groups and carrying from right to left gives 31|544|224|791|041|361|378|288|953.
+Answer: 31544224791041361378288953
+
+=== 82744a81eb24304c4403abc5
+Multiplying in three-digit groups and carrying from right to left gives 12|260|291|159|456|174|973|054|870.
+Answer: 12260291159456174973054870
+
+=== 4a96ab73796bf26ed96dd973
+Multiplying in three-digit groups and carrying from right to left gives 16|290|904|896|671|549|070|931|644.
+Answer: 16290904896671549070931644

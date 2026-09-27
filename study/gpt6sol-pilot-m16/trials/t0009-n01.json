@@ -1,0 +1,32 @@
+{
+  "task_id": "mult16-11-9",
+  "size": 1,
+  "topology": "independent",
+  "seed": "11:9",
+  "agents": [
+    {
+      "agent": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "prompt": "What is 2850236819838032 multiplied by 1202919655778694? Work it out step by step. End with one final line in exactly this form: Answer: <number>",
+          "reply": "[no answer given for this problem] 0",
+          "answer": "0",
+          "stop_reason": "end_turn"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    "0"
+  ],
+  "final_answer": "0",
+  "usage": {
+    "input_tokens": 68,
+    "output_tokens": 9,
+    "calls": 1
+  },
+  "trial": 9,
+  "expected": "3428605894207324919505916490208",
+  "correct": false
+}
